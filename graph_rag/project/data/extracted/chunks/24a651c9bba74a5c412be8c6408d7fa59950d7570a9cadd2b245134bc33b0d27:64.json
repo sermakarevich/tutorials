@@ -1,0 +1,53 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:64",
+  "entities": [
+    {
+      "name": "The Fed",
+      "type": "Organization",
+      "description": "The central bank planning to release its latest policy decision and hold a press conference.",
+      "properties": {
+        "category": "Central Bank"
+      },
+      "normalized_name": "fed"
+    },
+    {
+      "name": "Jerome Powell",
+      "type": "Person",
+      "description": "Fed Chair who will take questions at the press conference.",
+      "properties": {
+        "role": "Fed Chair"
+      },
+      "normalized_name": "jerome powell"
+    },
+    {
+      "name": "Federal Open Market Committee",
+      "type": "Organization",
+      "description": "The committee expected to hold its benchmark interest rate steady.",
+      "properties": {
+        "category": "Committee"
+      },
+      "normalized_name": "federal open market committee"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "jerome powell",
+      "target": "fed",
+      "type": "AFFILIATED_WITH",
+      "description": "Jerome Powell is identified as the Fed Chair, indicating his leadership role within The Fed.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "federal open market committee",
+      "target": "fed",
+      "type": "PART_OF_PIPELINE",
+      "description": "The Federal Open Market Committee is the policy-making body of The Fed responsible for interest rate decisions.",
+      "weight": 0.9,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:35:55.318705+00:00"
+}

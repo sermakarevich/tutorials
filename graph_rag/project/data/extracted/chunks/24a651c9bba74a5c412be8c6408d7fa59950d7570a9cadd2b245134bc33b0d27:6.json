@@ -1,0 +1,79 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:6",
+  "entities": [
+    {
+      "name": "RAG",
+      "type": "Method",
+      "description": "A system where a user query retrieves relevant information from external data sources to incorporate into the generation of a response by an LLM.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation"
+      },
+      "normalized_name": "rag"
+    },
+    {
+      "name": "Ram et al., 2023",
+      "type": "Paper",
+      "description": "A cited reference describing the process of populating a prompt template with a query and retrieved records.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "ram et al 2023"
+    },
+    {
+      "name": "vector RAG",
+      "type": "Method",
+      "description": "A family of conventional RAG approaches that use text embeddings to retrieve records closest to the query in vector space.",
+      "properties": {
+        "technique": "text embeddings"
+      },
+      "normalized_name": "vector rag"
+    },
+    {
+      "name": "Gao et al., 2023",
+      "type": "Paper",
+      "description": "A cited reference associated with the use of text embeddings for semantic similarity retrieval.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "gao et al 2023"
+    },
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A method that contrasts with vector RAG by answering queries requiring global sensemaking over the entire data corpus.",
+      "properties": {
+        "category": "Graph-based Retrieval-Augmented Generation"
+      },
+      "normalized_name": "graphrag"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "rag",
+      "target": "ram et al 2023",
+      "type": "CITES",
+      "description": "The description of RAG cites Ram et al., 2023.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "vector rag",
+      "target": "gao et al 2023",
+      "type": "CITES",
+      "description": "The description of vector RAG using text embeddings cites Gao et al., 2023.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "vector rag",
+      "type": "IMPROVES_UPON",
+      "description": "GraphRAG contrasts with vector RAG in its ability to answer queries requiring global sensemaking.",
+      "weight": 0.8,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:13:24.314124+00:00"
+}

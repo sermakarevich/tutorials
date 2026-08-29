@@ -1,0 +1,655 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:55",
+  "entities": [
+    {
+      "name": "Interleaving retrieval with chain-of-thought reasoning for knowledge-intensive multi-step questions",
+      "type": "Paper",
+      "description": "A paper by Trivedi et al. (2022) on interleaving retrieval with CoT reasoning.",
+      "properties": {
+        "title": "Interleaving retrieval with chain-of-thought reasoning for knowledge-intensive multi-step questions",
+        "publication_date": "2022",
+        "venue": "arXiv"
+      },
+      "normalized_name": "interleaving retrieval with chain-of-thought reasoning for knowledge-intensive multi-step questions"
+    },
+    {
+      "name": "H. Trivedi",
+      "type": "Person",
+      "description": "Author of the paper on interleaving retrieval with chain-of-thought reasoning.",
+      "properties": {},
+      "normalized_name": "h trivedi"
+    },
+    {
+      "name": "N. Balasubramanian",
+      "type": "Person",
+      "description": "Author of the paper on interleaving retrieval with chain-of-thought reasoning.",
+      "properties": {},
+      "normalized_name": "n balasubramanian"
+    },
+    {
+      "name": "T. Khot",
+      "type": "Person",
+      "description": "Author of the paper on interleaving retrieval with chain-of-thought reasoning.",
+      "properties": {},
+      "normalized_name": "t khot"
+    },
+    {
+      "name": "A. Sabharwal",
+      "type": "Person",
+      "description": "Author of the paper on interleaving retrieval with chain-of-thought reasoning.",
+      "properties": {},
+      "normalized_name": "sabharwal"
+    },
+    {
+      "name": "Is chatgpt a good nlg evaluator? a preliminary study",
+      "type": "Paper",
+      "description": "A paper by Wang et al. (2023a) studying ChatGPT as an NLG evaluator.",
+      "properties": {
+        "title": "Is chatgpt a good nlg evaluator? a preliminary study",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "is chatgpt a good nlg evaluator a preliminary study"
+    },
+    {
+      "name": "J. Wang",
+      "type": "Person",
+      "description": "Author of the paper 'Is chatgpt a good nlg evaluator? a preliminary study'.",
+      "properties": {},
+      "normalized_name": "j wang"
+    },
+    {
+      "name": "Y. Liang",
+      "type": "Person",
+      "description": "Author of the paper 'Is chatgpt a good nlg evaluator? a preliminary study'.",
+      "properties": {},
+      "normalized_name": "y liang"
+    },
+    {
+      "name": "F. Meng",
+      "type": "Person",
+      "description": "Author of the paper 'Is chatgpt a good nlg evaluator? a preliminary study'.",
+      "properties": {},
+      "normalized_name": "f meng"
+    },
+    {
+      "name": "Z. Sun",
+      "type": "Person",
+      "description": "Author of the paper 'Is chatgpt a good nlg evaluator? a preliminary study'.",
+      "properties": {},
+      "normalized_name": "z sun"
+    },
+    {
+      "name": "H. Shi",
+      "type": "Person",
+      "description": "Author of the paper 'Is chatgpt a good nlg evaluator? a preliminary study'.",
+      "properties": {},
+      "normalized_name": "h shi"
+    },
+    {
+      "name": "Z. Li",
+      "type": "Person",
+      "description": "Author of the paper 'Is chatgpt a good nlg evaluator? a preliminary study'.",
+      "properties": {},
+      "normalized_name": "z li"
+    },
+    {
+      "name": "J. Xu",
+      "type": "Person",
+      "description": "Author of the paper 'Is chatgpt a good nlg evaluator? a preliminary study'.",
+      "properties": {},
+      "normalized_name": "j xu"
+    },
+    {
+      "name": "J. Qu",
+      "type": "Person",
+      "description": "Author of the paper 'Is chatgpt a good nlg evaluator? a preliminary study'.",
+      "properties": {},
+      "normalized_name": "j qu"
+    },
+    {
+      "name": "J. Zhou",
+      "type": "Person",
+      "description": "Author of the paper 'Is chatgpt a good nlg evaluator? a preliminary study'.",
+      "properties": {},
+      "normalized_name": "j zhou"
+    },
+    {
+      "name": "Feb4rag: Evaluating federated search in the context of retrieval augmented generation",
+      "type": "Paper",
+      "description": "A paper by Wang et al. (2024) evaluating federated search in RAG.",
+      "properties": {
+        "title": "Feb4rag: Evaluating federated search in the context of retrieval augmented generation",
+        "publication_date": "2024",
+        "venue": "arXiv"
+      },
+      "normalized_name": "feb4rag evaluating federated search in the context of retrieval augmented generation"
+    },
+    {
+      "name": "S. Wang",
+      "type": "Person",
+      "description": "Author of the paper 'Feb4rag: Evaluating federated search in the context of retrieval augmented generation'.",
+      "properties": {},
+      "normalized_name": "s wang"
+    },
+    {
+      "name": "E. Khramtsova",
+      "type": "Person",
+      "description": "Author of the paper 'Feb4rag: Evaluating federated search in the context of retrieval augmented generation'.",
+      "properties": {},
+      "normalized_name": "e khramtsova"
+    },
+    {
+      "name": "S. Zhuang",
+      "type": "Person",
+      "description": "Author of the paper 'Feb4rag: Evaluating federated search in the context of retrieval augmented generation'.",
+      "properties": {},
+      "normalized_name": "s zhuang"
+    },
+    {
+      "name": "G. Zuccon",
+      "type": "Person",
+      "description": "Author of the paper 'Feb4rag: Evaluating federated search in the context of retrieval augmented generation'.",
+      "properties": {},
+      "normalized_name": "g zuccon"
+    },
+    {
+      "name": "Self-consistency improves chain of thought reasoning in language models",
+      "type": "Paper",
+      "description": "A paper by Wang et al. (2022) on self-consistency in CoT reasoning.",
+      "properties": {
+        "title": "Self-consistency improves chain of thought reasoning in language models",
+        "publication_date": "2022",
+        "venue": "arXiv"
+      },
+      "normalized_name": "self-consistency improves chain of thought reasoning in language models"
+    },
+    {
+      "name": "X. Wang",
+      "type": "Person",
+      "description": "Author of the paper 'Self-consistency improves chain of thought reasoning in language models'.",
+      "properties": {},
+      "normalized_name": "x wang"
+    },
+    {
+      "name": "J. Wei",
+      "type": "Person",
+      "description": "Author of the paper 'Self-consistency improves chain of thought reasoning in language models'.",
+      "properties": {},
+      "normalized_name": "j wei"
+    },
+    {
+      "name": "D. Schuurmans",
+      "type": "Person",
+      "description": "Author of the paper 'Self-consistency improves chain of thought reasoning in language models'.",
+      "properties": {},
+      "normalized_name": "d schuurmans"
+    },
+    {
+      "name": "Q. Le",
+      "type": "Person",
+      "description": "Author of the paper 'Self-consistency improves chain of thought reasoning in language models'.",
+      "properties": {},
+      "normalized_name": "q le"
+    },
+    {
+      "name": "E. Chi",
+      "type": "Person",
+      "description": "Author of the paper 'Self-consistency improves chain of thought reasoning in language models'.",
+      "properties": {},
+      "normalized_name": "e chi"
+    },
+    {
+      "name": "S. Narang",
+      "type": "Person",
+      "description": "Author of the paper 'Self-consistency improves chain of thought reasoning in language models'.",
+      "properties": {},
+      "normalized_name": "s narang"
+    },
+    {
+      "name": "A. Chowdhery",
+      "type": "Person",
+      "description": "Author of the paper 'Self-consistency improves chain of thought reasoning in language models'.",
+      "properties": {},
+      "normalized_name": "chowdhery"
+    },
+    {
+      "name": "D. Zhou",
+      "type": "Person",
+      "description": "Author of the paper 'Self-consistency improves chain of thought reasoning in language models'.",
+      "properties": {},
+      "normalized_name": "d zhou"
+    },
+    {
+      "name": "Knowledge graph prompting for multi-document question answering",
+      "type": "Paper",
+      "description": "A paper by Wang et al. (2023b) on KG prompting for QA.",
+      "properties": {
+        "title": "Knowledge graph prompting for multi-document question answering",
+        "publication_date": "2023",
+        "venue": ""
+      },
+      "normalized_name": "knowledge graph prompting for multi-document question answering"
+    },
+    {
+      "name": "Y. Wang",
+      "type": "Person",
+      "description": "Author of the paper 'Knowledge graph prompting for multi-document question answering'.",
+      "properties": {},
+      "normalized_name": "y wang"
+    },
+    {
+      "name": "N. Lipka",
+      "type": "Person",
+      "description": "Author of the paper 'Knowledge graph prompting for multi-document question answering'.",
+      "properties": {},
+      "normalized_name": "n lipka"
+    },
+    {
+      "name": "R. A. Rossi",
+      "type": "Person",
+      "description": "Author of the paper 'Knowledge graph prompting for multi-document question answering'.",
+      "properties": {},
+      "normalized_name": "r a rossi"
+    },
+    {
+      "name": "A. Siu",
+      "type": "Person",
+      "description": "Author of the paper 'Knowledge graph prompting for multi-document question answering'.",
+      "properties": {},
+      "normalized_name": "siu"
+    },
+    {
+      "name": "R. Zhang",
+      "type": "Person",
+      "description": "Author of the paper 'Knowledge graph prompting for multi-document question answering'.",
+      "properties": {},
+      "normalized_name": "r zhang"
+    },
+    {
+      "name": "T. Derr",
+      "type": "Person",
+      "description": "Author of the paper 'Knowledge graph prompting for multi-document question answering'.",
+      "properties": {},
+      "normalized_name": "t derr"
+    },
+    {
+      "name": "Text summarization with latent queries",
+      "type": "Paper",
+      "description": "A paper by Xu and Lapata (2021) on text summarization.",
+      "properties": {
+        "title": "Text summarization with latent queries",
+        "publication_date": "2021",
+        "venue": "arXiv"
+      },
+      "normalized_name": "text summarization with latent queries"
+    },
+    {
+      "name": "Y. Xu",
+      "type": "Person",
+      "description": "Author of the paper 'Text summarization with latent queries'.",
+      "properties": {},
+      "normalized_name": "y xu"
+    },
+    {
+      "name": "M. Lapata",
+      "type": "Person",
+      "description": "Author of the paper 'Text summarization with latent queries'.",
+      "properties": {},
+      "normalized_name": "m lapata"
+    },
+    {
+      "name": "Z. Yang",
+      "type": "Person",
+      "description": "Author mentioned in the final citation fragment.",
+      "properties": {},
+      "normalized_name": "z yang"
+    },
+    {
+      "name": "P. Qi",
+      "type": "Person",
+      "description": "Author mentioned in the final citation fragment.",
+      "properties": {},
+      "normalized_name": "p qi"
+    },
+    {
+      "name": "S. Zhang",
+      "type": "Person",
+      "description": "Author mentioned in the final citation fragment.",
+      "properties": {},
+      "normalized_name": "s zhang"
+    },
+    {
+      "name": "Y. Bengio",
+      "type": "Person",
+      "description": "Author mentioned in the final citation fragment.",
+      "properties": {},
+      "normalized_name": "y bengio"
+    },
+    {
+      "name": "W. Cohen",
+      "type": "Person",
+      "description": "Author mentioned in the final citation fragment.",
+      "properties": {},
+      "normalized_name": "w cohen"
+    },
+    {
+      "name": "arXiv",
+      "type": "Organization",
+      "description": "The preprint server where several of the cited papers were published.",
+      "properties": {
+        "type": "Preprint Server"
+      },
+      "normalized_name": "arxiv"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "interleaving retrieval with chain-of-thought reasoning for knowledge-intensive multi-step questions",
+      "target": "h trivedi",
+      "type": "AUTHORED_BY",
+      "description": "H. Trivedi is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "interleaving retrieval with chain-of-thought reasoning for knowledge-intensive multi-step questions",
+      "target": "n balasubramanian",
+      "type": "AUTHORED_BY",
+      "description": "N. Balasubramanian is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "interleaving retrieval with chain-of-thought reasoning for knowledge-intensive multi-step questions",
+      "target": "t khot",
+      "type": "AUTHORED_BY",
+      "description": "T. Khot is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "interleaving retrieval with chain-of-thought reasoning for knowledge-intensive multi-step questions",
+      "target": "sabharwal",
+      "type": "AUTHORED_BY",
+      "description": "A. Sabharwal is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "interleaving retrieval with chain-of-thought reasoning for knowledge-intensive multi-step questions",
+      "target": "arxiv",
+      "type": "PUBLISHED_IN",
+      "description": "This paper was published as an arXiv preprint.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "is chatgpt a good nlg evaluator a preliminary study",
+      "target": "j wang",
+      "type": "AUTHORED_BY",
+      "description": "J. Wang is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "is chatgpt a good nlg evaluator a preliminary study",
+      "target": "y liang",
+      "type": "AUTHORED_BY",
+      "description": "Y. Liang is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "is chatgpt a good nlg evaluator a preliminary study",
+      "target": "f meng",
+      "type": "AUTHORED_BY",
+      "description": "F. Meng is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "is chatgpt a good nlg evaluator a preliminary study",
+      "target": "z sun",
+      "type": "AUTHORED_BY",
+      "description": "Z. Sun is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "is chatgpt a good nlg evaluator a preliminary study",
+      "target": "h shi",
+      "type": "AUTHORED_BY",
+      "description": "H. Shi is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "is chatgpt a good nlg evaluator a preliminary study",
+      "target": "z li",
+      "type": "AUTHORED_BY",
+      "description": "Z. Li is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "is chatgpt a good nlg evaluator a preliminary study",
+      "target": "j xu",
+      "type": "AUTHORED_BY",
+      "description": "J. Xu is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "is chatgpt a good nlg evaluator a preliminary study",
+      "target": "j qu",
+      "type": "AUTHORED_BY",
+      "description": "J. Qu is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "is chatgpt a good nlg evaluator a preliminary study",
+      "target": "j zhou",
+      "type": "AUTHORED_BY",
+      "description": "J. Zhou is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "is chatgpt a good nlg evaluator a preliminary study",
+      "target": "arxiv",
+      "type": "PUBLISHED_IN",
+      "description": "This paper was published as an arXiv preprint.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "feb4rag evaluating federated search in the context of retrieval augmented generation",
+      "target": "s wang",
+      "type": "AUTHORED_BY",
+      "description": "S. Wang is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "feb4rag evaluating federated search in the context of retrieval augmented generation",
+      "target": "e khramtsova",
+      "type": "AUTHORED_BY",
+      "description": "E. Khramtsova is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "feb4rag evaluating federated search in the context of retrieval augmented generation",
+      "target": "s zhuang",
+      "type": "AUTHORED_BY",
+      "description": "S. Zhuang is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "feb4rag evaluating federated search in the context of retrieval augmented generation",
+      "target": "g zuccon",
+      "type": "AUTHORED_BY",
+      "description": "G. Zuccon is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "feb4rag evaluating federated search in the context of retrieval augmented generation",
+      "target": "arxiv",
+      "type": "PUBLISHED_IN",
+      "description": "This paper was published as an arXiv preprint.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-consistency improves chain of thought reasoning in language models",
+      "target": "x wang",
+      "type": "AUTHORED_BY",
+      "description": "X. Wang is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-consistency improves chain of thought reasoning in language models",
+      "target": "j wei",
+      "type": "AUTHORED_BY",
+      "description": "J. Wei is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-consistency improves chain of thought reasoning in language models",
+      "target": "d schuurmans",
+      "type": "AUTHORED_BY",
+      "description": "D. Schuurmans is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-consistency improves chain of thought reasoning in language models",
+      "target": "q le",
+      "type": "AUTHORED_BY",
+      "description": "Q. Le is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-consistency improves chain of thought reasoning in language models",
+      "target": "e chi",
+      "type": "AUTHORED_BY",
+      "description": "E. Chi is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-consistency improves chain of thought reasoning in language models",
+      "target": "s narang",
+      "type": "AUTHORED_BY",
+      "description": "S. Narang is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-consistency improves chain of thought reasoning in language models",
+      "target": "chowdhery",
+      "type": "AUTHORED_BY",
+      "description": "A. Chowdhery is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-consistency improves chain of thought reasoning in language models",
+      "target": "d zhou",
+      "type": "AUTHORED_BY",
+      "description": "D. Zhou is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-consistency improves chain of thought reasoning in language models",
+      "target": "arxiv",
+      "type": "PUBLISHED_IN",
+      "description": "This paper was published as an arXiv preprint.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph prompting for multi-document question answering",
+      "target": "y wang",
+      "type": "AUTHORED_BY",
+      "description": "Y. Wang is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph prompting for multi-document question answering",
+      "target": "n lipka",
+      "type": "AUTHORED_BY",
+      "description": "N. Lipka is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph prompting for multi-document question answering",
+      "target": "r a rossi",
+      "type": "AUTHORED_BY",
+      "description": "R. A. Rossi is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph prompting for multi-document question answering",
+      "target": "siu",
+      "type": "AUTHORED_BY",
+      "description": "A. Siu is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph prompting for multi-document question answering",
+      "target": "r zhang",
+      "type": "AUTHORED_BY",
+      "description": "R. Zhang is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph prompting for multi-document question answering",
+      "target": "t derr",
+      "type": "AUTHORED_BY",
+      "description": "T. Derr is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "text summarization with latent queries",
+      "target": "y xu",
+      "type": "AUTHORED_BY",
+      "description": "Y. Xu is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "text summarization with latent queries",
+      "target": "m lapata",
+      "type": "AUTHORED_BY",
+      "description": "M. Lapata is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "text summarization with latent queries",
+      "target": "arxiv",
+      "type": "PUBLISHED_IN",
+      "description": "This paper was published as an arXiv preprint.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:33:23.644847+00:00"
+}

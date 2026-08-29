@@ -1,0 +1,96 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:58",
+  "entities": [
+    {
+      "name": "Self-Reflection",
+      "type": "Technique",
+      "description": "A prompt engineering technique where the LLM generates an answer, evaluates it for correctness/clarity/completeness, and generates an improved response.",
+      "properties": {
+        "stage": "Generation/Refinement",
+        "mechanism": "Iterative evaluation and improvement"
+      },
+      "normalized_name": "self-reflection"
+    },
+    {
+      "name": "HotPotQA",
+      "type": "Dataset",
+      "description": "A sample dataset used to demonstrate the effect of chunk size on entity extraction by GPT-4.",
+      "properties": {
+        "task_type": "Question Answering"
+      },
+      "normalized_name": "hotpotqa"
+    },
+    {
+      "name": "GPT-4",
+      "type": "Method",
+      "description": "A large language model used for entity extraction in the described experiments.",
+      "properties": {
+        "category": "LLM"
+      },
+      "normalized_name": "gpt-4"
+    },
+    {
+      "name": "Zhu et al., 2024",
+      "type": "Paper",
+      "description": "A cited work discussing the impact of prompt engineering techniques on knowledge graph extraction quality.",
+      "properties": {},
+      "normalized_name": "zhu et al 2024"
+    },
+    {
+      "name": "Huang et al., 2023",
+      "type": "Paper",
+      "description": "A cited work related to self-reflection prompt engineering.",
+      "properties": {},
+      "normalized_name": "huang et al 2023"
+    },
+    {
+      "name": "Madaan et al., 2024",
+      "type": "Paper",
+      "description": "A cited work related to self-reflection prompt engineering.",
+      "properties": {},
+      "normalized_name": "madaan et al 2024"
+    },
+    {
+      "name": "Shinn et al., 2024",
+      "type": "Paper",
+      "description": "A cited work related to self-reflection prompt engineering.",
+      "properties": {},
+      "normalized_name": "shinn et al 2024"
+    },
+    {
+      "name": "Wang et al., 2022",
+      "type": "Paper",
+      "description": "A cited work related to self-reflection prompt engineering.",
+      "properties": {},
+      "normalized_name": "wang et al 2022"
+    },
+    {
+      "name": "Yang et al., 2018",
+      "type": "Paper",
+      "description": "The publication associated with the HotPotQA dataset.",
+      "properties": {},
+      "normalized_name": "yang et al 2018"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "gpt-4",
+      "target": "hotpotqa",
+      "type": "EVALUATED_ON",
+      "description": "GPT-4 was tested on the HotPotQA dataset to compare entity extraction counts at different chunk sizes.",
+      "weight": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "hotpotqa",
+      "target": "yang et al 2018",
+      "type": "DERIVED_FROM",
+      "description": "The HotPotQA dataset is associated with the publication by Yang et al., 2018.",
+      "weight": 0.8,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:34:43.901503+00:00"
+}

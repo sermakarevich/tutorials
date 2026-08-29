@@ -1,0 +1,472 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:8",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A recent body of research using LLMs for knowledge graph extraction and RAG approaches that use a knowledge graph as an index.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation",
+        "technique": "LLM integration"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "Etzioni et al., 2004",
+      "type": "Paper",
+      "description": "A cited work on knowledge graph extraction using rule matching.",
+      "properties": {
+        "publication_date": "2004"
+      },
+      "normalized_name": "etzioni et al 2004"
+    },
+    {
+      "name": "Kim et al., 2016",
+      "type": "Paper",
+      "description": "A cited work on knowledge graph extraction using statistical pattern recognition.",
+      "properties": {
+        "publication_date": "2016"
+      },
+      "normalized_name": "kim et al 2016"
+    },
+    {
+      "name": "Mooney and Bunescu, 2005",
+      "type": "Paper",
+      "description": "A cited work on knowledge graph extraction using clustering.",
+      "properties": {
+        "publication_date": "2005"
+      },
+      "normalized_name": "mooney and bunescu 2005"
+    },
+    {
+      "name": "Yates et al., 2007",
+      "type": "Paper",
+      "description": "A cited work on knowledge graph extraction using embeddings.",
+      "properties": {
+        "publication_date": "2007"
+      },
+      "normalized_name": "yates et al 2007"
+    },
+    {
+      "name": "Ban et al., 2023",
+      "type": "Paper",
+      "description": "A cited work using LLMs for knowledge graph extraction.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "ban et al 2023"
+    },
+    {
+      "name": "Melnyk et al., 2022",
+      "type": "Paper",
+      "description": "A cited work using LLMs for knowledge graph extraction.",
+      "properties": {
+        "publication_date": "2022"
+      },
+      "normalized_name": "melnyk et al 2022"
+    },
+    {
+      "name": "OpenAI, 2023",
+      "type": "Paper",
+      "description": "A cited work using LLMs for knowledge graph extraction.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "openai 2023"
+    },
+    {
+      "name": "Tan et al., 2017",
+      "type": "Paper",
+      "description": "A cited work using LLMs for knowledge graph extraction.",
+      "properties": {
+        "publication_date": "2017"
+      },
+      "normalized_name": "tan et al 2017"
+    },
+    {
+      "name": "Trajanoska et al., 2023",
+      "type": "Paper",
+      "description": "A cited work using LLMs for knowledge graph extraction.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "trajanoska et al 2023"
+    },
+    {
+      "name": "Yao et al., 2023",
+      "type": "Paper",
+      "description": "A cited work using LLMs for knowledge graph extraction.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "yao et al 2023"
+    },
+    {
+      "name": "Zhang et al., 2024a",
+      "type": "Paper",
+      "description": "A cited work using LLMs for knowledge graph extraction.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "zhang et al 2024a"
+    },
+    {
+      "name": "Gao et al., 2023",
+      "type": "Paper",
+      "description": "A cited work on RAG approaches that use a knowledge graph as an index.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "gao et al 2023"
+    },
+    {
+      "name": "Baek et al., 2023",
+      "type": "Paper",
+      "description": "A cited work using subgraphs or graph properties in prompts.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "baek et al 2023"
+    },
+    {
+      "name": "He et al., 2024",
+      "type": "Paper",
+      "description": "A cited work using subgraphs or graph properties in prompts.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "he et al 2024"
+    },
+    {
+      "name": "Zhang, 2023",
+      "type": "Paper",
+      "description": "A cited work using subgraphs or graph properties in prompts.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "zhang 2023"
+    },
+    {
+      "name": "Kang et al., 2023",
+      "type": "Paper",
+      "description": "A cited work using graph elements as factual grounding for generated outputs.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "kang et al 2023"
+    },
+    {
+      "name": "Ranade and Joshi, 2023",
+      "type": "Paper",
+      "description": "A cited work using graph elements as factual grounding for generated outputs.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "ranade and joshi 2023"
+    },
+    {
+      "name": "Wang et al., 2023b",
+      "type": "Paper",
+      "description": "A cited work using knowledge graphs to enhance retrieval via dynamic traversal by an LLM-based agent.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "wang et al 2023b"
+    },
+    {
+      "name": "Knowledge Graph Extraction",
+      "type": "Task",
+      "description": "The task of extracting knowledge graphs from natural language text corpora.",
+      "properties": {
+        "type": "Extraction"
+      },
+      "normalized_name": "knowledge graph extraction"
+    },
+    {
+      "name": "Retrieval Enhancement",
+      "type": "Task",
+      "description": "The task of enhancing retrieval using knowledge graphs and LLM-based agents.",
+      "properties": {
+        "type": "Retrieval"
+      },
+      "normalized_name": "retrieval enhancement"
+    },
+    {
+      "name": "Rule Matching",
+      "type": "Technique",
+      "description": "A technique for knowledge graph extraction from natural language text.",
+      "properties": {
+        "stage": "Extraction",
+        "mechanism": "Rule-based"
+      },
+      "normalized_name": "rule matching"
+    },
+    {
+      "name": "Statistical Pattern Recognition",
+      "type": "Technique",
+      "description": "A technique for knowledge graph extraction from natural language text.",
+      "properties": {
+        "stage": "Extraction",
+        "mechanism": "Statistical"
+      },
+      "normalized_name": "statistical pattern recognition"
+    },
+    {
+      "name": "Clustering",
+      "type": "Technique",
+      "description": "A technique for knowledge graph extraction from natural language text.",
+      "properties": {
+        "stage": "Extraction",
+        "mechanism": "Clustering"
+      },
+      "normalized_name": "clustering"
+    },
+    {
+      "name": "Embeddings",
+      "type": "Technique",
+      "description": "A technique for knowledge graph extraction from natural language text.",
+      "properties": {
+        "stage": "Extraction",
+        "mechanism": "Vector-based"
+      },
+      "normalized_name": "embeddings"
+    },
+    {
+      "name": "LLM-based Knowledge Graph Extraction",
+      "type": "Technique",
+      "description": "Using LLMs to extract knowledge graphs from text.",
+      "properties": {
+        "stage": "Extraction",
+        "mechanism": "LLM"
+      },
+      "normalized_name": "llm-based knowledge graph extraction"
+    },
+    {
+      "name": "Graph Structure Prompting",
+      "type": "Technique",
+      "description": "Using subgraphs, elements, or properties of the graph structure directly in the prompt.",
+      "properties": {
+        "stage": "Generation",
+        "mechanism": "Prompt Engineering"
+      },
+      "normalized_name": "graph structure prompting"
+    },
+    {
+      "name": "Factual Grounding",
+      "type": "Technique",
+      "description": "Using graph elements as factual grounding for generated outputs.",
+      "properties": {
+        "stage": "Generation",
+        "mechanism": "Grounding"
+      },
+      "normalized_name": "factual grounding"
+    },
+    {
+      "name": "Dynamic Graph Traversal",
+      "type": "Technique",
+      "description": "An LLM-based agent dynamically traverses a graph with nodes representing document elements and edges encoding similarity or structural relationships.",
+      "properties": {
+        "stage": "Retrieval",
+        "mechanism": "Agent-based Traversal"
+      },
+      "normalized_name": "dynamic graph traversal"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "knowledge graph extraction",
+      "type": "SOLVES_TASK",
+      "description": "GraphRAG is part of research using LLMs for knowledge graph extraction.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "retrieval enhancement",
+      "type": "SOLVES_TASK",
+      "description": "GraphRAG adds to RAG approaches that use a knowledge graph as an index to enhance retrieval.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "llm-based knowledge graph extraction",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "GraphRAG falls into research using LLMs for knowledge graph extraction.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "graph structure prompting",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Some GraphRAG techniques use subgraphs or graph properties in prompts.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "factual grounding",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Some GraphRAG techniques use graph elements as factual grounding.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "dynamic graph traversal",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Other GraphRAG techniques use dynamic graph traversal for retrieval enhancement.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "etzioni et al 2004",
+      "target": "rule matching",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Etzioni et al., 2004 is associated with rule matching for KG extraction.",
+      "weight": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "kim et al 2016",
+      "target": "statistical pattern recognition",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Kim et al., 2016 is associated with statistical pattern recognition for KG extraction.",
+      "weight": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "mooney and bunescu 2005",
+      "target": "clustering",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Mooney and Bunescu, 2005 is associated with clustering for KG extraction.",
+      "weight": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "yates et al 2007",
+      "target": "embeddings",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Yates et al., 2007 is associated with embeddings for KG extraction.",
+      "weight": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "ban et al 2023",
+      "target": "llm-based knowledge graph extraction",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Ban et al., 2023 uses LLMs for KG extraction.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "melnyk et al 2022",
+      "target": "llm-based knowledge graph extraction",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Melnyk et al., 2022 uses LLMs for KG extraction.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "openai 2023",
+      "target": "llm-based knowledge graph extraction",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "OpenAI, 2023 uses LLMs for KG extraction.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "tan et al 2017",
+      "target": "llm-based knowledge graph extraction",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Tan et al., 2017 uses LLMs for KG extraction.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "trajanoska et al 2023",
+      "target": "llm-based knowledge graph extraction",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Trajanoska et al., 2023 uses LLMs for KG extraction.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "yao et al 2023",
+      "target": "llm-based knowledge graph extraction",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Yao et al., 2023 uses LLMs for KG extraction.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "zhang et al 2024a",
+      "target": "llm-based knowledge graph extraction",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Zhang et al., 2024a uses LLMs for KG extraction.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "gao et al 2023",
+      "target": "retrieval enhancement",
+      "type": "SOLVES_TASK",
+      "description": "Gao et al., 2023 addresses RAG approaches using KG as an index.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "baek et al 2023",
+      "target": "graph structure prompting",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Baek et al., 2023 uses graph structures in prompts.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "he et al 2024",
+      "target": "graph structure prompting",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "He et al., 2024 uses graph structures in prompts.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "zhang 2023",
+      "target": "graph structure prompting",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Zhang, 2023 uses graph structures in prompts.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "kang et al 2023",
+      "target": "factual grounding",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Kang et al., 2023 uses graph elements for factual grounding.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "ranade and joshi 2023",
+      "target": "factual grounding",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Ranade and Joshi, 2023 uses graph elements for factual grounding.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "wang et al 2023b",
+      "target": "dynamic graph traversal",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Wang et al., 2023b uses dynamic graph traversal for retrieval.",
+      "weight": 0.9,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:14:29.127395+00:00"
+}

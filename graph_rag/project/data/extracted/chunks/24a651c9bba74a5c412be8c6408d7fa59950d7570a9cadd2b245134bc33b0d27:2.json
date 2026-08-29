@@ -1,0 +1,81 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:2",
+  "entities": [
+    {
+      "name": "Retrieval augmented generation",
+      "type": "Method",
+      "description": "An established approach to using LLMs to answer queries based on external data.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "retrieval augmented generation"
+    },
+    {
+      "name": "vector RAG",
+      "type": "Method",
+      "description": "A conventional RAG approach that retrieves a subset of relevant text records for localized queries.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "vector rag"
+    },
+    {
+      "name": "sensemaking queries",
+      "type": "Task",
+      "description": "Queries that require global understanding of the entire dataset and reasoning over connections.",
+      "properties": {
+        "type": "Question Answering",
+        "complexity": "High"
+      },
+      "normalized_name": "sensemaking queries"
+    },
+    {
+      "name": "Lewis et al., 2020",
+      "type": "Paper",
+      "description": "A cited reference associated with the introduction of Retrieval augmented generation.",
+      "properties": {
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "publication_date": "2020"
+      },
+      "normalized_name": "lewis et al 2020"
+    },
+    {
+      "name": "Klein et al., 2006",
+      "type": "Paper",
+      "description": "A cited reference defining sensemaking tasks.",
+      "properties": {
+        "publication_date": "2006"
+      },
+      "normalized_name": "klein et al 2006"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "vector rag",
+      "target": "retrieval augmented generation",
+      "type": "IMPROVES_UPON",
+      "description": "The text describes vector RAG as the 'conventional approach' within the broader RAG framework, implying it is a specific variant or baseline of the general method.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "retrieval augmented generation",
+      "target": "lewis et al 2020",
+      "type": "CITES",
+      "description": "The text cites Lewis et al., 2020 in relation to Retrieval augmented generation.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "sensemaking queries",
+      "target": "klein et al 2006",
+      "type": "CITES",
+      "description": "The text cites Klein et al., 2006 when defining sensemaking tasks.",
+      "weight": 0.9,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:12:27.818009+00:00"
+}

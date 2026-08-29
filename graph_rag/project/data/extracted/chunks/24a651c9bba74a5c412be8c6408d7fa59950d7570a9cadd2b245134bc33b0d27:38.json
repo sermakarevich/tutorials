@@ -1,0 +1,145 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:38",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A method for retrieval-augmented generation that uses community summaries and graphs, evaluated for comprehensiveness, diversity, and token efficiency.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation",
+        "technique": "Community Summarization"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "Podcast dataset",
+      "type": "Dataset",
+      "description": "A dataset containing podcast transcripts used to evaluate GraphRAG performance.",
+      "properties": {
+        "task_type": "Question Answering",
+        "language": "English"
+      },
+      "normalized_name": "podcast dataset"
+    },
+    {
+      "name": "News dataset",
+      "type": "Dataset",
+      "description": "A dataset containing news articles used to evaluate GraphRAG performance.",
+      "properties": {
+        "task_type": "Question Answering",
+        "language": "English"
+      },
+      "normalized_name": "news dataset"
+    },
+    {
+      "name": "Comprehensiveness",
+      "type": "Metric",
+      "description": "A metric measuring the completeness of answers, reported as win rates.",
+      "properties": {
+        "category": "Quality",
+        "formula_type": "Win Rate"
+      },
+      "normalized_name": "comprehensiveness"
+    },
+    {
+      "name": "Diversity",
+      "type": "Metric",
+      "description": "A metric measuring the variety of answers, reported as win rates.",
+      "properties": {
+        "category": "Quality",
+        "formula_type": "Win Rate"
+      },
+      "normalized_name": "diversity"
+    },
+    {
+      "name": "Context Tokens",
+      "type": "Metric",
+      "description": "A metric measuring the number of tokens required for context, used to evaluate scalability and efficiency.",
+      "properties": {
+        "category": "Efficiency",
+        "formula_type": "Count"
+      },
+      "normalized_name": "context tokens"
+    },
+    {
+      "name": "Vector RAG",
+      "type": "Method",
+      "description": "A baseline retrieval-augmented generation method using vector similarity, compared against GraphRAG.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation"
+      },
+      "normalized_name": "vector rag"
+    },
+    {
+      "name": "Iterative Question Answering",
+      "type": "Task",
+      "description": "A task characterized by sensemaking activity, for which root-level GraphRAG is described as highly efficient.",
+      "properties": {
+        "type": "Question Answering",
+        "complexity": "High"
+      },
+      "normalized_name": "iterative question answering"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "podcast dataset",
+      "type": "EVALUATED_ON",
+      "description": "GraphRAG was evaluated on the Podcast dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "news dataset",
+      "type": "EVALUATED_ON",
+      "description": "GraphRAG was evaluated on the News dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "GraphRAG performance is measured by comprehensiveness win rates.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "GraphRAG performance is measured by diversity win rates.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "context tokens",
+      "type": "MEASURED_BY",
+      "description": "GraphRAG efficiency is measured by the number of context tokens required.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "iterative question answering",
+      "type": "SOLVES_TASK",
+      "description": "GraphRAG is described as a highly efficient method for iterative question answering.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "vector rag",
+      "type": "IMPROVES_UPON",
+      "description": "GraphRAG retains advantages in comprehensiveness and diversity over vector RAG.",
+      "weight": 0.8,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:22:14.090541+00:00"
+}

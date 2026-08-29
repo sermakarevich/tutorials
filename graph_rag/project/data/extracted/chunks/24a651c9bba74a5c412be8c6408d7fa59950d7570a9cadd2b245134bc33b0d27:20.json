@@ -1,0 +1,94 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:20",
+  "entities": [
+    {
+      "name": "Leiden community detection",
+      "type": "Method",
+      "description": "A community detection algorithm used in the pipeline to partition graphs into communities.",
+      "properties": {
+        "category": "Community Detection",
+        "technique": "Hierarchical partitioning"
+      },
+      "normalized_name": "leiden community detection"
+    },
+    {
+      "name": "Fortunato (2010)",
+      "type": "Paper",
+      "description": "A survey on community detection algorithms referenced in the text.",
+      "properties": {
+        "title": "Fortunato (2010)",
+        "publication_date": "2010"
+      },
+      "normalized_name": "fortunato 2010"
+    },
+    {
+      "name": "Jin et al. (2021)",
+      "type": "Paper",
+      "description": "A survey on community detection algorithms referenced in the text.",
+      "properties": {
+        "title": "Jin et al. (2021)",
+        "publication_date": "2021"
+      },
+      "normalized_name": "jin et al 2021"
+    },
+    {
+      "name": "Traag et al., 2019",
+      "type": "Paper",
+      "description": "The publication associated with the Leiden community detection algorithm.",
+      "properties": {
+        "title": "Traag et al., 2019",
+        "publication_date": "2019"
+      },
+      "normalized_name": "traag et al 2019"
+    },
+    {
+      "name": "Hierarchical community detection",
+      "type": "Technique",
+      "description": "A procedural strategy of recursively detecting sub-communities within detected communities until reaching leaf communities.",
+      "properties": {
+        "stage": "Graph Partitioning",
+        "mechanism": "Recursive sub-community detection"
+      },
+      "normalized_name": "hierarchical community detection"
+    },
+    {
+      "name": "Global summarization",
+      "type": "Task",
+      "description": "The downstream task enabled by the divide-and-conquer approach of hierarchical partitioning.",
+      "properties": {
+        "type": "Summarization",
+        "complexity": "Global"
+      },
+      "normalized_name": "global summarization"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "leiden community detection",
+      "target": "hierarchical community detection",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "The pipeline uses Leiden community detection in a hierarchical manner, applying the technique of recursive sub-community detection.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "hierarchical community detection",
+      "target": "global summarization",
+      "type": "SOLVES_TASK",
+      "description": "The hierarchical partitioning enables divide-and-conquer global summarization.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "leiden community detection",
+      "target": "traag et al 2019",
+      "type": "PROPOSED_BY",
+      "description": "The Leiden community detection algorithm is attributed to Traag et al., 2019.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:17:25.241487+00:00"
+}

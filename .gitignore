@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Local secrets / env
+.env
+
+# Neo4j database volumes (regenerate with `docker compose up`)
+**/data/neo4j/
+backups/
+
+# OS
+.DS_Store

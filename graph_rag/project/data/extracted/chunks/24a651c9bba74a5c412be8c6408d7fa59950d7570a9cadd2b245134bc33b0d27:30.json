@@ -1,0 +1,91 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:30",
+  "entities": [
+    {
+      "name": "Leiden community detection",
+      "type": "Technique",
+      "description": "A community detection algorithm implemented using the graspologic library.",
+      "properties": {
+        "stage": "Graph indexing",
+        "mechanism": "Community detection"
+      },
+      "normalized_name": "leiden community detection"
+    },
+    {
+      "name": "graspologic",
+      "type": "Method",
+      "description": "A library used to implement Leiden community detection.",
+      "properties": {
+        "category": "Library",
+        "technique": "Community detection"
+      },
+      "normalized_name": "graspologic"
+    },
+    {
+      "name": "Chung et al., 2019",
+      "type": "Paper",
+      "description": "A reference cited for the graspologic library.",
+      "properties": {
+        "publication_date": "2019"
+      },
+      "normalized_name": "chung et al 2019"
+    },
+    {
+      "name": "Podcast dataset",
+      "type": "Dataset",
+      "description": "A dataset used for graph indexing evaluation.",
+      "properties": {
+        "task_type": "Graph indexing"
+      },
+      "normalized_name": "podcast dataset"
+    },
+    {
+      "name": "gpt-4-turbo",
+      "type": "Method",
+      "description": "A large language model used via a public OpenAI endpoint.",
+      "properties": {
+        "category": "LLM",
+        "technique": "Generation"
+      },
+      "normalized_name": "gpt-4-turbo"
+    },
+    {
+      "name": "OpenAI",
+      "type": "Organization",
+      "description": "The provider of the gpt-4-turbo endpoint.",
+      "properties": {
+        "type": "Company"
+      },
+      "normalized_name": "openai"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "leiden community detection",
+      "target": "graspologic",
+      "type": "PART_OF_PIPELINE",
+      "description": "Leiden community detection is implemented using the graspologic library.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graspologic",
+      "target": "chung et al 2019",
+      "type": "PROPOSED_BY",
+      "description": "The graspologic library is associated with the work by Chung et al., 2019.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4-turbo",
+      "target": "openai",
+      "type": "PROPOSED_BY",
+      "description": "gpt-4-turbo is provided by OpenAI.",
+      "weight": 0.95,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:20:02.614427+00:00"
+}

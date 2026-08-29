@@ -1,0 +1,188 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:10",
+  "entities": [
+    {
+      "name": "HotPotQA",
+      "type": "Dataset",
+      "description": "A benchmark dataset for open-domain question answering, oriented towards vector RAG performance.",
+      "properties": {
+        "task_type": "Question Answering"
+      },
+      "normalized_name": "hotpotqa"
+    },
+    {
+      "name": "MultiHop-RAG",
+      "type": "Dataset",
+      "description": "A benchmark dataset for open-domain question answering, oriented towards vector RAG performance.",
+      "properties": {
+        "task_type": "Question Answering"
+      },
+      "normalized_name": "multihop-rag"
+    },
+    {
+      "name": "MT-Bench",
+      "type": "Dataset",
+      "description": "A benchmark dataset for open-domain question answering, oriented towards vector RAG performance.",
+      "properties": {
+        "task_type": "Question Answering"
+      },
+      "normalized_name": "mt-bench"
+    },
+    {
+      "name": "Adaptive benchmarking",
+      "type": "Method",
+      "description": "An approach proposed in this work for dynamically generating evaluation benchmarks tailored to specific domains, specifically for global sensemaking queries.",
+      "properties": {
+        "category": "Evaluation",
+        "technique": "Dynamic generation"
+      },
+      "normalized_name": "adaptive benchmarking"
+    },
+    {
+      "name": "Persona generation",
+      "type": "Technique",
+      "description": "A procedural step where an LLM is used to generate diverse and authentic sets of personas to create representative queries.",
+      "properties": {
+        "stage": "Query Generation",
+        "mechanism": "LLM-based generation"
+      },
+      "normalized_name": "persona generation"
+    },
+    {
+      "name": "Global sensemaking",
+      "type": "Task",
+      "description": "A downstream task involving evaluating performance on summarizing or understanding the entirety of a corpus.",
+      "properties": {
+        "type": "Evaluation",
+        "complexity": "High"
+      },
+      "normalized_name": "global sensemaking"
+    },
+    {
+      "name": "Yang et al., 2018",
+      "type": "Paper",
+      "description": "A publication associated with the HotPotQA dataset.",
+      "properties": {
+        "publication_date": "2018"
+      },
+      "normalized_name": "yang et al 2018"
+    },
+    {
+      "name": "Tang and Yang, 2024",
+      "type": "Paper",
+      "description": "A publication associated with the MultiHop-RAG dataset.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "tang and yang 2024"
+    },
+    {
+      "name": "Zheng et al., 2024",
+      "type": "Paper",
+      "description": "A publication associated with the MT-Bench dataset.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "zheng et al 2024"
+    },
+    {
+      "name": "Xu and Lapata (2021)",
+      "type": "Paper",
+      "description": "A prior work using LLM methods to generate questions whose answers are summaries of a corpus.",
+      "properties": {
+        "publication_date": "2021"
+      },
+      "normalized_name": "xu and lapata 2021"
+    },
+    {
+      "name": "Yuan et al., 2024",
+      "type": "Paper",
+      "description": "Recent work using LLMs for adaptive benchmarking.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "yuan et al 2024"
+    },
+    {
+      "name": "Zhang et al., 2024b",
+      "type": "Paper",
+      "description": "Recent work using LLMs for adaptive benchmarking.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "zhang et al 2024b"
+    },
+    {
+      "name": "Kosinski, 2024",
+      "type": "Paper",
+      "description": "Prior work in LLM-based persona generation.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "kosinski 2024"
+    },
+    {
+      "name": "Salminen et al., 2024",
+      "type": "Paper",
+      "description": "Prior work in LLM-based persona generation.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "salminen et al 2024"
+    },
+    {
+      "name": "Shin et al., 2024",
+      "type": "Paper",
+      "description": "Prior work in LLM-based persona generation.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "shin et al 2024"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "adaptive benchmarking",
+      "target": "persona generation",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "The adaptive benchmarking procedure uses persona generation to create queries.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "adaptive benchmarking",
+      "target": "global sensemaking",
+      "type": "SOLVES_TASK",
+      "description": "The adaptive benchmarking approach is proposed to generate queries for evaluating global sensemaking.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "hotpotqa",
+      "target": "yang et al 2018",
+      "type": "DERIVED_FROM",
+      "description": "HotPotQA is associated with the publication by Yang et al., 2018.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "multihop-rag",
+      "target": "tang and yang 2024",
+      "type": "DERIVED_FROM",
+      "description": "MultiHop-RAG is associated with the publication by Tang and Yang, 2024.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "mt-bench",
+      "target": "zheng et al 2024",
+      "type": "DERIVED_FROM",
+      "description": "MT-Bench is associated with the publication by Zheng et al., 2024.",
+      "weight": 0.8,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:15:11.623236+00:00"
+}

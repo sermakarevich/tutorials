@@ -1,0 +1,64 @@
+set dotenv-load := true
+
+default:
+    @just --list
+
+# Start Neo4j in Docker and wait until it reports healthy.
+up:
+    docker compose up -d
+    @echo "waiting for neo4j-tutorial to become healthy..."
+    @while [ "$(docker inspect --format '{{{{.State.Health.Status}}' neo4j-tutorial)" != "healthy" ]; do sleep 1; done
+    @echo "neo4j-tutorial is healthy"
+
+# Stop the container (keeps data).
+down:
+    docker compose down
+
+# Stop the container, remove volumes and wipe local data.
+reset:
+    docker compose down -v
+    rm -rf data/neo4j
+
+# Follow container logs.
+logs:
+    docker compose logs -f neo4j
+
+# Open an interactive cypher-shell session.
+shell:
+    docker exec -it neo4j-tutorial cypher-shell -u neo4j -p tutorial123
+
+# Run a single Cypher query non-interactively, e.g. `just cypher "RETURN 1"`.
+cypher query:
+    docker exec -i neo4j-tutorial cypher-shell -u neo4j -p tutorial123 "{{query}}"
+
+# Run the Python connectivity check.
+check:
+    uv run python -m neo4j_tutorial.check
+
+# Install/sync Python dependencies.
+sync:
+    uv sync
+
+# Wipe the database and reload the CSV dataset from scratch.
+load:
+    uv run python -m neo4j_tutorial.load_data --reset
+
+# Run one basic read query by name, or all of them if name is empty.
+query-basic name="":
+    uv run python -m neo4j_tutorial.queries_basic {{name}}
+
+# Run one advanced read query by name, or all of them if name is empty.
+query-advanced name="":
+    uv run python -m neo4j_tutorial.queries_advanced {{name}}
+
+# Run one exploration query by name, or all of them if name is empty.
+explore name="":
+    uv run python -m neo4j_tutorial.explore {{name}}
+
+# Print a compact summary of what is inside the database.
+describe:
+    uv run python -m neo4j_tutorial.explore --summary
+
+# Run the pytest suite against the running Docker Neo4j.
+test:
+    uv run pytest tests -q

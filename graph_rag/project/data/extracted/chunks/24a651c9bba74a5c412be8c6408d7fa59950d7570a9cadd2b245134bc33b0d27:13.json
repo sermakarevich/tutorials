@@ -1,0 +1,116 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:13",
+  "entities": [
+    {
+      "name": "Leiden",
+      "type": "Method",
+      "description": "A community detection algorithm used to partition the graph index.",
+      "properties": {
+        "category": "Graph Partitioning",
+        "technique": "Community Detection"
+      },
+      "normalized_name": "leiden"
+    },
+    {
+      "name": "Traag et al., 2019",
+      "type": "Paper",
+      "description": "The publication associated with the Leiden algorithm.",
+      "properties": {
+        "publication_date": "2019"
+      },
+      "normalized_name": "traag et al 2019"
+    },
+    {
+      "name": "RAGAS",
+      "type": "Method",
+      "description": "A framework or set of criteria for evaluating RAG systems, including context relevance and faithfulness.",
+      "properties": {
+        "category": "Evaluation"
+      },
+      "normalized_name": "ragas"
+    },
+    {
+      "name": "Es et al. 2023",
+      "type": "Paper",
+      "description": "The publication associated with RAGAS.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "es et al 2023"
+    },
+    {
+      "name": "LLM-as-a-judge",
+      "type": "Technique",
+      "description": "A comparative evaluation approach where an LLM compares generations from competing models.",
+      "properties": {
+        "stage": "Evaluation",
+        "mechanism": "Comparative prompting"
+      },
+      "normalized_name": "llm-as-a-judge"
+    },
+    {
+      "name": "Zheng et al., 2024",
+      "type": "Paper",
+      "description": "The publication associated with the LLM-as-a-judge technique.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "zheng et al 2024"
+    },
+    {
+      "name": "Global sensemaking",
+      "type": "Task",
+      "description": "The specific downstream task of generating global answers to sensemaking questions.",
+      "properties": {
+        "type": "Question Answering"
+      },
+      "normalized_name": "global sensemaking"
+    },
+    {
+      "name": "Wang et al., 2023a",
+      "type": "Paper",
+      "description": "A publication cited regarding the 'fluency' criterion.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "wang et al 2023a"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "leiden",
+      "target": "traag et al 2019",
+      "type": "PROPOSED_BY",
+      "description": "The Leiden algorithm is attributed to Traag et al., 2019.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "ragas",
+      "target": "es et al 2023",
+      "type": "PROPOSED_BY",
+      "description": "RAGAS is attributed to Es et al. 2023.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "llm-as-a-judge",
+      "target": "zheng et al 2024",
+      "type": "PROPOSED_BY",
+      "description": "The LLM-as-a-judge technique is attributed to Zheng et al., 2024.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "global sensemaking",
+      "target": "llm-as-a-judge",
+      "type": "MEASURED_BY",
+      "description": "The passage states that results for global sensemaking questions are evaluated using the comparative approach (LLM-as-a-judge).",
+      "weight": 0.8,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:15:52.325753+00:00"
+}

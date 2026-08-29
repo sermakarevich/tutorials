@@ -1,0 +1,56 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:21",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A system that generates community summaries by adding element summaries to a template, designed to scale to very large datasets.",
+      "properties": {
+        "category": "Retrieval/Generation",
+        "technique": "Community Summarization"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "Community Summaries",
+      "type": "Technique",
+      "description": "Report-like summaries of communities in a hierarchy, used to understand global structure and semantics or for answering global queries.",
+      "properties": {
+        "stage": "Indexing/Summarization",
+        "mechanism": "Hierarchical summarization using LLM context windows"
+      },
+      "normalized_name": "community summaries"
+    },
+    {
+      "name": "Global Queries",
+      "type": "Task",
+      "description": "A type of query answered using the graph-based index and community summaries.",
+      "properties": {
+        "type": "Question Answering",
+        "complexity": "High"
+      },
+      "normalized_name": "global queries"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "community summaries",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "GraphRAG generates community summaries as part of its process.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "global queries",
+      "type": "SOLVES_TASK",
+      "description": "GraphRAG uses community summaries as part of a graph-based index for answering global queries.",
+      "weight": 0.9,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:17:33.344064+00:00"
+}

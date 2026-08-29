@@ -1,0 +1,52 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:56",
+  "entities": [
+    {
+      "name": "HotpotQA",
+      "type": "Dataset",
+      "description": "A dataset for diverse, explainable multi-hop question answering.",
+      "properties": {
+        "task_type": "multi-hop question answering"
+      },
+      "normalized_name": "hotpotqa"
+    },
+    {
+      "name": "Zhang, J.",
+      "type": "Person",
+      "description": "Author of the paper 'Graph-toolformer'.",
+      "properties": {},
+      "normalized_name": "zhang j"
+    },
+    {
+      "name": "Graph-toolformer",
+      "type": "Method",
+      "description": "A method to empower LLMs with graph reasoning ability via prompt augmented by ChatGPT.",
+      "properties": {
+        "technique": "prompt augmented by chatgpt"
+      },
+      "normalized_name": "graph-toolformer"
+    },
+    {
+      "name": "Graph-toolformer: To empower llms with graph reasoning ability via prompt augmented by chatgpt",
+      "type": "Paper",
+      "description": "An arXiv preprint describing the Graph-toolformer method.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "graph-toolformer to empower llms with graph reasoning ability via prompt augmented by chatgpt"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graph-toolformer to empower llms with graph reasoning ability via prompt augmented by chatgpt",
+      "target": "zhang j",
+      "type": "AUTHORED_BY",
+      "description": "The paper 'Graph-toolformer' is authored by Zhang, J.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:33:38.731231+00:00"
+}

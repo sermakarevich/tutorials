@@ -1,0 +1,639 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:46",
+  "entities": [
+    {
+      "name": "Fast unfolding of communities in large networks",
+      "type": "Paper",
+      "description": "A paper published in Journal of statistical mechanics: theory and experiment in 2008.",
+      "properties": {
+        "title": "Fast unfolding of communities in large networks",
+        "publication_date": "2008",
+        "venue": "Journal of statistical mechanics: theory and experiment"
+      },
+      "normalized_name": "fast unfolding of communities in large networks"
+    },
+    {
+      "name": "Journal of statistical mechanics: theory and experiment",
+      "type": "Organization",
+      "description": "The journal where 'Fast unfolding of communities in large networks' was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "journal of statistical mechanics theory and experiment"
+    },
+    {
+      "name": "Brown, T.",
+      "type": "Person",
+      "description": "Author of the paper 'Language models are few-shot learners'.",
+      "properties": {},
+      "normalized_name": "brown t"
+    },
+    {
+      "name": "Mann, B.",
+      "type": "Person",
+      "description": "Author of the paper 'Language models are few-shot learners'.",
+      "properties": {},
+      "normalized_name": "mann b"
+    },
+    {
+      "name": "Ryder, N.",
+      "type": "Person",
+      "description": "Author of the paper 'Language models are few-shot learners'.",
+      "properties": {},
+      "normalized_name": "ryder n"
+    },
+    {
+      "name": "Subbiah, M.",
+      "type": "Person",
+      "description": "Author of the paper 'Language models are few-shot learners'.",
+      "properties": {},
+      "normalized_name": "subbiah m"
+    },
+    {
+      "name": "Kaplan, J. D.",
+      "type": "Person",
+      "description": "Author of the paper 'Language models are few-shot learners'.",
+      "properties": {},
+      "normalized_name": "kaplan j d"
+    },
+    {
+      "name": "Dhariwal, P.",
+      "type": "Person",
+      "description": "Author of the paper 'Language models are few-shot learners'.",
+      "properties": {},
+      "normalized_name": "dhariwal p"
+    },
+    {
+      "name": "Neelakantan, A.",
+      "type": "Person",
+      "description": "Author of the paper 'Language models are few-shot learners'.",
+      "properties": {},
+      "normalized_name": "neelakantan a"
+    },
+    {
+      "name": "Shyam, P.",
+      "type": "Person",
+      "description": "Author of the paper 'Language models are few-shot learners'.",
+      "properties": {},
+      "normalized_name": "shyam p"
+    },
+    {
+      "name": "Sastry, G.",
+      "type": "Person",
+      "description": "Author of the paper 'Language models are few-shot learners'.",
+      "properties": {},
+      "normalized_name": "sastry g"
+    },
+    {
+      "name": "Askell, A.",
+      "type": "Person",
+      "description": "Author of the paper 'Language models are few-shot learners'.",
+      "properties": {},
+      "normalized_name": "askell a"
+    },
+    {
+      "name": "Language models are few-shot learners",
+      "type": "Paper",
+      "description": "A paper published in Advances in neural information processing systems in 2020.",
+      "properties": {
+        "title": "Language models are few-shot learners",
+        "publication_date": "2020",
+        "venue": "Advances in neural information processing systems"
+      },
+      "normalized_name": "language models are few-shot learners"
+    },
+    {
+      "name": "Advances in neural information processing systems",
+      "type": "Organization",
+      "description": "The conference where 'Language models are few-shot learners' was published.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "advances in neural information processing systems"
+    },
+    {
+      "name": "Cheng, X.",
+      "type": "Person",
+      "description": "Author of the paper 'Lift yourself up: Retrievalaugmented text generation with self-memory'.",
+      "properties": {},
+      "normalized_name": "cheng x"
+    },
+    {
+      "name": "Luo, D.",
+      "type": "Person",
+      "description": "Author of the paper 'Lift yourself up: Retrievalaugmented text generation with self-memory'.",
+      "properties": {},
+      "normalized_name": "luo d"
+    },
+    {
+      "name": "Chen, X.",
+      "type": "Person",
+      "description": "Author of the paper 'Lift yourself up: Retrievalaugmented text generation with self-memory'.",
+      "properties": {},
+      "normalized_name": "chen x"
+    },
+    {
+      "name": "Liu, L.",
+      "type": "Person",
+      "description": "Author of the paper 'Lift yourself up: Retrievalaugmented text generation with self-memory'.",
+      "properties": {},
+      "normalized_name": "liu l"
+    },
+    {
+      "name": "Zhao, D.",
+      "type": "Person",
+      "description": "Author of the paper 'Lift yourself up: Retrievalaugmented text generation with self-memory'.",
+      "properties": {},
+      "normalized_name": "zhao d"
+    },
+    {
+      "name": "Yan, R.",
+      "type": "Person",
+      "description": "Author of the paper 'Lift yourself up: Retrievalaugmented text generation with self-memory'.",
+      "properties": {},
+      "normalized_name": "yan r"
+    },
+    {
+      "name": "Lift yourself up: Retrievalaugmented text generation with self-memory",
+      "type": "Paper",
+      "description": "A paper published in Advances in Neural Information Processing Systems in 2024.",
+      "properties": {
+        "title": "Lift yourself up: Retrievalaugmented text generation with self-memory",
+        "publication_date": "2024",
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "normalized_name": "lift yourself up retrievalaugmented text generation with self-memory"
+    },
+    {
+      "name": "Advances in Neural Information Processing Systems",
+      "type": "Organization",
+      "description": "The conference where 'Lift yourself up: Retrievalaugmented text generation with self-memory' was published.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "advances in neural information processing systems"
+    },
+    {
+      "name": "Christen, P.",
+      "type": "Person",
+      "description": "Author of the book 'The data matching process'.",
+      "properties": {},
+      "normalized_name": "christen p"
+    },
+    {
+      "name": "The data matching process",
+      "type": "Paper",
+      "description": "A book published by Springer in 2012.",
+      "properties": {
+        "title": "The data matching process",
+        "publication_date": "2012",
+        "venue": "Springer"
+      },
+      "normalized_name": "data matching process"
+    },
+    {
+      "name": "Springer",
+      "type": "Organization",
+      "description": "The publisher of 'The data matching process'.",
+      "properties": {
+        "type": "Publisher"
+      },
+      "normalized_name": "springer"
+    },
+    {
+      "name": "Chung, J.",
+      "type": "Person",
+      "description": "Author of the paper 'Graspy: Graph statistics in python'.",
+      "properties": {},
+      "normalized_name": "chung j"
+    },
+    {
+      "name": "Pedigo, B. D.",
+      "type": "Person",
+      "description": "Author of the paper 'Graspy: Graph statistics in python'.",
+      "properties": {},
+      "normalized_name": "pedigo b d"
+    },
+    {
+      "name": "Bridgeford, E. W.",
+      "type": "Person",
+      "description": "Author of the paper 'Graspy: Graph statistics in python'.",
+      "properties": {},
+      "normalized_name": "bridgeford e w"
+    },
+    {
+      "name": "Varjavand, B. K.",
+      "type": "Person",
+      "description": "Author of the paper 'Graspy: Graph statistics in python'.",
+      "properties": {},
+      "normalized_name": "varjavand b k"
+    },
+    {
+      "name": "Helm, H. S.",
+      "type": "Person",
+      "description": "Author of the paper 'Graspy: Graph statistics in python'.",
+      "properties": {},
+      "normalized_name": "helm h s"
+    },
+    {
+      "name": "V ogelstein, J. T.",
+      "type": "Person",
+      "description": "Author of the paper 'Graspy: Graph statistics in python'.",
+      "properties": {},
+      "normalized_name": "v ogelstein j t"
+    },
+    {
+      "name": "Graspy: Graph statistics in python",
+      "type": "Paper",
+      "description": "A paper published in Journal of Machine Learning Research in 2019.",
+      "properties": {
+        "title": "Graspy: Graph statistics in python",
+        "publication_date": "2019",
+        "venue": "Journal of Machine Learning Research"
+      },
+      "normalized_name": "graspy graph statistics in python"
+    },
+    {
+      "name": "Journal of Machine Learning Research",
+      "type": "Organization",
+      "description": "The journal where 'Graspy: Graph statistics in python' was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "journal of machine learning research"
+    },
+    {
+      "name": "Dang, H. T.",
+      "type": "Person",
+      "description": "Author of the paper 'Duc 2005: Evaluation of question-focused summarization systems'.",
+      "properties": {},
+      "normalized_name": "dang h t"
+    },
+    {
+      "name": "Duc 2005: Evaluation of question-focused summarization systems",
+      "type": "Paper",
+      "description": "A paper published in Proceedings of the Workshop on Task-Focused Summarization and Question Answering in 2006.",
+      "properties": {
+        "title": "Duc 2005: Evaluation of question-focused summarization systems",
+        "publication_date": "2006",
+        "venue": "Proceedings of the Workshop on Task-Focused Summarization and Question Answering"
+      },
+      "normalized_name": "duc 2005 evaluation of question-focused summarization systems"
+    },
+    {
+      "name": "Proceedings of the Workshop on Task-Focused Summarization and Question Answering",
+      "type": "Organization",
+      "description": "The venue where 'Duc 2005: Evaluation of question-focused summarization systems' was published.",
+      "properties": {
+        "type": "Workshop"
+      },
+      "normalized_name": "proceedings of the workshop on task-focused summarization and question answering"
+    },
+    {
+      "name": "Elmagarmid, A. K.",
+      "type": "Person",
+      "description": "Author of the paper 'Duplicate record detection: A survey'.",
+      "properties": {},
+      "normalized_name": "elmagarmid a k"
+    },
+    {
+      "name": "Ipeirotis, P. G.",
+      "type": "Person",
+      "description": "Author of the paper 'Duplicate record detection: A survey'.",
+      "properties": {},
+      "normalized_name": "ipeirotis p g"
+    },
+    {
+      "name": "Verykios, V. S.",
+      "type": "Person",
+      "description": "Author of the paper 'Duplicate record detection: A survey'.",
+      "properties": {},
+      "normalized_name": "verykios v s"
+    },
+    {
+      "name": "Duplicate record detection: A survey",
+      "type": "Paper",
+      "description": "A paper published in IEEE Transactions on knowledge and data engineering in 2006.",
+      "properties": {
+        "title": "Duplicate record detection: A survey",
+        "publication_date": "2006",
+        "venue": "IEEE Transactions on knowledge and data engineering"
+      },
+      "normalized_name": "duplicate record detection a survey"
+    },
+    {
+      "name": "IEEE Transactions on knowledge and data engineering",
+      "type": "Organization",
+      "description": "The journal where 'Duplicate record detection: A survey' was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "ieee transactions on knowledge and data engineering"
+    },
+    {
+      "name": "Es, S.",
+      "type": "Person",
+      "description": "Author mentioned in the text.",
+      "properties": {},
+      "normalized_name": "es s"
+    },
+    {
+      "name": "James, J.",
+      "type": "Person",
+      "description": "Author mentioned in the text.",
+      "properties": {},
+      "normalized_name": "james j"
+    },
+    {
+      "name": "Espinosa-Anke, L.",
+      "type": "Person",
+      "description": "Author mentioned in the text.",
+      "properties": {},
+      "normalized_name": "espinosa-anke l"
+    },
+    {
+      "name": "Schockaert, S.",
+      "type": "Person",
+      "description": "Author mentioned in the text.",
+      "properties": {},
+      "normalized_name": "schockaert s"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "fast unfolding of communities in large networks",
+      "target": "journal of statistical mechanics theory and experiment",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in this journal.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "language models are few-shot learners",
+      "target": "brown t",
+      "type": "AUTHORED_BY",
+      "description": "Brown, T. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "language models are few-shot learners",
+      "target": "mann b",
+      "type": "AUTHORED_BY",
+      "description": "Mann, B. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "language models are few-shot learners",
+      "target": "ryder n",
+      "type": "AUTHORED_BY",
+      "description": "Ryder, N. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "language models are few-shot learners",
+      "target": "subbiah m",
+      "type": "AUTHORED_BY",
+      "description": "Subbiah, M. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "language models are few-shot learners",
+      "target": "kaplan j d",
+      "type": "AUTHORED_BY",
+      "description": "Kaplan, J. D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "language models are few-shot learners",
+      "target": "dhariwal p",
+      "type": "AUTHORED_BY",
+      "description": "Dhariwal, P. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "language models are few-shot learners",
+      "target": "neelakantan a",
+      "type": "AUTHORED_BY",
+      "description": "Neelakantan, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "language models are few-shot learners",
+      "target": "shyam p",
+      "type": "AUTHORED_BY",
+      "description": "Shyam, P. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "language models are few-shot learners",
+      "target": "sastry g",
+      "type": "AUTHORED_BY",
+      "description": "Sastry, G. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "language models are few-shot learners",
+      "target": "askell a",
+      "type": "AUTHORED_BY",
+      "description": "Askell, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "language models are few-shot learners",
+      "target": "advances in neural information processing systems",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in this conference.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lift yourself up retrievalaugmented text generation with self-memory",
+      "target": "cheng x",
+      "type": "AUTHORED_BY",
+      "description": "Cheng, X. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lift yourself up retrievalaugmented text generation with self-memory",
+      "target": "luo d",
+      "type": "AUTHORED_BY",
+      "description": "Luo, D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lift yourself up retrievalaugmented text generation with self-memory",
+      "target": "chen x",
+      "type": "AUTHORED_BY",
+      "description": "Chen, X. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lift yourself up retrievalaugmented text generation with self-memory",
+      "target": "liu l",
+      "type": "AUTHORED_BY",
+      "description": "Liu, L. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lift yourself up retrievalaugmented text generation with self-memory",
+      "target": "zhao d",
+      "type": "AUTHORED_BY",
+      "description": "Zhao, D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lift yourself up retrievalaugmented text generation with self-memory",
+      "target": "yan r",
+      "type": "AUTHORED_BY",
+      "description": "Yan, R. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lift yourself up retrievalaugmented text generation with self-memory",
+      "target": "advances in neural information processing systems",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in this conference.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "data matching process",
+      "target": "christen p",
+      "type": "AUTHORED_BY",
+      "description": "Christen, P. is an author of this book.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "data matching process",
+      "target": "springer",
+      "type": "PUBLISHED_IN",
+      "description": "The book was published by this publisher.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graspy graph statistics in python",
+      "target": "chung j",
+      "type": "AUTHORED_BY",
+      "description": "Chung, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graspy graph statistics in python",
+      "target": "pedigo b d",
+      "type": "AUTHORED_BY",
+      "description": "Pedigo, B. D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graspy graph statistics in python",
+      "target": "bridgeford e w",
+      "type": "AUTHORED_BY",
+      "description": "Bridgeford, E. W. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graspy graph statistics in python",
+      "target": "varjavand b k",
+      "type": "AUTHORED_BY",
+      "description": "Varjavand, B. K. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graspy graph statistics in python",
+      "target": "helm h s",
+      "type": "AUTHORED_BY",
+      "description": "Helm, H. S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graspy graph statistics in python",
+      "target": "v ogelstein j t",
+      "type": "AUTHORED_BY",
+      "description": "V ogelstein, J. T. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graspy graph statistics in python",
+      "target": "journal of machine learning research",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in this journal.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "duc 2005 evaluation of question-focused summarization systems",
+      "target": "dang h t",
+      "type": "AUTHORED_BY",
+      "description": "Dang, H. T. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "duc 2005 evaluation of question-focused summarization systems",
+      "target": "proceedings of the workshop on task-focused summarization and question answering",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in this workshop proceedings.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "duplicate record detection a survey",
+      "target": "elmagarmid a k",
+      "type": "AUTHORED_BY",
+      "description": "Elmagarmid, A. K. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "duplicate record detection a survey",
+      "target": "ipeirotis p g",
+      "type": "AUTHORED_BY",
+      "description": "Ipeirotis, P. G. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "duplicate record detection a survey",
+      "target": "verykios v s",
+      "type": "AUTHORED_BY",
+      "description": "Verykios, V. S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "duplicate record detection a survey",
+      "target": "ieee transactions on knowledge and data engineering",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in this journal.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:25:54.599585+00:00"
+}

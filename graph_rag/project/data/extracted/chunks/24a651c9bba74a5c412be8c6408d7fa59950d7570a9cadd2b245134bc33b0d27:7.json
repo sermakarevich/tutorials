@@ -1,0 +1,269 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:7",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A method that contrasts with vector RAG by answering queries requiring global sensemaking, using graph-based community detection and hierarchical summaries.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation",
+        "technique": "Graph-based community detection"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "vector RAG",
+      "type": "Method",
+      "description": "A family of conventional RAG approaches using alternative retrieval mechanisms, contrasted with GraphRAG.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation"
+      },
+      "normalized_name": "vector rag"
+    },
+    {
+      "name": "Cheng et al. 2024",
+      "type": "Paper",
+      "description": "A paper describing the use of summaries over large sections of data as 'self-memory'.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "cheng et al 2024"
+    },
+    {
+      "name": "Mao et al. 2020",
+      "type": "Paper",
+      "description": "A paper describing the use of summaries to answer queries.",
+      "properties": {
+        "publication_date": "2020"
+      },
+      "normalized_name": "mao et al 2020"
+    },
+    {
+      "name": "Feng et al., 2023",
+      "type": "Paper",
+      "description": "A prior technique referenced for iterative aggregation of summaries.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "feng et al 2023"
+    },
+    {
+      "name": "Gao et al., 2023",
+      "type": "Paper",
+      "description": "A prior technique referenced for iterative aggregation of summaries.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "gao et al 2023"
+    },
+    {
+      "name": "Khattab et al., 2022",
+      "type": "Paper",
+      "description": "A prior technique referenced for iterative aggregation of summaries.",
+      "properties": {
+        "publication_date": "2022"
+      },
+      "normalized_name": "khattab et al 2022"
+    },
+    {
+      "name": "Shao et al., 2023",
+      "type": "Paper",
+      "description": "A prior technique referenced for iterative aggregation of summaries.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "shao et al 2023"
+    },
+    {
+      "name": "Su et al., 2020",
+      "type": "Paper",
+      "description": "A prior technique referenced for iterative aggregation of summaries.",
+      "properties": {
+        "publication_date": "2020"
+      },
+      "normalized_name": "su et al 2020"
+    },
+    {
+      "name": "Trivedi et al., 2022",
+      "type": "Paper",
+      "description": "A prior technique referenced for iterative aggregation of summaries.",
+      "properties": {
+        "publication_date": "2022"
+      },
+      "normalized_name": "trivedi et al 2022"
+    },
+    {
+      "name": "Wang et al., 2024",
+      "type": "Paper",
+      "description": "A prior technique referenced for iterative aggregation of summaries.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "wang et al 2024"
+    },
+    {
+      "name": "Kim et al. 2023",
+      "type": "Paper",
+      "description": "A paper describing approaches that use hierarchical indexing to create summaries.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "kim et al 2023"
+    },
+    {
+      "name": "Sarthi et al. 2024",
+      "type": "Paper",
+      "description": "A paper describing approaches that use hierarchical indexing to create summaries.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "sarthi et al 2024"
+    },
+    {
+      "name": "global sensemaking",
+      "type": "Task",
+      "description": "The ability to answer queries that require understanding over the entire data corpus.",
+      "properties": {
+        "type": "Query Answering"
+      },
+      "normalized_name": "global sensemaking"
+    },
+    {
+      "name": "graph-based community detection",
+      "type": "Technique",
+      "description": "A technique used by GraphRAG to create a thematic partitioning of the data.",
+      "properties": {
+        "stage": "Indexing/Partitioning",
+        "mechanism": "Community detection"
+      },
+      "normalized_name": "graph-based community detection"
+    },
+    {
+      "name": "hierarchical indexing",
+      "type": "Technique",
+      "description": "A technique used by prior approaches to create summaries, similar to GraphRAG's aggregation strategy.",
+      "properties": {
+        "stage": "Indexing",
+        "mechanism": "Hierarchical structure"
+      },
+      "normalized_name": "hierarchical indexing"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "global sensemaking",
+      "type": "SOLVES_TASK",
+      "description": "GraphRAG is designed to answer queries requiring global sensemaking over the entire data corpus.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "graph-based community detection",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "GraphRAG applies graph-based community detection to create a thematic partitioning of the data.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "cheng et al 2024",
+      "type": "CITES",
+      "description": "GraphRAG leverages the concept of 'self-memory' described in Cheng et al. 2024.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "mao et al 2020",
+      "type": "CITES",
+      "description": "GraphRAG uses summaries to answer queries as in Mao et al. 2020.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "feng et al 2023",
+      "type": "CITES",
+      "description": "GraphRAG's iterative aggregation is similar to prior techniques including Feng et al., 2023.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "gao et al 2023",
+      "type": "CITES",
+      "description": "GraphRAG's iterative aggregation is similar to prior techniques including Gao et al., 2023.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "khattab et al 2022",
+      "type": "CITES",
+      "description": "GraphRAG's iterative aggregation is similar to prior techniques including Khattab et al., 2022.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "shao et al 2023",
+      "type": "CITES",
+      "description": "GraphRAG's iterative aggregation is similar to prior techniques including Shao et al., 2023.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "su et al 2020",
+      "type": "CITES",
+      "description": "GraphRAG's iterative aggregation is similar to prior techniques including Su et al., 2020.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "trivedi et al 2022",
+      "type": "CITES",
+      "description": "GraphRAG's iterative aggregation is similar to prior techniques including Trivedi et al., 2022.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "wang et al 2024",
+      "type": "CITES",
+      "description": "GraphRAG's iterative aggregation is similar to prior techniques including Wang et al., 2024.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "kim et al 2023",
+      "type": "CITES",
+      "description": "GraphRAG is similar to approaches in Kim et al. 2023 that use hierarchical indexing.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "sarthi et al 2024",
+      "type": "CITES",
+      "description": "GraphRAG is similar to approaches in Sarthi et al. 2024 that use hierarchical indexing.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "vector rag",
+      "type": "IMPROVES_UPON",
+      "description": "GraphRAG contrasts with vector RAG by its ability to handle global sensemaking, implying an improvement or distinct capability over conventional vector-based approaches.",
+      "weight": 0.7,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:13:51.180319+00:00"
+}

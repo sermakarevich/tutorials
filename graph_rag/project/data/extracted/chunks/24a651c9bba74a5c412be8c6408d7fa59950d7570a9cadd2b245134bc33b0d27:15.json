@@ -1,0 +1,18 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:15",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A high-level approach and pipeline for graph-based retrieval-augmented generation.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "graphrag"
+    }
+  ],
+  "relationships": [],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:16:12.602742+00:00"
+}

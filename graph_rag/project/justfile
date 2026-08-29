@@ -1,0 +1,181 @@
+set dotenv-load := true
+
+default:
+    @just --list
+
+# Start Neo4j in Docker and wait until it reports healthy.
+up:
+    docker compose up -d
+    @echo "waiting for neo4j-graphrag to become healthy..."
+    @while [ "$(docker inspect --format '{{{{.State.Health.Status}}' neo4j-graphrag)" != "healthy" ]; do sleep 1; done
+    @echo "neo4j-graphrag is healthy"
+
+# Stop the container (keeps data).
+down:
+    docker compose down
+
+# Stop the container, remove volumes and wipe local data.
+reset:
+    docker compose down -v
+    rm -rf data/neo4j
+
+# Follow container logs.
+logs:
+    docker compose logs -f neo4j
+
+# Open an interactive cypher-shell session.
+shell:
+    docker exec -it neo4j-graphrag cypher-shell -u neo4j -p graphrag123
+
+# Run a single Cypher query non-interactively, e.g. `just cypher "RETURN 1"`.
+cypher query:
+    docker exec -i neo4j-graphrag cypher-shell -u neo4j -p graphrag123 "{{query}}"
+
+# Install/sync Python dependencies.
+sync:
+    uv sync
+
+# Run the Python connectivity check (Neo4j, APOC/GDS, one chat + one embedding).
+check:
+    uv run python -m graph_rag.check
+
+# Embed three sentences and print pairwise cosine similarities (chapter 01 demo).
+demo-concepts:
+    uv run python -m graph_rag.demo_concepts
+
+# Ingest a file or directory of .pdf/.md/.txt into the lexical graph (Document/Chunk).
+# Accepts both `just ingest data/docs` and `just ingest path=data/docs` (just has
+# no native name=value CLI args; trim_start_match strips a stray "path=" prefix).
+ingest path="data/docs" max_tokens="400":
+    uv run python -m graph_rag.ingest {{trim_start_match(path, "path=")}} --max-tokens {{trim_start_match(max_tokens, "max_tokens=")}}
+
+# Propose a graph schema from sampled chunks, refine it, and freeze it to
+# data/extracted/schema.json (chapter 03). Makes 2 LLM calls.
+schema-propose samples="12":
+    uv run python -m graph_rag.schema_discovery propose --samples {{trim_start_match(samples, "samples=")}}
+
+# Pretty-print the frozen schema (chapter 03).
+schema-show:
+    uv run python -m graph_rag.schema_discovery show
+
+# Validate the frozen schema's naming rules and referential integrity (chapter 03).
+schema-validate:
+    uv run python -m graph_rag.schema_discovery validate
+
+# Extract entities/relationships for every chunk, caching each chunk's result to
+# data/extracted/chunks/<chunk_id>.json (chapter 04). Skips already-cached chunks;
+# pass limit="" for the whole document, or limit=N for a quick smoke test.
+extract limit="" doc="":
+    uv run python -m graph_rag.extraction run \
+        {{ if limit == "" { "" } else { "--limit " + trim_start_match(limit, "limit=") } }} \
+        {{ if doc == "" { "" } else { "--doc " + trim_start_match(doc, "doc=") } }}
+
+# Print the extraction stats table from the on-disk cache (no LLM calls).
+extract-stats:
+    uv run python -m graph_rag.extraction stats
+
+# Write every cached extraction into Neo4j: entities, MENTIONS provenance,
+# relationships (chapter 05). Pass wipe="--wipe-domain" to delete all Entity
+# nodes first (keeps Document/Chunk); pass limit="20" for a quick smoke test.
+write-graph limit="" wipe="":
+    uv run python -m graph_rag.graph_writer write \
+        {{ if limit == "" { "" } else { "--limit " + trim_start_match(limit, "limit=") } }} \
+        {{ wipe }}
+
+# Print label counts, relationship type counts and the label->REL->label
+# table for the graph currently in Neo4j (chapter 05).
+graph-stats:
+    uv run python -m graph_rag.graph_writer stats
+
+# Find and merge duplicate Entity nodes: normalization candidates, embedding
+# candidates, LLM-as-judge, then apoc.refactor.mergeNodes (chapter 06). Pass
+# dry="--dry-run" to print the candidate table without merging anything.
+resolve dry="" threshold="0.92":
+    uv run python -m graph_rag.resolution run {{trim_start_match(dry, "dry=")}} --threshold {{trim_start_match(threshold, "threshold=")}}
+
+# Print every merge recorded in :ResolutionLog (chapter 06).
+resolve-report:
+    uv run python -m graph_rag.resolution report
+
+# Embed every Chunk/Entity missing `embedding`, then create the vector and
+# full-text indexes and wait until they report ONLINE (chapter 07).
+embed:
+    uv run python -m graph_rag.embeddings run
+
+# Search the graph: `just search q="how does X work" mode="hybrid"`.
+# mode is one of chunks|entities|fulltext|hybrid (chapter 07).
+search q mode="hybrid":
+    uv run python -m graph_rag.embeddings search "{{trim_start_match(q, "q=")}}" --mode {{trim_start_match(mode, "mode=")}}
+
+# Answer a question with local-search retrieval: `just ask q="..." mode="graph"`.
+# mode is one of graph|vector|both (chapter 08). Pass show_context="--show-context"
+# to print the assembled context block(s) before the answer.
+ask q mode="graph" show_context="":
+    uv run python -m graph_rag.retrieval ask "{{trim_start_match(q, "q=")}}" \
+        --mode {{trim_start_match(mode, "mode=")}} {{trim_start_match(show_context, "show_context=")}}
+
+# Detect communities (Leiden via GDS) then summarize every community with
+# >= min_size members (chapter 09). Pass limit="5" to summarize only a few
+# communities for a quick smoke test.
+communities min_size="3" limit="":
+    uv run python -m graph_rag.communities detect
+    uv run python -m graph_rag.communities summarize --min-size {{trim_start_match(min_size, "min_size=")}} \
+        {{ if limit == "" { "" } else { "--limit " + trim_start_match(limit, "limit=") } }}
+
+# Answer a global question by map-reduce over community summaries: `just
+# ask-global q="what are the main themes?"` (chapter 09).
+ask-global q top_n="8":
+    uv run python -m graph_rag.communities ask "{{trim_start_match(q, "q=")}}" \
+        --top-n {{trim_start_match(top_n, "top_n=")}}
+
+# Add one new document to the graph: ingest, extract, write, resolve (only
+# entities it touches) and embed (chapter 10). `just add path="data/docs_extra/foo.pdf"`.
+add path:
+    uv run python -m graph_rag.updates add {{trim_start_match(path, "path=")}}
+
+# Remove a document (by path or stored doc id) and any entity left with no
+# remaining MENTIONS (chapter 10). `just remove path="data/docs_extra/foo.pdf"`.
+remove path:
+    uv run python -m graph_rag.updates remove {{trim_start_match(path, "path=")}}
+
+# Re-sync one document: no-op if its sha256 is unchanged, else remove + add
+# (chapter 10). `just update path="data/docs/foo.pdf"`.
+update path:
+    uv run python -m graph_rag.updates update {{trim_start_match(path, "path=")}}
+
+# Run the LLM-as-judge evaluation harness over data/questions.json in both
+# vector and graph modes, and save data/extracted/eval_<timestamp>.json (chapter 10).
+evaluate:
+    uv run python -m graph_rag.evaluate run
+
+# Run the whole pipeline end to end on whatever is under data/docs/: ingest,
+# schema-propose (skipped if data/extracted/schema.json already exists),
+# extract, write-graph, resolve, embed, communities (chapter 10). Every stage
+# is cache-first, so re-running this on an unchanged corpus costs almost no
+# LLM calls.
+pipeline:
+    @echo "=== 1/7 ingest ==="
+    just ingest
+    @echo "=== 2/7 schema-propose ==="
+    @if [ -f data/extracted/schema.json ]; then echo "schema.json already exists, skipping"; else just schema-propose; fi
+    @echo "=== 3/7 extract ==="
+    just extract
+    @echo "=== 4/7 write-graph ==="
+    just write-graph
+    @echo "=== 5/7 resolve ==="
+    just resolve
+    @echo "=== 6/7 embed ==="
+    just embed
+    @echo "=== 7/7 communities ==="
+    just communities
+    @echo "=== pipeline complete ==="
+
+# Print the full graph summary: node/relationship counts, label->REL->label
+# shape (chapter 05), and community counts per level (chapter 09).
+stats:
+    uv run python -m graph_rag.graph_writer stats
+    uv run python -m graph_rag.communities community-stats
+
+# Run the pytest suite against the running Docker Neo4j.
+test:
+    uv run pytest tests -q

@@ -1,0 +1,554 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:45",
+  "entities": [
+    {
+      "name": "Gpt-4 technical report",
+      "type": "Paper",
+      "description": "A technical report on Gpt-4 published as an arXiv preprint in 2023.",
+      "properties": {
+        "title": "Gpt-4 technical report",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "gpt-4 technical report"
+    },
+    {
+      "name": "Aleman, F. L.",
+      "type": "Person",
+      "description": "Author of the Gpt-4 technical report.",
+      "properties": {},
+      "normalized_name": "aleman f l"
+    },
+    {
+      "name": "Almeida, D.",
+      "type": "Person",
+      "description": "Author of the Gpt-4 technical report.",
+      "properties": {},
+      "normalized_name": "almeida d"
+    },
+    {
+      "name": "Altenschmidt, J.",
+      "type": "Person",
+      "description": "Author of the Gpt-4 technical report.",
+      "properties": {},
+      "normalized_name": "altenschmidt j"
+    },
+    {
+      "name": "Altman, S.",
+      "type": "Person",
+      "description": "Author of the Gpt-4 technical report.",
+      "properties": {},
+      "normalized_name": "altman s"
+    },
+    {
+      "name": "Anadkat, S.",
+      "type": "Person",
+      "description": "Author of the Gpt-4 technical report.",
+      "properties": {},
+      "normalized_name": "anadkat s"
+    },
+    {
+      "name": "Gemini: a family of highly capable multimodal models",
+      "type": "Paper",
+      "description": "A paper describing the Gemini family of multimodal models, published as an arXiv preprint in 2023.",
+      "properties": {
+        "title": "Gemini: a family of highly capable multimodal models",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "gemini a family of highly capable multimodal models"
+    },
+    {
+      "name": "Anil, R.",
+      "type": "Person",
+      "description": "Author of the Gemini paper.",
+      "properties": {},
+      "normalized_name": "anil r"
+    },
+    {
+      "name": "Borgeaud, S.",
+      "type": "Person",
+      "description": "Author of the Gemini paper.",
+      "properties": {},
+      "normalized_name": "borgeaud s"
+    },
+    {
+      "name": "Wu, Y .",
+      "type": "Person",
+      "description": "Author of the Gemini paper.",
+      "properties": {},
+      "normalized_name": "wu y"
+    },
+    {
+      "name": "Alayrac, J.-B.",
+      "type": "Person",
+      "description": "Author of the Gemini paper.",
+      "properties": {},
+      "normalized_name": "alayrac j -b"
+    },
+    {
+      "name": "Yu, J.",
+      "type": "Person",
+      "description": "Author of the Gemini paper.",
+      "properties": {},
+      "normalized_name": "yu j"
+    },
+    {
+      "name": "Soricut, R.",
+      "type": "Person",
+      "description": "Author of the Gemini paper.",
+      "properties": {},
+      "normalized_name": "soricut r"
+    },
+    {
+      "name": "Schalkwyk, J.",
+      "type": "Person",
+      "description": "Author of the Gemini paper.",
+      "properties": {},
+      "normalized_name": "schalkwyk j"
+    },
+    {
+      "name": "Dai, A. M.",
+      "type": "Person",
+      "description": "Author of the Gemini paper.",
+      "properties": {},
+      "normalized_name": "dai a m"
+    },
+    {
+      "name": "Hauth, A.",
+      "type": "Person",
+      "description": "Author of the Gemini paper.",
+      "properties": {},
+      "normalized_name": "hauth a"
+    },
+    {
+      "name": "Knowledge-augmented language model prompting for zero-shot knowledge graph question answering",
+      "type": "Paper",
+      "description": "A paper on knowledge-augmented prompting for KG QA, published as an arXiv preprint in 2023.",
+      "properties": {
+        "title": "Knowledge-augmented language model prompting for zero-shot knowledge graph question answering",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "knowledge-augmented language model prompting for zero-shot knowledge graph question answering"
+    },
+    {
+      "name": "Baek, J.",
+      "type": "Person",
+      "description": "Author of the paper on knowledge-augmented language model prompting.",
+      "properties": {},
+      "normalized_name": "baek j"
+    },
+    {
+      "name": "Aji, A. F.",
+      "type": "Person",
+      "description": "Author of the paper on knowledge-augmented language model prompting.",
+      "properties": {},
+      "normalized_name": "aji a f"
+    },
+    {
+      "name": "Saffari, A.",
+      "type": "Person",
+      "description": "Author of the paper on knowledge-augmented language model prompting.",
+      "properties": {},
+      "normalized_name": "saffari a"
+    },
+    {
+      "name": "From query tools to causal architects: Harnessing large language models for advanced causal discovery from data",
+      "type": "Paper",
+      "description": "A paper on using LLMs for causal discovery, published in 2023.",
+      "properties": {
+        "title": "From query tools to causal architects: Harnessing large language models for advanced causal discovery from data",
+        "publication_date": "2023",
+        "venue": ""
+      },
+      "normalized_name": "from query tools to causal architects harnessing large language models for advanced causal discovery from data"
+    },
+    {
+      "name": "Ban, T.",
+      "type": "Person",
+      "description": "Author of the paper on causal discovery with LLMs.",
+      "properties": {},
+      "normalized_name": "ban t"
+    },
+    {
+      "name": "Chen, L.",
+      "type": "Person",
+      "description": "Author of the paper on causal discovery with LLMs.",
+      "properties": {},
+      "normalized_name": "chen l"
+    },
+    {
+      "name": "Wang, X.",
+      "type": "Person",
+      "description": "Author of the paper on causal discovery with LLMs.",
+      "properties": {},
+      "normalized_name": "wang x"
+    },
+    {
+      "name": "Chen, H.",
+      "type": "Person",
+      "description": "Author of the paper on causal discovery with LLMs.",
+      "properties": {},
+      "normalized_name": "chen h"
+    },
+    {
+      "name": "Neural networks for entity matching: A survey",
+      "type": "Paper",
+      "description": "A survey on neural networks for entity matching, published in ACM Transactions on Knowledge Discovery from Data in 2021.",
+      "properties": {
+        "title": "Neural networks for entity matching: A survey",
+        "publication_date": "2021",
+        "venue": "ACM Transactions on Knowledge Discovery from Data (TKDD)"
+      },
+      "normalized_name": "neural networks for entity matching a survey"
+    },
+    {
+      "name": "Barlaug, N.",
+      "type": "Person",
+      "description": "Author of the survey on neural networks for entity matching.",
+      "properties": {},
+      "normalized_name": "barlaug n"
+    },
+    {
+      "name": "Gulla, J. A.",
+      "type": "Person",
+      "description": "Author of the survey on neural networks for entity matching.",
+      "properties": {},
+      "normalized_name": "gulla j a"
+    },
+    {
+      "name": "ACM Transactions on Knowledge Discovery from Data (TKDD)",
+      "type": "Organization",
+      "description": "The journal where the entity matching survey was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "acm transactions on knowledge discovery from data tkdd"
+    },
+    {
+      "name": "Query focused abstractive summarization: Incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models",
+      "type": "Paper",
+      "description": "A paper on query-focused abstractive summarization, published as an arXiv preprint in 2018.",
+      "properties": {
+        "title": "Query focused abstractive summarization: Incorporating query relevance, multi-document coverage, and summary length constraints into seq2seq models",
+        "publication_date": "2018",
+        "venue": "arXiv"
+      },
+      "normalized_name": "query focused abstractive summarization incorporating query relevance multi-document coverage and summary length constraints into seq2seq models"
+    },
+    {
+      "name": "Baumel, T.",
+      "type": "Person",
+      "description": "Author of the paper on query-focused abstractive summarization.",
+      "properties": {},
+      "normalized_name": "baumel t"
+    },
+    {
+      "name": "Eyal, M.",
+      "type": "Person",
+      "description": "Author of the paper on query-focused abstractive summarization.",
+      "properties": {},
+      "normalized_name": "eyal m"
+    },
+    {
+      "name": "Elhadad, M.",
+      "type": "Person",
+      "description": "Author of the paper on query-focused abstractive summarization.",
+      "properties": {},
+      "normalized_name": "elhadad m"
+    },
+    {
+      "name": "Fast unfolding of communities in large networks",
+      "type": "Paper",
+      "description": "A paper on community detection in networks, published in 2008.",
+      "properties": {
+        "title": "Fast unfolding of communities in large networks",
+        "publication_date": "2008",
+        "venue": ""
+      },
+      "normalized_name": "fast unfolding of communities in large networks"
+    },
+    {
+      "name": "Blondel, V . D.",
+      "type": "Person",
+      "description": "Author of the paper on fast unfolding of communities.",
+      "properties": {},
+      "normalized_name": "blondel v d"
+    },
+    {
+      "name": "Guillaume, J.-L.",
+      "type": "Person",
+      "description": "Author of the paper on fast unfolding of communities.",
+      "properties": {},
+      "normalized_name": "guillaume j -l"
+    },
+    {
+      "name": "Lambiotte, R.",
+      "type": "Person",
+      "description": "Author of the paper on fast unfolding of communities.",
+      "properties": {},
+      "normalized_name": "lambiotte r"
+    },
+    {
+      "name": "Lefebvre, E.",
+      "type": "Person",
+      "description": "Author of the paper on fast unfolding of communities.",
+      "properties": {},
+      "normalized_name": "lefebvre e"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "gpt-4 technical report",
+      "target": "aleman f l",
+      "type": "AUTHORED_BY",
+      "description": "Aleman, F. L. is an author of the Gpt-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "almeida d",
+      "type": "AUTHORED_BY",
+      "description": "Almeida, D. is an author of the Gpt-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "altenschmidt j",
+      "type": "AUTHORED_BY",
+      "description": "Altenschmidt, J. is an author of the Gpt-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "altman s",
+      "type": "AUTHORED_BY",
+      "description": "Altman, S. is an author of the Gpt-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "anadkat s",
+      "type": "AUTHORED_BY",
+      "description": "Anadkat, S. is an author of the Gpt-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gemini a family of highly capable multimodal models",
+      "target": "anil r",
+      "type": "AUTHORED_BY",
+      "description": "Anil, R. is an author of the Gemini paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gemini a family of highly capable multimodal models",
+      "target": "borgeaud s",
+      "type": "AUTHORED_BY",
+      "description": "Borgeaud, S. is an author of the Gemini paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gemini a family of highly capable multimodal models",
+      "target": "wu y",
+      "type": "AUTHORED_BY",
+      "description": "Wu, Y . is an author of the Gemini paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gemini a family of highly capable multimodal models",
+      "target": "alayrac j -b",
+      "type": "AUTHORED_BY",
+      "description": "Alayrac, J.-B. is an author of the Gemini paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gemini a family of highly capable multimodal models",
+      "target": "yu j",
+      "type": "AUTHORED_BY",
+      "description": "Yu, J. is an author of the Gemini paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gemini a family of highly capable multimodal models",
+      "target": "soricut r",
+      "type": "AUTHORED_BY",
+      "description": "Soricut, R. is an author of the Gemini paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gemini a family of highly capable multimodal models",
+      "target": "schalkwyk j",
+      "type": "AUTHORED_BY",
+      "description": "Schalkwyk, J. is an author of the Gemini paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gemini a family of highly capable multimodal models",
+      "target": "dai a m",
+      "type": "AUTHORED_BY",
+      "description": "Dai, A. M. is an author of the Gemini paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gemini a family of highly capable multimodal models",
+      "target": "hauth a",
+      "type": "AUTHORED_BY",
+      "description": "Hauth, A. is an author of the Gemini paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge-augmented language model prompting for zero-shot knowledge graph question answering",
+      "target": "baek j",
+      "type": "AUTHORED_BY",
+      "description": "Baek, J. is an author of the paper on knowledge-augmented prompting.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge-augmented language model prompting for zero-shot knowledge graph question answering",
+      "target": "aji a f",
+      "type": "AUTHORED_BY",
+      "description": "Aji, A. F. is an author of the paper on knowledge-augmented prompting.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge-augmented language model prompting for zero-shot knowledge graph question answering",
+      "target": "saffari a",
+      "type": "AUTHORED_BY",
+      "description": "Saffari, A. is an author of the paper on knowledge-augmented prompting.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from query tools to causal architects harnessing large language models for advanced causal discovery from data",
+      "target": "ban t",
+      "type": "AUTHORED_BY",
+      "description": "Ban, T. is an author of the paper on causal discovery.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from query tools to causal architects harnessing large language models for advanced causal discovery from data",
+      "target": "chen l",
+      "type": "AUTHORED_BY",
+      "description": "Chen, L. is an author of the paper on causal discovery.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from query tools to causal architects harnessing large language models for advanced causal discovery from data",
+      "target": "wang x",
+      "type": "AUTHORED_BY",
+      "description": "Wang, X. is an author of the paper on causal discovery.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from query tools to causal architects harnessing large language models for advanced causal discovery from data",
+      "target": "chen h",
+      "type": "AUTHORED_BY",
+      "description": "Chen, H. is an author of the paper on causal discovery.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "neural networks for entity matching a survey",
+      "target": "barlaug n",
+      "type": "AUTHORED_BY",
+      "description": "Barlaug, N. is an author of the entity matching survey.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "neural networks for entity matching a survey",
+      "target": "gulla j a",
+      "type": "AUTHORED_BY",
+      "description": "Gulla, J. A. is an author of the entity matching survey.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "neural networks for entity matching a survey",
+      "target": "acm transactions on knowledge discovery from data tkdd",
+      "type": "PUBLISHED_IN",
+      "description": "The entity matching survey was published in ACM Transactions on Knowledge Discovery from Data (TKDD).",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "query focused abstractive summarization incorporating query relevance multi-document coverage and summary length constraints into seq2seq models",
+      "target": "baumel t",
+      "type": "AUTHORED_BY",
+      "description": "Baumel, T. is an author of the summarization paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "query focused abstractive summarization incorporating query relevance multi-document coverage and summary length constraints into seq2seq models",
+      "target": "eyal m",
+      "type": "AUTHORED_BY",
+      "description": "Eyal, M. is an author of the summarization paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "query focused abstractive summarization incorporating query relevance multi-document coverage and summary length constraints into seq2seq models",
+      "target": "elhadad m",
+      "type": "AUTHORED_BY",
+      "description": "Elhadad, M. is an author of the summarization paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "fast unfolding of communities in large networks",
+      "target": "blondel v d",
+      "type": "AUTHORED_BY",
+      "description": "Blondel, V . D. is an author of the community detection paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "fast unfolding of communities in large networks",
+      "target": "guillaume j -l",
+      "type": "AUTHORED_BY",
+      "description": "Guillaume, J.-L. is an author of the community detection paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "fast unfolding of communities in large networks",
+      "target": "lambiotte r",
+      "type": "AUTHORED_BY",
+      "description": "Lambiotte, R. is an author of the community detection paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "fast unfolding of communities in large networks",
+      "target": "lefebvre e",
+      "type": "AUTHORED_BY",
+      "description": "Lefebvre, E. is an author of the community detection paper.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:25:02.490807+00:00"
+}

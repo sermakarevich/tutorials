@@ -1,0 +1,120 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:31",
+  "entities": [
+    {
+      "name": "Claimify",
+      "type": "Method",
+      "description": "An LLM-based method that identifies sentences containing factual claims and decomposes them into simple, self-contained claims.",
+      "properties": {
+        "category": "Claim Extraction",
+        "technique": "LLM-based decomposition"
+      },
+      "normalized_name": "claimify"
+    },
+    {
+      "name": "Metropolitansky and Larson",
+      "type": "Person",
+      "description": "Authors associated with the Claimify method.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "metropolitansky and larson"
+    },
+    {
+      "name": "Ni et al. (2024)",
+      "type": "Paper",
+      "description": "A publication providing the definition of a factual claim used in the experiment.",
+      "properties": {
+        "title": "Ni et al. (2024)",
+        "publication_date": "2024"
+      },
+      "normalized_name": "ni et al 2024"
+    },
+    {
+      "name": "Comprehensiveness",
+      "type": "Metric",
+      "description": "A metric measured as the average number of claims extracted from generated answers.",
+      "properties": {
+        "category": "Quality",
+        "formula_type": "Average count"
+      },
+      "normalized_name": "comprehensiveness"
+    },
+    {
+      "name": "Diversity",
+      "type": "Metric",
+      "description": "A metric measured by clustering claims and calculating the average number of clusters.",
+      "properties": {
+        "category": "Quality",
+        "formula_type": "Cluster count"
+      },
+      "normalized_name": "diversity"
+    },
+    {
+      "name": "Padmakumar and He (2024)",
+      "type": "Paper",
+      "description": "A publication describing the clustering approach used for the Diversity metric.",
+      "properties": {
+        "title": "Padmakumar and He (2024)",
+        "publication_date": "2024"
+      },
+      "normalized_name": "padmakumar and he 2024"
+    },
+    {
+      "name": "Pedregosa et al., 2011",
+      "type": "Paper",
+      "description": "A publication associated with the Scikit-learn implementation of agglomerative clustering.",
+      "properties": {
+        "title": "Pedregosa et al., 2011",
+        "publication_date": "2011"
+      },
+      "normalized_name": "pedregosa et al 2011"
+    },
+    {
+      "name": "ROUGE-L",
+      "type": "Metric",
+      "description": "A distance metric component used in the clustering process (1 - ROUGE-L).",
+      "properties": {
+        "category": "Similarity/Distance"
+      },
+      "normalized_name": "rouge-l"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "claimify",
+      "target": "metropolitansky and larson",
+      "type": "PROPOSED_BY",
+      "description": "Claimify is attributed to Metropolitansky and Larson (2025).",
+      "weight": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "comprehensiveness",
+      "target": "claimify",
+      "type": "MEASURED_BY",
+      "description": "The Comprehensiveness metric relies on the claims extracted by Claimify.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "diversity",
+      "target": "claimify",
+      "type": "MEASURED_BY",
+      "description": "The Diversity metric relies on the claims extracted by Claimify.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "diversity",
+      "target": "rouge-l",
+      "type": "MEASURED_BY",
+      "description": "The Diversity metric uses 1 - ROUGE-L as a distance measure for clustering.",
+      "weight": 0.9,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:20:12.765823+00:00"
+}

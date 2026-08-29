@@ -1,0 +1,18 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:63",
+  "entities": [
+    {
+      "name": "Naïve RAG",
+      "type": "Method",
+      "description": "A retrieval-augmented generation approach mentioned as a winner in a directness comparison.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "naïve rag"
+    }
+  ],
+  "relationships": [],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:35:42.201302+00:00"
+}

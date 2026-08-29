@@ -1,0 +1,662 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:50",
+  "entities": [
+    {
+      "name": "Springer",
+      "type": "Organization",
+      "description": "A publisher mentioned in the reference list.",
+      "properties": {
+        "type": "Publisher"
+      },
+      "normalized_name": "springer"
+    },
+    {
+      "name": "Lewis, P.",
+      "type": "Person",
+      "description": "Author of the paper 'Retrieval-augmented generation for knowledge-intensive nlp tasks'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "lewis p"
+    },
+    {
+      "name": "Perez, E.",
+      "type": "Person",
+      "description": "Author of the paper 'Retrieval-augmented generation for knowledge-intensive nlp tasks'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "perez e"
+    },
+    {
+      "name": "Piktus, A.",
+      "type": "Person",
+      "description": "Author of the paper 'Retrieval-augmented generation for knowledge-intensive nlp tasks'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "piktus a"
+    },
+    {
+      "name": "Petroni, F.",
+      "type": "Person",
+      "description": "Author of the paper 'Retrieval-augmented generation for knowledge-intensive nlp tasks'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "petroni f"
+    },
+    {
+      "name": "Karpukhin, V.",
+      "type": "Person",
+      "description": "Author of the paper 'Retrieval-augmented generation for knowledge-intensive nlp tasks'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "karpukhin v"
+    },
+    {
+      "name": "Goyal, N.",
+      "type": "Person",
+      "description": "Author of the paper 'Retrieval-augmented generation for knowledge-intensive nlp tasks'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "goyal n"
+    },
+    {
+      "name": "Küttler, H.",
+      "type": "Person",
+      "description": "Author of the paper 'Retrieval-augmented generation for knowledge-intensive nlp tasks'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "küttler h"
+    },
+    {
+      "name": "Lewis, M.",
+      "type": "Person",
+      "description": "Author of the paper 'Retrieval-augmented generation for knowledge-intensive nlp tasks'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "lewis m"
+    },
+    {
+      "name": "Yih, W.-t.",
+      "type": "Person",
+      "description": "Author of the paper 'Retrieval-augmented generation for knowledge-intensive nlp tasks'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "yih w -t"
+    },
+    {
+      "name": "Rocktäschel, T.",
+      "type": "Person",
+      "description": "Author of the paper 'Retrieval-augmented generation for knowledge-intensive nlp tasks'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "rocktäschel t"
+    },
+    {
+      "name": "Retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "type": "Paper",
+      "description": "A 2020 paper published in Advances in Neural Information Processing Systems.",
+      "properties": {
+        "title": "Retrieval-augmented generation for knowledge-intensive nlp tasks",
+        "publication_date": "2020",
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "normalized_name": "retrieval-augmented generation for knowledge-intensive nlp tasks"
+    },
+    {
+      "name": "Advances in Neural Information Processing Systems",
+      "type": "Organization",
+      "description": "The conference venue where 'Retrieval-augmented generation for knowledge-intensive nlp tasks' was published.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "advances in neural information processing systems"
+    },
+    {
+      "name": "Liu, N. F.",
+      "type": "Person",
+      "description": "Author of the paper 'Lost in the middle: How language models use long contexts'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "liu n f"
+    },
+    {
+      "name": "Lin, K.",
+      "type": "Person",
+      "description": "Author of the paper 'Lost in the middle: How language models use long contexts'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "lin k"
+    },
+    {
+      "name": "Hewitt, J.",
+      "type": "Person",
+      "description": "Author of the paper 'Lost in the middle: How language models use long contexts'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "hewitt j"
+    },
+    {
+      "name": "Paranjape, A.",
+      "type": "Person",
+      "description": "Author of the paper 'Lost in the middle: How language models use long contexts'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "paranjape a"
+    },
+    {
+      "name": "Bevilacqua, M.",
+      "type": "Person",
+      "description": "Author of the paper 'Lost in the middle: How language models use long contexts'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "bevilacqua m"
+    },
+    {
+      "name": "Liang, P.",
+      "type": "Person",
+      "description": "Author of the paper 'Lost in the middle: How language models use long contexts'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "liang p"
+    },
+    {
+      "name": "Lost in the middle: How language models use long contexts",
+      "type": "Paper",
+      "description": "A 2023 arXiv preprint discussing how language models use long contexts.",
+      "properties": {
+        "title": "Lost in the middle: How language models use long contexts",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "lost in the middle how language models use long contexts"
+    },
+    {
+      "name": "LlamaIndex",
+      "type": "Method",
+      "description": "A framework providing a GraphRAG implementation, specifically version V2.",
+      "properties": {
+        "category": "Framework",
+        "year": "2024"
+      },
+      "normalized_name": "llamaindex"
+    },
+    {
+      "name": "Madaan, A.",
+      "type": "Person",
+      "description": "Author of the paper 'Self-refine: Iterative refinement with self-feedback'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "madaan a"
+    },
+    {
+      "name": "Tandon, N.",
+      "type": "Person",
+      "description": "Author of the paper 'Self-refine: Iterative refinement with self-feedback'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "tandon n"
+    },
+    {
+      "name": "Gupta, P.",
+      "type": "Person",
+      "description": "Author of the paper 'Self-refine: Iterative refinement with self-feedback'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "gupta p"
+    },
+    {
+      "name": "Hallinan, S.",
+      "type": "Person",
+      "description": "Author of the paper 'Self-refine: Iterative refinement with self-feedback'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "hallinan s"
+    },
+    {
+      "name": "Gao, L.",
+      "type": "Person",
+      "description": "Author of the paper 'Self-refine: Iterative refinement with self-feedback'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "gao l"
+    },
+    {
+      "name": "Wiegreffe, S.",
+      "type": "Person",
+      "description": "Author of the paper 'Self-refine: Iterative refinement with self-feedback'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "wiegreffe s"
+    },
+    {
+      "name": "Alon, U.",
+      "type": "Person",
+      "description": "Author of the paper 'Self-refine: Iterative refinement with self-feedback'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "alon u"
+    },
+    {
+      "name": "Dziri, N.",
+      "type": "Person",
+      "description": "Author of the paper 'Self-refine: Iterative refinement with self-feedback'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "dziri n"
+    },
+    {
+      "name": "Prabhumoye, S.",
+      "type": "Person",
+      "description": "Author of the paper 'Self-refine: Iterative refinement with self-feedback'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "prabhumoye s"
+    },
+    {
+      "name": "Yang, Y.",
+      "type": "Person",
+      "description": "Author of the paper 'Self-refine: Iterative refinement with self-feedback'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "yang y"
+    },
+    {
+      "name": "Self-refine: Iterative refinement with self-feedback",
+      "type": "Paper",
+      "description": "A 2024 paper published in Advances in Neural Information Processing Systems.",
+      "properties": {
+        "title": "Self-refine: Iterative refinement with self-feedback",
+        "publication_date": "2024",
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "normalized_name": "self-refine iterative refinement with self-feedback"
+    },
+    {
+      "name": "Manakul, P.",
+      "type": "Person",
+      "description": "Author of the paper 'Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "manakul p"
+    },
+    {
+      "name": "Liusie, A.",
+      "type": "Person",
+      "description": "Author of the paper 'Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "liusie a"
+    },
+    {
+      "name": "Gales, M. J.",
+      "type": "Person",
+      "description": "Author of the paper 'Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "gales m j"
+    },
+    {
+      "name": "Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models",
+      "type": "Paper",
+      "description": "A 2023 arXiv preprint on hallucination detection.",
+      "properties": {
+        "title": "Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "selfcheckgpt zero-resource black-box hallucination detection for generative large language models"
+    },
+    {
+      "name": "Mao, Y.",
+      "type": "Person",
+      "description": "Author listed in a 2020 reference.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "mao y"
+    },
+    {
+      "name": "He, P.",
+      "type": "Person",
+      "description": "Author listed in a 2020 reference.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "he p"
+    },
+    {
+      "name": "Liu, X.",
+      "type": "Person",
+      "description": "Author listed in a 2020 reference.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "liu x"
+    },
+    {
+      "name": "Shen, Y.",
+      "type": "Person",
+      "description": "Author listed in a 2020 reference.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "shen y"
+    },
+    {
+      "name": "Gao, J.",
+      "type": "Person",
+      "description": "Author listed in a 2020 reference.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "gao j"
+    },
+    {
+      "name": "Han, J.",
+      "type": "Person",
+      "description": "Author listed in a 2020 reference.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "han j"
+    },
+    {
+      "name": "Chen, W.",
+      "type": "Person",
+      "description": "Author listed in a 2020 reference.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "chen w"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "target": "lewis p",
+      "type": "AUTHORED_BY",
+      "description": "Lewis, P. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "target": "perez e",
+      "type": "AUTHORED_BY",
+      "description": "Perez, E. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "target": "piktus a",
+      "type": "AUTHORED_BY",
+      "description": "Piktus, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "target": "petroni f",
+      "type": "AUTHORED_BY",
+      "description": "Petroni, F. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "target": "karpukhin v",
+      "type": "AUTHORED_BY",
+      "description": "Karpukhin, V. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "target": "goyal n",
+      "type": "AUTHORED_BY",
+      "description": "Goyal, N. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "target": "küttler h",
+      "type": "AUTHORED_BY",
+      "description": "Küttler, H. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "target": "lewis m",
+      "type": "AUTHORED_BY",
+      "description": "Lewis, M. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "target": "yih w -t",
+      "type": "AUTHORED_BY",
+      "description": "Yih, W.-t. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "target": "rocktäschel t",
+      "type": "AUTHORED_BY",
+      "description": "Rocktäschel, T. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "target": "advances in neural information processing systems",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in Advances in Neural Information Processing Systems.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lost in the middle how language models use long contexts",
+      "target": "liu n f",
+      "type": "AUTHORED_BY",
+      "description": "Liu, N. F. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lost in the middle how language models use long contexts",
+      "target": "lin k",
+      "type": "AUTHORED_BY",
+      "description": "Lin, K. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lost in the middle how language models use long contexts",
+      "target": "hewitt j",
+      "type": "AUTHORED_BY",
+      "description": "Hewitt, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lost in the middle how language models use long contexts",
+      "target": "paranjape a",
+      "type": "AUTHORED_BY",
+      "description": "Paranjape, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lost in the middle how language models use long contexts",
+      "target": "bevilacqua m",
+      "type": "AUTHORED_BY",
+      "description": "Bevilacqua, M. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lost in the middle how language models use long contexts",
+      "target": "petroni f",
+      "type": "AUTHORED_BY",
+      "description": "Petroni, F. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "lost in the middle how language models use long contexts",
+      "target": "liang p",
+      "type": "AUTHORED_BY",
+      "description": "Liang, P. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-refine iterative refinement with self-feedback",
+      "target": "madaan a",
+      "type": "AUTHORED_BY",
+      "description": "Madaan, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-refine iterative refinement with self-feedback",
+      "target": "tandon n",
+      "type": "AUTHORED_BY",
+      "description": "Tandon, N. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-refine iterative refinement with self-feedback",
+      "target": "gupta p",
+      "type": "AUTHORED_BY",
+      "description": "Gupta, P. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-refine iterative refinement with self-feedback",
+      "target": "hallinan s",
+      "type": "AUTHORED_BY",
+      "description": "Hallinan, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-refine iterative refinement with self-feedback",
+      "target": "gao l",
+      "type": "AUTHORED_BY",
+      "description": "Gao, L. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-refine iterative refinement with self-feedback",
+      "target": "wiegreffe s",
+      "type": "AUTHORED_BY",
+      "description": "Wiegreffe, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-refine iterative refinement with self-feedback",
+      "target": "alon u",
+      "type": "AUTHORED_BY",
+      "description": "Alon, U. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-refine iterative refinement with self-feedback",
+      "target": "dziri n",
+      "type": "AUTHORED_BY",
+      "description": "Dziri, N. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-refine iterative refinement with self-feedback",
+      "target": "prabhumoye s",
+      "type": "AUTHORED_BY",
+      "description": "Prabhumoye, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-refine iterative refinement with self-feedback",
+      "target": "yang y",
+      "type": "AUTHORED_BY",
+      "description": "Yang, Y. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "self-refine iterative refinement with self-feedback",
+      "target": "advances in neural information processing systems",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in Advances in Neural Information Processing Systems.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "selfcheckgpt zero-resource black-box hallucination detection for generative large language models",
+      "target": "manakul p",
+      "type": "AUTHORED_BY",
+      "description": "Manakul, P. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "selfcheckgpt zero-resource black-box hallucination detection for generative large language models",
+      "target": "liusie a",
+      "type": "AUTHORED_BY",
+      "description": "Liusie, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "selfcheckgpt zero-resource black-box hallucination detection for generative large language models",
+      "target": "gales m j",
+      "type": "AUTHORED_BY",
+      "description": "Gales, M. J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:29:16.292881+00:00"
+}

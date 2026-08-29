@@ -1,0 +1,38 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:25",
+  "entities": [
+    {
+      "name": "Directness",
+      "type": "Metric",
+      "description": "A control criterion that evaluates how specifically and clearly an answer addresses a question, focusing on concision.",
+      "properties": {
+        "category": "Quality",
+        "formula_type": "LLM-based judgment"
+      },
+      "normalized_name": "directness"
+    },
+    {
+      "name": "LLM",
+      "type": "Method",
+      "description": "A large language model used to compare generated answers and provide judgments on criteria like Directness.",
+      "properties": {
+        "category": "Evaluation",
+        "technique": "Prompt-based comparison"
+      },
+      "normalized_name": "llm"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "llm",
+      "target": "directness",
+      "type": "MEASURED_BY",
+      "description": "The LLM is used to evaluate answers based on the Directness criterion.",
+      "weight": 0.9,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:18:52.955793+00:00"
+}

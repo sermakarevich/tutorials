@@ -1,0 +1,37 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:16",
+  "entities": [
+    {
+      "name": "Kuratov et al., 2024",
+      "type": "Paper",
+      "description": "A cited paper discussing the recall-precision trade-offs of text chunking.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "kuratov et al 2024"
+    },
+    {
+      "name": "Liu et al., 2023",
+      "type": "Paper",
+      "description": "A cited paper discussing the recall-precision trade-offs of text chunking.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "liu et al 2023"
+    },
+    {
+      "name": "Text Chunking",
+      "type": "Technique",
+      "description": "The process of splitting documents into text chunks for LLM processing.",
+      "properties": {
+        "stage": "Preprocessing",
+        "mechanism": "Splitting documents into chunks"
+      },
+      "normalized_name": "text chunking"
+    }
+  ],
+  "relationships": [],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:16:23.457167+00:00"
+}

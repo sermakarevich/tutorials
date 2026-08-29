@@ -1,0 +1,28 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:73",
+  "entities": [
+    {
+      "name": "Relative Assessment Prompt",
+      "type": "Technique",
+      "description": "A prompt template used to grade two answers to a question based on specific criteria.",
+      "properties": {
+        "stage": "Evaluation",
+        "mechanism": "LLM-based comparative grading"
+      },
+      "normalized_name": "relative assessment prompt"
+    },
+    {
+      "name": "comprehensiveness",
+      "type": "Metric",
+      "description": "A metric measuring how much detail an answer provides to cover all aspects of the question.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "comprehensiveness"
+    }
+  ],
+  "relationships": [],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:37:29.339681+00:00"
+}

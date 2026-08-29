@@ -1,0 +1,432 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:0",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A graph-based approach to question answering over private text corpora that scales with the generality of user questions and the quantity of source text.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation",
+        "technique": "Graph-based indexing and community summarization"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "Darren Edge",
+      "type": "Person",
+      "description": "Co-author of the GraphRAG paper, affiliated with Microsoft Research.",
+      "properties": {
+        "affiliation": "Microsoft Research",
+        "role": "Author"
+      },
+      "normalized_name": "darren edge"
+    },
+    {
+      "name": "Ha Trinh",
+      "type": "Person",
+      "description": "Co-author of the GraphRAG paper, affiliated with Microsoft Research.",
+      "properties": {
+        "affiliation": "Microsoft Research",
+        "role": "Author"
+      },
+      "normalized_name": "ha trinh"
+    },
+    {
+      "name": "Newman Cheng",
+      "type": "Person",
+      "description": "Co-author of the GraphRAG paper, affiliated with Microsoft Strategic Missions and Technologies.",
+      "properties": {
+        "affiliation": "Microsoft Strategic Missions and Technologies",
+        "role": "Author"
+      },
+      "normalized_name": "newman cheng"
+    },
+    {
+      "name": "Joshua Bradley",
+      "type": "Person",
+      "description": "Co-author of the GraphRAG paper, affiliated with Microsoft Strategic Missions and Technologies.",
+      "properties": {
+        "affiliation": "Microsoft Strategic Missions and Technologies",
+        "role": "Author"
+      },
+      "normalized_name": "joshua bradley"
+    },
+    {
+      "name": "Alex Chao",
+      "type": "Person",
+      "description": "Co-author of the GraphRAG paper, affiliated with Microsoft Office of the CTO.",
+      "properties": {
+        "affiliation": "Microsoft Office of the CTO",
+        "role": "Author"
+      },
+      "normalized_name": "alex chao"
+    },
+    {
+      "name": "Apurva Mody",
+      "type": "Person",
+      "description": "Co-author of the GraphRAG paper, affiliated with Microsoft Office of the CTO.",
+      "properties": {
+        "affiliation": "Microsoft Office of the CTO",
+        "role": "Author"
+      },
+      "normalized_name": "apurva mody"
+    },
+    {
+      "name": "Steven Truitt",
+      "type": "Person",
+      "description": "Co-author of the GraphRAG paper, affiliated with Microsoft Strategic Missions and Technologies.",
+      "properties": {
+        "affiliation": "Microsoft Strategic Missions and Technologies",
+        "role": "Author"
+      },
+      "normalized_name": "steven truitt"
+    },
+    {
+      "name": "Dasha Metropolitansky",
+      "type": "Person",
+      "description": "Co-author of the GraphRAG paper, affiliated with Microsoft Research.",
+      "properties": {
+        "affiliation": "Microsoft Research",
+        "role": "Author"
+      },
+      "normalized_name": "dasha metropolitansky"
+    },
+    {
+      "name": "Robert Osazuwa Ness",
+      "type": "Person",
+      "description": "Co-author of the GraphRAG paper, affiliated with Microsoft Research.",
+      "properties": {
+        "affiliation": "Microsoft Research",
+        "role": "Author"
+      },
+      "normalized_name": "robert osazuwa ness"
+    },
+    {
+      "name": "Jonathan Larson",
+      "type": "Person",
+      "description": "Co-author of the GraphRAG paper, affiliated with Microsoft Research.",
+      "properties": {
+        "affiliation": "Microsoft Research",
+        "role": "Author"
+      },
+      "normalized_name": "jonathan larson"
+    },
+    {
+      "name": "Microsoft Research",
+      "type": "Organization",
+      "description": "Research division of Microsoft, affiliation for several authors.",
+      "properties": {
+        "type": "Research Institution"
+      },
+      "normalized_name": "microsoft research"
+    },
+    {
+      "name": "Microsoft Strategic Missions and Technologies",
+      "type": "Organization",
+      "description": "Division of Microsoft, affiliation for several authors.",
+      "properties": {
+        "type": "Corporate Division"
+      },
+      "normalized_name": "microsoft strategic missions and technologies"
+    },
+    {
+      "name": "Microsoft Office of the CTO",
+      "type": "Organization",
+      "description": "Division of Microsoft, affiliation for several authors.",
+      "properties": {
+        "type": "Corporate Division"
+      },
+      "normalized_name": "microsoft office of the cto"
+    },
+    {
+      "name": "Query-Focused Summarization",
+      "type": "Task",
+      "description": "A task involving summarizing an entire text corpus in response to a global question, such as identifying main themes.",
+      "properties": {
+        "type": "Summarization",
+        "complexity": "Global"
+      },
+      "normalized_name": "query-focused summarization"
+    },
+    {
+      "name": "Entity Knowledge Graph",
+      "type": "KnowledgeGraph",
+      "description": "A graph index derived from source documents by an LLM, used as an intermediate structure in the GraphRAG pipeline.",
+      "properties": {
+        "structure_type": "Entity-Relationship Graph",
+        "source": "Source documents"
+      },
+      "normalized_name": "entity knowledge graph"
+    },
+    {
+      "name": "From Local to Global: A GraphRAG Approach to Query-Focused Summarization",
+      "type": "Paper",
+      "description": "The academic paper proposing the GraphRAG method.",
+      "properties": {
+        "title": "From Local to Global: A GraphRAG Approach to Query-Focused Summarization"
+      },
+      "normalized_name": "from local to global a graphrag approach to query-focused summarization"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "darren edge",
+      "type": "PROPOSED_BY",
+      "description": "GraphRAG was proposed by Darren Edge and co-authors.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "ha trinh",
+      "type": "PROPOSED_BY",
+      "description": "GraphRAG was proposed by Ha Trinh and co-authors.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "newman cheng",
+      "type": "PROPOSED_BY",
+      "description": "GraphRAG was proposed by Newman Cheng and co-authors.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "joshua bradley",
+      "type": "PROPOSED_BY",
+      "description": "GraphRAG was proposed by Joshua Bradley and co-authors.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "alex chao",
+      "type": "PROPOSED_BY",
+      "description": "GraphRAG was proposed by Alex Chao and co-authors.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "apurva mody",
+      "type": "PROPOSED_BY",
+      "description": "GraphRAG was proposed by Apurva Mody and co-authors.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "steven truitt",
+      "type": "PROPOSED_BY",
+      "description": "GraphRAG was proposed by Steven Truitt and co-authors.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "dasha metropolitansky",
+      "type": "PROPOSED_BY",
+      "description": "GraphRAG was proposed by Dasha Metropolitansky and co-authors.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "robert osazuwa ness",
+      "type": "PROPOSED_BY",
+      "description": "GraphRAG was proposed by Robert Osazuwa Ness and co-authors.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "jonathan larson",
+      "type": "PROPOSED_BY",
+      "description": "GraphRAG was proposed by Jonathan Larson and co-authors.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "darren edge",
+      "target": "microsoft research",
+      "type": "AFFILIATED_WITH",
+      "description": "Darren Edge is affiliated with Microsoft Research.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "ha trinh",
+      "target": "microsoft research",
+      "type": "AFFILIATED_WITH",
+      "description": "Ha Trinh is affiliated with Microsoft Research.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "newman cheng",
+      "target": "microsoft strategic missions and technologies",
+      "type": "AFFILIATED_WITH",
+      "description": "Newman Cheng is affiliated with Microsoft Strategic Missions and Technologies.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "joshua bradley",
+      "target": "microsoft strategic missions and technologies",
+      "type": "AFFILIATED_WITH",
+      "description": "Joshua Bradley is affiliated with Microsoft Strategic Missions and Technologies.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "alex chao",
+      "target": "microsoft office of the cto",
+      "type": "AFFILIATED_WITH",
+      "description": "Alex Chao is affiliated with Microsoft Office of the CTO.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "apurva mody",
+      "target": "microsoft office of the cto",
+      "type": "AFFILIATED_WITH",
+      "description": "Apurva Mody is affiliated with Microsoft Office of the CTO.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "steven truitt",
+      "target": "microsoft strategic missions and technologies",
+      "type": "AFFILIATED_WITH",
+      "description": "Steven Truitt is affiliated with Microsoft Strategic Missions and Technologies.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "dasha metropolitansky",
+      "target": "microsoft research",
+      "type": "AFFILIATED_WITH",
+      "description": "Dasha Metropolitansky is affiliated with Microsoft Research.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "robert osazuwa ness",
+      "target": "microsoft research",
+      "type": "AFFILIATED_WITH",
+      "description": "Robert Osazuwa Ness is affiliated with Microsoft Research.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "jonathan larson",
+      "target": "microsoft research",
+      "type": "AFFILIATED_WITH",
+      "description": "Jonathan Larson is affiliated with Microsoft Research.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "query-focused summarization",
+      "type": "SOLVES_TASK",
+      "description": "GraphRAG is designed to address the task of Query-Focused Summarization.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "entity knowledge graph",
+      "type": "USES_KNOWLEDGE_GRAPH",
+      "description": "GraphRAG uses an LLM to build an entity knowledge graph from source documents as part of its indexing process.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from local to global a graphrag approach to query-focused summarization",
+      "target": "darren edge",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Darren Edge.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from local to global a graphrag approach to query-focused summarization",
+      "target": "ha trinh",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Ha Trinh.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from local to global a graphrag approach to query-focused summarization",
+      "target": "newman cheng",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Newman Cheng.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from local to global a graphrag approach to query-focused summarization",
+      "target": "joshua bradley",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Joshua Bradley.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from local to global a graphrag approach to query-focused summarization",
+      "target": "alex chao",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Alex Chao.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from local to global a graphrag approach to query-focused summarization",
+      "target": "apurva mody",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Apurva Mody.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from local to global a graphrag approach to query-focused summarization",
+      "target": "steven truitt",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Steven Truitt.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from local to global a graphrag approach to query-focused summarization",
+      "target": "dasha metropolitansky",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Dasha Metropolitansky.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from local to global a graphrag approach to query-focused summarization",
+      "target": "robert osazuwa ness",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Robert Osazuwa Ness.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from local to global a graphrag approach to query-focused summarization",
+      "target": "jonathan larson",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Jonathan Larson.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:11:47.363791+00:00"
+}

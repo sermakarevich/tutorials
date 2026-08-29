@@ -1,0 +1,458 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:49",
+  "entities": [
+    {
+      "name": "Probabilistic knowledge graph construction: Compositional and incremental approaches",
+      "type": "Paper",
+      "description": "A paper presented at CIKM '16.",
+      "properties": {
+        "title": "Probabilistic knowledge graph construction: Compositional and incremental approaches",
+        "publication_date": "2016",
+        "venue": "CIKM"
+      },
+      "normalized_name": "probabilistic knowledge graph construction compositional and incremental approaches"
+    },
+    {
+      "name": "CIKM",
+      "type": "Organization",
+      "description": "The 25th ACM International on Conference on Information and Knowledge Management.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "cikm"
+    },
+    {
+      "name": "Association for Computing Machinery",
+      "type": "Organization",
+      "description": "Publisher of the CIKM proceedings.",
+      "properties": {
+        "type": "Publisher"
+      },
+      "normalized_name": "association for computing machinery"
+    },
+    {
+      "name": "Kim, G.",
+      "type": "Person",
+      "description": "Author of the paper 'Tree of clarifications'.",
+      "properties": {},
+      "normalized_name": "kim g"
+    },
+    {
+      "name": "Kim, S.",
+      "type": "Person",
+      "description": "Author of the paper 'Tree of clarifications'.",
+      "properties": {},
+      "normalized_name": "kim s"
+    },
+    {
+      "name": "Jeon, B.",
+      "type": "Person",
+      "description": "Author of the paper 'Tree of clarifications'.",
+      "properties": {},
+      "normalized_name": "jeon b"
+    },
+    {
+      "name": "Park, J.",
+      "type": "Person",
+      "description": "Author of the paper 'Tree of clarifications'.",
+      "properties": {},
+      "normalized_name": "park j"
+    },
+    {
+      "name": "Kang, J.",
+      "type": "Person",
+      "description": "Author of the paper 'Tree of clarifications'.",
+      "properties": {},
+      "normalized_name": "kang j"
+    },
+    {
+      "name": "Tree of clarifications: Answering ambiguous questions with retrieval-augmented large language models",
+      "type": "Paper",
+      "description": "An arXiv preprint from 2023.",
+      "properties": {
+        "title": "Tree of clarifications: Answering ambiguous questions with retrieval-augmented large language models",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "tree of clarifications answering ambiguous questions with retrieval-augmented large language models"
+    },
+    {
+      "name": "Klein, G.",
+      "type": "Person",
+      "description": "Author of the paper 'Making sense of sensemaking 1'.",
+      "properties": {},
+      "normalized_name": "klein g"
+    },
+    {
+      "name": "Moon, B.",
+      "type": "Person",
+      "description": "Author of the paper 'Making sense of sensemaking 1'.",
+      "properties": {},
+      "normalized_name": "moon b"
+    },
+    {
+      "name": "Hoffman, R. R.",
+      "type": "Person",
+      "description": "Author of the paper 'Making sense of sensemaking 1'.",
+      "properties": {},
+      "normalized_name": "hoffman r r"
+    },
+    {
+      "name": "Making sense of sensemaking 1: Alternative perspectives",
+      "type": "Paper",
+      "description": "A paper published in IEEE intelligent systems in 2006.",
+      "properties": {
+        "title": "Making sense of sensemaking 1: Alternative perspectives",
+        "publication_date": "2006",
+        "venue": "IEEE intelligent systems"
+      },
+      "normalized_name": "making sense of sensemaking 1 alternative perspectives"
+    },
+    {
+      "name": "IEEE intelligent systems",
+      "type": "Organization",
+      "description": "Journal where 'Making sense of sensemaking 1' was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "ieee intelligent systems"
+    },
+    {
+      "name": "Kosinski, M.",
+      "type": "Person",
+      "description": "Author of the paper 'Evaluating large language models in theory of mind tasks'.",
+      "properties": {},
+      "normalized_name": "kosinski m"
+    },
+    {
+      "name": "Evaluating large language models in theory of mind tasks",
+      "type": "Paper",
+      "description": "A paper published in Proceedings of the National Academy of Sciences in 2024.",
+      "properties": {
+        "title": "Evaluating large language models in theory of mind tasks",
+        "publication_date": "2024",
+        "venue": "Proceedings of the National Academy of Sciences"
+      },
+      "normalized_name": "evaluating large language models in theory of mind tasks"
+    },
+    {
+      "name": "Proceedings of the National Academy of Sciences",
+      "type": "Organization",
+      "description": "Journal where Kosinski's paper was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "proceedings of the national academy of sciences"
+    },
+    {
+      "name": "Kuratov, Y.",
+      "type": "Person",
+      "description": "Author of the paper 'In search of needles in a 11m haystack'.",
+      "properties": {},
+      "normalized_name": "kuratov y"
+    },
+    {
+      "name": "Bulatov, A.",
+      "type": "Person",
+      "description": "Author of the paper 'In search of needles in a 11m haystack'.",
+      "properties": {},
+      "normalized_name": "bulatov a"
+    },
+    {
+      "name": "Anokhin, P.",
+      "type": "Person",
+      "description": "Author of the paper 'In search of needles in a 11m haystack'.",
+      "properties": {},
+      "normalized_name": "anokhin p"
+    },
+    {
+      "name": "Sorokin, D.",
+      "type": "Person",
+      "description": "Author of the paper 'In search of needles in a 11m haystack'.",
+      "properties": {},
+      "normalized_name": "sorokin d"
+    },
+    {
+      "name": "Sorokin, A.",
+      "type": "Person",
+      "description": "Author of the paper 'In search of needles in a 11m haystack'.",
+      "properties": {},
+      "normalized_name": "sorokin a"
+    },
+    {
+      "name": "Burtsev, M.",
+      "type": "Person",
+      "description": "Author of the paper 'In search of needles in a 11m haystack'.",
+      "properties": {},
+      "normalized_name": "burtsev m"
+    },
+    {
+      "name": "In search of needles in a 11m haystack: Recurrent memory finds what llms miss",
+      "type": "Paper",
+      "description": "A paper from 2024.",
+      "properties": {
+        "title": "In search of needles in a 11m haystack: Recurrent memory finds what llms miss",
+        "publication_date": "2024",
+        "venue": ""
+      },
+      "normalized_name": "in search of needles in a 11m haystack recurrent memory finds what llms miss"
+    },
+    {
+      "name": "LangChain",
+      "type": "Organization",
+      "description": "Organization associated with the Langchain graphs documentation.",
+      "properties": {
+        "type": "Company"
+      },
+      "normalized_name": "langchain"
+    },
+    {
+      "name": "Langchain graphs",
+      "type": "Method",
+      "description": "A system or framework for graph-based retrieval augmented generation.",
+      "properties": {
+        "category": "GraphRAG"
+      },
+      "normalized_name": "langchain graphs"
+    },
+    {
+      "name": "Laskar, M. T. R.",
+      "type": "Person",
+      "description": "Author of the paper 'Query focused abstractive summarization'.",
+      "properties": {},
+      "normalized_name": "laskar m t r"
+    },
+    {
+      "name": "Hoque, E.",
+      "type": "Person",
+      "description": "Author of the paper 'Query focused abstractive summarization'.",
+      "properties": {},
+      "normalized_name": "hoque e"
+    },
+    {
+      "name": "Huang, J.",
+      "type": "Person",
+      "description": "Author of the paper 'Query focused abstractive summarization'.",
+      "properties": {},
+      "normalized_name": "huang j"
+    },
+    {
+      "name": "Query focused abstractive summarization via incorporating query relevance and transfer learning with transformer models",
+      "type": "Paper",
+      "description": "A paper presented at Canadian AI 2020.",
+      "properties": {
+        "title": "Query focused abstractive summarization via incorporating query relevance and transfer learning with transformer models",
+        "publication_date": "2020",
+        "venue": "Canadian AI"
+      },
+      "normalized_name": "query focused abstractive summarization via incorporating query relevance and transfer learning with transformer models"
+    },
+    {
+      "name": "Canadian AI",
+      "type": "Organization",
+      "description": "The 33rd Canadian Conference on Artificial Intelligence.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "canadian ai"
+    },
+    {
+      "name": "Springer",
+      "type": "Organization",
+      "description": "Publisher of the Canadian AI proceedings.",
+      "properties": {
+        "type": "Publisher"
+      },
+      "normalized_name": "springer"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "probabilistic knowledge graph construction compositional and incremental approaches",
+      "target": "cikm",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in the proceedings of CIKM.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "tree of clarifications answering ambiguous questions with retrieval-augmented large language models",
+      "target": "kim g",
+      "type": "AUTHORED_BY",
+      "description": "Kim, G. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "tree of clarifications answering ambiguous questions with retrieval-augmented large language models",
+      "target": "kim s",
+      "type": "AUTHORED_BY",
+      "description": "Kim, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "tree of clarifications answering ambiguous questions with retrieval-augmented large language models",
+      "target": "jeon b",
+      "type": "AUTHORED_BY",
+      "description": "Jeon, B. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "tree of clarifications answering ambiguous questions with retrieval-augmented large language models",
+      "target": "park j",
+      "type": "AUTHORED_BY",
+      "description": "Park, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "tree of clarifications answering ambiguous questions with retrieval-augmented large language models",
+      "target": "kang j",
+      "type": "AUTHORED_BY",
+      "description": "Kang, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "making sense of sensemaking 1 alternative perspectives",
+      "target": "klein g",
+      "type": "AUTHORED_BY",
+      "description": "Klein, G. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "making sense of sensemaking 1 alternative perspectives",
+      "target": "moon b",
+      "type": "AUTHORED_BY",
+      "description": "Moon, B. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "making sense of sensemaking 1 alternative perspectives",
+      "target": "hoffman r r",
+      "type": "AUTHORED_BY",
+      "description": "Hoffman, R. R. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "making sense of sensemaking 1 alternative perspectives",
+      "target": "ieee intelligent systems",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in IEEE intelligent systems.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "evaluating large language models in theory of mind tasks",
+      "target": "kosinski m",
+      "type": "AUTHORED_BY",
+      "description": "Kosinski, M. is the author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "evaluating large language models in theory of mind tasks",
+      "target": "proceedings of the national academy of sciences",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in Proceedings of the National Academy of Sciences.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "in search of needles in a 11m haystack recurrent memory finds what llms miss",
+      "target": "kuratov y",
+      "type": "AUTHORED_BY",
+      "description": "Kuratov, Y. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "in search of needles in a 11m haystack recurrent memory finds what llms miss",
+      "target": "bulatov a",
+      "type": "AUTHORED_BY",
+      "description": "Bulatov, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "in search of needles in a 11m haystack recurrent memory finds what llms miss",
+      "target": "anokhin p",
+      "type": "AUTHORED_BY",
+      "description": "Anokhin, P. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "in search of needles in a 11m haystack recurrent memory finds what llms miss",
+      "target": "sorokin d",
+      "type": "AUTHORED_BY",
+      "description": "Sorokin, D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "in search of needles in a 11m haystack recurrent memory finds what llms miss",
+      "target": "sorokin a",
+      "type": "AUTHORED_BY",
+      "description": "Sorokin, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "in search of needles in a 11m haystack recurrent memory finds what llms miss",
+      "target": "burtsev m",
+      "type": "AUTHORED_BY",
+      "description": "Burtsev, M. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "langchain graphs",
+      "target": "langchain",
+      "type": "PROPOSED_BY",
+      "description": "Langchain graphs is a product/documentation from LangChain.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "query focused abstractive summarization via incorporating query relevance and transfer learning with transformer models",
+      "target": "laskar m t r",
+      "type": "AUTHORED_BY",
+      "description": "Laskar, M. T. R. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "query focused abstractive summarization via incorporating query relevance and transfer learning with transformer models",
+      "target": "hoque e",
+      "type": "AUTHORED_BY",
+      "description": "Hoque, E. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "query focused abstractive summarization via incorporating query relevance and transfer learning with transformer models",
+      "target": "huang j",
+      "type": "AUTHORED_BY",
+      "description": "Huang, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "query focused abstractive summarization via incorporating query relevance and transfer learning with transformer models",
+      "target": "canadian ai",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in the proceedings of Canadian AI.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:28:22.462507+00:00"
+}

@@ -1,0 +1,71 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:61",
+  "entities": [
+    {
+      "name": "Graph RAG",
+      "type": "Method",
+      "description": "A retrieval-augmented generation approach that utilizes graph structures, evaluated in the context of answering questions about public figures in entertainment.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "graph rag"
+    },
+    {
+      "name": "Naïve RAG",
+      "type": "Method",
+      "description": "A baseline retrieval-augmented generation approach compared against Graph RAG in the passage.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "naïve rag"
+    },
+    {
+      "name": "Entertainment",
+      "type": "Domain",
+      "description": "The field of application including film, television, music, sports, and digital media, which is the subject of the query and the knowledge base.",
+      "properties": {
+        "level": "Industry",
+        "examples": "film, television, music, sports, digital media"
+      },
+      "normalized_name": "entertainment"
+    },
+    {
+      "name": "Question Which public figures are repeatedly mentioned across various entertainment articles?",
+      "type": "Task",
+      "description": "The specific query or problem addressed by the RAG systems in the passage.",
+      "properties": {
+        "type": "Question Answering"
+      },
+      "normalized_name": "question which public figures are repeatedly mentioned across various entertainment articles"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graph rag",
+      "target": "question which public figures are repeatedly mentioned across various entertainment articles",
+      "type": "SOLVES_TASK",
+      "description": "Graph RAG is used to answer the specific question about public figures in entertainment.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "naïve rag",
+      "target": "question which public figures are repeatedly mentioned across various entertainment articles",
+      "type": "SOLVES_TASK",
+      "description": "Naïve RAG is used to answer the specific question about public figures in entertainment.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "question which public figures are repeatedly mentioned across various entertainment articles",
+      "target": "entertainment",
+      "type": "BELONGS_TO_DOMAIN",
+      "description": "The task is situated within the Entertainment domain.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:35:26.080748+00:00"
+}

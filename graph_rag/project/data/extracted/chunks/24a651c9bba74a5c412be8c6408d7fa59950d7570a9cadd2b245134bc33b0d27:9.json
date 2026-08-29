@@ -1,0 +1,118 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:9",
+  "entities": [
+    {
+      "name": "Wang et al., 2023b",
+      "type": "Paper",
+      "description": "A paper by Wang et al. (2023b) that uses knowledge graphs to enhance retrieval via LLM-based agents.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "wang et al 2023b"
+    },
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A method that leverages graph modularity and community detection to create global summaries, contrasting with other retrieval approaches.",
+      "properties": {
+        "category": "Retrieval/Generation",
+        "technique": "Community Detection"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "Louvain",
+      "type": "Method",
+      "description": "A community detection algorithm (Blondel et al. 2008) used to partition graphs into modular communities.",
+      "properties": {
+        "category": "Graph Partitioning",
+        "year": "2008"
+      },
+      "normalized_name": "louvain"
+    },
+    {
+      "name": "Leiden",
+      "type": "Method",
+      "description": "A community detection algorithm (Traag et al. 2019) used to partition graphs into modular communities.",
+      "properties": {
+        "category": "Graph Partitioning",
+        "year": "2019"
+      },
+      "normalized_name": "leiden"
+    },
+    {
+      "name": "Newman, 2006",
+      "type": "Paper",
+      "description": "A reference by Newman (2006) regarding the inherent modularity of graphs.",
+      "properties": {
+        "publication_date": "2006"
+      },
+      "normalized_name": "newman 2006"
+    },
+    {
+      "name": "Blondel et al. 2008",
+      "type": "Paper",
+      "description": "The publication associated with the Louvain algorithm.",
+      "properties": {
+        "publication_date": "2008"
+      },
+      "normalized_name": "blondel et al 2008"
+    },
+    {
+      "name": "Traag et al. 2019",
+      "type": "Paper",
+      "description": "The publication associated with the Leiden algorithm.",
+      "properties": {
+        "publication_date": "2019"
+      },
+      "normalized_name": "traag et al 2019"
+    },
+    {
+      "name": "Community Hierarchy Summarization",
+      "type": "Technique",
+      "description": "A technique where an LLM recursively creates increasingly global summaries spanning a community hierarchy.",
+      "properties": {
+        "stage": "Generation/Summarization",
+        "mechanism": "Recursive LLM Summarization"
+      },
+      "normalized_name": "community hierarchy summarization"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "community hierarchy summarization",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "GraphRAG uses the technique of recursively creating global summaries via LLMs over community hierarchies.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "louvain",
+      "target": "blondel et al 2008",
+      "type": "PROPOSED_BY",
+      "description": "The Louvain algorithm is associated with the paper by Blondel et al. (2008).",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "leiden",
+      "target": "traag et al 2019",
+      "type": "PROPOSED_BY",
+      "description": "The Leiden algorithm is associated with the paper by Traag et al. (2019).",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "wang et al 2023b",
+      "target": "graphrag",
+      "type": "CITES",
+      "description": "The passage contrasts GraphRAG with the approach described in Wang et al., 2023b, implying a citation or comparison.",
+      "weight": 0.7,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:14:53.592472+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:12",
+  "entities": [
+    {
+      "name": "Graph RAG",
+      "type": "Method",
+      "description": "A pipeline using an LLM-derived graph index of source document text, involving community detection and summarization.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation",
+        "technique": "Graph Indexing"
+      },
+      "normalized_name": "graph rag"
+    },
+    {
+      "name": "Leiden",
+      "type": "Technique",
+      "description": "A community detection algorithm used to partition the graph index into groups.",
+      "properties": {
+        "stage": "Indexing",
+        "mechanism": "Community Detection"
+      },
+      "normalized_name": "leiden"
+    },
+    {
+      "name": "Wang et al., 2023a",
+      "type": "Paper",
+      "description": "Prior work showing LLMs are good evaluators of natural language generation.",
+      "properties": {},
+      "normalized_name": "wang et al 2023a"
+    },
+    {
+      "name": "Zheng et al., 2024",
+      "type": "Paper",
+      "description": "Prior work showing LLMs are good evaluators of natural language generation.",
+      "properties": {},
+      "normalized_name": "zheng et al 2024"
+    },
+    {
+      "name": "Traag et al., 2019",
+      "type": "Paper",
+      "description": "The source paper for the Leiden community detection algorithm.",
+      "properties": {},
+      "normalized_name": "traag et al 2019"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graph rag",
+      "target": "leiden",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Graph RAG uses Leiden for community detection to partition the graph index.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "leiden",
+      "target": "graph rag",
+      "type": "PART_OF_PIPELINE",
+      "description": "Leiden is a component of the Graph RAG pipeline for partitioning the graph index.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:15:37.175014+00:00"
+}

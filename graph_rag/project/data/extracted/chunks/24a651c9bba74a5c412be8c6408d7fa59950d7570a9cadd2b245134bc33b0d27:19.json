@@ -1,0 +1,106 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:19",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A system that extracts entities and relationships to build a knowledge graph, noted for its resilience to duplicate entities.",
+      "properties": {
+        "category": "Knowledge Graph Construction"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "Knowledge Graph",
+      "type": "KnowledgeGraph",
+      "description": "The structured output of the extraction process, consisting of nodes (entities) and edges (relationships) with aggregated descriptions and weights.",
+      "properties": {
+        "structure_type": "Graph"
+      },
+      "normalized_name": "knowledge graph"
+    },
+    {
+      "name": "Entity Matching",
+      "type": "Task",
+      "description": "The task of reconciling different extracted names for the same entity.",
+      "properties": {
+        "type": "Data Integration"
+      },
+      "normalized_name": "entity matching"
+    },
+    {
+      "name": "Exact String Matching",
+      "type": "Technique",
+      "description": "A method used in this manuscript for entity matching to reconcile extracted names.",
+      "properties": {
+        "stage": "Entity Resolution",
+        "mechanism": "String Comparison"
+      },
+      "normalized_name": "exact string matching"
+    },
+    {
+      "name": "Barlaug and Gulla, 2021",
+      "type": "Paper",
+      "description": "A cited reference regarding entity matching.",
+      "properties": {
+        "publication_date": "2021"
+      },
+      "normalized_name": "barlaug and gulla 2021"
+    },
+    {
+      "name": "Christen and Christen, 2012",
+      "type": "Paper",
+      "description": "A cited reference regarding entity matching.",
+      "properties": {
+        "publication_date": "2012"
+      },
+      "normalized_name": "christen and christen 2012"
+    },
+    {
+      "name": "Elmagarmid et al., 2006",
+      "type": "Paper",
+      "description": "A cited reference regarding entity matching.",
+      "properties": {
+        "publication_date": "2006"
+      },
+      "normalized_name": "elmagarmid et al 2006"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "knowledge graph",
+      "type": "USES_KNOWLEDGE_GRAPH",
+      "description": "GraphRAG constructs and utilizes a Knowledge Graph as its core data structure.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "entity matching",
+      "type": "SOLVES_TASK",
+      "description": "GraphRAG addresses the task of entity matching during its extraction process.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "exact string matching",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "The manuscript states that the analysis uses exact string matching for entity matching within the GraphRAG context.",
+      "weight": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "exact string matching",
+      "target": "graphrag",
+      "type": "PART_OF_PIPELINE",
+      "description": "Exact string matching is a component of the GraphRAG entity resolution workflow.",
+      "weight": 0.9,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:17:09.442653+00:00"
+}

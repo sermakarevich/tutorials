@@ -1,0 +1,61 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:18",
+  "entities": [
+    {
+      "name": "Entity and Relationship Extraction",
+      "type": "Technique",
+      "description": "A procedural step where an LLM extracts entities, relationships, and descriptions from text chunks.",
+      "properties": {
+        "stage": "Extraction",
+        "mechanism": "LLM prompting"
+      },
+      "normalized_name": "entity and relationship extraction"
+    },
+    {
+      "name": "In-context learning",
+      "type": "Technique",
+      "description": "A method of tailoring prompts using few-shot exemplars to improve domain-specific extraction.",
+      "properties": {
+        "stage": "Prompting",
+        "mechanism": "Few-shot exemplars"
+      },
+      "normalized_name": "in-context learning"
+    },
+    {
+      "name": "Brown et al., 2020",
+      "type": "Paper",
+      "description": "A cited reference associated with in-context learning.",
+      "properties": {
+        "publication_date": "2020"
+      },
+      "normalized_name": "brown et al 2020"
+    },
+    {
+      "name": "NeoChip",
+      "type": "Other",
+      "description": "An example entity extracted from a text chunk, described as a publicly traded company specializing in low-power processors.",
+      "properties": {},
+      "normalized_name": "neochip"
+    },
+    {
+      "name": "Quantum Systems",
+      "type": "Other",
+      "description": "An example entity extracted from a text chunk, described as a firm that previously owned NeoChip.",
+      "properties": {},
+      "normalized_name": "quantum systems"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "entity and relationship extraction",
+      "target": "in-context learning",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "The extraction process can be tailored using in-context learning with few-shot exemplars.",
+      "weight": 0.8,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:16:55.223705+00:00"
+}

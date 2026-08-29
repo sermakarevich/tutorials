@@ -1,0 +1,79 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:42",
+  "entities": [
+    {
+      "name": "SelfCheckGPT",
+      "type": "Method",
+      "description": "An approach mentioned for comparing fabrication rates.",
+      "properties": {
+        "category": "Evaluation"
+      },
+      "normalized_name": "selfcheckgpt"
+    },
+    {
+      "name": "Manakul et al., 2023",
+      "type": "Paper",
+      "description": "The publication associated with the SelfCheckGPT method.",
+      "properties": {
+        "title": "Manakul et al., 2023"
+      },
+      "normalized_name": "manakul et al 2023"
+    },
+    {
+      "name": "News Articles",
+      "type": "Dataset",
+      "description": "A dataset type used in the evaluation, containing approximately 1 million tokens.",
+      "properties": {
+        "task_type": "Sensemaking"
+      },
+      "normalized_name": "news articles"
+    },
+    {
+      "name": "Podcast Transcripts",
+      "type": "Dataset",
+      "description": "A dataset type used in the evaluation, containing approximately 1 million tokens.",
+      "properties": {
+        "task_type": "Sensemaking"
+      },
+      "normalized_name": "podcast transcripts"
+    },
+    {
+      "name": "Sensemaking",
+      "type": "Task",
+      "description": "The specific type of questions the evaluation focuses on.",
+      "properties": {
+        "type": "Question Answering"
+      },
+      "normalized_name": "sensemaking"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "selfcheckgpt",
+      "target": "manakul et al 2023",
+      "type": "PROPOSED_BY",
+      "description": "SelfCheckGPT is attributed to Manakul et al., 2023.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "news articles",
+      "target": "sensemaking",
+      "type": "BELONGS_TO_DOMAIN",
+      "description": "News Articles are used for sensemaking tasks.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "podcast transcripts",
+      "target": "sensemaking",
+      "type": "BELONGS_TO_DOMAIN",
+      "description": "Podcast Transcripts are used for sensemaking tasks.",
+      "weight": 0.8,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:23:20.975736+00:00"
+}

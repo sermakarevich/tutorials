@@ -1,0 +1,293 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:52",
+  "entities": [
+    {
+      "name": "AFaCTA",
+      "type": "Method",
+      "description": "A method for assisting the annotation of factual claim detection with reliable LLM annotators.",
+      "properties": {
+        "category": "Annotation",
+        "technique": "LLM"
+      },
+      "normalized_name": "afacta"
+    },
+    {
+      "name": "L.-W. Ku",
+      "type": "Person",
+      "description": "Editor of the proceedings where AFaCTA was published.",
+      "properties": {
+        "role": "Editor"
+      },
+      "normalized_name": "l -w ku"
+    },
+    {
+      "name": "A. Martins",
+      "type": "Person",
+      "description": "Editor of the proceedings where AFaCTA was published.",
+      "properties": {
+        "role": "Editor"
+      },
+      "normalized_name": "martins"
+    },
+    {
+      "name": "V. Srikumar",
+      "type": "Person",
+      "description": "Editor of the proceedings where AFaCTA was published.",
+      "properties": {
+        "role": "Editor"
+      },
+      "normalized_name": "v srikumar"
+    },
+    {
+      "name": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "type": "Paper",
+      "description": "The publication venue containing the AFaCTA paper.",
+      "properties": {
+        "venue": "ACL 2024"
+      },
+      "normalized_name": "proceedings of the 62nd annual meeting of the association for computational linguistics volume 1 long papers"
+    },
+    {
+      "name": "Association for Computational Linguistics",
+      "type": "Organization",
+      "description": "The organization that published the proceedings.",
+      "properties": {
+        "type": "Academic Society"
+      },
+      "normalized_name": "association for computational linguistics"
+    },
+    {
+      "name": "OpenAI",
+      "type": "Organization",
+      "description": "Organization associated with the GPT-4 language model.",
+      "properties": {
+        "type": "Company"
+      },
+      "normalized_name": "openai"
+    },
+    {
+      "name": "GPT-4",
+      "type": "Method",
+      "description": "A language model developed by OpenAI.",
+      "properties": {
+        "category": "LLM",
+        "year": "2023"
+      },
+      "normalized_name": "gpt-4"
+    },
+    {
+      "name": "V. Padmakumar",
+      "type": "Person",
+      "description": "Author of the paper 'Does writing with language models reduce content diversity?'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "v padmakumar"
+    },
+    {
+      "name": "H. He",
+      "type": "Person",
+      "description": "Author of the paper 'Does writing with language models reduce content diversity?'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "h he"
+    },
+    {
+      "name": "Does writing with language models reduce content diversity?",
+      "type": "Paper",
+      "description": "A paper published in ICLR in 2024.",
+      "properties": {
+        "title": "Does writing with language models reduce content diversity?",
+        "publication_date": "2024"
+      },
+      "normalized_name": "does writing with language models reduce content diversity"
+    },
+    {
+      "name": "ICLR",
+      "type": "Organization",
+      "description": "Conference where the paper by Padmakumar and He was published.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "iclr"
+    },
+    {
+      "name": "F. Pedregosa",
+      "type": "Person",
+      "description": "Author of the Scikit-learn paper.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "f pedregosa"
+    },
+    {
+      "name": "Scikit-learn: Machine learning in python",
+      "type": "Paper",
+      "description": "A paper describing the Scikit-learn library, published in JMLR in 2011.",
+      "properties": {
+        "title": "Scikit-learn: Machine learning in python",
+        "publication_date": "2011"
+      },
+      "normalized_name": "scikit-learn machine learning in python"
+    },
+    {
+      "name": "Journal of Machine Learning Research",
+      "type": "Organization",
+      "description": "Journal where the Scikit-learn paper was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "journal of machine learning research"
+    },
+    {
+      "name": "O. Ram",
+      "type": "Person",
+      "description": "Author of the paper 'In-context retrieval-augmented language models'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "o ram"
+    },
+    {
+      "name": "In-context retrieval-augmented language models",
+      "type": "Paper",
+      "description": "A paper published in TACL in 2023.",
+      "properties": {
+        "title": "In-context retrieval-augmented language models",
+        "publication_date": "2023"
+      },
+      "normalized_name": "in-context retrieval-augmented language models"
+    },
+    {
+      "name": "Transactions of the Association for Computational Linguistics",
+      "type": "Organization",
+      "description": "Journal where the paper by Ram et al. was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "transactions of the association for computational linguistics"
+    },
+    {
+      "name": "P. Ranade",
+      "type": "Person",
+      "description": "Author of the paper 'Fabula: Intelligence report generation using retrieval-augmented narrative construction'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "p ranade"
+    },
+    {
+      "name": "A. Joshi",
+      "type": "Person",
+      "description": "Author of the paper 'Fabula: Intelligence report generation using retrieval-augmented narrative construction'.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "joshi"
+    },
+    {
+      "name": "Fabula: Intelligence report generation using retrieval-augmented narrative construction",
+      "type": "Paper",
+      "description": "An arXiv preprint from 2023.",
+      "properties": {
+        "title": "Fabula: Intelligence report generation using retrieval-augmented narrative construction",
+        "publication_date": "2023"
+      },
+      "normalized_name": "fabula intelligence report generation using retrieval-augmented narrative construction"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "proceedings of the 62nd annual meeting of the association for computational linguistics volume 1 long papers",
+      "target": "association for computational linguistics",
+      "type": "PUBLISHED_IN",
+      "description": "The proceedings are published by the Association for Computational Linguistics.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4",
+      "target": "openai",
+      "type": "PROPOSED_BY",
+      "description": "GPT-4 is developed by OpenAI.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "does writing with language models reduce content diversity",
+      "target": "v padmakumar",
+      "type": "AUTHORED_BY",
+      "description": "V. Padmakumar is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "does writing with language models reduce content diversity",
+      "target": "h he",
+      "type": "AUTHORED_BY",
+      "description": "H. He is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "does writing with language models reduce content diversity",
+      "target": "iclr",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in ICLR.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "scikit-learn machine learning in python",
+      "target": "f pedregosa",
+      "type": "AUTHORED_BY",
+      "description": "F. Pedregosa is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "scikit-learn machine learning in python",
+      "target": "journal of machine learning research",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in the Journal of Machine Learning Research.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "in-context retrieval-augmented language models",
+      "target": "o ram",
+      "type": "AUTHORED_BY",
+      "description": "O. Ram is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "in-context retrieval-augmented language models",
+      "target": "transactions of the association for computational linguistics",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in Transactions of the Association for Computational Linguistics.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "fabula intelligence report generation using retrieval-augmented narrative construction",
+      "target": "p ranade",
+      "type": "AUTHORED_BY",
+      "description": "P. Ranade is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "fabula intelligence report generation using retrieval-augmented narrative construction",
+      "target": "joshi",
+      "type": "AUTHORED_BY",
+      "description": "A. Joshi is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:30:44.375785+00:00"
+}

@@ -1,0 +1,196 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:33",
+  "entities": [
+    {
+      "name": "Podcast dataset",
+      "type": "Dataset",
+      "description": "A dataset used in Experiment 1, resulting in a graph with 8,564 nodes and 20,691 edges.",
+      "properties": {
+        "size": "8,564 nodes, 20,691 edges"
+      },
+      "normalized_name": "podcast dataset"
+    },
+    {
+      "name": "News dataset",
+      "type": "Dataset",
+      "description": "A dataset used in Experiment 1, resulting in a graph with 15,754 nodes and 19,520 edges.",
+      "properties": {
+        "size": "15,754 nodes, 19,520 edges"
+      },
+      "normalized_name": "news dataset"
+    },
+    {
+      "name": "Global approaches",
+      "type": "Method",
+      "description": "A category of GraphRAG methods that outperformed vector RAG in comprehensiveness and diversity.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "global approaches"
+    },
+    {
+      "name": "vector RAG (SS)",
+      "type": "Method",
+      "description": "Conventional vector-based Retrieval-Augmented Generation used as a baseline.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "vector rag ss"
+    },
+    {
+      "name": "GraphRAG approaches",
+      "type": "Method",
+      "description": "Methods utilizing graph structures for RAG, compared against source text summarization.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "graphrag approaches"
+    },
+    {
+      "name": "source text summarization (TS)",
+      "type": "Method",
+      "description": "A baseline method involving summarization of source text, used for comparison with GraphRAG approaches.",
+      "properties": {
+        "category": "Generation"
+      },
+      "normalized_name": "source text summarization ts"
+    },
+    {
+      "name": "comprehensiveness",
+      "type": "Metric",
+      "description": "A criterion used to evaluate the performance of RAG methods.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "comprehensiveness"
+    },
+    {
+      "name": "diversity",
+      "type": "Metric",
+      "description": "A criterion used to evaluate the performance of RAG methods.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "diversity"
+    },
+    {
+      "name": "directness",
+      "type": "Metric",
+      "description": "A validity test metric confirming that vector RAG produces the most direct responses.",
+      "properties": {
+        "category": "Validity"
+      },
+      "normalized_name": "directness"
+    },
+    {
+      "name": "Empowerment",
+      "type": "Metric",
+      "description": "A measure used to compare global approaches, vector RAG, and GraphRAG approaches.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "empowerment"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "global approaches",
+      "target": "podcast dataset",
+      "type": "EVALUATED_ON",
+      "description": "Global approaches were evaluated on the Podcast dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "global approaches",
+      "target": "news dataset",
+      "type": "EVALUATED_ON",
+      "description": "Global approaches were evaluated on the News dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "vector rag ss",
+      "target": "podcast dataset",
+      "type": "EVALUATED_ON",
+      "description": "Vector RAG (SS) was evaluated on the Podcast dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "vector rag ss",
+      "target": "news dataset",
+      "type": "EVALUATED_ON",
+      "description": "Vector RAG (SS) was evaluated on the News dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "global approaches",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "The performance of global approaches is measured by comprehensiveness.",
+      "weight": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "global approaches",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "The performance of global approaches is measured by diversity.",
+      "weight": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "vector rag ss",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "The performance of vector RAG (SS) is measured by comprehensiveness.",
+      "weight": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "vector rag ss",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "The performance of vector RAG (SS) is measured by diversity.",
+      "weight": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "vector rag ss",
+      "target": "directness",
+      "type": "MEASURED_BY",
+      "description": "Vector RAG (SS) is measured by directness, where it produces the most direct responses.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "global approaches",
+      "target": "empowerment",
+      "type": "MEASURED_BY",
+      "description": "Global approaches are compared using the Empowerment metric.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "vector rag ss",
+      "target": "empowerment",
+      "type": "MEASURED_BY",
+      "description": "Vector RAG (SS) is compared using the Empowerment metric.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "graphrag approaches",
+      "target": "empowerment",
+      "type": "MEASURED_BY",
+      "description": "GraphRAG approaches are compared using the Empowerment metric.",
+      "weight": 0.8,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:20:48.520377+00:00"
+}

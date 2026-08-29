@@ -1,0 +1,48 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:75",
+  "entities": [
+    {
+      "name": "Wilcoxon signed-rank tests",
+      "type": "Technique",
+      "description": "A non-parametric statistical test used to assess performance differences between pairs of conditions.",
+      "properties": {
+        "stage": "Evaluation",
+        "mechanism": "Non-parametric hypothesis testing"
+      },
+      "normalized_name": "wilcoxon signed-rank tests"
+    },
+    {
+      "name": "Holm-Bonferroni correction",
+      "type": "Technique",
+      "description": "A statistical method applied to account for multiple pairwise comparisons.",
+      "properties": {
+        "stage": "Evaluation",
+        "mechanism": "Multiple comparison correction"
+      },
+      "normalized_name": "holm-bonferroni correction"
+    },
+    {
+      "name": "Shapiro-Wilk tests",
+      "type": "Technique",
+      "description": "A statistical test used to determine if data follows a normal distribution.",
+      "properties": {
+        "stage": "Evaluation",
+        "mechanism": "Normality testing"
+      },
+      "normalized_name": "shapiro-wilk tests"
+    },
+    {
+      "name": "p-values",
+      "type": "Metric",
+      "description": "A quantitative measure indicating the statistical significance of differences between conditions.",
+      "properties": {
+        "category": "Statistical Significance"
+      },
+      "normalized_name": "p-values"
+    }
+  ],
+  "relationships": [],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:37:40.822963+00:00"
+}

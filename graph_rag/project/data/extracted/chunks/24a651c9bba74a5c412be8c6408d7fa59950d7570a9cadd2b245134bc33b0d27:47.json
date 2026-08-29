@@ -1,0 +1,691 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:47",
+  "entities": [
+    {
+      "name": "Ragas",
+      "type": "Method",
+      "description": "A method for automated evaluation of retrieval augmented generation.",
+      "properties": {
+        "category": "Evaluation",
+        "year": "2023"
+      },
+      "normalized_name": "ragas"
+    },
+    {
+      "name": "Ragas: Automated evaluation of retrieval augmented generation",
+      "type": "Paper",
+      "description": "An arXiv preprint describing the Ragas method.",
+      "properties": {
+        "title": "Ragas: Automated evaluation of retrieval augmented generation",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "ragas automated evaluation of retrieval augmented generation"
+    },
+    {
+      "name": "Web-scale information extraction in knowitall: (preliminary results)",
+      "type": "Paper",
+      "description": "A paper on web-scale information extraction published in WWW '04.",
+      "properties": {
+        "title": "Web-scale information extraction in knowitall: (preliminary results)",
+        "publication_date": "2004",
+        "venue": "Proceedings of the 13th International Conference on World Wide Web"
+      },
+      "normalized_name": "web-scale information extraction in knowitall preliminary results"
+    },
+    {
+      "name": "O. Etzioni",
+      "type": "Person",
+      "description": "Author of the paper on web-scale information extraction in knowitall.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "o etzioni"
+    },
+    {
+      "name": "M. Cafarella",
+      "type": "Person",
+      "description": "Author of the paper on web-scale information extraction in knowitall.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "m cafarella"
+    },
+    {
+      "name": "D. Downey",
+      "type": "Person",
+      "description": "Author of the paper on web-scale information extraction in knowitall.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "d downey"
+    },
+    {
+      "name": "S. Kok",
+      "type": "Person",
+      "description": "Author of the paper on web-scale information extraction in knowitall.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "s kok"
+    },
+    {
+      "name": "A.-M. Popescu",
+      "type": "Person",
+      "description": "Author of the paper on web-scale information extraction in knowitall.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "-m popescu"
+    },
+    {
+      "name": "T. Shaked",
+      "type": "Person",
+      "description": "Author of the paper on web-scale information extraction in knowitall.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "t shaked"
+    },
+    {
+      "name": "S. Soderland",
+      "type": "Person",
+      "description": "Author of the paper on web-scale information extraction in knowitall.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "s soderland"
+    },
+    {
+      "name": "D. S. Weld",
+      "type": "Person",
+      "description": "Author of the paper on web-scale information extraction in knowitall.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "d s weld"
+    },
+    {
+      "name": "A. Yates",
+      "type": "Person",
+      "description": "Author of the paper on web-scale information extraction in knowitall.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "yates"
+    },
+    {
+      "name": "Proceedings of the 13th International Conference on World Wide Web",
+      "type": "Organization",
+      "description": "The conference venue where the knowitall paper was published.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "proceedings of the 13th international conference on world wide web"
+    },
+    {
+      "name": "Association for Computing Machinery",
+      "type": "Organization",
+      "description": "The publisher of the proceedings for the 13th International Conference on World Wide Web.",
+      "properties": {
+        "type": "Publisher"
+      },
+      "normalized_name": "association for computing machinery"
+    },
+    {
+      "name": "Retrieval-generation synergy augmented large language models",
+      "type": "Paper",
+      "description": "An arXiv preprint on retrieval-generation synergy.",
+      "properties": {
+        "title": "Retrieval-generation synergy augmented large language models",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "retrieval-generation synergy augmented large language models"
+    },
+    {
+      "name": "Z. Feng",
+      "type": "Person",
+      "description": "Author of the paper on retrieval-generation synergy.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "z feng"
+    },
+    {
+      "name": "X. Feng",
+      "type": "Person",
+      "description": "Author of the paper on retrieval-generation synergy.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "x feng"
+    },
+    {
+      "name": "D. Zhao",
+      "type": "Person",
+      "description": "Author of the paper on retrieval-generation synergy.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "d zhao"
+    },
+    {
+      "name": "M. Yang",
+      "type": "Person",
+      "description": "Author of the paper on retrieval-generation synergy.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "m yang"
+    },
+    {
+      "name": "B. Qin",
+      "type": "Person",
+      "description": "Author of the paper on retrieval-generation synergy.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "b qin"
+    },
+    {
+      "name": "Community detection in graphs",
+      "type": "Paper",
+      "description": "A paper on community detection in graphs published in Physics reports.",
+      "properties": {
+        "title": "Community detection in graphs",
+        "publication_date": "2010",
+        "venue": "Physics reports"
+      },
+      "normalized_name": "community detection in graphs"
+    },
+    {
+      "name": "S. Fortunato",
+      "type": "Person",
+      "description": "Author of the paper on community detection in graphs.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "s fortunato"
+    },
+    {
+      "name": "Physics reports",
+      "type": "Organization",
+      "description": "The journal where the paper on community detection in graphs was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "physics reports"
+    },
+    {
+      "name": "Retrievalaugmented generation for large language models: A survey",
+      "type": "Paper",
+      "description": "A survey paper on retrieval-augmented generation for large language models.",
+      "properties": {
+        "title": "Retrievalaugmented generation for large language models: A survey",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "retrievalaugmented generation for large language models a survey"
+    },
+    {
+      "name": "Y. Gao",
+      "type": "Person",
+      "description": "Author of the survey on retrieval-augmented generation.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "y gao"
+    },
+    {
+      "name": "Y. Xiong",
+      "type": "Person",
+      "description": "Author of the survey on retrieval-augmented generation.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "y xiong"
+    },
+    {
+      "name": "X. Gao",
+      "type": "Person",
+      "description": "Author of the survey on retrieval-augmented generation.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "x gao"
+    },
+    {
+      "name": "K. Jia",
+      "type": "Person",
+      "description": "Author of the survey on retrieval-augmented generation.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "k jia"
+    },
+    {
+      "name": "J. Pan",
+      "type": "Person",
+      "description": "Author of the survey on retrieval-augmented generation.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "j pan"
+    },
+    {
+      "name": "Y. Bi",
+      "type": "Person",
+      "description": "Author of the survey on retrieval-augmented generation.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "y bi"
+    },
+    {
+      "name": "Y. Dai",
+      "type": "Person",
+      "description": "Author of the survey on retrieval-augmented generation.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "y dai"
+    },
+    {
+      "name": "J. Sun",
+      "type": "Person",
+      "description": "Author of the survey on retrieval-augmented generation.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "j sun"
+    },
+    {
+      "name": "H. Wang",
+      "type": "Person",
+      "description": "Author of the survey on retrieval-augmented generation.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "h wang"
+    },
+    {
+      "name": "G-retriever",
+      "type": "Method",
+      "description": "A method for retrieval-augmented generation for textual graph understanding and question answering.",
+      "properties": {
+        "category": "Retrieval",
+        "year": "2024"
+      },
+      "normalized_name": "g-retriever"
+    },
+    {
+      "name": "G-retriever: Retrieval-augmented generation for textual graph understanding and question answering",
+      "type": "Paper",
+      "description": "An arXiv preprint describing the G-retriever method.",
+      "properties": {
+        "title": "G-retriever: Retrieval-augmented generation for textual graph understanding and question answering",
+        "publication_date": "2024",
+        "venue": "arXiv"
+      },
+      "normalized_name": "g-retriever retrieval-augmented generation for textual graph understanding and question answering"
+    },
+    {
+      "name": "X. He",
+      "type": "Person",
+      "description": "Author of the G-retriever paper.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "x he"
+    },
+    {
+      "name": "Y. Tian",
+      "type": "Person",
+      "description": "Author of the G-retriever paper.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "y tian"
+    },
+    {
+      "name": "Y. Sun",
+      "type": "Person",
+      "description": "Author of the G-retriever paper.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "y sun"
+    },
+    {
+      "name": "N. V. Chawla",
+      "type": "Person",
+      "description": "Author of the G-retriever paper.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "n v chawla"
+    },
+    {
+      "name": "T. Laurent",
+      "type": "Person",
+      "description": "Author of the G-retriever paper.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "t laurent"
+    },
+    {
+      "name": "Y. LeCun",
+      "type": "Person",
+      "description": "Author of the G-retriever paper.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "y lecun"
+    },
+    {
+      "name": "X. Bresson",
+      "type": "Person",
+      "description": "Author of the G-retriever paper.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "x bresson"
+    },
+    {
+      "name": "B. Hooi",
+      "type": "Person",
+      "description": "Author of the G-retriever paper.",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "b hooi"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ragas automated evaluation of retrieval augmented generation",
+      "target": "o etzioni",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by O. Etzioni and others.",
+      "weight": 0.0,
+      "properties": {}
+    },
+    {
+      "source": "web-scale information extraction in knowitall preliminary results",
+      "target": "o etzioni",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by O. Etzioni.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "web-scale information extraction in knowitall preliminary results",
+      "target": "m cafarella",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by M. Cafarella.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "web-scale information extraction in knowitall preliminary results",
+      "target": "d downey",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by D. Downey.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "web-scale information extraction in knowitall preliminary results",
+      "target": "s kok",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by S. Kok.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "web-scale information extraction in knowitall preliminary results",
+      "target": "-m popescu",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by A.-M. Popescu.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "web-scale information extraction in knowitall preliminary results",
+      "target": "t shaked",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by T. Shaked.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "web-scale information extraction in knowitall preliminary results",
+      "target": "s soderland",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by S. Soderland.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "web-scale information extraction in knowitall preliminary results",
+      "target": "d s weld",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by D. S. Weld.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "web-scale information extraction in knowitall preliminary results",
+      "target": "yates",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by A. Yates.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "web-scale information extraction in knowitall preliminary results",
+      "target": "proceedings of the 13th international conference on world wide web",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in the Proceedings of the 13th International Conference on World Wide Web.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-generation synergy augmented large language models",
+      "target": "z feng",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Z. Feng.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-generation synergy augmented large language models",
+      "target": "x feng",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by X. Feng.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-generation synergy augmented large language models",
+      "target": "d zhao",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by D. Zhao.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-generation synergy augmented large language models",
+      "target": "m yang",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by M. Yang.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrieval-generation synergy augmented large language models",
+      "target": "b qin",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by B. Qin.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "community detection in graphs",
+      "target": "s fortunato",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by S. Fortunato.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "community detection in graphs",
+      "target": "physics reports",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in Physics reports.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrievalaugmented generation for large language models a survey",
+      "target": "y gao",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Y. Gao.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrievalaugmented generation for large language models a survey",
+      "target": "y xiong",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Y. Xiong.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrievalaugmented generation for large language models a survey",
+      "target": "x gao",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by X. Gao.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrievalaugmented generation for large language models a survey",
+      "target": "k jia",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by K. Jia.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrievalaugmented generation for large language models a survey",
+      "target": "j pan",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by J. Pan.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrievalaugmented generation for large language models a survey",
+      "target": "y bi",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Y. Bi.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrievalaugmented generation for large language models a survey",
+      "target": "y dai",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Y. Dai.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrievalaugmented generation for large language models a survey",
+      "target": "j sun",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by J. Sun.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "retrievalaugmented generation for large language models a survey",
+      "target": "h wang",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by H. Wang.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "g-retriever retrieval-augmented generation for textual graph understanding and question answering",
+      "target": "x he",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by X. He.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "g-retriever retrieval-augmented generation for textual graph understanding and question answering",
+      "target": "y tian",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Y. Tian.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "g-retriever retrieval-augmented generation for textual graph understanding and question answering",
+      "target": "y sun",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Y. Sun.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "g-retriever retrieval-augmented generation for textual graph understanding and question answering",
+      "target": "n v chawla",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by N. V. Chawla.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "g-retriever retrieval-augmented generation for textual graph understanding and question answering",
+      "target": "t laurent",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by T. Laurent.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "g-retriever retrieval-augmented generation for textual graph understanding and question answering",
+      "target": "y lecun",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by Y. LeCun.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "g-retriever retrieval-augmented generation for textual graph understanding and question answering",
+      "target": "x bresson",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by X. Bresson.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "g-retriever retrieval-augmented generation for textual graph understanding and question answering",
+      "target": "b hooi",
+      "type": "AUTHORED_BY",
+      "description": "The paper is authored by B. Hooi.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:26:46.527982+00:00"
+}

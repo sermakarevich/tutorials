@@ -1,0 +1,88 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:28",
+  "entities": [
+    {
+      "name": "Podcast transcripts",
+      "type": "Dataset",
+      "description": "A dataset of public transcripts from the podcast 'Behind the Tech with Kevin Scott', divided into 1669 chunks of 600 tokens.",
+      "properties": {
+        "task_type": "Retrieval",
+        "size": "~1 million tokens",
+        "language": "English"
+      },
+      "normalized_name": "podcast transcripts"
+    },
+    {
+      "name": "Behind the Tech with Kevin Scott",
+      "type": "KnowledgeGraph",
+      "description": "A podcast featuring conversations between Microsoft CTO Kevin Scott and thought leaders, serving as the source corpus for the podcast transcripts dataset.",
+      "properties": {
+        "domain": "Science and Technology",
+        "structure_type": "Transcript",
+        "source": "Public transcripts"
+      },
+      "normalized_name": "behind the tech with kevin scott"
+    },
+    {
+      "name": "Kevin Scott",
+      "type": "Person",
+      "description": "Microsoft CTO and host of the podcast 'Behind the Tech with Kevin Scott'.",
+      "properties": {
+        "affiliation": "Microsoft",
+        "role": "CTO"
+      },
+      "normalized_name": "kevin scott"
+    },
+    {
+      "name": "Microsoft",
+      "type": "Organization",
+      "description": "The organization where Kevin Scott serves as CTO.",
+      "properties": {
+        "type": "Company",
+        "location": "USA"
+      },
+      "normalized_name": "microsoft"
+    },
+    {
+      "name": "News articles",
+      "type": "Dataset",
+      "description": "A benchmark dataset of news articles published from September 2013 to December 2023, divided into 3197 chunks of 600 tokens.",
+      "properties": {
+        "task_type": "Retrieval",
+        "size": "~1.7 million tokens",
+        "language": "English"
+      },
+      "normalized_name": "news articles"
+    },
+    {
+      "name": "Tang and Yang",
+      "type": "Person",
+      "description": "Authors associated with the news articles benchmark dataset (2024).",
+      "properties": {
+        "role": "Author"
+      },
+      "normalized_name": "tang and yang"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "kevin scott",
+      "target": "microsoft",
+      "type": "AFFILIATED_WITH",
+      "description": "Kevin Scott is the CTO of Microsoft.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "podcast transcripts",
+      "target": "behind the tech with kevin scott",
+      "type": "DERIVED_FROM",
+      "description": "The podcast transcripts dataset is derived from the public transcripts of the podcast 'Behind the Tech with Kevin Scott'.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:19:28.377486+00:00"
+}

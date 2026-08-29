@@ -1,0 +1,292 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:39",
+  "entities": [
+    {
+      "name": "News",
+      "type": "Dataset",
+      "description": "A dataset used in Experiment 2 for evaluating comprehensiveness and diversity.",
+      "properties": {
+        "task_type": "Evaluation"
+      },
+      "normalized_name": "news"
+    },
+    {
+      "name": "Podcast",
+      "type": "Dataset",
+      "description": "A dataset used in Experiment 2 for evaluating comprehensiveness and diversity.",
+      "properties": {
+        "task_type": "Evaluation"
+      },
+      "normalized_name": "podcast"
+    },
+    {
+      "name": "C0",
+      "type": "Method",
+      "description": "A global search condition evaluated in Experiment 2.",
+      "properties": {
+        "category": "Global Search"
+      },
+      "normalized_name": "c0"
+    },
+    {
+      "name": "C1",
+      "type": "Method",
+      "description": "A global search condition evaluated in Experiment 2.",
+      "properties": {
+        "category": "Global Search"
+      },
+      "normalized_name": "c1"
+    },
+    {
+      "name": "C2",
+      "type": "Method",
+      "description": "A global search condition evaluated in Experiment 2.",
+      "properties": {
+        "category": "Global Search"
+      },
+      "normalized_name": "c2"
+    },
+    {
+      "name": "C3",
+      "type": "Method",
+      "description": "A global search condition evaluated in Experiment 2.",
+      "properties": {
+        "category": "Global Search"
+      },
+      "normalized_name": "c3"
+    },
+    {
+      "name": "TS",
+      "type": "Method",
+      "description": "Source text summarization method evaluated in Experiment 2.",
+      "properties": {
+        "category": "Summarization"
+      },
+      "normalized_name": "ts"
+    },
+    {
+      "name": "SS",
+      "type": "Method",
+      "description": "Vector RAG method evaluated in Experiment 2.",
+      "properties": {
+        "category": "Vector RAG"
+      },
+      "normalized_name": "ss"
+    },
+    {
+      "name": "Comprehensiveness",
+      "type": "Metric",
+      "description": "A claim-based measure of comprehensiveness, defined as the average number of extracted claims.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "comprehensiveness"
+    },
+    {
+      "name": "Diversity",
+      "type": "Metric",
+      "description": "A claim-based measure of diversity, defined as the average number of clusters.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "diversity"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "c0",
+      "target": "news",
+      "type": "EVALUATED_ON",
+      "description": "C0 was evaluated on the News dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c1",
+      "target": "news",
+      "type": "EVALUATED_ON",
+      "description": "C1 was evaluated on the News dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c2",
+      "target": "news",
+      "type": "EVALUATED_ON",
+      "description": "C2 was evaluated on the News dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c3",
+      "target": "news",
+      "type": "EVALUATED_ON",
+      "description": "C3 was evaluated on the News dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "ts",
+      "target": "news",
+      "type": "EVALUATED_ON",
+      "description": "TS was evaluated on the News dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "ss",
+      "target": "news",
+      "type": "EVALUATED_ON",
+      "description": "SS was evaluated on the News dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c0",
+      "target": "podcast",
+      "type": "EVALUATED_ON",
+      "description": "C0 was evaluated on the Podcast dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c1",
+      "target": "podcast",
+      "type": "EVALUATED_ON",
+      "description": "C1 was evaluated on the Podcast dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c2",
+      "target": "podcast",
+      "type": "EVALUATED_ON",
+      "description": "C2 was evaluated on the Podcast dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c3",
+      "target": "podcast",
+      "type": "EVALUATED_ON",
+      "description": "C3 was evaluated on the Podcast dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "ts",
+      "target": "podcast",
+      "type": "EVALUATED_ON",
+      "description": "TS was evaluated on the Podcast dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "ss",
+      "target": "podcast",
+      "type": "EVALUATED_ON",
+      "description": "SS was evaluated on the Podcast dataset.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c0",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "C0's performance is measured by Comprehensiveness.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c1",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "C1's performance is measured by Comprehensiveness.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c2",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "C2's performance is measured by Comprehensiveness.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c3",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "C3's performance is measured by Comprehensiveness.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "ts",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "TS's performance is measured by Comprehensiveness.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "ss",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "SS's performance is measured by Comprehensiveness.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c0",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "C0's performance is measured by Diversity.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c1",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "C1's performance is measured by Diversity.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c2",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "C2's performance is measured by Diversity.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c3",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "C3's performance is measured by Diversity.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "ts",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "TS's performance is measured by Diversity.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "ss",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "SS's performance is measured by Diversity.",
+      "weight": 0.9,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:22:40.322668+00:00"
+}

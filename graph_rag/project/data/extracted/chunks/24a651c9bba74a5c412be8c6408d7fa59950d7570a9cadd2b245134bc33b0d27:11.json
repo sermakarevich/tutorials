@@ -1,0 +1,64 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:11",
+  "entities": [
+    {
+      "name": "adaptive benchmarking procedure",
+      "type": "Method",
+      "description": "A procedure that uses persona generation to create representative queries for RAG systems.",
+      "properties": {
+        "category": "Benchmarking",
+        "technique": "persona generation"
+      },
+      "normalized_name": "adaptive benchmarking procedure"
+    },
+    {
+      "name": "persona generation",
+      "type": "Technique",
+      "description": "A technique used to infer potential users and their use cases to guide query generation.",
+      "properties": {
+        "stage": "Query Generation",
+        "mechanism": "LLM inference of user personas"
+      },
+      "normalized_name": "persona generation"
+    },
+    {
+      "name": "RAG system",
+      "type": "Method",
+      "description": "The general class of systems being benchmarked, utilizing Retrieval-Augmented Generation.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "rag system"
+    },
+    {
+      "name": "sensemaking queries",
+      "type": "Task",
+      "description": "Corpus-specific queries generated to represent real-world usage for evaluation.",
+      "properties": {
+        "type": "Query Generation"
+      },
+      "normalized_name": "sensemaking queries"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "adaptive benchmarking procedure",
+      "target": "persona generation",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "The adaptive benchmarking procedure uses persona generation to create queries.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "adaptive benchmarking procedure",
+      "target": "sensemaking queries",
+      "type": "SOLVES_TASK",
+      "description": "The procedure is designed to generate sensemaking queries for benchmarking.",
+      "weight": 0.9,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:15:26.606648+00:00"
+}

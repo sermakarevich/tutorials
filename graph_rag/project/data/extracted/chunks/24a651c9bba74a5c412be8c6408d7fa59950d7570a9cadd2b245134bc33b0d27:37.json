@@ -1,0 +1,289 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:37",
+  "entities": [
+    {
+      "name": "Graph RAG",
+      "type": "Method",
+      "description": "A retrieval-augmented generation approach using graphs, which outperformed naive RAG on comprehensiveness and diversity.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "graph rag"
+    },
+    {
+      "name": "naïve RAG",
+      "type": "Method",
+      "description": "A baseline retrieval-augmented generation method without graph structures, outperformed by Graph RAG conditions.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "naïve rag"
+    },
+    {
+      "name": "TS",
+      "type": "Method",
+      "description": "Global text summarization without a graph index, used as a baseline condition.",
+      "properties": {
+        "category": "Summarization"
+      },
+      "normalized_name": "ts"
+    },
+    {
+      "name": "C0",
+      "type": "Method",
+      "description": "A Graph RAG condition using root-level community summaries, requiring significantly fewer tokens than other conditions.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "c0"
+    },
+    {
+      "name": "C1",
+      "type": "Method",
+      "description": "A Graph RAG condition using community summaries.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "c1"
+    },
+    {
+      "name": "C2",
+      "type": "Method",
+      "description": "A Graph RAG condition using community summaries.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "c2"
+    },
+    {
+      "name": "C3",
+      "type": "Method",
+      "description": "A Graph RAG condition using community summaries.",
+      "properties": {
+        "category": "Retrieval"
+      },
+      "normalized_name": "c3"
+    },
+    {
+      "name": "Podcast Transcripts",
+      "type": "Dataset",
+      "description": "A dataset of podcast transcripts used for evaluation, with specific token counts and unit counts reported for various conditions.",
+      "properties": {
+        "task_type": "Evaluation"
+      },
+      "normalized_name": "podcast transcripts"
+    },
+    {
+      "name": "News Articles",
+      "type": "Dataset",
+      "description": "A dataset of news articles used for evaluation, with specific token counts and unit counts reported for various conditions.",
+      "properties": {
+        "task_type": "Evaluation"
+      },
+      "normalized_name": "news articles"
+    },
+    {
+      "name": "comprehensiveness",
+      "type": "Metric",
+      "description": "A metric measuring the completeness of answers, where Graph RAG outperformed naive RAG.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "comprehensiveness"
+    },
+    {
+      "name": "diversity",
+      "type": "Metric",
+      "description": "A metric measuring the variety of answers, where Graph RAG outperformed naive RAG.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "diversity"
+    },
+    {
+      "name": "Map-reduce summarization",
+      "type": "Technique",
+      "description": "A resource-intensive approach for summarizing source texts, requiring the highest number of context tokens.",
+      "properties": {
+        "stage": "Summarization",
+        "mechanism": "Map-reduce"
+      },
+      "normalized_name": "map-reduce summarization"
+    },
+    {
+      "name": "community summaries",
+      "type": "Technique",
+      "description": "A technique used in Graph RAG conditions C0-C3 to generate summaries from graph communities, generally improving answer comprehensiveness and diversity.",
+      "properties": {
+        "stage": "Indexing/Retrieval",
+        "mechanism": "Community detection and summarization"
+      },
+      "normalized_name": "community summaries"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graph rag",
+      "target": "naïve rag",
+      "type": "IMPROVES_UPON",
+      "description": "All Graph RAG conditions outperformed naïve RAG on comprehensiveness and diversity.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c1",
+      "target": "ts",
+      "type": "IMPROVES_UPON",
+      "description": "Condition C1 showed slight improvements in answer comprehensiveness and diversity over TS.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c2",
+      "target": "ts",
+      "type": "IMPROVES_UPON",
+      "description": "Condition C2 showed slight improvements in answer comprehensiveness and diversity over TS.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c3",
+      "target": "ts",
+      "type": "IMPROVES_UPON",
+      "description": "Condition C3 showed slight improvements in answer comprehensiveness and diversity over TS.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c0",
+      "target": "podcast transcripts",
+      "type": "EVALUATED_ON",
+      "description": "Condition C0 was evaluated on the Podcast Transcripts dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c1",
+      "target": "podcast transcripts",
+      "type": "EVALUATED_ON",
+      "description": "Condition C1 was evaluated on the Podcast Transcripts dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c2",
+      "target": "podcast transcripts",
+      "type": "EVALUATED_ON",
+      "description": "Condition C2 was evaluated on the Podcast Transcripts dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c3",
+      "target": "podcast transcripts",
+      "type": "EVALUATED_ON",
+      "description": "Condition C3 was evaluated on the Podcast Transcripts dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "ts",
+      "target": "podcast transcripts",
+      "type": "EVALUATED_ON",
+      "description": "Condition TS was evaluated on the Podcast Transcripts dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c0",
+      "target": "news articles",
+      "type": "EVALUATED_ON",
+      "description": "Condition C0 was evaluated on the News Articles dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c1",
+      "target": "news articles",
+      "type": "EVALUATED_ON",
+      "description": "Condition C1 was evaluated on the News Articles dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c2",
+      "target": "news articles",
+      "type": "EVALUATED_ON",
+      "description": "Condition C2 was evaluated on the News Articles dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "c3",
+      "target": "news articles",
+      "type": "EVALUATED_ON",
+      "description": "Condition C3 was evaluated on the News Articles dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "ts",
+      "target": "news articles",
+      "type": "EVALUATED_ON",
+      "description": "Condition TS was evaluated on the News Articles dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graph rag",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "Graph RAG performance is measured by comprehensiveness.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graph rag",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "Graph RAG performance is measured by diversity.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c0",
+      "target": "community summaries",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Condition C0 uses root-level community summaries.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c1",
+      "target": "community summaries",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Condition C1 uses community summaries.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c2",
+      "target": "community summaries",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Condition C2 uses community summaries.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "c3",
+      "target": "community summaries",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Condition C3 uses community summaries.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:22:02.762142+00:00"
+}

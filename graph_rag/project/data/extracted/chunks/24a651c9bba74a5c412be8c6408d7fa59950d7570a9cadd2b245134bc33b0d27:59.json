@@ -1,0 +1,183 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:59",
+  "entities": [
+    {
+      "name": "glean",
+      "type": "Technique",
+      "description": "A multi-stage process where the LLM is prompted to detect missed entities after initial extraction.",
+      "properties": {
+        "stage": "Extraction",
+        "mechanism": "LLM self-reflection with logit bias"
+      },
+      "normalized_name": "glean"
+    },
+    {
+      "name": "HotPotQA",
+      "type": "Dataset",
+      "description": "A dataset used to evaluate entity extraction performance across different chunk sizes and self-reflection iterations.",
+      "properties": {
+        "task_type": "Question Answering",
+        "language": "English"
+      },
+      "normalized_name": "hotpotqa"
+    },
+    {
+      "name": "Yang et al., 2018",
+      "type": "Paper",
+      "description": "The original publication associated with the HotPotQA dataset.",
+      "properties": {
+        "title": "HotPotQA",
+        "publication_date": "2018"
+      },
+      "normalized_name": "yang et al 2018"
+    },
+    {
+      "name": "gpt-4-turbo",
+      "type": "Method",
+      "description": "The LLM model used for entity extraction in the described process.",
+      "properties": {
+        "category": "LLM",
+        "technique": "Transformer"
+      },
+      "normalized_name": "gpt-4-turbo"
+    },
+    {
+      "name": "Leiden algorithm",
+      "type": "Technique",
+      "description": "An algorithm used for detecting graph communities.",
+      "properties": {
+        "stage": "Community Detection",
+        "mechanism": "Graph partitioning"
+      },
+      "normalized_name": "leiden algorithm"
+    },
+    {
+      "name": "Traag et al., 2019",
+      "type": "Paper",
+      "description": "The publication associated with the Leiden algorithm.",
+      "properties": {
+        "title": "Leiden algorithm",
+        "publication_date": "2019"
+      },
+      "normalized_name": "traag et al 2019"
+    },
+    {
+      "name": "MultiHop-RAG",
+      "type": "Dataset",
+      "description": "A dataset used for indexing and community detection evaluation.",
+      "properties": {
+        "task_type": "Retrieval-Augmented Generation"
+      },
+      "normalized_name": "multihop-rag"
+    },
+    {
+      "name": "Tang and Yang, 2024",
+      "type": "Paper",
+      "description": "The publication associated with the MultiHop-RAG dataset.",
+      "properties": {
+        "title": "MultiHop-RAG",
+        "publication_date": "2024"
+      },
+      "normalized_name": "tang and yang 2024"
+    },
+    {
+      "name": "OpenORD",
+      "type": "Method",
+      "description": "A tool used for node layout in graph visualization.",
+      "properties": {
+        "category": "Visualization"
+      },
+      "normalized_name": "openord"
+    },
+    {
+      "name": "Martin et al., 2011",
+      "type": "Paper",
+      "description": "The publication associated with OpenORD.",
+      "properties": {
+        "title": "OpenORD",
+        "publication_date": "2011"
+      },
+      "normalized_name": "martin et al 2011"
+    },
+    {
+      "name": "Force Atlas 2",
+      "type": "Method",
+      "description": "A layout algorithm used for node positioning in graph visualization.",
+      "properties": {
+        "category": "Visualization"
+      },
+      "normalized_name": "force atlas 2"
+    },
+    {
+      "name": "Jacomy et al., 2014",
+      "type": "Paper",
+      "description": "The publication associated with Force Atlas 2.",
+      "properties": {
+        "title": "Force Atlas 2",
+        "publication_date": "2014"
+      },
+      "normalized_name": "jacomy et al 2014"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "gpt-4-turbo",
+      "target": "glean",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "The gpt-4-turbo model is used to perform the 'glean' self-reflection technique.",
+      "weight": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4-turbo",
+      "target": "hotpotqa",
+      "type": "EVALUATED_ON",
+      "description": "The entity extraction process using gpt-4-turbo is evaluated on the HotPotQA dataset.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "hotpotqa",
+      "target": "yang et al 2018",
+      "type": "DERIVED_FROM",
+      "description": "The HotPotQA dataset is associated with the paper by Yang et al., 2018.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "leiden algorithm",
+      "target": "traag et al 2019",
+      "type": "PROPOSED_BY",
+      "description": "The Leiden algorithm is associated with the paper by Traag et al., 2019.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "multihop-rag",
+      "target": "tang and yang 2024",
+      "type": "DERIVED_FROM",
+      "description": "The MultiHop-RAG dataset is associated with the paper by Tang and Yang, 2024.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "openord",
+      "target": "martin et al 2011",
+      "type": "PROPOSED_BY",
+      "description": "OpenORD is associated with the paper by Martin et al., 2011.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "force atlas 2",
+      "target": "jacomy et al 2014",
+      "type": "PROPOSED_BY",
+      "description": "Force Atlas 2 is associated with the paper by Jacomy et al., 2014.",
+      "weight": 0.8,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:35:00.389630+00:00"
+}

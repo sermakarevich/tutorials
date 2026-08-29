@@ -1,0 +1,141 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:24",
+  "entities": [
+    {
+      "name": "head-to-head comparison approach",
+      "type": "Technique",
+      "description": "A method for evaluating performance by comparing outputs directly using an LLM evaluator.",
+      "properties": {
+        "stage": "Evaluation",
+        "mechanism": "LLM-based relative judgment"
+      },
+      "normalized_name": "head-to-head comparison approach"
+    },
+    {
+      "name": "LLM evaluator",
+      "type": "Method",
+      "description": "A system using a Large Language Model to judge relative performance of answers.",
+      "properties": {
+        "category": "Evaluation",
+        "technique": "LLM"
+      },
+      "normalized_name": "llm evaluator"
+    },
+    {
+      "name": "Comprehensiveness",
+      "type": "Metric",
+      "description": "A criterion measuring how much detail an answer provides to cover all aspects of the question.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "comprehensiveness"
+    },
+    {
+      "name": "Diversity",
+      "type": "Metric",
+      "description": "A criterion measuring how varied and rich an answer is in providing different perspectives.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "diversity"
+    },
+    {
+      "name": "Empowerment",
+      "type": "Metric",
+      "description": "A criterion measuring how well an answer helps the reader understand and make informed judgments.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "empowerment"
+    },
+    {
+      "name": "Global Sensemaking",
+      "type": "Task",
+      "description": "An activity-based task targeting global understanding rather than specific details.",
+      "properties": {
+        "type": "Question Answering",
+        "complexity": "High"
+      },
+      "normalized_name": "global sensemaking"
+    },
+    {
+      "name": "Podcast transcripts",
+      "type": "Dataset",
+      "description": "A dataset of podcast transcripts used for generating global sensemaking questions.",
+      "properties": {
+        "task_type": "Sensemaking"
+      },
+      "normalized_name": "podcast transcripts"
+    },
+    {
+      "name": "News articles",
+      "type": "Dataset",
+      "description": "A dataset of news articles used for generating global sensemaking questions.",
+      "properties": {
+        "task_type": "Sensemaking"
+      },
+      "normalized_name": "news articles"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "llm evaluator",
+      "target": "head-to-head comparison approach",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "The LLM evaluator is used to implement the head-to-head comparison approach.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "llm evaluator",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "The LLM evaluator judges performance according to the Comprehensiveness criterion.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "llm evaluator",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "The LLM evaluator judges performance according to the Diversity criterion.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "llm evaluator",
+      "target": "empowerment",
+      "type": "MEASURED_BY",
+      "description": "The LLM evaluator judges performance according to the Empowerment criterion.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "llm evaluator",
+      "target": "global sensemaking",
+      "type": "SOLVES_TASK",
+      "description": "The LLM evaluator is used to assess the quality of answers to Global Sensemaking tasks.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "podcast transcripts",
+      "target": "global sensemaking",
+      "type": "BELONGS_TO_DOMAIN",
+      "description": "Podcast transcripts are used as a source for Global Sensemaking tasks.",
+      "weight": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "news articles",
+      "target": "global sensemaking",
+      "type": "BELONGS_TO_DOMAIN",
+      "description": "News articles are used as a source for Global Sensemaking tasks.",
+      "weight": 0.7,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:18:33.652825+00:00"
+}

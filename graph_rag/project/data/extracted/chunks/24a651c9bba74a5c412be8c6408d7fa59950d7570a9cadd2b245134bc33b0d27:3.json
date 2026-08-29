@@ -1,0 +1,134 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:3",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A graph-based RAG approach that enables sensemaking over the entirety of a large text corpus by constructing a knowledge graph and generating hierarchical community summaries.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation",
+        "technique": "Graph-based"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "GPT",
+      "type": "Method",
+      "description": "A large language model mentioned as excelling at sensemaking in complex domains.",
+      "properties": {
+        "category": "LLM"
+      },
+      "normalized_name": "gpt"
+    },
+    {
+      "name": "Llama",
+      "type": "Method",
+      "description": "A large language model mentioned as excelling at sensemaking in complex domains.",
+      "properties": {
+        "category": "LLM"
+      },
+      "normalized_name": "llama"
+    },
+    {
+      "name": "Gemini",
+      "type": "Method",
+      "description": "A large language model mentioned as excelling at sensemaking in complex domains.",
+      "properties": {
+        "category": "LLM"
+      },
+      "normalized_name": "gemini"
+    },
+    {
+      "name": "Sensemaking",
+      "type": "Task",
+      "description": "A task requiring reasoning over connections among people, places, and events to anticipate trajectories and act effectively.",
+      "properties": {
+        "type": "Reasoning",
+        "complexity": "High"
+      },
+      "normalized_name": "sensemaking"
+    },
+    {
+      "name": "Scientific Discovery",
+      "type": "Domain",
+      "description": "A complex domain where LLMs excel at sensemaking.",
+      "properties": {
+        "level": "Application"
+      },
+      "normalized_name": "scientific discovery"
+    },
+    {
+      "name": "Intelligence Analysis",
+      "type": "Domain",
+      "description": "A complex domain where LLMs excel at sensemaking.",
+      "properties": {
+        "level": "Application"
+      },
+      "normalized_name": "intelligence analysis"
+    },
+    {
+      "name": "Knowledge Graph",
+      "type": "KnowledgeGraph",
+      "description": "A structured database constructed by GraphRAG where nodes correspond to key entities and edges represent relationships.",
+      "properties": {
+        "structure_type": "Hierarchical"
+      },
+      "normalized_name": "knowledge graph"
+    },
+    {
+      "name": "Community Summarization",
+      "type": "Technique",
+      "description": "A procedural step where an LLM generates community-level summaries in a bottom-up manner following the hierarchical structure of extracted communities.",
+      "properties": {
+        "stage": "Generation",
+        "mechanism": "Hierarchical Bottom-Up"
+      },
+      "normalized_name": "community summarization"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "sensemaking",
+      "type": "SOLVES_TASK",
+      "description": "GraphRAG is designed to enable sensemaking over large text corpora.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "knowledge graph",
+      "type": "USES_KNOWLEDGE_GRAPH",
+      "description": "GraphRAG uses an LLM to construct a knowledge graph as part of its pipeline.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "community summarization",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "GraphRAG applies community summarization to generate global descriptions and insights.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "sensemaking",
+      "target": "scientific discovery",
+      "type": "BELONGS_TO_DOMAIN",
+      "description": "Sensemaking is applied in the domain of scientific discovery.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "sensemaking",
+      "target": "intelligence analysis",
+      "type": "BELONGS_TO_DOMAIN",
+      "description": "Sensemaking is applied in the domain of intelligence analysis.",
+      "weight": 0.9,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:12:43.412044+00:00"
+}

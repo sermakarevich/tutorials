@@ -1,0 +1,147 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:29",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A method using graph community levels (C0-C3) to answer user queries.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation",
+        "technique": "Graph Community Summarization"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "C0",
+      "type": "Technique",
+      "description": "A condition using root-level community summaries (fewest in number) to answer user queries.",
+      "properties": {
+        "stage": "Retrieval/Context Creation",
+        "mechanism": "Root-level community summarization"
+      },
+      "normalized_name": "c0"
+    },
+    {
+      "name": "C1",
+      "type": "Technique",
+      "description": "A condition using high-level community summaries to answer queries.",
+      "properties": {
+        "stage": "Retrieval/Context Creation",
+        "mechanism": "High-level community summarization"
+      },
+      "normalized_name": "c1"
+    },
+    {
+      "name": "C2",
+      "type": "Technique",
+      "description": "A condition using intermediate-level community summaries to answer queries.",
+      "properties": {
+        "stage": "Retrieval/Context Creation",
+        "mechanism": "Intermediate-level community summarization"
+      },
+      "normalized_name": "c2"
+    },
+    {
+      "name": "C3",
+      "type": "Technique",
+      "description": "A condition using low-level community summaries (greatest in number) to answer queries.",
+      "properties": {
+        "stage": "Retrieval/Context Creation",
+        "mechanism": "Low-level community summarization"
+      },
+      "normalized_name": "c3"
+    },
+    {
+      "name": "TS",
+      "type": "Method",
+      "description": "A text summarization method that applies a map-reduce approach directly to source texts.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation",
+        "technique": "Map-Reduce Summarization"
+      },
+      "normalized_name": "ts"
+    },
+    {
+      "name": "SS",
+      "type": "Method",
+      "description": "A vector RAG 'semantic search' approach where text chunks are retrieved until a token limit is reached.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation",
+        "technique": "Vector Search"
+      },
+      "normalized_name": "ss"
+    },
+    {
+      "name": "Map-Reduce",
+      "type": "Technique",
+      "description": "A procedural approach used for summarization in the TS condition.",
+      "properties": {
+        "stage": "Summarization",
+        "mechanism": "Shuffling and chunking for map-reduce stages"
+      },
+      "normalized_name": "map-reduce"
+    },
+    {
+      "name": "Vector RAG",
+      "type": "Method",
+      "description": "A general approach implemented by SS, involving retrieval of text chunks based on semantic similarity.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation"
+      },
+      "normalized_name": "vector rag"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "c0",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "GraphRAG uses the C0 condition (root-level community summaries).",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "c1",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "GraphRAG uses the C1 condition (high-level community summaries).",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "c2",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "GraphRAG uses the C2 condition (intermediate-level community summaries).",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "c3",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "GraphRAG uses the C3 condition (low-level community summaries).",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "ts",
+      "target": "map-reduce",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "The TS method applies the map-reduce approach to source texts.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "ss",
+      "target": "vector rag",
+      "type": "IMPROVES_UPON",
+      "description": "SS is described as an implementation of vector RAG.",
+      "weight": 0.8,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:19:47.789520+00:00"
+}

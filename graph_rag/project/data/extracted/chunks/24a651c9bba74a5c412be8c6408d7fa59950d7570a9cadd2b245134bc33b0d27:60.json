@@ -1,0 +1,127 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:60",
+  "entities": [
+    {
+      "name": "OpenORD",
+      "type": "Method",
+      "description": "A method used for node layout.",
+      "properties": {
+        "category": "Visualization",
+        "year": "2011"
+      },
+      "normalized_name": "openord"
+    },
+    {
+      "name": "Martin et al., 2011",
+      "type": "Paper",
+      "description": "The publication associated with the OpenORD method.",
+      "properties": {
+        "publication_date": "2011"
+      },
+      "normalized_name": "martin et al 2011"
+    },
+    {
+      "name": "Force Atlas 2",
+      "type": "Method",
+      "description": "A method used for node layout.",
+      "properties": {
+        "category": "Visualization",
+        "year": "2014"
+      },
+      "normalized_name": "force atlas 2"
+    },
+    {
+      "name": "Jacomy et al., 2014",
+      "type": "Paper",
+      "description": "The publication associated with the Force Atlas 2 method.",
+      "properties": {
+        "publication_date": "2014"
+      },
+      "normalized_name": "jacomy et al 2014"
+    },
+    {
+      "name": "gpt-4-turbo",
+      "type": "Method",
+      "description": "A large language model with a 128k token context size used in the study.",
+      "properties": {
+        "category": "LLM"
+      },
+      "normalized_name": "gpt-4-turbo"
+    },
+    {
+      "name": "Kuratov et al., 2024",
+      "type": "Paper",
+      "description": "A paper cited regarding information loss in long contexts.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "kuratov et al 2024"
+    },
+    {
+      "name": "Liu et al., 2023",
+      "type": "Paper",
+      "description": "A paper cited regarding information loss in long contexts.",
+      "properties": {
+        "publication_date": "2023"
+      },
+      "normalized_name": "liu et al 2023"
+    },
+    {
+      "name": "comprehensiveness",
+      "type": "Metric",
+      "description": "A metric used to evaluate answer quality, where 8k context size showed an average win rate of 58.1%.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "comprehensiveness"
+    },
+    {
+      "name": "diversity",
+      "type": "Metric",
+      "description": "A metric used to evaluate answer quality, where 8k context size showed an average win rate of 52.4%.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "diversity"
+    },
+    {
+      "name": "empowerment",
+      "type": "Metric",
+      "description": "A metric used to evaluate answer quality, where 8k context size showed an average win rate of 51.3%.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "empowerment"
+    },
+    {
+      "name": "News article dataset",
+      "type": "Dataset",
+      "description": "A dataset used for example answer comparisons.",
+      "properties": {
+        "task_type": "Question Answering"
+      },
+      "normalized_name": "news article dataset"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "openord",
+      "target": "martin et al 2011",
+      "type": "PROPOSED_BY",
+      "description": "OpenORD is associated with the publication by Martin et al., 2011.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "force atlas 2",
+      "target": "jacomy et al 2014",
+      "type": "PROPOSED_BY",
+      "description": "Force Atlas 2 is associated with the publication by Jacomy et al., 2014.",
+      "weight": 0.9,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:35:16.167014+00:00"
+}

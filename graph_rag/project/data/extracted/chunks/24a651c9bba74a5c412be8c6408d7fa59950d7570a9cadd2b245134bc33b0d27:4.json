@@ -1,0 +1,184 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:4",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A method that answers queries through map-reduce processing of community summaries to perform global sensemaking over an entire corpus.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation",
+        "technique": "map-reduce"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "vector RAG",
+      "type": "Method",
+      "description": "A retrieval-augmented generation approach compared against GraphRAG.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation"
+      },
+      "normalized_name": "vector rag"
+    },
+    {
+      "name": "GPT-4",
+      "type": "Method",
+      "description": "A large language model used as the LLM component in the evaluation of GraphRAG and vector RAG.",
+      "properties": {
+        "category": "LLM"
+      },
+      "normalized_name": "gpt-4"
+    },
+    {
+      "name": "LLM-as-a-judge",
+      "type": "Technique",
+      "description": "A technique using one LLM to generate questions and a second LLM to judge answers, applied here for global sensemaking evaluation.",
+      "properties": {
+        "stage": "Evaluation",
+        "mechanism": "LLM generation and judgment"
+      },
+      "normalized_name": "llm-as-a-judge"
+    },
+    {
+      "name": "Zheng et al., 2024",
+      "type": "Paper",
+      "description": "A cited work associated with the LLM-as-a-judge technique.",
+      "properties": {
+        "publication_date": "2024"
+      },
+      "normalized_name": "zheng et al 2024"
+    },
+    {
+      "name": "Microsoft",
+      "type": "Organization",
+      "description": "The organization hosting the open-source GraphRAG software on GitHub.",
+      "properties": {
+        "type": "Company"
+      },
+      "normalized_name": "microsoft"
+    },
+    {
+      "name": "LangChain",
+      "type": "Method",
+      "description": "An open-source library that includes an extension of the GraphRAG approach.",
+      "properties": {
+        "category": "Framework"
+      },
+      "normalized_name": "langchain"
+    },
+    {
+      "name": "LlamaIndex",
+      "type": "Method",
+      "description": "An open-source library that includes an extension of the GraphRAG approach.",
+      "properties": {
+        "category": "Framework"
+      },
+      "normalized_name": "llamaindex"
+    },
+    {
+      "name": "NebulaGraph",
+      "type": "Method",
+      "description": "An open-source library that includes an extension of the GraphRAG approach.",
+      "properties": {
+        "category": "Framework"
+      },
+      "normalized_name": "nebulagraph"
+    },
+    {
+      "name": "Neo4J",
+      "type": "Method",
+      "description": "An open-source library that includes an extension of the GraphRAG approach.",
+      "properties": {
+        "category": "Framework"
+      },
+      "normalized_name": "neo4j"
+    },
+    {
+      "name": "Global Sensemaking",
+      "type": "Task",
+      "description": "The task of providing global descriptions and insights over a corpus, which GraphRAG is designed to address.",
+      "properties": {
+        "type": "Question Answering",
+        "complexity": "Global"
+      },
+      "normalized_name": "global sensemaking"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "global sensemaking",
+      "type": "SOLVES_TASK",
+      "description": "GraphRAG is designed to perform global sensemaking over an entire corpus.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "microsoft",
+      "type": "PROPOSED_BY",
+      "description": "GraphRAG is available as open-source software under the Microsoft GitHub organization.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "gpt-4",
+      "type": "USES_KNOWLEDGE_GRAPH",
+      "description": "The text states GraphRAG outperforms vector RAG when using GPT-4 as the LLM, implying GPT-4 is a component of the system.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "vector rag",
+      "target": "gpt-4",
+      "type": "USES_KNOWLEDGE_GRAPH",
+      "description": "The text states vector RAG is compared using GPT-4 as the LLM, implying GPT-4 is a component of the system.",
+      "weight": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "llm-as-a-judge",
+      "target": "zheng et al 2024",
+      "type": "CITES",
+      "description": "The LLM-as-a-judge technique is attributed to Zheng et al., 2024.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "langchain",
+      "target": "graphrag",
+      "type": "IMPROVES_UPON",
+      "description": "LangChain includes an extension of the GraphRAG approach, implying it builds upon or integrates the method.",
+      "weight": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "llamaindex",
+      "target": "graphrag",
+      "type": "IMPROVES_UPON",
+      "description": "LlamaIndex includes an extension of the GraphRAG approach, implying it builds upon or integrates the method.",
+      "weight": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "nebulagraph",
+      "target": "graphrag",
+      "type": "IMPROVES_UPON",
+      "description": "NebulaGraph includes an extension of the GraphRAG approach, implying it builds upon or integrates the method.",
+      "weight": 0.7,
+      "properties": {}
+    },
+    {
+      "source": "neo4j",
+      "target": "graphrag",
+      "type": "IMPROVES_UPON",
+      "description": "Neo4J includes an extension of the GraphRAG approach, implying it builds upon or integrates the method.",
+      "weight": 0.7,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:13:01.425204+00:00"
+}

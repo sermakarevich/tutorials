@@ -1,0 +1,605 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:48",
+  "entities": [
+    {
+      "name": "Huang, J.",
+      "type": "Person",
+      "description": "Author of the paper 'Large language models cannot self-correct reasoning yet'.",
+      "properties": {},
+      "normalized_name": "huang j"
+    },
+    {
+      "name": "Chen, X.",
+      "type": "Person",
+      "description": "Author of the paper 'Large language models cannot self-correct reasoning yet'.",
+      "properties": {},
+      "normalized_name": "chen x"
+    },
+    {
+      "name": "Mishra, S.",
+      "type": "Person",
+      "description": "Author of the paper 'Large language models cannot self-correct reasoning yet'.",
+      "properties": {},
+      "normalized_name": "mishra s"
+    },
+    {
+      "name": "Zheng, H.",
+      "type": "Person",
+      "description": "Author of the paper 'Large language models cannot self-correct reasoning yet'.",
+      "properties": {},
+      "normalized_name": "zheng h"
+    },
+    {
+      "name": "Yu, A. W.",
+      "type": "Person",
+      "description": "Author of the paper 'Large language models cannot self-correct reasoning yet'.",
+      "properties": {},
+      "normalized_name": "yu a w"
+    },
+    {
+      "name": "Song, X.",
+      "type": "Person",
+      "description": "Author of the paper 'Large language models cannot self-correct reasoning yet'.",
+      "properties": {},
+      "normalized_name": "song x"
+    },
+    {
+      "name": "Zhou, D.",
+      "type": "Person",
+      "description": "Author of the paper 'Large language models cannot self-correct reasoning yet'.",
+      "properties": {},
+      "normalized_name": "zhou d"
+    },
+    {
+      "name": "Large language models cannot self-correct reasoning yet",
+      "type": "Paper",
+      "description": "A 2023 arXiv preprint discussing the limitations of LLMs in self-correction.",
+      "properties": {
+        "title": "Large language models cannot self-correct reasoning yet",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "large language models cannot self-correct reasoning yet"
+    },
+    {
+      "name": "Jacomy, M.",
+      "type": "Person",
+      "description": "Author of the paper 'Forceatlas2, a continuous graph layout algorithm for handy network visualization designed for the gephi software'.",
+      "properties": {},
+      "normalized_name": "jacomy m"
+    },
+    {
+      "name": "Venturini, T.",
+      "type": "Person",
+      "description": "Author of the paper 'Forceatlas2, a continuous graph layout algorithm for handy network visualization designed for the gephi software'.",
+      "properties": {},
+      "normalized_name": "venturini t"
+    },
+    {
+      "name": "Heymann, S.",
+      "type": "Person",
+      "description": "Author of the paper 'Forceatlas2, a continuous graph layout algorithm for handy network visualization designed for the gephi software'.",
+      "properties": {},
+      "normalized_name": "heymann s"
+    },
+    {
+      "name": "Bastian, M.",
+      "type": "Person",
+      "description": "Author of the paper 'Forceatlas2, a continuous graph layout algorithm for handy network visualization designed for the gephi software'.",
+      "properties": {},
+      "normalized_name": "bastian m"
+    },
+    {
+      "name": "Forceatlas2, a continuous graph layout algorithm for handy network visualization designed for the gephi software",
+      "type": "Paper",
+      "description": "A 2014 paper describing the Forceatlas2 graph layout algorithm.",
+      "properties": {
+        "title": "Forceatlas2, a continuous graph layout algorithm for handy network visualization designed for the gephi software",
+        "publication_date": "2014",
+        "venue": "PLoS ONE"
+      },
+      "normalized_name": "forceatlas2 a continuous graph layout algorithm for handy network visualization designed for the gephi software"
+    },
+    {
+      "name": "PLoS ONE",
+      "type": "Organization",
+      "description": "The journal where the Forceatlas2 paper was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "plos one"
+    },
+    {
+      "name": "Jin, D.",
+      "type": "Person",
+      "description": "Author of the survey 'A survey of community detection approaches: From statistical modeling to deep learning'.",
+      "properties": {},
+      "normalized_name": "jin d"
+    },
+    {
+      "name": "Yu, Z.",
+      "type": "Person",
+      "description": "Author of the survey 'A survey of community detection approaches: From statistical modeling to deep learning'.",
+      "properties": {},
+      "normalized_name": "yu z"
+    },
+    {
+      "name": "Jiao, P.",
+      "type": "Person",
+      "description": "Author of the survey 'A survey of community detection approaches: From statistical modeling to deep learning'.",
+      "properties": {},
+      "normalized_name": "jiao p"
+    },
+    {
+      "name": "Pan, S.",
+      "type": "Person",
+      "description": "Author of the survey 'A survey of community detection approaches: From statistical modeling to deep learning'.",
+      "properties": {},
+      "normalized_name": "pan s"
+    },
+    {
+      "name": "He, D.",
+      "type": "Person",
+      "description": "Author of the survey 'A survey of community detection approaches: From statistical modeling to deep learning'.",
+      "properties": {},
+      "normalized_name": "he d"
+    },
+    {
+      "name": "Wu, J.",
+      "type": "Person",
+      "description": "Author of the survey 'A survey of community detection approaches: From statistical modeling to deep learning'.",
+      "properties": {},
+      "normalized_name": "wu j"
+    },
+    {
+      "name": "Philip, S. Y.",
+      "type": "Person",
+      "description": "Author of the survey 'A survey of community detection approaches: From statistical modeling to deep learning'.",
+      "properties": {},
+      "normalized_name": "philip s y"
+    },
+    {
+      "name": "Zhang, W.",
+      "type": "Person",
+      "description": "Author of the survey 'A survey of community detection approaches: From statistical modeling to deep learning'.",
+      "properties": {},
+      "normalized_name": "zhang w"
+    },
+    {
+      "name": "A survey of community detection approaches: From statistical modeling to deep learning",
+      "type": "Paper",
+      "description": "A 2021 survey on community detection methods.",
+      "properties": {
+        "title": "A survey of community detection approaches: From statistical modeling to deep learning",
+        "publication_date": "2021",
+        "venue": "IEEE Transactions on Knowledge and Data Engineering"
+      },
+      "normalized_name": "survey of community detection approaches from statistical modeling to deep learning"
+    },
+    {
+      "name": "IEEE Transactions on Knowledge and Data Engineering",
+      "type": "Organization",
+      "description": "The journal where the community detection survey was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "ieee transactions on knowledge and data engineering"
+    },
+    {
+      "name": "Kang, M.",
+      "type": "Person",
+      "description": "Author of the paper 'Knowledge graph-augmented language models for knowledge-grounded dialogue generation'.",
+      "properties": {},
+      "normalized_name": "kang m"
+    },
+    {
+      "name": "Kwak, J. M.",
+      "type": "Person",
+      "description": "Author of the paper 'Knowledge graph-augmented language models for knowledge-grounded dialogue generation'.",
+      "properties": {},
+      "normalized_name": "kwak j m"
+    },
+    {
+      "name": "Baek, J.",
+      "type": "Person",
+      "description": "Author of the paper 'Knowledge graph-augmented language models for knowledge-grounded dialogue generation'.",
+      "properties": {},
+      "normalized_name": "baek j"
+    },
+    {
+      "name": "Hwang, S. J.",
+      "type": "Person",
+      "description": "Author of the paper 'Knowledge graph-augmented language models for knowledge-grounded dialogue generation'.",
+      "properties": {},
+      "normalized_name": "hwang s j"
+    },
+    {
+      "name": "Knowledge graph-augmented language models for knowledge-grounded dialogue generation",
+      "type": "Paper",
+      "description": "A 2023 arXiv preprint on KG-augmented LLMs for dialogue.",
+      "properties": {
+        "title": "Knowledge graph-augmented language models for knowledge-grounded dialogue generation",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "knowledge graph-augmented language models for knowledge-grounded dialogue generation"
+    },
+    {
+      "name": "Khattab, O.",
+      "type": "Person",
+      "description": "Author of the paper 'Demonstrate-search-predict: Composing retrieval and language models for knowledge-intensive nlp'.",
+      "properties": {},
+      "normalized_name": "khattab o"
+    },
+    {
+      "name": "Santhanam, K.",
+      "type": "Person",
+      "description": "Author of the paper 'Demonstrate-search-predict: Composing retrieval and language models for knowledge-intensive nlp'.",
+      "properties": {},
+      "normalized_name": "santhanam k"
+    },
+    {
+      "name": "Li, X. L.",
+      "type": "Person",
+      "description": "Author of the paper 'Demonstrate-search-predict: Composing retrieval and language models for knowledge-intensive nlp'.",
+      "properties": {},
+      "normalized_name": "li x l"
+    },
+    {
+      "name": "Hall, D.",
+      "type": "Person",
+      "description": "Author of the paper 'Demonstrate-search-predict: Composing retrieval and language models for knowledge-intensive nlp'.",
+      "properties": {},
+      "normalized_name": "hall d"
+    },
+    {
+      "name": "Liang, P.",
+      "type": "Person",
+      "description": "Author of the paper 'Demonstrate-search-predict: Composing retrieval and language models for knowledge-intensive nlp'.",
+      "properties": {},
+      "normalized_name": "liang p"
+    },
+    {
+      "name": "Potts, C.",
+      "type": "Person",
+      "description": "Author of the paper 'Demonstrate-search-predict: Composing retrieval and language models for knowledge-intensive nlp'.",
+      "properties": {},
+      "normalized_name": "potts c"
+    },
+    {
+      "name": "Zaharia, M.",
+      "type": "Person",
+      "description": "Author of the paper 'Demonstrate-search-predict: Composing retrieval and language models for knowledge-intensive nlp'.",
+      "properties": {},
+      "normalized_name": "zaharia m"
+    },
+    {
+      "name": "Demonstrate-search-predict: Composing retrieval and language models for knowledge-intensive nlp",
+      "type": "Paper",
+      "description": "A 2022 arXiv preprint on composing retrieval and LLMs.",
+      "properties": {
+        "title": "Demonstrate-search-predict: Composing retrieval and language models for knowledge-intensive nlp",
+        "publication_date": "2022",
+        "venue": "arXiv"
+      },
+      "normalized_name": "demonstrate-search-predict composing retrieval and language models for knowledge-intensive nlp"
+    },
+    {
+      "name": "Kim, D.",
+      "type": "Person",
+      "description": "Author of the paper 'Probabilistic knowledge graph construction: Compositional and incremental approaches'.",
+      "properties": {},
+      "normalized_name": "kim d"
+    },
+    {
+      "name": "Xie, L.",
+      "type": "Person",
+      "description": "Author of the paper 'Probabilistic knowledge graph construction: Compositional and incremental approaches'.",
+      "properties": {},
+      "normalized_name": "xie l"
+    },
+    {
+      "name": "Ong, C. S.",
+      "type": "Person",
+      "description": "Author of the paper 'Probabilistic knowledge graph construction: Compositional and incremental approaches'.",
+      "properties": {},
+      "normalized_name": "ong c s"
+    },
+    {
+      "name": "Probabilistic knowledge graph construction: Compositional and incremental approaches",
+      "type": "Paper",
+      "description": "A 2016 paper on probabilistic KG construction.",
+      "properties": {
+        "title": "Probabilistic knowledge graph construction: Compositional and incremental approaches",
+        "publication_date": "2016",
+        "venue": ""
+      },
+      "normalized_name": "probabilistic knowledge graph construction compositional and incremental approaches"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "large language models cannot self-correct reasoning yet",
+      "target": "huang j",
+      "type": "AUTHORED_BY",
+      "description": "Huang, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "large language models cannot self-correct reasoning yet",
+      "target": "chen x",
+      "type": "AUTHORED_BY",
+      "description": "Chen, X. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "large language models cannot self-correct reasoning yet",
+      "target": "mishra s",
+      "type": "AUTHORED_BY",
+      "description": "Mishra, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "large language models cannot self-correct reasoning yet",
+      "target": "zheng h",
+      "type": "AUTHORED_BY",
+      "description": "Zheng, H. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "large language models cannot self-correct reasoning yet",
+      "target": "yu a w",
+      "type": "AUTHORED_BY",
+      "description": "Yu, A. W. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "large language models cannot self-correct reasoning yet",
+      "target": "song x",
+      "type": "AUTHORED_BY",
+      "description": "Song, X. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "large language models cannot self-correct reasoning yet",
+      "target": "zhou d",
+      "type": "AUTHORED_BY",
+      "description": "Zhou, D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "forceatlas2 a continuous graph layout algorithm for handy network visualization designed for the gephi software",
+      "target": "jacomy m",
+      "type": "AUTHORED_BY",
+      "description": "Jacomy, M. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "forceatlas2 a continuous graph layout algorithm for handy network visualization designed for the gephi software",
+      "target": "venturini t",
+      "type": "AUTHORED_BY",
+      "description": "Venturini, T. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "forceatlas2 a continuous graph layout algorithm for handy network visualization designed for the gephi software",
+      "target": "heymann s",
+      "type": "AUTHORED_BY",
+      "description": "Heymann, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "forceatlas2 a continuous graph layout algorithm for handy network visualization designed for the gephi software",
+      "target": "bastian m",
+      "type": "AUTHORED_BY",
+      "description": "Bastian, M. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "forceatlas2 a continuous graph layout algorithm for handy network visualization designed for the gephi software",
+      "target": "plos one",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in PLoS ONE.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "survey of community detection approaches from statistical modeling to deep learning",
+      "target": "jin d",
+      "type": "AUTHORED_BY",
+      "description": "Jin, D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "survey of community detection approaches from statistical modeling to deep learning",
+      "target": "yu z",
+      "type": "AUTHORED_BY",
+      "description": "Yu, Z. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "survey of community detection approaches from statistical modeling to deep learning",
+      "target": "jiao p",
+      "type": "AUTHORED_BY",
+      "description": "Jiao, P. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "survey of community detection approaches from statistical modeling to deep learning",
+      "target": "pan s",
+      "type": "AUTHORED_BY",
+      "description": "Pan, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "survey of community detection approaches from statistical modeling to deep learning",
+      "target": "he d",
+      "type": "AUTHORED_BY",
+      "description": "He, D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "survey of community detection approaches from statistical modeling to deep learning",
+      "target": "wu j",
+      "type": "AUTHORED_BY",
+      "description": "Wu, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "survey of community detection approaches from statistical modeling to deep learning",
+      "target": "philip s y",
+      "type": "AUTHORED_BY",
+      "description": "Philip, S. Y. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "survey of community detection approaches from statistical modeling to deep learning",
+      "target": "zhang w",
+      "type": "AUTHORED_BY",
+      "description": "Zhang, W. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "survey of community detection approaches from statistical modeling to deep learning",
+      "target": "ieee transactions on knowledge and data engineering",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in IEEE Transactions on Knowledge and Data Engineering.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph-augmented language models for knowledge-grounded dialogue generation",
+      "target": "kang m",
+      "type": "AUTHORED_BY",
+      "description": "Kang, M. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph-augmented language models for knowledge-grounded dialogue generation",
+      "target": "kwak j m",
+      "type": "AUTHORED_BY",
+      "description": "Kwak, J. M. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph-augmented language models for knowledge-grounded dialogue generation",
+      "target": "baek j",
+      "type": "AUTHORED_BY",
+      "description": "Baek, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph-augmented language models for knowledge-grounded dialogue generation",
+      "target": "hwang s j",
+      "type": "AUTHORED_BY",
+      "description": "Hwang, S. J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "demonstrate-search-predict composing retrieval and language models for knowledge-intensive nlp",
+      "target": "khattab o",
+      "type": "AUTHORED_BY",
+      "description": "Khattab, O. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "demonstrate-search-predict composing retrieval and language models for knowledge-intensive nlp",
+      "target": "santhanam k",
+      "type": "AUTHORED_BY",
+      "description": "Santhanam, K. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "demonstrate-search-predict composing retrieval and language models for knowledge-intensive nlp",
+      "target": "li x l",
+      "type": "AUTHORED_BY",
+      "description": "Li, X. L. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "demonstrate-search-predict composing retrieval and language models for knowledge-intensive nlp",
+      "target": "hall d",
+      "type": "AUTHORED_BY",
+      "description": "Hall, D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "demonstrate-search-predict composing retrieval and language models for knowledge-intensive nlp",
+      "target": "liang p",
+      "type": "AUTHORED_BY",
+      "description": "Liang, P. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "demonstrate-search-predict composing retrieval and language models for knowledge-intensive nlp",
+      "target": "potts c",
+      "type": "AUTHORED_BY",
+      "description": "Potts, C. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "demonstrate-search-predict composing retrieval and language models for knowledge-intensive nlp",
+      "target": "zaharia m",
+      "type": "AUTHORED_BY",
+      "description": "Zaharia, M. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "probabilistic knowledge graph construction compositional and incremental approaches",
+      "target": "kim d",
+      "type": "AUTHORED_BY",
+      "description": "Kim, D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "probabilistic knowledge graph construction compositional and incremental approaches",
+      "target": "xie l",
+      "type": "AUTHORED_BY",
+      "description": "Xie, L. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "probabilistic knowledge graph construction compositional and incremental approaches",
+      "target": "ong c s",
+      "type": "AUTHORED_BY",
+      "description": "Ong, C. S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:27:39.466241+00:00"
+}

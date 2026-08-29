@@ -1,0 +1,303 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:44",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A RAG approach that combines knowledge graph generation and query-focused summarization to support human sensemaking over entire text corpora.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation",
+        "technique": "Knowledge graph generation, Query-focused summarization"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "vector RAG",
+      "type": "Method",
+      "description": "A baseline RAG approach using vector retrieval, compared against GraphRAG.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation"
+      },
+      "normalized_name": "vector rag"
+    },
+    {
+      "name": "map-reduce source text summarization",
+      "type": "Method",
+      "description": "A global but graph-free approach using map-reduce summarization, compared against GraphRAG.",
+      "properties": {
+        "category": "Summarization"
+      },
+      "normalized_name": "map-reduce source text summarization"
+    },
+    {
+      "name": "query-focused summarization",
+      "type": "Technique",
+      "description": "A procedural step in GraphRAG that generates summaries focused on specific queries.",
+      "properties": {
+        "stage": "Generation",
+        "mechanism": "Summarization"
+      },
+      "normalized_name": "query-focused summarization"
+    },
+    {
+      "name": "knowledge graph generation",
+      "type": "Technique",
+      "description": "A procedural step in GraphRAG that creates a knowledge graph from text corpora.",
+      "properties": {
+        "stage": "Indexing",
+        "mechanism": "Graph Construction"
+      },
+      "normalized_name": "knowledge graph generation"
+    },
+    {
+      "name": "comprehensiveness",
+      "type": "Metric",
+      "description": "A measure of the completeness of answers provided by the RAG system.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "comprehensiveness"
+    },
+    {
+      "name": "diversity",
+      "type": "Metric",
+      "description": "A measure of the variety of answers provided by the RAG system.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "diversity"
+    },
+    {
+      "name": "token cost",
+      "type": "Metric",
+      "description": "A measure of the computational resource usage (tokens) for generating answers.",
+      "properties": {
+        "category": "Efficiency"
+      },
+      "normalized_name": "token cost"
+    },
+    {
+      "name": "human sensemaking",
+      "type": "Task",
+      "description": "The downstream application of understanding and interpreting entire text corpora.",
+      "properties": {
+        "type": "Analysis",
+        "complexity": "High"
+      },
+      "normalized_name": "human sensemaking"
+    },
+    {
+      "name": "Gpt-4 technical report",
+      "type": "Paper",
+      "description": "A technical report on GPT-4, cited in the references.",
+      "properties": {
+        "title": "Gpt-4 technical report",
+        "publication_date": "2023"
+      },
+      "normalized_name": "gpt-4 technical report"
+    },
+    {
+      "name": "Achiam, J.",
+      "type": "Person",
+      "description": "An author of the GPT-4 technical report.",
+      "properties": {},
+      "normalized_name": "achiam j"
+    },
+    {
+      "name": "Adler, S.",
+      "type": "Person",
+      "description": "An author of the GPT-4 technical report.",
+      "properties": {},
+      "normalized_name": "adler s"
+    },
+    {
+      "name": "Agarwal, S.",
+      "type": "Person",
+      "description": "An author of the GPT-4 technical report.",
+      "properties": {},
+      "normalized_name": "agarwal s"
+    },
+    {
+      "name": "Ahmad, L.",
+      "type": "Person",
+      "description": "An author of the GPT-4 technical report.",
+      "properties": {},
+      "normalized_name": "ahmad l"
+    },
+    {
+      "name": "Akkaya, I.",
+      "type": "Person",
+      "description": "An author of the GPT-4 technical report.",
+      "properties": {},
+      "normalized_name": "akkaya i"
+    },
+    {
+      "name": "Aleman, F. L.",
+      "type": "Person",
+      "description": "An author of the GPT-4 technical report.",
+      "properties": {},
+      "normalized_name": "aleman f l"
+    },
+    {
+      "name": "Almeida, D.",
+      "type": "Person",
+      "description": "An author of the GPT-4 technical report.",
+      "properties": {},
+      "normalized_name": "almeida d"
+    },
+    {
+      "name": "Altenschmidt, J.",
+      "type": "Person",
+      "description": "An author of the GPT-4 technical report.",
+      "properties": {},
+      "normalized_name": "altenschmidt j"
+    },
+    {
+      "name": "Altman, S.",
+      "type": "Person",
+      "description": "An author of the GPT-4 technical report.",
+      "properties": {},
+      "normalized_name": "altman s"
+    },
+    {
+      "name": "Anadkat, S.",
+      "type": "Person",
+      "description": "An author of the GPT-4 technical report.",
+      "properties": {},
+      "normalized_name": "anadkat s"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "query-focused summarization",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "GraphRAG utilizes query-focused summarization as a core component.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "knowledge graph generation",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "GraphRAG utilizes knowledge graph generation as a core component.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "human sensemaking",
+      "type": "SOLVES_TASK",
+      "description": "GraphRAG is designed to support human sensemaking over text corpora.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "GraphRAG performance is evaluated on the comprehensiveness of answers.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "GraphRAG performance is evaluated on the diversity of answers.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "token cost",
+      "type": "MEASURED_BY",
+      "description": "GraphRAG performance is compared based on token cost efficiency.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "achiam j",
+      "type": "AUTHORED_BY",
+      "description": "Achiam, J. is an author of the GPT-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "adler s",
+      "type": "AUTHORED_BY",
+      "description": "Adler, S. is an author of the GPT-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "agarwal s",
+      "type": "AUTHORED_BY",
+      "description": "Agarwal, S. is an author of the GPT-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "ahmad l",
+      "type": "AUTHORED_BY",
+      "description": "Ahmad, L. is an author of the GPT-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "akkaya i",
+      "type": "AUTHORED_BY",
+      "description": "Akkaya, I. is an author of the GPT-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "aleman f l",
+      "type": "AUTHORED_BY",
+      "description": "Aleman, F. L. is an author of the GPT-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "almeida d",
+      "type": "AUTHORED_BY",
+      "description": "Almeida, D. is an author of the GPT-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "altenschmidt j",
+      "type": "AUTHORED_BY",
+      "description": "Altenschmidt, J. is an author of the GPT-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "altman s",
+      "type": "AUTHORED_BY",
+      "description": "Altman, S. is an author of the GPT-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "gpt-4 technical report",
+      "target": "anadkat s",
+      "type": "AUTHORED_BY",
+      "description": "Anadkat, S. is an author of the GPT-4 technical report.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:24:12.608423+00:00"
+}

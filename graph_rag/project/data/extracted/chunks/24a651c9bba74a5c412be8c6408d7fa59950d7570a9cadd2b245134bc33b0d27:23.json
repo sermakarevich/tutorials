@@ -1,0 +1,116 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:23",
+  "entities": [
+    {
+      "name": "Global Sensemaking Question Generation",
+      "type": "Method",
+      "description": "A procedure using an LLM to generate corpus-specific questions designed to assess high-level understanding without requiring retrieval of specific low-level facts.",
+      "properties": {
+        "category": "Evaluation",
+        "technique": "LLM Prompting"
+      },
+      "normalized_name": "global sensemaking question generation"
+    },
+    {
+      "name": "Global Sensemaking",
+      "type": "Task",
+      "description": "A task type involving high-level understanding of a corpus, distinct from retrieving specific low-level facts.",
+      "properties": {
+        "type": "Question Answering",
+        "complexity": "High-level"
+      },
+      "normalized_name": "global sensemaking"
+    },
+    {
+      "name": "Persona Generation",
+      "type": "Technique",
+      "description": "A step in the question generation process where an LLM is prompted to describe personas of hypothetical users.",
+      "properties": {
+        "stage": "Generation",
+        "mechanism": "LLM Prompting"
+      },
+      "normalized_name": "persona generation"
+    },
+    {
+      "name": "Task Identification",
+      "type": "Technique",
+      "description": "A step where the LLM specifies tasks that each hypothetical user would use the RAG system to complete.",
+      "properties": {
+        "stage": "Generation",
+        "mechanism": "LLM Prompting"
+      },
+      "normalized_name": "task identification"
+    },
+    {
+      "name": "High-level Question Generation",
+      "type": "Technique",
+      "description": "A step where the LLM generates questions for each user-task combination that require understanding of the entire corpus.",
+      "properties": {
+        "stage": "Generation",
+        "mechanism": "LLM Prompting"
+      },
+      "normalized_name": "high-level question generation"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "global sensemaking question generation",
+      "target": "global sensemaking",
+      "type": "SOLVES_TASK",
+      "description": "The method is designed to evaluate RAG systems on global sensemaking tasks.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "global sensemaking question generation",
+      "target": "persona generation",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "The method utilizes persona generation as a procedural step.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "global sensemaking question generation",
+      "target": "task identification",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "The method utilizes task identification as a procedural step.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "global sensemaking question generation",
+      "target": "high-level question generation",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "The method utilizes high-level question generation as a procedural step.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "persona generation",
+      "target": "global sensemaking question generation",
+      "type": "PART_OF_PIPELINE",
+      "description": "Persona generation is a component of the Global Sensemaking Question Generation workflow.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "task identification",
+      "target": "global sensemaking question generation",
+      "type": "PART_OF_PIPELINE",
+      "description": "Task identification is a component of the Global Sensemaking Question Generation workflow.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "high-level question generation",
+      "target": "global sensemaking question generation",
+      "type": "PART_OF_PIPELINE",
+      "description": "High-level question generation is a component of the Global Sensemaking Question Generation workflow.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:18:09.522191+00:00"
+}

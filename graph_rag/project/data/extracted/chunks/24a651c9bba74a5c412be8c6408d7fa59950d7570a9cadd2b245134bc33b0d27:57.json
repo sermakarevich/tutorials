@@ -1,0 +1,551 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:57",
+  "entities": [
+    {
+      "name": "Graph-toolformer",
+      "type": "Method",
+      "description": "A method to empower LLMs with graph reasoning ability via prompts augmented by ChatGPT.",
+      "properties": {
+        "category": "GraphRAG",
+        "technique": "Prompt Augmentation"
+      },
+      "normalized_name": "graph-toolformer"
+    },
+    {
+      "name": "Causal graph discovery with retrievalaugmented generation based large language models",
+      "type": "Paper",
+      "description": "A paper by Zhang et al. (2024a) on causal graph discovery using RAG-based LLMs.",
+      "properties": {
+        "title": "Causal graph discovery with retrievalaugmented generation based large language models",
+        "publication_date": "2024",
+        "venue": "arXiv"
+      },
+      "normalized_name": "causal graph discovery with retrievalaugmented generation based large language models"
+    },
+    {
+      "name": "Darg: Dynamic evaluation of large language models via adaptive reasoning graph",
+      "type": "Paper",
+      "description": "A paper by Zhang et al. (2024b) on dynamic evaluation of LLMs via adaptive reasoning graphs.",
+      "properties": {
+        "title": "Darg: Dynamic evaluation of large language models via adaptive reasoning graph",
+        "publication_date": "2024",
+        "venue": "arXiv"
+      },
+      "normalized_name": "darg dynamic evaluation of large language models via adaptive reasoning graph"
+    },
+    {
+      "name": "Judging llm-as-a-judge with mt-bench and chatbot arena",
+      "type": "Paper",
+      "description": "A paper by Zheng et al. (2024) on judging LLM-as-a-judge using MT-Bench and Chatbot Arena.",
+      "properties": {
+        "title": "Judging llm-as-a-judge with mt-bench and chatbot arena",
+        "publication_date": "2024",
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "normalized_name": "judging llm-as-a-judge with mt-bench and chatbot arena"
+    },
+    {
+      "name": "Llms for knowledge graph construction and reasoning: Recent capabilities and future opportunities",
+      "type": "Paper",
+      "description": "A paper by Zhu et al. (2024) discussing LLMs for knowledge graph construction and reasoning.",
+      "properties": {
+        "title": "Llms for knowledge graph construction and reasoning: Recent capabilities and future opportunities",
+        "publication_date": "2024",
+        "venue": "Unknown"
+      },
+      "normalized_name": "llms for knowledge graph construction and reasoning recent capabilities and future opportunities"
+    },
+    {
+      "name": "Zhang, Y.",
+      "type": "Person",
+      "description": "Author of the paper on causal graph discovery.",
+      "properties": {},
+      "normalized_name": "zhang y"
+    },
+    {
+      "name": "Gan, Y.",
+      "type": "Person",
+      "description": "Author of the paper on causal graph discovery.",
+      "properties": {},
+      "normalized_name": "gan y"
+    },
+    {
+      "name": "Yao, L.",
+      "type": "Person",
+      "description": "Author of the paper on causal graph discovery.",
+      "properties": {},
+      "normalized_name": "yao l"
+    },
+    {
+      "name": "Wang, C.",
+      "type": "Person",
+      "description": "Author of the paper on causal graph discovery.",
+      "properties": {},
+      "normalized_name": "wang c"
+    },
+    {
+      "name": "Zhang, Z.",
+      "type": "Person",
+      "description": "Author of the DARG paper.",
+      "properties": {},
+      "normalized_name": "zhang z"
+    },
+    {
+      "name": "Chen, J.",
+      "type": "Person",
+      "description": "Author of the DARG paper and the LLMs for KG construction paper.",
+      "properties": {},
+      "normalized_name": "chen j"
+    },
+    {
+      "name": "Yang, D.",
+      "type": "Person",
+      "description": "Author of the DARG paper.",
+      "properties": {},
+      "normalized_name": "yang d"
+    },
+    {
+      "name": "Zheng, L.",
+      "type": "Person",
+      "description": "Author of the MT-Bench paper.",
+      "properties": {},
+      "normalized_name": "zheng l"
+    },
+    {
+      "name": "Chiang, W.-L.",
+      "type": "Person",
+      "description": "Author of the MT-Bench paper.",
+      "properties": {},
+      "normalized_name": "chiang w -l"
+    },
+    {
+      "name": "Sheng, Y.",
+      "type": "Person",
+      "description": "Author of the MT-Bench paper.",
+      "properties": {},
+      "normalized_name": "sheng y"
+    },
+    {
+      "name": "Zhuang, S.",
+      "type": "Person",
+      "description": "Author of the MT-Bench paper.",
+      "properties": {},
+      "normalized_name": "zhuang s"
+    },
+    {
+      "name": "Wu, Z.",
+      "type": "Person",
+      "description": "Author of the MT-Bench paper.",
+      "properties": {},
+      "normalized_name": "wu z"
+    },
+    {
+      "name": "Zhuang, Y.",
+      "type": "Person",
+      "description": "Author of the MT-Bench paper.",
+      "properties": {},
+      "normalized_name": "zhuang y"
+    },
+    {
+      "name": "Lin, Z.",
+      "type": "Person",
+      "description": "Author of the MT-Bench paper.",
+      "properties": {},
+      "normalized_name": "lin z"
+    },
+    {
+      "name": "Li, Z.",
+      "type": "Person",
+      "description": "Author of the MT-Bench paper.",
+      "properties": {},
+      "normalized_name": "li z"
+    },
+    {
+      "name": "Li, D.",
+      "type": "Person",
+      "description": "Author of the MT-Bench paper.",
+      "properties": {},
+      "normalized_name": "li d"
+    },
+    {
+      "name": "Xing, E.",
+      "type": "Person",
+      "description": "Author of the MT-Bench paper.",
+      "properties": {},
+      "normalized_name": "xing e"
+    },
+    {
+      "name": "Zhu, Y.",
+      "type": "Person",
+      "description": "Author of the LLMs for KG construction paper.",
+      "properties": {},
+      "normalized_name": "zhu y"
+    },
+    {
+      "name": "Wang, X.",
+      "type": "Person",
+      "description": "Author of the LLMs for KG construction paper.",
+      "properties": {},
+      "normalized_name": "wang x"
+    },
+    {
+      "name": "Qiao, S.",
+      "type": "Person",
+      "description": "Author of the LLMs for KG construction paper.",
+      "properties": {},
+      "normalized_name": "qiao s"
+    },
+    {
+      "name": "Ou, Y.",
+      "type": "Person",
+      "description": "Author of the LLMs for KG construction paper.",
+      "properties": {},
+      "normalized_name": "ou y"
+    },
+    {
+      "name": "Yao, Y.",
+      "type": "Person",
+      "description": "Author of the LLMs for KG construction paper.",
+      "properties": {},
+      "normalized_name": "yao y"
+    },
+    {
+      "name": "Deng, S.",
+      "type": "Person",
+      "description": "Author of the LLMs for KG construction paper.",
+      "properties": {},
+      "normalized_name": "deng s"
+    },
+    {
+      "name": "Chen, H.",
+      "type": "Person",
+      "description": "Author of the LLMs for KG construction paper.",
+      "properties": {},
+      "normalized_name": "chen h"
+    },
+    {
+      "name": "Zhang, N.",
+      "type": "Person",
+      "description": "Author of the LLMs for KG construction paper.",
+      "properties": {},
+      "normalized_name": "zhang n"
+    },
+    {
+      "name": "arXiv",
+      "type": "Organization",
+      "description": "Preprint server where several cited papers are published.",
+      "properties": {
+        "type": "Preprint Server"
+      },
+      "normalized_name": "arxiv"
+    },
+    {
+      "name": "Advances in Neural Information Processing Systems",
+      "type": "Organization",
+      "description": "Conference venue for the MT-Bench paper.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "advances in neural information processing systems"
+    },
+    {
+      "name": "GPT-4",
+      "type": "Method",
+      "description": "LLM used in the default GraphRAG initialization pipeline for entity and relationship extraction.",
+      "properties": {
+        "category": "LLM"
+      },
+      "normalized_name": "gpt-4"
+    },
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A general framework for Graph-based Retrieval-Augmented Generation, specifically its initialization pipeline described here.",
+      "properties": {
+        "category": "GraphRAG"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "Entity Extraction",
+      "type": "Technique",
+      "description": "A procedural step in the GraphRAG pipeline to identify entities, their types, and descriptions.",
+      "properties": {
+        "stage": "Initialization",
+        "mechanism": "LLM Prompting"
+      },
+      "normalized_name": "entity extraction"
+    },
+    {
+      "name": "Relationship Extraction",
+      "type": "Technique",
+      "description": "A procedural step in the GraphRAG pipeline to identify relationships between entities.",
+      "properties": {
+        "stage": "Initialization",
+        "mechanism": "LLM Prompting"
+      },
+      "normalized_name": "relationship extraction"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "causal graph discovery with retrievalaugmented generation based large language models",
+      "target": "zhang y",
+      "type": "AUTHORED_BY",
+      "description": "Zhang, Y. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "causal graph discovery with retrievalaugmented generation based large language models",
+      "target": "gan y",
+      "type": "AUTHORED_BY",
+      "description": "Gan, Y. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "causal graph discovery with retrievalaugmented generation based large language models",
+      "target": "yao l",
+      "type": "AUTHORED_BY",
+      "description": "Yao, L. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "causal graph discovery with retrievalaugmented generation based large language models",
+      "target": "wang c",
+      "type": "AUTHORED_BY",
+      "description": "Wang, C. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "causal graph discovery with retrievalaugmented generation based large language models",
+      "target": "arxiv",
+      "type": "PUBLISHED_IN",
+      "description": "This paper is published on arXiv.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "darg dynamic evaluation of large language models via adaptive reasoning graph",
+      "target": "zhang z",
+      "type": "AUTHORED_BY",
+      "description": "Zhang, Z. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "darg dynamic evaluation of large language models via adaptive reasoning graph",
+      "target": "chen j",
+      "type": "AUTHORED_BY",
+      "description": "Chen, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "darg dynamic evaluation of large language models via adaptive reasoning graph",
+      "target": "yang d",
+      "type": "AUTHORED_BY",
+      "description": "Yang, D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "darg dynamic evaluation of large language models via adaptive reasoning graph",
+      "target": "arxiv",
+      "type": "PUBLISHED_IN",
+      "description": "This paper is published on arXiv.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "judging llm-as-a-judge with mt-bench and chatbot arena",
+      "target": "zheng l",
+      "type": "AUTHORED_BY",
+      "description": "Zheng, L. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "judging llm-as-a-judge with mt-bench and chatbot arena",
+      "target": "chiang w -l",
+      "type": "AUTHORED_BY",
+      "description": "Chiang, W.-L. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "judging llm-as-a-judge with mt-bench and chatbot arena",
+      "target": "sheng y",
+      "type": "AUTHORED_BY",
+      "description": "Sheng, Y. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "judging llm-as-a-judge with mt-bench and chatbot arena",
+      "target": "zhuang s",
+      "type": "AUTHORED_BY",
+      "description": "Zhuang, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "judging llm-as-a-judge with mt-bench and chatbot arena",
+      "target": "wu z",
+      "type": "AUTHORED_BY",
+      "description": "Wu, Z. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "judging llm-as-a-judge with mt-bench and chatbot arena",
+      "target": "zhuang y",
+      "type": "AUTHORED_BY",
+      "description": "Zhuang, Y. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "judging llm-as-a-judge with mt-bench and chatbot arena",
+      "target": "lin z",
+      "type": "AUTHORED_BY",
+      "description": "Lin, Z. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "judging llm-as-a-judge with mt-bench and chatbot arena",
+      "target": "li z",
+      "type": "AUTHORED_BY",
+      "description": "Li, Z. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "judging llm-as-a-judge with mt-bench and chatbot arena",
+      "target": "li d",
+      "type": "AUTHORED_BY",
+      "description": "Li, D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "judging llm-as-a-judge with mt-bench and chatbot arena",
+      "target": "xing e",
+      "type": "AUTHORED_BY",
+      "description": "Xing, E. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "judging llm-as-a-judge with mt-bench and chatbot arena",
+      "target": "advances in neural information processing systems",
+      "type": "PUBLISHED_IN",
+      "description": "This paper is published in Advances in Neural Information Processing Systems.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llms for knowledge graph construction and reasoning recent capabilities and future opportunities",
+      "target": "zhu y",
+      "type": "AUTHORED_BY",
+      "description": "Zhu, Y. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llms for knowledge graph construction and reasoning recent capabilities and future opportunities",
+      "target": "wang x",
+      "type": "AUTHORED_BY",
+      "description": "Wang, X. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llms for knowledge graph construction and reasoning recent capabilities and future opportunities",
+      "target": "chen j",
+      "type": "AUTHORED_BY",
+      "description": "Chen, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llms for knowledge graph construction and reasoning recent capabilities and future opportunities",
+      "target": "qiao s",
+      "type": "AUTHORED_BY",
+      "description": "Qiao, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llms for knowledge graph construction and reasoning recent capabilities and future opportunities",
+      "target": "ou y",
+      "type": "AUTHORED_BY",
+      "description": "Ou, Y. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llms for knowledge graph construction and reasoning recent capabilities and future opportunities",
+      "target": "yao y",
+      "type": "AUTHORED_BY",
+      "description": "Yao, Y. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llms for knowledge graph construction and reasoning recent capabilities and future opportunities",
+      "target": "deng s",
+      "type": "AUTHORED_BY",
+      "description": "Deng, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llms for knowledge graph construction and reasoning recent capabilities and future opportunities",
+      "target": "chen h",
+      "type": "AUTHORED_BY",
+      "description": "Chen, H. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llms for knowledge graph construction and reasoning recent capabilities and future opportunities",
+      "target": "zhang n",
+      "type": "AUTHORED_BY",
+      "description": "Zhang, N. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "gpt-4",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "The GraphRAG initialization pipeline uses GPT-4 for extraction tasks.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "entity extraction",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Entity Extraction is a component of the GraphRAG initialization pipeline.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "relationship extraction",
+      "type": "APPLIES_TECHNIQUE",
+      "description": "Relationship Extraction is a component of the GraphRAG initialization pipeline.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:34:27.006479+00:00"
+}

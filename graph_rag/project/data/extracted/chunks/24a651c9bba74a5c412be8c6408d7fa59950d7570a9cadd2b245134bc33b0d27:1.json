@@ -1,0 +1,87 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:1",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A method that uses community summaries to generate partial responses and then summarizes them into a final response, showing improvements over conventional RAG.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "RAG",
+      "type": "Method",
+      "description": "A conventional baseline method for retrieval-augmented generation.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation"
+      },
+      "normalized_name": "rag"
+    },
+    {
+      "name": "global sensemaking questions",
+      "type": "Task",
+      "description": "A class of questions over large datasets that GraphRAG is designed to address.",
+      "properties": {
+        "type": "Question Answering"
+      },
+      "normalized_name": "global sensemaking questions"
+    },
+    {
+      "name": "comprehensiveness",
+      "type": "Metric",
+      "description": "A measure of the completeness of generated answers.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "comprehensiveness"
+    },
+    {
+      "name": "diversity",
+      "type": "Metric",
+      "description": "A measure of the variety in generated answers.",
+      "properties": {
+        "category": "Quality"
+      },
+      "normalized_name": "diversity"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "rag",
+      "type": "IMPROVES_UPON",
+      "description": "GraphRAG leads to substantial improvements over a conventional RAG baseline.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "global sensemaking questions",
+      "type": "SOLVES_TASK",
+      "description": "GraphRAG is evaluated on a class of global sensemaking questions.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "comprehensiveness",
+      "type": "MEASURED_BY",
+      "description": "The performance of GraphRAG is measured by the comprehensiveness of generated answers.",
+      "weight": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "graphrag",
+      "target": "diversity",
+      "type": "MEASURED_BY",
+      "description": "The performance of GraphRAG is measured by the diversity of generated answers.",
+      "weight": 0.9,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:12:04.613182+00:00"
+}

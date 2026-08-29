@@ -1,0 +1,647 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:53",
+  "entities": [
+    {
+      "name": "Fabula",
+      "type": "Method",
+      "description": "A method for intelligence report generation using retrieval-augmented narrative construction.",
+      "properties": {
+        "category": "Generation",
+        "year": "2023",
+        "technique": "Retrieval-augmented narrative construction"
+      },
+      "normalized_name": "fabula"
+    },
+    {
+      "name": "Raptor",
+      "type": "Method",
+      "description": "A method for recursive abstractive processing for tree-organized retrieval.",
+      "properties": {
+        "category": "Retrieval",
+        "year": "2024",
+        "technique": "Recursive abstractive processing"
+      },
+      "normalized_name": "raptor"
+    },
+    {
+      "name": "Reflexion",
+      "type": "Method",
+      "description": "A method for language agents with verbal reinforcement learning.",
+      "properties": {
+        "category": "Agent",
+        "year": "2024",
+        "technique": "Verbal reinforcement learning"
+      },
+      "normalized_name": "reflexion"
+    },
+    {
+      "name": "Salminen, J.",
+      "type": "Person",
+      "description": "Author of the paper 'Deus ex machina and personas from large language models'.",
+      "properties": {},
+      "normalized_name": "salminen j"
+    },
+    {
+      "name": "Liu, C.",
+      "type": "Person",
+      "description": "Author of the paper 'Deus ex machina and personas from large language models'.",
+      "properties": {},
+      "normalized_name": "liu c"
+    },
+    {
+      "name": "Pian, W.",
+      "type": "Person",
+      "description": "Author of the paper 'Deus ex machina and personas from large language models'.",
+      "properties": {},
+      "normalized_name": "pian w"
+    },
+    {
+      "name": "Chi, J.",
+      "type": "Person",
+      "description": "Author of the paper 'Deus ex machina and personas from large language models'.",
+      "properties": {},
+      "normalized_name": "chi j"
+    },
+    {
+      "name": "H ¨ayh¨anen, E.",
+      "type": "Person",
+      "description": "Author of the paper 'Deus ex machina and personas from large language models'.",
+      "properties": {},
+      "normalized_name": "h ayh anen e"
+    },
+    {
+      "name": "Jansen, B. J.",
+      "type": "Person",
+      "description": "Author of the paper 'Deus ex machina and personas from large language models'.",
+      "properties": {},
+      "normalized_name": "jansen b j"
+    },
+    {
+      "name": "Sarthi, P.",
+      "type": "Person",
+      "description": "Author of the paper 'Raptor'.",
+      "properties": {},
+      "normalized_name": "sarthi p"
+    },
+    {
+      "name": "Abdullah, S.",
+      "type": "Person",
+      "description": "Author of the paper 'Raptor'.",
+      "properties": {},
+      "normalized_name": "abdullah s"
+    },
+    {
+      "name": "Tuli, A.",
+      "type": "Person",
+      "description": "Author of the paper 'Raptor'.",
+      "properties": {},
+      "normalized_name": "tuli a"
+    },
+    {
+      "name": "Khanna, S.",
+      "type": "Person",
+      "description": "Author of the paper 'Raptor'.",
+      "properties": {},
+      "normalized_name": "khanna s"
+    },
+    {
+      "name": "Goldie, A.",
+      "type": "Person",
+      "description": "Author of the paper 'Raptor'.",
+      "properties": {},
+      "normalized_name": "goldie a"
+    },
+    {
+      "name": "Manning, C. D.",
+      "type": "Person",
+      "description": "Author of the paper 'Raptor'.",
+      "properties": {},
+      "normalized_name": "manning c d"
+    },
+    {
+      "name": "Scott, K.",
+      "type": "Person",
+      "description": "Author of the article 'Behind the Tech'.",
+      "properties": {},
+      "normalized_name": "scott k"
+    },
+    {
+      "name": "Shao, Z.",
+      "type": "Person",
+      "description": "Author of the paper 'Enhancing retrievalaugmented large language models with iterative retrieval-generation synergy'.",
+      "properties": {},
+      "normalized_name": "shao z"
+    },
+    {
+      "name": "Gong, Y .",
+      "type": "Person",
+      "description": "Author of the paper 'Enhancing retrievalaugmented large language models with iterative retrieval-generation synergy'.",
+      "properties": {},
+      "normalized_name": "gong y"
+    },
+    {
+      "name": "Shen, Y .",
+      "type": "Person",
+      "description": "Author of the paper 'Enhancing retrievalaugmented large language models with iterative retrieval-generation synergy'.",
+      "properties": {},
+      "normalized_name": "shen y"
+    },
+    {
+      "name": "Huang, M.",
+      "type": "Person",
+      "description": "Author of the paper 'Enhancing retrievalaugmented large language models with iterative retrieval-generation synergy'.",
+      "properties": {},
+      "normalized_name": "huang m"
+    },
+    {
+      "name": "Duan, N.",
+      "type": "Person",
+      "description": "Author of the paper 'Enhancing retrievalaugmented large language models with iterative retrieval-generation synergy'.",
+      "properties": {},
+      "normalized_name": "duan n"
+    },
+    {
+      "name": "Chen, W.",
+      "type": "Person",
+      "description": "Author of the paper 'Enhancing retrievalaugmented large language models with iterative retrieval-generation synergy'.",
+      "properties": {},
+      "normalized_name": "chen w"
+    },
+    {
+      "name": "Shin, J.",
+      "type": "Person",
+      "description": "Author of the paper 'Understanding humanai workflows for generating personas'.",
+      "properties": {},
+      "normalized_name": "shin j"
+    },
+    {
+      "name": "Hedderich, M. A.",
+      "type": "Person",
+      "description": "Author of the paper 'Understanding humanai workflows for generating personas'.",
+      "properties": {},
+      "normalized_name": "hedderich m a"
+    },
+    {
+      "name": "Rey, B. J.",
+      "type": "Person",
+      "description": "Author of the paper 'Understanding humanai workflows for generating personas'.",
+      "properties": {},
+      "normalized_name": "rey b j"
+    },
+    {
+      "name": "Lucero, A.",
+      "type": "Person",
+      "description": "Author of the paper 'Understanding humanai workflows for generating personas'.",
+      "properties": {},
+      "normalized_name": "lucero a"
+    },
+    {
+      "name": "Oulasvirta, A.",
+      "type": "Person",
+      "description": "Author of the paper 'Understanding humanai workflows for generating personas'.",
+      "properties": {},
+      "normalized_name": "oulasvirta a"
+    },
+    {
+      "name": "Shinn, N.",
+      "type": "Person",
+      "description": "Author of the paper 'Reflexion'.",
+      "properties": {},
+      "normalized_name": "shinn n"
+    },
+    {
+      "name": "Cassano, F.",
+      "type": "Person",
+      "description": "Author of the paper 'Reflexion'.",
+      "properties": {},
+      "normalized_name": "cassano f"
+    },
+    {
+      "name": "Gopinath, A.",
+      "type": "Person",
+      "description": "Author of the paper 'Reflexion'.",
+      "properties": {},
+      "normalized_name": "gopinath a"
+    },
+    {
+      "name": "Narasimhan, K.",
+      "type": "Person",
+      "description": "Author of the paper 'Reflexion'.",
+      "properties": {},
+      "normalized_name": "narasimhan k"
+    },
+    {
+      "name": "Yao, S.",
+      "type": "Person",
+      "description": "Author of the paper 'Reflexion'.",
+      "properties": {},
+      "normalized_name": "yao s"
+    },
+    {
+      "name": "Fabula: Intelligence report generation using retrieval-augmented narrative construction",
+      "type": "Paper",
+      "description": "An arXiv preprint describing the Fabula method.",
+      "properties": {
+        "title": "Fabula: Intelligence report generation using retrieval-augmented narrative construction",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "fabula intelligence report generation using retrieval-augmented narrative construction"
+    },
+    {
+      "name": "Deus ex machina and personas from large language models: Investigating the composition of ai-generated persona descriptions",
+      "type": "Paper",
+      "description": "A paper published in the CHI Conference on Human Factors in Computing Systems.",
+      "properties": {
+        "title": "Deus ex machina and personas from large language models: Investigating the composition of ai-generated persona descriptions",
+        "publication_date": "2024",
+        "venue": "CHI Conference on Human Factors in Computing Systems"
+      },
+      "normalized_name": "deus ex machina and personas from large language models investigating the composition of ai-generated persona descriptions"
+    },
+    {
+      "name": "Raptor: Recursive abstractive processing for tree-organized retrieval",
+      "type": "Paper",
+      "description": "An arXiv preprint describing the Raptor method.",
+      "properties": {
+        "title": "Raptor: Recursive abstractive processing for tree-organized retrieval",
+        "publication_date": "2024",
+        "venue": "arXiv"
+      },
+      "normalized_name": "raptor recursive abstractive processing for tree-organized retrieval"
+    },
+    {
+      "name": "Behind the Tech",
+      "type": "Paper",
+      "description": "An article by Scott, K. published on Microsoft's website.",
+      "properties": {
+        "title": "Behind the Tech",
+        "publication_date": "2024",
+        "venue": "Microsoft"
+      },
+      "normalized_name": "behind the tech"
+    },
+    {
+      "name": "Enhancing retrievalaugmented large language models with iterative retrieval-generation synergy",
+      "type": "Paper",
+      "description": "An arXiv preprint describing a method for enhancing RAG with iterative synergy.",
+      "properties": {
+        "title": "Enhancing retrievalaugmented large language models with iterative retrieval-generation synergy",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "enhancing retrievalaugmented large language models with iterative retrieval-generation synergy"
+    },
+    {
+      "name": "Understanding humanai workflows for generating personas",
+      "type": "Paper",
+      "description": "A paper published in the 2024 ACM Designing Interactive Systems Conference.",
+      "properties": {
+        "title": "Understanding humanai workflows for generating personas",
+        "publication_date": "2024",
+        "venue": "ACM Designing Interactive Systems Conference"
+      },
+      "normalized_name": "understanding humanai workflows for generating personas"
+    },
+    {
+      "name": "Reflexion: Language agents with verbal reinforcement learning",
+      "type": "Paper",
+      "description": "A paper published in Advances in Neural Information Processing Systems.",
+      "properties": {
+        "title": "Reflexion: Language agents with verbal reinforcement learning",
+        "publication_date": "2024",
+        "venue": "Advances in Neural Information Processing Systems"
+      },
+      "normalized_name": "reflexion language agents with verbal reinforcement learning"
+    },
+    {
+      "name": "CHI Conference on Human Factors in Computing Systems",
+      "type": "Organization",
+      "description": "Conference venue for the paper 'Deus ex machina and personas from large language models'.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "chi conference on human factors in computing systems"
+    },
+    {
+      "name": "ACM Designing Interactive Systems Conference",
+      "type": "Organization",
+      "description": "Conference venue for the paper 'Understanding humanai workflows for generating personas'.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "acm designing interactive systems conference"
+    },
+    {
+      "name": "Advances in Neural Information Processing Systems",
+      "type": "Organization",
+      "description": "Publication venue for the paper 'Reflexion'.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "advances in neural information processing systems"
+    },
+    {
+      "name": "Microsoft",
+      "type": "Organization",
+      "description": "Publisher of the article 'Behind the Tech'.",
+      "properties": {
+        "type": "Company"
+      },
+      "normalized_name": "microsoft"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "fabula intelligence report generation using retrieval-augmented narrative construction",
+      "target": "fabula",
+      "type": "CITES",
+      "description": "The paper describes the Fabula method.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "deus ex machina and personas from large language models investigating the composition of ai-generated persona descriptions",
+      "target": "salminen j",
+      "type": "AUTHORED_BY",
+      "description": "Salminen, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "deus ex machina and personas from large language models investigating the composition of ai-generated persona descriptions",
+      "target": "liu c",
+      "type": "AUTHORED_BY",
+      "description": "Liu, C. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "deus ex machina and personas from large language models investigating the composition of ai-generated persona descriptions",
+      "target": "pian w",
+      "type": "AUTHORED_BY",
+      "description": "Pian, W. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "deus ex machina and personas from large language models investigating the composition of ai-generated persona descriptions",
+      "target": "chi j",
+      "type": "AUTHORED_BY",
+      "description": "Chi, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "deus ex machina and personas from large language models investigating the composition of ai-generated persona descriptions",
+      "target": "h ayh anen e",
+      "type": "AUTHORED_BY",
+      "description": "H ¨ayh¨anen, E. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "deus ex machina and personas from large language models investigating the composition of ai-generated persona descriptions",
+      "target": "jansen b j",
+      "type": "AUTHORED_BY",
+      "description": "Jansen, B. J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "deus ex machina and personas from large language models investigating the composition of ai-generated persona descriptions",
+      "target": "chi conference on human factors in computing systems",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in the CHI Conference on Human Factors in Computing Systems.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "raptor recursive abstractive processing for tree-organized retrieval",
+      "target": "raptor",
+      "type": "CITES",
+      "description": "The paper describes the Raptor method.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "raptor recursive abstractive processing for tree-organized retrieval",
+      "target": "sarthi p",
+      "type": "AUTHORED_BY",
+      "description": "Sarthi, P. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "raptor recursive abstractive processing for tree-organized retrieval",
+      "target": "abdullah s",
+      "type": "AUTHORED_BY",
+      "description": "Abdullah, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "raptor recursive abstractive processing for tree-organized retrieval",
+      "target": "tuli a",
+      "type": "AUTHORED_BY",
+      "description": "Tuli, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "raptor recursive abstractive processing for tree-organized retrieval",
+      "target": "khanna s",
+      "type": "AUTHORED_BY",
+      "description": "Khanna, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "raptor recursive abstractive processing for tree-organized retrieval",
+      "target": "goldie a",
+      "type": "AUTHORED_BY",
+      "description": "Goldie, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "raptor recursive abstractive processing for tree-organized retrieval",
+      "target": "manning c d",
+      "type": "AUTHORED_BY",
+      "description": "Manning, C. D. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "behind the tech",
+      "target": "scott k",
+      "type": "AUTHORED_BY",
+      "description": "Scott, K. is the author of this article.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "behind the tech",
+      "target": "microsoft",
+      "type": "PUBLISHED_IN",
+      "description": "The article was published by Microsoft.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "enhancing retrievalaugmented large language models with iterative retrieval-generation synergy",
+      "target": "shao z",
+      "type": "AUTHORED_BY",
+      "description": "Shao, Z. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "enhancing retrievalaugmented large language models with iterative retrieval-generation synergy",
+      "target": "gong y",
+      "type": "AUTHORED_BY",
+      "description": "Gong, Y . is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "enhancing retrievalaugmented large language models with iterative retrieval-generation synergy",
+      "target": "shen y",
+      "type": "AUTHORED_BY",
+      "description": "Shen, Y . is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "enhancing retrievalaugmented large language models with iterative retrieval-generation synergy",
+      "target": "huang m",
+      "type": "AUTHORED_BY",
+      "description": "Huang, M. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "enhancing retrievalaugmented large language models with iterative retrieval-generation synergy",
+      "target": "duan n",
+      "type": "AUTHORED_BY",
+      "description": "Duan, N. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "enhancing retrievalaugmented large language models with iterative retrieval-generation synergy",
+      "target": "chen w",
+      "type": "AUTHORED_BY",
+      "description": "Chen, W. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "understanding humanai workflows for generating personas",
+      "target": "shin j",
+      "type": "AUTHORED_BY",
+      "description": "Shin, J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "understanding humanai workflows for generating personas",
+      "target": "hedderich m a",
+      "type": "AUTHORED_BY",
+      "description": "Hedderich, M. A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "understanding humanai workflows for generating personas",
+      "target": "rey b j",
+      "type": "AUTHORED_BY",
+      "description": "Rey, B. J. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "understanding humanai workflows for generating personas",
+      "target": "lucero a",
+      "type": "AUTHORED_BY",
+      "description": "Lucero, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "understanding humanai workflows for generating personas",
+      "target": "oulasvirta a",
+      "type": "AUTHORED_BY",
+      "description": "Oulasvirta, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "understanding humanai workflows for generating personas",
+      "target": "acm designing interactive systems conference",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in the ACM Designing Interactive Systems Conference.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "reflexion language agents with verbal reinforcement learning",
+      "target": "reflexion",
+      "type": "CITES",
+      "description": "The paper describes the Reflexion method.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "reflexion language agents with verbal reinforcement learning",
+      "target": "shinn n",
+      "type": "AUTHORED_BY",
+      "description": "Shinn, N. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "reflexion language agents with verbal reinforcement learning",
+      "target": "cassano f",
+      "type": "AUTHORED_BY",
+      "description": "Cassano, F. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "reflexion language agents with verbal reinforcement learning",
+      "target": "gopinath a",
+      "type": "AUTHORED_BY",
+      "description": "Gopinath, A. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "reflexion language agents with verbal reinforcement learning",
+      "target": "narasimhan k",
+      "type": "AUTHORED_BY",
+      "description": "Narasimhan, K. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "reflexion language agents with verbal reinforcement learning",
+      "target": "yao s",
+      "type": "AUTHORED_BY",
+      "description": "Yao, S. is an author of this paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "reflexion language agents with verbal reinforcement learning",
+      "target": "advances in neural information processing systems",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in Advances in Neural Information Processing Systems.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:31:35.044600+00:00"
+}

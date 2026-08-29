@@ -1,0 +1,533 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:54",
+  "entities": [
+    {
+      "name": "Advances in Neural Information Processing Systems",
+      "type": "Organization",
+      "description": "A publication venue (conference) mentioned in the text.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "advances in neural information processing systems"
+    },
+    {
+      "name": "Su, D.",
+      "type": "Person",
+      "description": "Author of the Caire-covid paper.",
+      "properties": {},
+      "normalized_name": "su d"
+    },
+    {
+      "name": "Xu, Y.",
+      "type": "Person",
+      "description": "Author of the Caire-covid paper.",
+      "properties": {},
+      "normalized_name": "xu y"
+    },
+    {
+      "name": "Yu, T.",
+      "type": "Person",
+      "description": "Author of the Caire-covid paper.",
+      "properties": {},
+      "normalized_name": "yu t"
+    },
+    {
+      "name": "Siddique, F. B.",
+      "type": "Person",
+      "description": "Author of the Caire-covid paper.",
+      "properties": {},
+      "normalized_name": "siddique f b"
+    },
+    {
+      "name": "Barezi, E. J.",
+      "type": "Person",
+      "description": "Author of the Caire-covid paper.",
+      "properties": {},
+      "normalized_name": "barezi e j"
+    },
+    {
+      "name": "Fung, P.",
+      "type": "Person",
+      "description": "Author of the Caire-covid paper.",
+      "properties": {},
+      "normalized_name": "fung p"
+    },
+    {
+      "name": "Caire-covid",
+      "type": "Paper",
+      "description": "A paper titled 'Caire-covid: A question answering and query-focused multi-document summarization system for covid-19 scholarly information management.'",
+      "properties": {
+        "title": "Caire-covid: A question answering and query-focused multi-document summarization system for covid-19 scholarly information management.",
+        "publication_date": "2020",
+        "venue": "arXiv"
+      },
+      "normalized_name": "caire-covid"
+    },
+    {
+      "name": "Tan, Z.",
+      "type": "Person",
+      "description": "Author of the paper on representation learning of large-scale knowledge graphs.",
+      "properties": {},
+      "normalized_name": "tan z"
+    },
+    {
+      "name": "Zhao, X.",
+      "type": "Person",
+      "description": "Author of the paper on representation learning of large-scale knowledge graphs.",
+      "properties": {},
+      "normalized_name": "zhao x"
+    },
+    {
+      "name": "Wang, W.",
+      "type": "Person",
+      "description": "Author of the paper on representation learning of large-scale knowledge graphs.",
+      "properties": {},
+      "normalized_name": "wang w"
+    },
+    {
+      "name": "Representation learning of large-scale knowledge graphs via entity feature combinations",
+      "type": "Paper",
+      "description": "A paper published in CIKM '17.",
+      "properties": {
+        "title": "Representation learning of large-scale knowledge graphs via entity feature combinations",
+        "publication_date": "2017",
+        "venue": "CIKM"
+      },
+      "normalized_name": "representation learning of large-scale knowledge graphs via entity feature combinations"
+    },
+    {
+      "name": "CIKM",
+      "type": "Organization",
+      "description": "Conference on Information and Knowledge Management, a publication venue.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "cikm"
+    },
+    {
+      "name": "Association for Computing Machinery",
+      "type": "Organization",
+      "description": "Publisher of the CIKM proceedings.",
+      "properties": {
+        "type": "Publisher"
+      },
+      "normalized_name": "association for computing machinery"
+    },
+    {
+      "name": "Tang, Y.",
+      "type": "Person",
+      "description": "Author of the MultiHop-RAG paper.",
+      "properties": {},
+      "normalized_name": "tang y"
+    },
+    {
+      "name": "Yang, Y.",
+      "type": "Person",
+      "description": "Author of the MultiHop-RAG paper.",
+      "properties": {},
+      "normalized_name": "yang y"
+    },
+    {
+      "name": "MultiHop-RAG",
+      "type": "Paper",
+      "description": "A paper titled 'MultiHop-RAG: Benchmarking retrieval-augmented generation for multi-hop queries.'",
+      "properties": {
+        "title": "MultiHop-RAG: Benchmarking retrieval-augmented generation for multi-hop queries.",
+        "publication_date": "2024",
+        "venue": "arXiv"
+      },
+      "normalized_name": "multihop-rag"
+    },
+    {
+      "name": "Touvron, H.",
+      "type": "Person",
+      "description": "Author of the Llama 2 paper.",
+      "properties": {},
+      "normalized_name": "touvron h"
+    },
+    {
+      "name": "Martin, L.",
+      "type": "Person",
+      "description": "Author of the Llama 2 paper.",
+      "properties": {},
+      "normalized_name": "martin l"
+    },
+    {
+      "name": "Stone, K.",
+      "type": "Person",
+      "description": "Author of the Llama 2 paper.",
+      "properties": {},
+      "normalized_name": "stone k"
+    },
+    {
+      "name": "Albert, P.",
+      "type": "Person",
+      "description": "Author of the Llama 2 paper.",
+      "properties": {},
+      "normalized_name": "albert p"
+    },
+    {
+      "name": "Almahairi, A.",
+      "type": "Person",
+      "description": "Author of the Llama 2 paper.",
+      "properties": {},
+      "normalized_name": "almahairi a"
+    },
+    {
+      "name": "Babaei, Y.",
+      "type": "Person",
+      "description": "Author of the Llama 2 paper.",
+      "properties": {},
+      "normalized_name": "babaei y"
+    },
+    {
+      "name": "Bashlykov, N.",
+      "type": "Person",
+      "description": "Author of the Llama 2 paper.",
+      "properties": {},
+      "normalized_name": "bashlykov n"
+    },
+    {
+      "name": "Batra, S.",
+      "type": "Person",
+      "description": "Author of the Llama 2 paper.",
+      "properties": {},
+      "normalized_name": "batra s"
+    },
+    {
+      "name": "Bhargava, P.",
+      "type": "Person",
+      "description": "Author of the Llama 2 paper.",
+      "properties": {},
+      "normalized_name": "bhargava p"
+    },
+    {
+      "name": "Bhosale, S.",
+      "type": "Person",
+      "description": "Author of the Llama 2 paper.",
+      "properties": {},
+      "normalized_name": "bhosale s"
+    },
+    {
+      "name": "Llama 2",
+      "type": "Paper",
+      "description": "A paper titled 'Llama 2: Open foundation and fine-tuned chat models.'",
+      "properties": {
+        "title": "Llama 2: Open foundation and fine-tuned chat models.",
+        "publication_date": "2023",
+        "venue": "arXiv"
+      },
+      "normalized_name": "llama 2"
+    },
+    {
+      "name": "Traag, V. A.",
+      "type": "Person",
+      "description": "Author of the paper on community detection algorithms.",
+      "properties": {},
+      "normalized_name": "traag v a"
+    },
+    {
+      "name": "Waltman, L.",
+      "type": "Person",
+      "description": "Author of the paper on community detection algorithms.",
+      "properties": {},
+      "normalized_name": "waltman l"
+    },
+    {
+      "name": "Van Eck, N. J.",
+      "type": "Person",
+      "description": "Author of the paper on community detection algorithms.",
+      "properties": {},
+      "normalized_name": "van eck n j"
+    },
+    {
+      "name": "From Louvain to Leiden: guaranteeing well-connected communities",
+      "type": "Paper",
+      "description": "A paper published in Scientific Reports.",
+      "properties": {
+        "title": "From Louvain to Leiden: guaranteeing well-connected communities",
+        "publication_date": "2019",
+        "venue": "Scientific Reports"
+      },
+      "normalized_name": "from louvain to leiden guaranteeing well-connected communities"
+    },
+    {
+      "name": "Scientific Reports",
+      "type": "Organization",
+      "description": "A journal where the paper on community detection was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "scientific reports"
+    },
+    {
+      "name": "Trajanoska, M.",
+      "type": "Person",
+      "description": "Author of the paper on enhancing knowledge graph construction.",
+      "properties": {},
+      "normalized_name": "trajanoska m"
+    },
+    {
+      "name": "Stojanov, R.",
+      "type": "Person",
+      "description": "Author of the paper on enhancing knowledge graph construction.",
+      "properties": {},
+      "normalized_name": "stojanov r"
+    },
+    {
+      "name": "Trajanov, D.",
+      "type": "Person",
+      "description": "Author of the paper on enhancing knowledge graph construction.",
+      "properties": {},
+      "normalized_name": "trajanov d"
+    },
+    {
+      "name": "Enhancing knowledge graph construction using large language models",
+      "type": "Paper",
+      "description": "A paper published on ArXiv.",
+      "properties": {
+        "title": "Enhancing knowledge graph construction using large language models",
+        "publication_date": "2023",
+        "venue": "ArXiv"
+      },
+      "normalized_name": "enhancing knowledge graph construction using large language models"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "caire-covid",
+      "target": "su d",
+      "type": "AUTHORED_BY",
+      "description": "Su, D. is an author of the Caire-covid paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "caire-covid",
+      "target": "xu y",
+      "type": "AUTHORED_BY",
+      "description": "Xu, Y. is an author of the Caire-covid paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "caire-covid",
+      "target": "yu t",
+      "type": "AUTHORED_BY",
+      "description": "Yu, T. is an author of the Caire-covid paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "caire-covid",
+      "target": "siddique f b",
+      "type": "AUTHORED_BY",
+      "description": "Siddique, F. B. is an author of the Caire-covid paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "caire-covid",
+      "target": "barezi e j",
+      "type": "AUTHORED_BY",
+      "description": "Barezi, E. J. is an author of the Caire-covid paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "caire-covid",
+      "target": "fung p",
+      "type": "AUTHORED_BY",
+      "description": "Fung, P. is an author of the Caire-covid paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "representation learning of large-scale knowledge graphs via entity feature combinations",
+      "target": "tan z",
+      "type": "AUTHORED_BY",
+      "description": "Tan, Z. is an author of the paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "representation learning of large-scale knowledge graphs via entity feature combinations",
+      "target": "zhao x",
+      "type": "AUTHORED_BY",
+      "description": "Zhao, X. is an author of the paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "representation learning of large-scale knowledge graphs via entity feature combinations",
+      "target": "wang w",
+      "type": "AUTHORED_BY",
+      "description": "Wang, W. is an author of the paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "representation learning of large-scale knowledge graphs via entity feature combinations",
+      "target": "cikm",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in CIKM.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "multihop-rag",
+      "target": "tang y",
+      "type": "AUTHORED_BY",
+      "description": "Tang, Y. is an author of the MultiHop-RAG paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "multihop-rag",
+      "target": "yang y",
+      "type": "AUTHORED_BY",
+      "description": "Yang, Y. is an author of the MultiHop-RAG paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llama 2",
+      "target": "touvron h",
+      "type": "AUTHORED_BY",
+      "description": "Touvron, H. is an author of the Llama 2 paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llama 2",
+      "target": "martin l",
+      "type": "AUTHORED_BY",
+      "description": "Martin, L. is an author of the Llama 2 paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llama 2",
+      "target": "stone k",
+      "type": "AUTHORED_BY",
+      "description": "Stone, K. is an author of the Llama 2 paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llama 2",
+      "target": "albert p",
+      "type": "AUTHORED_BY",
+      "description": "Albert, P. is an author of the Llama 2 paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llama 2",
+      "target": "almahairi a",
+      "type": "AUTHORED_BY",
+      "description": "Almahairi, A. is an author of the Llama 2 paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llama 2",
+      "target": "babaei y",
+      "type": "AUTHORED_BY",
+      "description": "Babaei, Y. is an author of the Llama 2 paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llama 2",
+      "target": "bashlykov n",
+      "type": "AUTHORED_BY",
+      "description": "Bashlykov, N. is an author of the Llama 2 paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llama 2",
+      "target": "batra s",
+      "type": "AUTHORED_BY",
+      "description": "Batra, S. is an author of the Llama 2 paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llama 2",
+      "target": "bhargava p",
+      "type": "AUTHORED_BY",
+      "description": "Bhargava, P. is an author of the Llama 2 paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "llama 2",
+      "target": "bhosale s",
+      "type": "AUTHORED_BY",
+      "description": "Bhosale, S. is an author of the Llama 2 paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from louvain to leiden guaranteeing well-connected communities",
+      "target": "traag v a",
+      "type": "AUTHORED_BY",
+      "description": "Traag, V. A. is an author of the paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from louvain to leiden guaranteeing well-connected communities",
+      "target": "waltman l",
+      "type": "AUTHORED_BY",
+      "description": "Waltman, L. is an author of the paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from louvain to leiden guaranteeing well-connected communities",
+      "target": "van eck n j",
+      "type": "AUTHORED_BY",
+      "description": "Van Eck, N. J. is an author of the paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "from louvain to leiden guaranteeing well-connected communities",
+      "target": "scientific reports",
+      "type": "PUBLISHED_IN",
+      "description": "The paper was published in Scientific Reports.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "enhancing knowledge graph construction using large language models",
+      "target": "trajanoska m",
+      "type": "AUTHORED_BY",
+      "description": "Trajanoska, M. is an author of the paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "enhancing knowledge graph construction using large language models",
+      "target": "stojanov r",
+      "type": "AUTHORED_BY",
+      "description": "Stojanov, R. is an author of the paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "enhancing knowledge graph construction using large language models",
+      "target": "trajanov d",
+      "type": "AUTHORED_BY",
+      "description": "Trajanov, D. is an author of the paper.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:32:21.540692+00:00"
+}

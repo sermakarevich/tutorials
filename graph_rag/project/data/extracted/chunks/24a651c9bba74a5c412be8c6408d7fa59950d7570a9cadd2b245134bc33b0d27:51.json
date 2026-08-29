@@ -1,0 +1,486 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:51",
+  "entities": [
+    {
+      "name": "Generation-augmented retrieval for open-domain question answering",
+      "type": "Paper",
+      "description": "A 2020 arXiv preprint on generation-augmented retrieval.",
+      "properties": {
+        "title": "Generation-augmented retrieval for open-domain question answering",
+        "publication_date": "2020",
+        "venue": "arXiv"
+      },
+      "normalized_name": "generation-augmented retrieval for open-domain question answering"
+    },
+    {
+      "name": "Openord: An open-source toolbox for large graph layout",
+      "type": "Paper",
+      "description": "A 2011 paper presenting an open-source toolbox for graph layout.",
+      "properties": {
+        "title": "Openord: An open-source toolbox for large graph layout",
+        "publication_date": "2011",
+        "venue": "SPIE Conference on Visualization and Data Analysis (VDA)"
+      },
+      "normalized_name": "openord an open-source toolbox for large graph layout"
+    },
+    {
+      "name": "Martin, S.",
+      "type": "Person",
+      "description": "Author of the Openord paper.",
+      "properties": {},
+      "normalized_name": "martin s"
+    },
+    {
+      "name": "Brown, W. M.",
+      "type": "Person",
+      "description": "Author of the Openord paper.",
+      "properties": {},
+      "normalized_name": "brown w m"
+    },
+    {
+      "name": "Klavans, R.",
+      "type": "Person",
+      "description": "Author of the Openord paper.",
+      "properties": {},
+      "normalized_name": "klavans r"
+    },
+    {
+      "name": "Boyack, K.",
+      "type": "Person",
+      "description": "Author of the Openord paper.",
+      "properties": {},
+      "normalized_name": "boyack k"
+    },
+    {
+      "name": "SPIE Conference on Visualization and Data Analysis (VDA)",
+      "type": "Organization",
+      "description": "The conference where the Openord paper was published.",
+      "properties": {
+        "type": "Conference"
+      },
+      "normalized_name": "spie conference on visualization and data analysis vda"
+    },
+    {
+      "name": "Knowledge graph generation from text",
+      "type": "Paper",
+      "description": "A 2022 paper on generating knowledge graphs from text.",
+      "properties": {
+        "title": "Knowledge graph generation from text",
+        "publication_date": "2022"
+      },
+      "normalized_name": "knowledge graph generation from text"
+    },
+    {
+      "name": "Melnyk, I.",
+      "type": "Person",
+      "description": "Author of the paper on knowledge graph generation from text.",
+      "properties": {},
+      "normalized_name": "melnyk i"
+    },
+    {
+      "name": "Dognin, P.",
+      "type": "Person",
+      "description": "Author of the paper on knowledge graph generation from text.",
+      "properties": {},
+      "normalized_name": "dognin p"
+    },
+    {
+      "name": "Das, P.",
+      "type": "Person",
+      "description": "Author of the paper on knowledge graph generation from text.",
+      "properties": {},
+      "normalized_name": "das p"
+    },
+    {
+      "name": "Towards effective extraction and evaluation of factual claims",
+      "type": "Paper",
+      "description": "A 2025 paper on extracting and evaluating factual claims.",
+      "properties": {
+        "title": "Towards effective extraction and evaluation of factual claims",
+        "publication_date": "2025"
+      },
+      "normalized_name": "towards effective extraction and evaluation of factual claims"
+    },
+    {
+      "name": "Metropolitansky, D.",
+      "type": "Person",
+      "description": "Author of the paper on factual claims.",
+      "properties": {},
+      "normalized_name": "metropolitansky d"
+    },
+    {
+      "name": "Larson, J.",
+      "type": "Person",
+      "description": "Author of the paper on factual claims.",
+      "properties": {},
+      "normalized_name": "larson j"
+    },
+    {
+      "name": "The impact of large language models on scientific discovery: a preliminary study using gpt-4",
+      "type": "Paper",
+      "description": "A 2023 study by Microsoft on the impact of LLMs on scientific discovery.",
+      "properties": {
+        "title": "The impact of large language models on scientific discovery: a preliminary study using gpt-4",
+        "publication_date": "2023"
+      },
+      "normalized_name": "impact of large language models on scientific discovery a preliminary study using gpt-4"
+    },
+    {
+      "name": "Microsoft",
+      "type": "Organization",
+      "description": "The organization that published the study on LLMs and scientific discovery.",
+      "properties": {
+        "type": "Company"
+      },
+      "normalized_name": "microsoft"
+    },
+    {
+      "name": "Mining knowledge from text using information extraction",
+      "type": "Paper",
+      "description": "A 2005 paper on mining knowledge from text.",
+      "properties": {
+        "title": "Mining knowledge from text using information extraction",
+        "publication_date": "2005",
+        "venue": "SIGKDD Explor. Newsl."
+      },
+      "normalized_name": "mining knowledge from text using information extraction"
+    },
+    {
+      "name": "Mooney, R. J.",
+      "type": "Person",
+      "description": "Author of the paper on mining knowledge from text.",
+      "properties": {},
+      "normalized_name": "mooney r j"
+    },
+    {
+      "name": "Bunescu, R.",
+      "type": "Person",
+      "description": "Author of the paper on mining knowledge from text.",
+      "properties": {},
+      "normalized_name": "bunescu r"
+    },
+    {
+      "name": "SIGKDD Explor. Newsl.",
+      "type": "Organization",
+      "description": "The journal where the paper on mining knowledge from text was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "sigkdd explor newsl"
+    },
+    {
+      "name": "Nebulagraph launches industry-first graph rag: Retrieval-augmented generation with llm based on knowledge graphs",
+      "type": "Paper",
+      "description": "A 2024 publication by NebulaGraph about their GraphRAG implementation.",
+      "properties": {
+        "title": "Nebulagraph launches industry-first graph rag: Retrieval-augmented generation with llm based on knowledge graphs",
+        "publication_date": "2024"
+      },
+      "normalized_name": "nebulagraph launches industry-first graph rag retrieval-augmented generation with llm based on knowledge graphs"
+    },
+    {
+      "name": "NebulaGraph",
+      "type": "Organization",
+      "description": "The organization that published the GraphRAG launch post.",
+      "properties": {
+        "type": "Company"
+      },
+      "normalized_name": "nebulagraph"
+    },
+    {
+      "name": "Get started with graphrag: Neo4j’s ecosystem tools",
+      "type": "Paper",
+      "description": "A 2024 blog post by Neo4j about GraphRAG ecosystem tools.",
+      "properties": {
+        "title": "Get started with graphrag: Neo4j’s ecosystem tools",
+        "publication_date": "2024"
+      },
+      "normalized_name": "get started with graphrag neo4j s ecosystem tools"
+    },
+    {
+      "name": "Neo4J",
+      "type": "Organization",
+      "description": "The organization that published the GraphRAG ecosystem tools post.",
+      "properties": {
+        "type": "Company"
+      },
+      "normalized_name": "neo4j"
+    },
+    {
+      "name": "Modularity and community structure in networks",
+      "type": "Paper",
+      "description": "A 2006 paper on modularity and community structure.",
+      "properties": {
+        "title": "Modularity and community structure in networks",
+        "publication_date": "2006",
+        "venue": "Proceedings of the national academy of sciences"
+      },
+      "normalized_name": "modularity and community structure in networks"
+    },
+    {
+      "name": "Newman, M. E.",
+      "type": "Person",
+      "description": "Author of the paper on modularity and community structure.",
+      "properties": {},
+      "normalized_name": "newman m e"
+    },
+    {
+      "name": "Proceedings of the national academy of sciences",
+      "type": "Organization",
+      "description": "The journal where the paper on modularity was published.",
+      "properties": {
+        "type": "Journal"
+      },
+      "normalized_name": "proceedings of the national academy of sciences"
+    },
+    {
+      "name": "AFaCTA: Assisting the annotation of factual claim detection with reliable LLM annotators",
+      "type": "Paper",
+      "description": "A 2024 paper on assisting annotation of factual claim detection.",
+      "properties": {
+        "title": "AFaCTA: Assisting the annotation of factual claim detection with reliable LLM annotators",
+        "publication_date": "2024"
+      },
+      "normalized_name": "afacta assisting the annotation of factual claim detection with reliable llm annotators"
+    },
+    {
+      "name": "Ni, J.",
+      "type": "Person",
+      "description": "Author of the AFaCTA paper.",
+      "properties": {},
+      "normalized_name": "ni j"
+    },
+    {
+      "name": "Shi, M.",
+      "type": "Person",
+      "description": "Author of the AFaCTA paper.",
+      "properties": {},
+      "normalized_name": "shi m"
+    },
+    {
+      "name": "Stammbach, D.",
+      "type": "Person",
+      "description": "Author of the AFaCTA paper.",
+      "properties": {},
+      "normalized_name": "stammbach d"
+    },
+    {
+      "name": "Sachan, M.",
+      "type": "Person",
+      "description": "Author of the AFaCTA paper.",
+      "properties": {},
+      "normalized_name": "sachan m"
+    },
+    {
+      "name": "Ash, E.",
+      "type": "Person",
+      "description": "Author of the AFaCTA paper.",
+      "properties": {},
+      "normalized_name": "ash e"
+    },
+    {
+      "name": "Leippold, M.",
+      "type": "Person",
+      "description": "Author of the AFaCTA paper.",
+      "properties": {},
+      "normalized_name": "leippold m"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "openord an open-source toolbox for large graph layout",
+      "target": "martin s",
+      "type": "AUTHORED_BY",
+      "description": "Martin, S. is an author of the Openord paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "openord an open-source toolbox for large graph layout",
+      "target": "brown w m",
+      "type": "AUTHORED_BY",
+      "description": "Brown, W. M. is an author of the Openord paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "openord an open-source toolbox for large graph layout",
+      "target": "klavans r",
+      "type": "AUTHORED_BY",
+      "description": "Klavans, R. is an author of the Openord paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "openord an open-source toolbox for large graph layout",
+      "target": "boyack k",
+      "type": "AUTHORED_BY",
+      "description": "Boyack, K. is an author of the Openord paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "openord an open-source toolbox for large graph layout",
+      "target": "spie conference on visualization and data analysis vda",
+      "type": "PUBLISHED_IN",
+      "description": "The Openord paper was published in the SPIE Conference on Visualization and Data Analysis (VDA).",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph generation from text",
+      "target": "melnyk i",
+      "type": "AUTHORED_BY",
+      "description": "Melnyk, I. is an author of the paper on knowledge graph generation from text.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph generation from text",
+      "target": "dognin p",
+      "type": "AUTHORED_BY",
+      "description": "Dognin, P. is an author of the paper on knowledge graph generation from text.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "knowledge graph generation from text",
+      "target": "das p",
+      "type": "AUTHORED_BY",
+      "description": "Das, P. is an author of the paper on knowledge graph generation from text.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "towards effective extraction and evaluation of factual claims",
+      "target": "metropolitansky d",
+      "type": "AUTHORED_BY",
+      "description": "Metropolitansky, D. is an author of the paper on factual claims.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "towards effective extraction and evaluation of factual claims",
+      "target": "larson j",
+      "type": "AUTHORED_BY",
+      "description": "Larson, J. is an author of the paper on factual claims.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "impact of large language models on scientific discovery a preliminary study using gpt-4",
+      "target": "microsoft",
+      "type": "PROPOSED_BY",
+      "description": "Microsoft is the organization associated with this study.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "mining knowledge from text using information extraction",
+      "target": "mooney r j",
+      "type": "AUTHORED_BY",
+      "description": "Mooney, R. J. is an author of the paper on mining knowledge from text.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "mining knowledge from text using information extraction",
+      "target": "bunescu r",
+      "type": "AUTHORED_BY",
+      "description": "Bunescu, R. is an author of the paper on mining knowledge from text.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "mining knowledge from text using information extraction",
+      "target": "sigkdd explor newsl",
+      "type": "PUBLISHED_IN",
+      "description": "The paper on mining knowledge from text was published in SIGKDD Explor. Newsl.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "nebulagraph launches industry-first graph rag retrieval-augmented generation with llm based on knowledge graphs",
+      "target": "nebulagraph",
+      "type": "PROPOSED_BY",
+      "description": "NebulaGraph is the organization associated with this publication.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "get started with graphrag neo4j s ecosystem tools",
+      "target": "neo4j",
+      "type": "PROPOSED_BY",
+      "description": "Neo4J is the organization associated with this publication.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "modularity and community structure in networks",
+      "target": "newman m e",
+      "type": "AUTHORED_BY",
+      "description": "Newman, M. E. is the author of the paper on modularity and community structure.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "modularity and community structure in networks",
+      "target": "proceedings of the national academy of sciences",
+      "type": "PUBLISHED_IN",
+      "description": "The paper on modularity was published in the Proceedings of the national academy of sciences.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "afacta assisting the annotation of factual claim detection with reliable llm annotators",
+      "target": "ni j",
+      "type": "AUTHORED_BY",
+      "description": "Ni, J. is an author of the AFaCTA paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "afacta assisting the annotation of factual claim detection with reliable llm annotators",
+      "target": "shi m",
+      "type": "AUTHORED_BY",
+      "description": "Shi, M. is an author of the AFaCTA paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "afacta assisting the annotation of factual claim detection with reliable llm annotators",
+      "target": "stammbach d",
+      "type": "AUTHORED_BY",
+      "description": "Stammbach, D. is an author of the AFaCTA paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "afacta assisting the annotation of factual claim detection with reliable llm annotators",
+      "target": "sachan m",
+      "type": "AUTHORED_BY",
+      "description": "Sachan, M. is an author of the AFaCTA paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "afacta assisting the annotation of factual claim detection with reliable llm annotators",
+      "target": "ash e",
+      "type": "AUTHORED_BY",
+      "description": "Ash, E. is an author of the AFaCTA paper.",
+      "weight": 1.0,
+      "properties": {}
+    },
+    {
+      "source": "afacta assisting the annotation of factual claim detection with reliable llm annotators",
+      "target": "leippold m",
+      "type": "AUTHORED_BY",
+      "description": "Leippold, M. is an author of the AFaCTA paper.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:30:07.184668+00:00"
+}

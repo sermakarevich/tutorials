@@ -1,0 +1,46 @@
+{
+  "chunk_id": "24a651c9bba74a5c412be8c6408d7fa59950d7570a9cadd2b245134bc33b0d27:43",
+  "entities": [
+    {
+      "name": "GraphRAG",
+      "type": "Method",
+      "description": "A retrieval-augmented generation approach that uses graph indices, rich text annotations, and hierarchical community structures.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation",
+        "technique": "Map-reduce summarization"
+      },
+      "normalized_name": "graphrag"
+    },
+    {
+      "name": "Vector RAG",
+      "type": "Method",
+      "description": "A retrieval-augmented generation approach based on vector embeddings, used as a baseline for comparison.",
+      "properties": {
+        "category": "Retrieval-Augmented Generation"
+      },
+      "normalized_name": "vector rag"
+    },
+    {
+      "name": "Question answering over large document collections",
+      "type": "Task",
+      "description": "The downstream application of generating answers from large sets of documents.",
+      "properties": {
+        "type": "Question Answering"
+      },
+      "normalized_name": "question answering over large document collections"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "graphrag",
+      "target": "question answering over large document collections",
+      "type": "SOLVES_TASK",
+      "description": "GraphRAG is described as a mechanism for question answering over large document collections.",
+      "weight": 1.0,
+      "properties": {}
+    }
+  ],
+  "model": "qwen3.8:27b",
+  "prompt_version": "v1",
+  "extracted_at": "2026-08-29T15:23:44.990596+00:00"
+}
