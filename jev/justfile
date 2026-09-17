@@ -1,0 +1,41 @@
+# TypeSafe Jev tutorial. `just` lists the recipes.
+# TYPESAFE_API_KEY must be in your shell environment (or in a local, gitignored `justfile.env`).
+
+set dotenv-filename := "justfile.env"
+set dotenv-load
+
+notebook := "jev_tutorial.ipynb"
+port := "8899"
+
+default:
+    just --list
+
+# Install dependencies into .venv (uv creates it on first run)
+install:
+    uv sync
+
+# Fail fast if the API key is missing
+check-key:
+    @test -n "${TYPESAFE_API_KEY:-}" || (echo "TYPESAFE_API_KEY is not set" && exit 1)
+    @echo "TYPESAFE_API_KEY is set"
+
+# Ping the API: list the models your key can use
+models: check-key
+    uv run python -c "from typesafe_sdk import TypeSafeClient; print(TypeSafeClient().models.list())"
+
+# Start JupyterLab on http://localhost:{{port}} and open the tutorial notebook
+jupyter: check-key
+    uv run jupyter lab --port {{port}} {{notebook}}
+
+# Run the whole notebook headless (calls the API, overwrites saved outputs)
+run: check-key
+    uv run jupyter nbconvert --to notebook --execute --inplace \
+        --ExecutePreprocessor.timeout=600 {{notebook}}
+
+# Strip outputs before committing (keeps the diff small and secrets out)
+clean:
+    uv run jupyter nbconvert --clear-output --inplace {{notebook}}
+
+format:
+    uv run ruff format .
+    uv run ruff check --fix .

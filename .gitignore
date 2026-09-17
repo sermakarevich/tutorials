@@ -13,3 +13,7 @@ backups/
 
 # OS
 .DS_Store
+
+# Jev tutorial: local API key and cached API answers
+justfile.env
+**/fleet_cache/
