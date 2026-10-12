@@ -1,0 +1,32 @@
+# Data quality for chapter 09: one row-count test on analytics.daily_revenue.
+# The ODCS contract (ch09_contract.py) references this test by name and links
+# it as a quality expectation on import. `just ingest ch09_daily_revenue_quality test`.
+source:
+  type: TestSuite
+  serviceName: brightcup_pg
+  sourceConfig:
+    config:
+      type: TestSuite
+      entityFullyQualifiedName: brightcup_pg.brightcup.analytics.daily_revenue
+processor:
+  type: orm-test-runner
+  config:
+    forceUpdate: true
+    testCases:
+      - name: daily_revenue_has_rows
+        testDefinitionName: tableRowCountToBeBetween
+        parameterValues:
+          - name: minValue
+            value: "1"
+          - name: maxValue
+            value: "1000"
+sink:
+  type: metadata-rest
+  config: {}
+workflowConfig:
+  loggerLevel: INFO
+  openMetadataServerConfig:
+    hostPort: http://openmetadata-server:8585/api
+    authProvider: openmetadata
+    securityConfig:
+      jwtToken: ${OM_JWT_TOKEN}

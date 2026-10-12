@@ -1,0 +1,41 @@
+# Data quality on raw.customers: the 12 planted NULL emails plus a uniqueness
+# check and a country-set check. `just ingest ch07_customers_quality test`.
+# Results appear on the table's Data Observability tab and through the API
+# (/v1/dataQuality/testCases). Chapter 07 edits this file mid-run to show the
+# matchEnum and forceUpdate traps, then leaves it in this final state.
+source:
+  type: TestSuite
+  serviceName: brightcup_pg
+  sourceConfig:
+    config:
+      type: TestSuite
+      entityFullyQualifiedName: brightcup_pg.brightcup.raw.customers
+processor:
+  type: orm-test-runner
+  config:
+    forceUpdate: true  # update existing test cases when parameters in this file change
+    testCases:
+      - name: customers_email_not_null
+        testDefinitionName: columnValuesToBeNotNull
+        columnName: email
+      - name: customers_email_unique
+        testDefinitionName: columnValuesToBeUnique
+        columnName: email
+      - name: customers_country_in_set
+        testDefinitionName: columnValuesToBeInSet
+        columnName: country
+        parameterValues:
+          - name: allowedValues
+            value: '["DE", "FR", "NL", "PL", "ES", "IT"]'
+          - name: matchEnum
+            value: "true"
+sink:
+  type: metadata-rest
+  config: {}
+workflowConfig:
+  loggerLevel: INFO
+  openMetadataServerConfig:
+    hostPort: http://openmetadata-server:8585/api  # the server as seen inside Docker
+    authProvider: openmetadata
+    securityConfig:
+      jwtToken: ${OM_JWT_TOKEN}

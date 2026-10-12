@@ -1,0 +1,31 @@
+# Data quality on raw.products (chapter 07 only): an unowned table, so a failing
+# test opens an incident that stays New until a person moves it. `just ingest ch07_products_quality test`.
+source:
+  type: TestSuite
+  serviceName: brightcup_pg
+  sourceConfig:
+    config:
+      type: TestSuite
+      entityFullyQualifiedName: brightcup_pg.brightcup.raw.products
+processor:
+  type: orm-test-runner
+  config:
+    forceUpdate: true
+    testCases:
+      - name: ch07_products_row_count
+        testDefinitionName: tableRowCountToBeBetween
+        parameterValues:
+          - name: minValue
+            value: "0"
+          - name: maxValue
+            value: "10"
+sink:
+  type: metadata-rest
+  config: {}
+workflowConfig:
+  loggerLevel: INFO
+  openMetadataServerConfig:
+    hostPort: http://openmetadata-server:8585/api
+    authProvider: openmetadata
+    securityConfig:
+      jwtToken: ${OM_JWT_TOKEN}

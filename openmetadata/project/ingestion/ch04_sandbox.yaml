@@ -1,0 +1,34 @@
+# Metadata ingestion for the chapter-04 playground: a NEW service
+# `brightcup_sandbox` that reads ONLY the `sandbox` schema of the same shop
+# database (never `brightcup_pg`'s raw/analytics). `just ingest ch04_sandbox`.
+source:
+  type: postgres
+  serviceName: brightcup_sandbox
+  serviceConnection:
+    config:
+      type: Postgres
+      username: ${SHOP_READER_USER}
+      authType:
+        password: ${SHOP_READER_PASSWORD}
+      hostPort: shopdb:5432  # the shop database as seen inside Docker
+      database: brightcup
+  sourceConfig:
+    config:
+      type: DatabaseMetadata
+      includeTables: true
+      includeViews: true
+      markDeletedTables: true
+      # Only our playground schema. Never touches service brightcup_pg.
+      schemaFilterPattern:
+        includes:
+          - ^sandbox$
+sink:
+  type: metadata-rest
+  config: {}
+workflowConfig:
+  loggerLevel: INFO
+  openMetadataServerConfig:
+    hostPort: http://openmetadata-server:8585/api  # the server as seen inside Docker
+    authProvider: openmetadata
+    securityConfig:
+      jwtToken: ${OM_JWT_TOKEN}

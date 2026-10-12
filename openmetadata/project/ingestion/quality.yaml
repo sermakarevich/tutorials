@@ -1,0 +1,52 @@
+# Data quality: four tests on raw.orders: a row-count check (passes) and one test
+# per planted defect (duplicate ids, negative amounts, misspelled status; all fail). `just ingest quality test`. Results appear on the table's
+# Data Observability tab and through the API (/v1/dataQuality/testCases).
+source:
+  type: TestSuite
+  serviceName: brightcup_pg
+  sourceConfig:
+    config:
+      type: TestSuite
+      entityFullyQualifiedName: brightcup_pg.brightcup.raw.orders
+processor:
+  type: orm-test-runner
+  config:
+    forceUpdate: true  # update existing test cases when parameters in this file change
+    testCases:
+      - name: orders_row_count_between
+        testDefinitionName: tableRowCountToBeBetween
+        parameterValues:
+          - name: minValue
+            value: "500"
+          - name: maxValue
+            value: "5000"
+      - name: orders_order_id_unique
+        testDefinitionName: columnValuesToBeUnique
+        columnName: order_id
+      - name: orders_no_negative_amounts
+        testDefinitionName: tableCustomSQLQuery
+        parameterValues:
+          - name: sqlExpression
+            value: "SELECT * FROM raw.orders WHERE total_amount < 0"
+          - name: strategy
+            value: ROWS
+          - name: threshold
+            value: "0"
+      - name: orders_status_in_set
+        testDefinitionName: columnValuesToBeInSet
+        columnName: status
+        parameterValues:
+          - name: allowedValues
+            value: '["placed", "shipped", "delivered", "cancelled", "returned"]'
+          - name: matchEnum
+            value: "true"
+sink:
+  type: metadata-rest
+  config: {}
+workflowConfig:
+  loggerLevel: INFO
+  openMetadataServerConfig:
+    hostPort: http://openmetadata-server:8585/api  # the server as seen inside Docker
+    authProvider: openmetadata
+    securityConfig:
+      jwtToken: ${OM_JWT_TOKEN}

@@ -1,0 +1,37 @@
+# Lineage: read view definitions and the query log (pg_stat_statements) of the
+# Brightcup database and draw table/column lineage between the cataloged tables.
+# Run after `just ingest metadata` (and `just transform` for query lineage):
+# `just ingest lineage`.
+source:
+  type: postgres-lineage
+  serviceName: brightcup_pg
+  serviceConnection:
+    config:
+      type: Postgres
+      username: ${SHOP_READER_USER}
+      authType:
+        password: ${SHOP_READER_PASSWORD}
+      hostPort: shopdb:5432  # the shop database as seen inside Docker
+      database: brightcup
+  sourceConfig:
+    config:
+      type: DatabaseLineage
+      queryLogDuration: 1
+      resultLimit: 1000
+      processViewLineage: true
+      processQueryLineage: true
+      processStoredProcedureLineage: false
+      schemaFilterPattern:
+        includes:
+          - ^raw$
+          - ^analytics$
+sink:
+  type: metadata-rest
+  config: {}
+workflowConfig:
+  loggerLevel: INFO
+  openMetadataServerConfig:
+    hostPort: http://openmetadata-server:8585/api  # the server as seen inside Docker
+    authProvider: openmetadata
+    securityConfig:
+      jwtToken: ${OM_JWT_TOKEN}

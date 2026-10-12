@@ -1,0 +1,42 @@
+# Usage workflow on the MAIN service brightcup_pg: reads the query history
+# (pg_stat_statements) and writes usage stats/queries onto the already
+# cataloged tables. Run with `just ingest ch04_usage usage`. Only adds usage,
+# never new tables.
+# Field names follow https://docs.open-metadata.org/v2.0.x/connectors/ingestion/workflows/usage
+# (source type <db>-usage, sourceConfig type DatabaseUsage, query-parser
+# processor, table-usage stage, metadata-usage bulk sink).
+source:
+  type: postgres-usage
+  serviceName: brightcup_pg
+  serviceConnection:
+    config:
+      type: Postgres
+      username: ${SHOP_READER_USER}
+      authType:
+        password: ${SHOP_READER_PASSWORD}
+      hostPort: shopdb:5432  # the shop database as seen inside Docker
+      database: brightcup
+  sourceConfig:
+    config:
+      type: DatabaseUsage
+      queryLogDuration: 1
+      stageFileLocation: /tmp/query_log
+      resultLimit: 1000
+processor:
+  type: query-parser
+  config: {}
+stage:
+  type: table-usage
+  config:
+    filename: /tmp/ch04_usage
+bulkSink:
+  type: metadata-usage
+  config:
+    filename: /tmp/ch04_usage
+workflowConfig:
+  loggerLevel: INFO
+  openMetadataServerConfig:
+    hostPort: http://openmetadata-server:8585/api  # the server as seen inside Docker
+    authProvider: openmetadata
+    securityConfig:
+      jwtToken: ${OM_JWT_TOKEN}

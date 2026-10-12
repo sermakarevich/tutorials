@@ -1,0 +1,96 @@
+set dotenv-load := true
+set positional-arguments := true
+
+# List all recipes.
+default:
+    @just --list
+
+# Install/sync Python dependencies (Python 3.12 via uv).
+sync:
+    uv sync
+
+# Create .env from .env.template if it does not exist yet.
+env:
+    @test -f .env || (cp .env.template .env && echo "created .env from .env.template")
+
+# Start the whole stack and wait until the OpenMetadata server answers (first start: ~3-5 min).
+up: env
+    docker compose up -d
+    @echo "waiting for om-tutorial-server to become healthy..."
+    @until [ "$(docker inspect --format '{{{{.State.Health.Status}}' om-tutorial-server 2>/dev/null)" = "healthy" ]; do sleep 5; done
+    @echo "waiting for the ingestion container (airflow) to answer..."
+    @until curl -sf localhost:18080/api/v2/monitor/health > /dev/null; do sleep 5; done
+    @echo "stack is up: http://localhost:18585 (admin@open-metadata.org / admin)"
+
+# Stop the stack (keeps all data).
+down:
+    docker compose down
+
+# Stop the stack and delete every volume (catalog, search index, shop database). Next `just up` starts from zero.
+reset:
+    docker compose down -v
+
+# Container status.
+ps:
+    docker compose ps
+
+# Follow logs of one service (server, ingestion, shopdb, ...) or all.
+logs service="":
+    docker compose logs -f {{service}}
+
+# Fetch the ingestion-bot JWT and store it in .env as OM_JWT_TOKEN.
+token:
+    uv run python -m openmetadata_tutorial.write_token
+
+# Health of every service, versions, shop row counts.
+check:
+    uv run python -m openmetadata_tutorial.check
+
+# Run an ingestion workflow inside the ingestion container: `just ingest metadata` runs ingestion/metadata.yaml.
+ingest name command="ingest":
+    uv run python -m openmetadata_tutorial.ingest {{command}} ingestion/{{name}}.yaml
+
+# Run every shared workflow once, in order (idempotent): transform, metadata, lineage, profiler, classify, quality.
+bootstrap:
+    just transform
+    just ingest metadata
+    just ingest lineage
+    just ingest profiler profile
+    just ingest classify classify
+    just ingest quality test
+
+# Rebuild analytics.customer_ltv in the shop database (the "nightly job", source of query lineage).
+transform:
+    uv run python -m openmetadata_tutorial.transform
+
+# Regenerate the Brightcup seed CSVs in data/shop (deterministic; already committed).
+seed:
+    uv run python -m openmetadata_tutorial.shop_data
+
+# Run SQL against the shop database as shop_admin, e.g. `just sql "select count(*) from raw.orders"`.
+sql query:
+    docker exec -i om-tutorial-shopdb psql -U shop_admin -d brightcup -c "{{query}}"
+
+# GET an OpenMetadata API path (after /api), e.g. `just api /v1/system/version`.
+api path:
+    @curl -s -H "Authorization: Bearer $OM_JWT_TOKEN" "$OM_URL/api{{path}}" | jq
+
+# Events the webhook receiver got (chapter 09).
+events:
+    @curl -s localhost:18090/events | jq
+
+# Execute a chapter notebook in place with outputs, e.g. `just nb 05_api_and_sdk`.
+nb name:
+    uv run jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=900 ../{{name}}.ipynb
+
+# Save a real UI screenshot, e.g. `just shot /table/brightcup_pg.brightcup.raw.orders assets/02_table.png`.
+shot path out *args:
+    uv run python -m openmetadata_tutorial.screenshots "{{path}}" "{{out}}" {{args}}
+
+# Offline tests (no stack needed).
+test:
+    uv run pytest tests -q -m "not stack"
+
+# All tests, including the ones that need the running stack.
+test-all:
+    uv run pytest tests -q

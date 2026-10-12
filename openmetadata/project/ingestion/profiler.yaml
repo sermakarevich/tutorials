@@ -1,0 +1,38 @@
+# Profiler: compute table and column statistics (row count, nulls, distinct,
+# min/max, ...) for the Brightcup tables. `just ingest profiler profile`.
+source:
+  type: postgres
+  serviceName: brightcup_pg
+  serviceConnection:
+    config:
+      type: Postgres
+      username: ${SHOP_READER_USER}
+      authType:
+        password: ${SHOP_READER_PASSWORD}
+      hostPort: shopdb:5432  # the shop database as seen inside Docker
+      database: brightcup
+  sourceConfig:
+    config:
+      type: Profiler
+      profileSampleConfig:
+        sampleConfigType: STATIC
+        config:
+          profileSampleType: PERCENTAGE
+          profileSample: 100
+      schemaFilterPattern:
+        includes:
+          - ^raw$
+          - ^analytics$
+processor:
+  type: orm-profiler
+  config: {}
+sink:
+  type: metadata-rest
+  config: {}
+workflowConfig:
+  loggerLevel: INFO
+  openMetadataServerConfig:
+    hostPort: http://openmetadata-server:8585/api  # the server as seen inside Docker
+    authProvider: openmetadata
+    securityConfig:
+      jwtToken: ${OM_JWT_TOKEN}

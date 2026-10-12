@@ -1,0 +1,35 @@
+# Same playground as ch04_sandbox.yaml, but `overrideMetadata: true`: values
+# from the source (descriptions from Postgres COMMENTs) overwrite edits made
+# in OpenMetadata. Run once with `just ingest ch04_sandbox_override` to see
+# the difference; the default (false) keeps UI/API edits instead.
+source:
+  type: postgres
+  serviceName: brightcup_sandbox
+  serviceConnection:
+    config:
+      type: Postgres
+      username: ${SHOP_READER_USER}
+      authType:
+        password: ${SHOP_READER_PASSWORD}
+      hostPort: shopdb:5432  # the shop database as seen inside Docker
+      database: brightcup
+  sourceConfig:
+    config:
+      type: DatabaseMetadata
+      includeTables: true
+      includeViews: true
+      markDeletedTables: true
+      overrideMetadata: true
+      schemaFilterPattern:
+        includes:
+          - ^sandbox$
+sink:
+  type: metadata-rest
+  config: {}
+workflowConfig:
+  loggerLevel: INFO
+  openMetadataServerConfig:
+    hostPort: http://openmetadata-server:8585/api  # the server as seen inside Docker
+    authProvider: openmetadata
+    securityConfig:
+      jwtToken: ${OM_JWT_TOKEN}

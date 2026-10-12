@@ -7,6 +7,7 @@ Hands-on tutorials with runnable companion projects.
 | [neo4j](neo4j/) | Neo4j graph database basics: data model, Cypher queries, Python driver patterns | [neo4j/index.md](neo4j/index.md) |
 | [graph_rag](graph_rag/) | Building a GraphRAG (Graph Retrieval-Augmented Generation) pipeline on Neo4j with local LLMs | [graph_rag/index.md](graph_rag/index.md) |
 | [jev](jev/) | Using TypeSafe's Jev judge model from Python: Choice / Score / Noul questions, confidence-gated routing, composite scoring, and a real code review of a repo | [jev/README.md](jev/README.md) |
+| [openmetadata](openmetadata/) | OpenMetadata data catalog: discovery, lineage, data quality and governance on a coffee-shop example, with Docker Compose stack, ingestion workflows, REST API/SDK and notebooks | [openmetadata/index.md](openmetadata/index.md) |
 
 The Neo4j and GraphRAG tutorials have a `project/` folder with a `docker-compose.yml`, a `justfile`, source code and tests;
 see their `00_setup.md` for prerequisites (Docker, [uv](https://docs.astral.sh/uv/), [just](https://github.com/casey/just)).

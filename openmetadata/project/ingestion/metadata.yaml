@@ -1,0 +1,35 @@
+# Metadata ingestion: read schemas, tables, views, columns and comments of the
+# Brightcup database into OpenMetadata as the service `brightcup_pg`.
+# Run with `just ingest metadata`: fills ${...} from .env and runs
+# `metadata ingest` inside the om-tutorial-ingestion container.
+source:
+  type: postgres
+  serviceName: brightcup_pg
+  serviceConnection:
+    config:
+      type: Postgres
+      username: ${SHOP_READER_USER}
+      authType:
+        password: ${SHOP_READER_PASSWORD}
+      hostPort: shopdb:5432  # the shop database as seen inside Docker
+      database: brightcup
+  sourceConfig:
+    config:
+      type: DatabaseMetadata
+      includeTables: true
+      includeViews: true
+      markDeletedTables: true
+      schemaFilterPattern:
+        includes:
+          - ^raw$
+          - ^analytics$
+sink:
+  type: metadata-rest
+  config: {}
+workflowConfig:
+  loggerLevel: INFO
+  openMetadataServerConfig:
+    hostPort: http://openmetadata-server:8585/api  # the server as seen inside Docker
+    authProvider: openmetadata
+    securityConfig:
+      jwtToken: ${OM_JWT_TOKEN}
