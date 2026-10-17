@@ -1,0 +1,280 @@
+set dotenv-load := true
+
+# List all available recipes.
+default:
+    @just --list
+
+# Install/sync Python dependencies.
+sync:
+    uv sync
+
+# Start one docker-compose profile (e.g. `just up qdrant`) and wait until healthy.
+up profile:
+    docker compose --profile {{profile}} up -d
+    @echo "waiting for {{profile}} containers to become healthy..."
+    @while [ -n "$(docker compose --profile {{profile}} ps -q | xargs -I{} docker inspect --format '{{{{.State.Health.Status}}' {} | grep -v healthy)" ]; do sleep 1; done
+    @echo "{{profile}} is healthy"
+
+# Stop one docker-compose profile's containers (keeps volumes).
+down profile:
+    docker compose --profile {{profile}} down
+
+# Run the full setup check: Ollama, chat, embeddings, Qdrant, corpus, cache.
+check:
+    uv run python -m rag_tutorial.check
+
+# Bring up the SSH tunnel to the Ollama server on the rtx GPU box.
+tunnel:
+    fleet tunnel
+
+# Check the shared RTX GPU is polite to use before a big batch of LLM calls.
+gpu-check:
+    uv run python -m rag_tutorial.gpu
+
+# Download the 12-paper corpus PDFs (skips ones already on disk).
+corpus-download:
+    uv run python -m rag_tutorial.corpus download
+
+# Parse the downloaded PDFs into committed Markdown under data/corpus/md/ (winner: pymupdf4llm).
+corpus-parse:
+    uv run python -m rag_tutorial.corpus parse
+
+# Download then parse the whole corpus.
+corpus: corpus-download corpus-parse
+
+# Compare pypdf / pymupdf4llm / docling on two table-heavy papers (chapter 02).
+parse-compare:
+    uv run python -m rag_tutorial.parsers
+
+# Generate golden-set candidate questions (chapter 02); then `just golden-review`.
+golden-generate:
+    uv run python -m rag_tutorial.golden generate
+
+# Print every golden-set item with its evidence for a human review pass.
+golden-review:
+    uv run python -m rag_tutorial.golden review
+
+# Print golden-set counts per type/split, mean question length, paper coverage.
+golden-stats:
+    uv run python -m rag_tutorial.golden stats
+
+# Run the 02_no_retrieval anchor (LLM answers from memory alone, test split).
+anchor-no-retrieval:
+    uv run python -m rag_tutorial.evaluate no-retrieval
+
+# Run the 02_oracle anchor (LLM gets the gold evidence quotes as context).
+anchor-oracle:
+    uv run python -m rag_tutorial.evaluate oracle
+
+# Rebuild runs/scoreboard.md from every runs/*/metrics.json.
+scoreboard:
+    uv run python -m rag_tutorial.scoreboard
+
+# Print the on-disk LLM/embedding cache size.
+cache-stats:
+    uv run python -m rag_tutorial.llm
+
+# Run chapter 01's demos: why retrieval helps, embedding similarity, tokens vs context.
+# `just demo-concepts` runs all three; `just demo-concepts why-retrieval` runs just one.
+demo-concepts subcommand="main":
+    uv run python -m rag_tutorial.demo_concepts {{subcommand}}
+
+# Chunk the corpus and build the baseline Chroma index (chapter 03).
+baseline-index:
+    uv run python -m rag_tutorial.baseline index
+
+# Ask the baseline pipeline one question and print the retrieved chunks + answer.
+baseline-ask question k="5":
+    uv run python -m rag_tutorial.baseline ask "{{question}}" --k {{k}}
+
+# Run the baseline eval at k=5 (plus the k=3/k=10 sweep) — chapter 03's scoreboard rows.
+baseline-eval:
+    uv run python -m rag_tutorial.baseline eval
+
+# Chapter 04: index + evaluate every chunking strategy (fixed/recursive/sentence/
+# markdown/semantic/parent_child/sentence_window/contextual), writes 04_chunk_stats.json.
+chunking-eval:
+    uv run python -m rag_tutorial.chunking_eval
+
+# Chapter 04: the late-chunking demo (sentence-transformers, CPU, one paper, not scored).
+late-chunking-demo:
+    uv run python -m rag_tutorial.late_chunking
+
+# Chapter 05: run the 8 named retrieval experiments (dense/bm25/hybrid/mmr/filtered/qdrant).
+# Needs `just up qdrant` first (for 05_qdrant_native_hybrid_k5).
+retrieval-eval:
+    uv run python -m rag_tutorial.retrieval_eval run-all
+
+# Chapter 05: cheap retrieval-only k-sweep (k=1/3/5/10/20), writes runs/05_retrieval_sweep.{json,png}.
+retrieval-sweep:
+    uv run python -m rag_tutorial.retrieval_eval sweep
+
+# Chapter 06: same chunks/queries into 5 stores; latency/size/recall comparison. Needs `just up qdrant pgvector`.
+store-bench:
+    uv run python -m rag_tutorial.store_bench
+
+# Chapter 06: embedding model comparison (models/matryoshka), Qdrant quant + HNSW sweep (quant/hnsw), or all.
+# Needs `just up qdrant` for quant/hnsw. Embeddings are disk-cached after first run.
+embed-eval subcommand="all":
+    uv run python -m rag_tutorial.embed_eval {{subcommand}}
+
+# Chapter 07: run the 12 named reranker / query-transform experiments on the fixed
+# chapter-05 hybrid RRf setup. Needs Ollama (chat qwen3.8:27b + nomic embeddings)
+# and pre-cached cross-encoder / FlashRank / ColBERT checkpoints (see `just check`).
+# Re-runs are disk-cached, so a second pass adds only generation/LLM-rerank cost.
+rerank-eval:
+    uv run python -m rag_tutorial.rerank_eval run-all
+
+# Chapter 07: cheap retrieval-only k_each sweep (bge/MiniLM/FlashRank x k_each {20,50}),
+# writes runs/07_rerank_sweep.json. Needs Ollama for the nomic embeddings.
+rerank-sweep:
+    uv run python -m rag_tutorial.rerank_eval sweep
+
+# Chapter 07: per-question-type table, 07_best_combo vs 05_hybrid_rrf_k5.
+# Reads runs/{05_hybrid_rrf_k5,07_best_combo}/predictions.jsonl, writes runs/07_per_type.md.
+rerank-pertype:
+    uv run python -m rag_tutorial.rerank_eval per-type
+
+# Chapter 09: parse the corpus into LlamaIndex node sets and persist the vector
+# indexes under data/indexes/li_09_*. Needs Ollama (embeddings only, one-time).
+li-index:
+    uv run python -m rag_tutorial.fw_llamaindex index
+
+# Chapter 09: ask one question through a LlamaIndex pipeline (li_naive,
+# li_sentence_window, li_auto_merging, li_fusion, li_fusion_rerank,
+# li_subquestion, li_router, li_mode_compact, li_mode_refine,
+# li_mode_tree_summarize). Needs Ollama + `just li-index`.
+li-ask question pipeline="li_naive":
+    uv run python -m rag_tutorial.fw_llamaindex ask {{question}} --pipeline {{pipeline}}
+
+# Chapter 09: evaluate every 09_li_* pipeline on the test split (10 scoreboard
+# rows) + the built-in LI evaluator comparison. Needs Ollama; re-runs are
+# disk-cached except the LlamaIndex-side LLM calls.
+li-eval:
+    uv run python -m rag_tutorial.fw_llamaindex eval-all
+    uv run python -m rag_tutorial.fw_llamaindex li-eval
+
+# Chapter 10: build the Haystack in-memory index (converter -> splitter ->
+# embed -> write). Needs Ollama (embeddings, uncached on the Haystack side).
+hs-index:
+    uv run --group haystack python -m rag_tutorial.fw_haystack index
+
+# Chapter 10: ask one question through a Haystack pipeline (hs_hybrid,
+# hs_hybrid_rerank). Needs Ollama + `just hs-index`.
+hs-ask question pipeline="hs_hybrid_rerank":
+    uv run --group haystack python -m rag_tutorial.fw_haystack ask {{question}} --pipeline {{pipeline}}
+
+# Chapter 10: evaluate both 10_hs_* pipelines + Haystack built-in evaluators
+# + pipeline YAML dump. Needs Ollama; judge calls are disk-cached.
+hs-eval:
+    uv run --group haystack python -m rag_tutorial.fw_haystack eval-all
+    uv run --group haystack python -m rag_tutorial.fw_haystack hs-eval
+    uv run --group haystack python -m rag_tutorial.fw_haystack dump-pipeline
+
+# Chapter 11: build the RAPTOR tree index (leaves = ch05 children, ~200 summary calls).
+raptor-build:
+    uv run python -m rag_tutorial.raptor build
+
+# Chapter 11: ask one question through collapsed-tree RAPTOR retrieval.
+raptor-ask question k="5":
+    uv run python -m rag_tutorial.raptor ask "{{question}}" --k {{k}}
+
+# Chapter 11: evaluate RAPTOR collapsed retrieval at k=5/k=10 (-> 11_raptor_collapsed_*).
+raptor-eval:
+    uv run python -m rag_tutorial.raptor eval
+
+# Chapter 11: per-type correctness table + chart for ch05/07/08/09 best + ch11 rows.
+ch11-pertype:
+    uv run python -m rag_tutorial.raptor per-type
+
+# Chapter 11: index the 12 papers into LightRAG (graph extraction, 1-3h, run in background).
+lightrag-index:
+    uv run --group lightrag python -m rag_tutorial.sys_lightrag index
+
+# Chapter 11: ask one question through LightRAG (modes: naive/local/global/hybrid/mix).
+lightrag-ask question mode="mix":
+    uv run --group lightrag python -m rag_tutorial.sys_lightrag ask "{{question}}" --mode {{mode}}
+
+# Chapter 11: evaluate all 5 LightRAG query modes (-> 11_lightrag_* rows).
+lightrag-eval:
+    uv run --group lightrag python -m rag_tutorial.sys_lightrag eval
+
+# Chapter 12: Open WebUI — push one RAG config (default|hybrid_rerank), saves key to .env.
+openwebui-setup config="default":
+    uv run python -m rag_tutorial.app_openwebui setup --config {{config}}
+
+# Chapter 12: Open WebUI — create the KB and upload the 12 Markdown files.
+openwebui-upload:
+    uv run python -m rag_tutorial.app_openwebui upload
+
+# Chapter 12: Open WebUI — ask one question scoped to a knowledge collection.
+openwebui-ask question knowledge_id:
+    uv run python -m rag_tutorial.app_openwebui ask "{{question}}" {{knowledge_id}}
+
+# Chapter 12: Open WebUI — evaluate collections (e.g. `just openwebui-eval default:ID,hybrid_rerank:ID`).
+openwebui-eval knowledge_ids:
+    uv run python -m rag_tutorial.app_openwebui eval --knowledge-ids {{knowledge_ids}}
+
+# Chapter 12: kotaemon — upload the 12 Markdown files through the Gradio API.
+kotaemon-upload:
+    uv run python -m rag_tutorial.app_kotaemon upload
+
+# Chapter 12: kotaemon — ask one question through the Gradio API.
+kotaemon-ask question:
+    uv run python -m rag_tutorial.app_kotaemon ask "{{question}}"
+
+# Chapter 12: kotaemon — evaluate on the test split (mode: default|rerank, set in UI first).
+kotaemon-eval mode="default":
+    uv run python -m rag_tutorial.app_kotaemon eval --mode {{mode}}
+
+# Chapter 12: RAGFlow — upload the corpus PDFs to a dataset (needs RAGFLOW_API_KEY).
+ragflow-upload config="default":
+    uv run python -m rag_tutorial.app_ragflow upload --config {{config}}
+
+# Chapter 12: RAGFlow — evaluate chat sessions (e.g. `just ragflow-eval default:ID,tuned:ID`).
+ragflow-eval chats:
+    uv run python -m rag_tutorial.app_ragflow eval --chats {{chats}}
+
+# Chapter 12: RAGFlow — start the stack (pinned tag clone under data/ragflow/, slim image).
+ragflow-up:
+    ./scripts/ragflow_up.sh
+
+# Chapter 12: RAGFlow — stop the RAGFlow stack.
+ragflow-down:
+    ./scripts/ragflow_down.sh
+# Chapter 10: DSPy zero-shot baseline (-> 10_dspy_zero_shot). Needs Ollama.
+dspy-baseline:
+    uv run --group dspy python -m rag_tutorial.fw_dspy baseline
+
+# Chapter 10: DSPy optimisation on the dev split (BootstrapFewShot + MIPROv2
+# light, small budgets). Needs Ollama.
+dspy-optimize:
+    uv run --group dspy python -m rag_tutorial.fw_dspy optimize
+
+# Chapter 10: evaluate all three DSPy programs on test (-> 10_dspy_* rows).
+dspy-eval:
+    uv run --group dspy python -m rag_tutorial.fw_dspy eval
+
+# Chapter 13: RAGAS second-opinion eval on the five representative runs
+# (-> runs/13_ragas.json). Needs Ollama; falls back to lexical proxies per
+# item when the RAGAS backend fails, recording the failure rate.
+ragas-eval:
+    uv run --group ragas python -m rag_tutorial.ragas_eval
+
+# Chapter 13: judge audit — sample the 25-item human spot-check.
+audit-sample:
+    uv run python -m rag_tutorial.judge_audit sample
+
+# Chapter 13: judge-vs-RAGAS correlation table + stability + leak check.
+audit-all:
+    uv run python -m rag_tutorial.judge_audit correlate
+    uv run python -m rag_tutorial.judge_audit stability
+    uv run python -m rag_tutorial.judge_audit leak
+
+# Chapter 13: long-context vs RAG mini-experiment (-> runs/13_long_context/).
+longctx-eval:
+    uv run python -m rag_tutorial.long_context run
+
+# Chapter 13: prompt-injection demo (-> runs/13_injection_demo.json).
+injection-demo:
+    uv run python -m rag_tutorial.injection_demo run

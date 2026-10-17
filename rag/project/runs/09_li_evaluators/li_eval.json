@@ -1,0 +1,550 @@
+{
+  "rows": [
+    {
+      "id": "single_hop_000",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 5.0,
+        "feedback": "The generated answer correctly identifies \"ground truth human annotations\" as the specific type of human input that Ragas allows users to avoid, which exactly matches the reference answer. The additional clarification in parentheses and the citations to specific sections of the paper add helpful context without introducing any errors."
+      },
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "single_hop_001",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 5.0,
+        "feedback": "The generated answer correctly identifies KL-Divergence loss as the specific loss function used in ColBERTv2, which exactly matches the reference answer. It also adds a helpful citation to the relevant section of the ColBERTv2 paper, making it both accurate and well-supported."
+      },
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 0.6666666666666666
+    },
+    {
+      "id": "single_hop_002",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 5.0,
+        "feedback": "The generated answer perfectly matches the reference answer in content, correctly identifying both consequences: (1) if chunks are too small, certain questions cannot be answered, and (2) if chunks are too long, the answers include generated noise. It is well-structured, relevant, and even adds a specific citation reference, making it a complete and accurate response to the user's query."
+      },
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "single_hop_004",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 5.0,
+        "feedback": "The generated answer correctly identifies the specific title of the generated summary as \"Verdant Oasis Plaza and Unity March,\" which exactly matches the reference answer. The answer is relevant, accurate, and appropriately concise while also providing a citation reference."
+      },
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "single_hop_005",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 5.0,
+        "feedback": "The generated answer correctly identifies \"Contriever\" as the retrieval system, which matches the reference answer exactly. It also appropriately confirms that it was fine-tuned on MS-MARCO, consistent with the user's query. The additional citation reference adds context without introducing any errors. The answer is relevant, accurate, and concise."
+      },
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "single_hop_006",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES\n\nThe response correctly states that the top retrieved document is from a gold article in 71% of cases, which is directly supported by the context: \"We find that the top retrieved document is from a gold article in 71% of cases, and a gold article is present in the top 10 retrieved articles in 90% of cases.\" The factual content of the response aligns with the information provided in the context."
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 5.0,
+        "feedback": "The generated answer correctly states 71%, which matches the reference answer exactly. It also provides a citation reference, adding useful context. The answer is relevant, accurate, and concise."
+      },
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 0.5
+    },
+    {
+      "id": "single_hop_008",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 5.0,
+        "feedback": "The generated answer contains the exact same core information as the reference answer (the synergistic approach of \"retrieval-enhanced generation\" alongside \"generation-enhanced retrieval\") and additionally provides more detail that directly addresses the user's specific question about how the model leverages content as a contextual basis for retrieving pertinent knowledge. It also includes citations, making it more informative and well-supported than the reference answer. The answer is relevant, correct, and comprehensive."
+      },
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "single_hop_009",
+      "li_faithfulness": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO"
+      },
+      "li_relevancy": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO\n\nThe response claims that the specific limitation of using ChatGPT to evaluate an answer by providing a score is that it is \"sensitive to the design of the prompt,\" citing \"[ragas \u00a7Automated evaluation of text generation systems].\" However, this specific limitation and this section reference do not appear anywhere in the provided context. The context (from Section 5, Experiments) describes the GPT Score method (using a 0-10 scale, not 0-100) and reports its lower accuracy compared to Ragas metrics, but it does not explicitly state that the limitation is sensitivity to prompt design. The response introduces information not supported by the given context."
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 5.0,
+        "feedback": "The generated answer correctly identifies the key limitation (sensitivity to prompt design) that matches the reference answer exactly. It also provides helpful additional context about the scoring range (noting the 0-100 general description vs. 0-10 in the specific experiment), which demonstrates thoroughness without introducing any errors. The answer is relevant, accurate, and well-supported."
+      },
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "multi_hop_000",
+      "li_faithfulness": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES\n\nThe response \"I cannot answer this from the provided documents\" is in line with the context. While the context does describe CRAG's approach to generating web search queries (rewriting inputs into keyword-based queries using ChatGPT), it contains no information whatsoever about a \"Reverse HyDE\" method or any \"RAG survey.\" Since the question specifically asks for a comparison between CRAG's approach and the \"Reverse HyDE\" method from a RAG survey, and the context only provides CRAG paper information, the response correctly acknowledges that the full comparison cannot be answered from the provided documents."
+      },
+      "li_correctness": {
+        "passing": false,
+        "score": 1.0,
+        "feedback": "The generated answer is a non-answer that simply states it cannot respond from the provided documents. It does not address the user's question at all about the difference between CRAG's keyword generation approach and Reverse HyDE's hypothetical question generation. The reference answer clearly provides the distinction (CRAG generates specific keywords, while Reverse HyDE generates hypothetical questions), but the generated answer offers none of this information."
+      },
+      "ours_correctness": 0.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "multi_hop_002",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES\n\nThe response accurately reflects the context information provided. It correctly describes the Graph RAG approach's method of splitting documents into text chunks and using an LLM for extraction (matching [graphrag] \u00a73.1.1), and it correctly notes that the DPR excerpts provided in the context focus on model training (in-batch negatives, batch size, epochs), retrieval accuracy comparisons against BM25, and qualitative differences in retrieval (matching [dpr] \u00a75.3 and Table 2 context), rather than describing an initial text chunk processing step. The response appropriately acknowledges the limitation of the provided DPR excerpts in answering the specific question about DPR's initial text chunk processing, which is faithful to what the context actually contains."
+      },
+      "li_correctness": {
+        "passing": false,
+        "score": 3.0,
+        "feedback": "The generated answer correctly identifies Graph RAG's approach of splitting documents into text chunks and using an LLM to extract information, though it's less specific than the reference (which mentions extracting entities and relationships to build a knowledge graph). For DPR, the generated answer does mention \"training of the retriever model (using in-batch negatives)\" which aligns with the reference's description of using passages as positive/negative examples for training a retrieval model. However, the answer then contradicts itself by stating it \"cannot answer this from the provided documents regarding the specific initial text chunk processing method for DPR.\" This makes the answer incomplete and somewhat self-contradictory. The core contrast between the two approaches (LLM-based extraction vs. direct use as training examples) is not clearly articulated as a direct comparison, which is what the question asks for."
+      },
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "multi_hop_003",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES\n\nThe response accurately reflects the context information. Specifically:\n\n1. **Answer Relevance (Ragas):** The response correctly states it \"measures the degree to which a response directly addresses and is appropriate for a given question\" and \"penalizes the presence of redundant information or incomplete answers,\" which directly matches the Ragas context.\n\n2. **Directness (Graph RAG):** The response correctly identifies it as a \"validity test\" for assessing directness, consistent with the Graph RAG context stating \"Our use of directness as a validity test confirmed that vector RAG produces the most direct responses across all comparisons.\"\n\n3. **Graph RAG findings:** The response correctly states that \"conventional vector RAG produced the most direct responses across all comparisons\" and that \"vector RAG outperformed the global approaches in this specific metric,\" which aligns with the context.\n\nThe response's characterization of Directness as not penalizing redundancy/incompleteness \"in the same manner as Answer Relevance\" is a reasonable inference from the context (which only describes it as a \"validity test\" for directness) and is not contradictory to the provided information."
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 5.0,
+        "feedback": "The generated answer accurately captures all the key points from the reference answer: (1) Answer Relevance measures whether a response directly addresses a question and penalizes redundancy, (2) Directness is used as a validity test for response style/directness, and (3) the Graph RAG study found that vector RAG produced the most direct responses across all comparisons. The generated answer is well-structured, provides clear differentiation between the two metrics, and adds reasonable additional detail (e.g., mentioning \"incomplete answers\" and \"outperformed the global approaches\") that is consistent with the reference. It is fully correct, relevant, and comprehensive."
+      },
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 0.8571428571428571
+    },
+    {
+      "id": "multi_hop_004",
+      "li_faithfulness": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES\n\nThe response is in line with the context information. It correctly identifies the content available in the context (the `[rag]` sections describing the RAG approach to FEVER and the `[self_rag]` section describing reflection tokens for context selection). It accurately notes that the context does not explicitly label sections as \"Passage A\" and \"Passage B,\" which is a fair observation. The conditional answer it provides\u2014that RAG classifies claims without supervision on retrieved evidence while Self-RAG uses reflection tokens to judge relevance, support, and retrieval-on-demand\u2014is directly supported by the context. The `[rag]` section states \"we do not use supervision on retrieved evidence\" and describes classifying claims, while the `[self_rag]` section explicitly defines \"Retrieval-on-demand,\" \"Relevant,\" \"Supported,\" and \"Useful\" reflection tokens. The response's reasoning and content are consistent with the provided context."
+      },
+      "li_correctness": {
+        "passing": false,
+        "score": 2.0,
+        "feedback": "The generated answer is relevant to the topic but ultimately fails to provide a clear, correct answer. It partially captures the Passage A point (RAG does not use supervision on retrieved evidence), which aligns with the reference answer. However, it misidentifies what Passage B discusses\u2014the reference answer describes \"reranking and compression\" strategies to refine retrieved documents, while the generated answer describes Self-RAG's reflection tokens. More critically, the generated answer refuses to answer the question (\"I cannot answer this from the provided documents\"), is excessively hedging, is cut off at the end, and is overly verbose. While it shows some understanding of the subject matter, it does not deliver the straightforward comparison the reference answer provides, and its core response is a refusal rather than an answer."
+      },
+      "ours_correctness": 0.0,
+      "ours_faithfulness": 0.7222222222222222
+    },
+    {
+      "id": "multi_hop_006",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES\n\nThe response accurately reflects the context information provided. Specifically:\n\n1. **RAPTOR not mentioned**: The response correctly states that RAPTOR is not in the documents, which is accurate based on the provided context.\n\n2. **Computational Overhead**: The response correctly cites CRAG's 27.2 TFLOPs per token and 0.512 seconds, and standard RAG's 26.5 TFLOPs per token and 0.363 seconds, which matches Table 6 in the context.\n\n3. **Limitation regarding external evaluator**: The response correctly states that CRAG acknowledges \"fine-tuning an external retrieval evaluator is inevitable\" and that \"eliminating this external evaluator and equip LLMs with better retrieval evaluation capabilities will be our future work,\" which directly aligns with the text in Section 6 (Conclusion & Limitation).\n\nAll claims in the response are supported by the provided context."
+      },
+      "li_correctness": {
+        "passing": false,
+        "score": 3.5,
+        "feedback": "The generated answer correctly identifies CRAG's limitation regarding the external evaluator (fine-tuning is inevitable, eliminating it is future work), which matches the reference answer. It also provides specific numerical data about CRAG's computational overhead (27.2 TFLOPs vs 26.5 TFLOPs for standard RAG), which is consistent with the reference's description of \"modest computational overhead.\" However, it fails to address the RAPTOR comparison aspect of the question, while the reference answer at least contextualizes RAPTOR's approach (recursive abstractive processing for tree-organized retrieval). The generated answer is honest about not having RAPTOR information in its source documents, but this leaves part of the user's question unaddressed. The limitation portion is well-covered and accurate, and the specific numbers add value beyond the reference's vaguer description."
+      },
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "multi_hop_007",
+      "li_faithfulness": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO"
+      },
+      "li_relevancy": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO\n\nThe response includes information not supported by the provided context. Specifically:\n\n1. The description of the contrastive encoder as a \"lossy compressor\" where \"the dense bottleneck filters out extra (hallucinated) details from the embedding\" is not found in the provided HyDE context excerpts.\n\n2. The response cites a specific 2020 paper by Gautier Izacard and Edouard Grave from the \"Dense Passage Retrieval\" paper's references (\"Leveraging passage retrieval with generative models for open domain question answering,\" ArXiv abs/2007.01282, [dpr \u00a7references]), but the provided context contains **no** DPR paper content or references. The context only includes HyDE paper excerpts, which reference \"Izacard et al., 2021\" (a different year and paper).\n\nSince the response contains claims attributed to sources not present in the provided context, it is not fully in line with the context information."
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 5.0,
+        "feedback": "The generated answer is relevant and correct. It captures the key point from the reference answer about the contrastive encoder performing a document-document similarity task (point 3 in the generated answer), and it provides additional accurate details about the encoder's role. For the second question, it correctly identifies the same paper \"Leveraging passage retrieval with generative models for open domain question answering\" by Gautier Izacard and Edouard Grave (2020), even adding the ArXiv identifier. The answer is more detailed than the reference while remaining accurate and on-topic."
+      },
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "multi_hop_008",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES\n\nThe response accurately reflects the context information. The HyDE context confirms that generated documents are \"hypothetical,\" \"is not real,\" and \"can and is likely to be ungrounded factually,\" and that they are only required to \"capture relevance pattern\" by \"providing examples.\" The Lost in the Middle context confirms the \"temporal mismatch\" with the NaturalQuestions annotations, including the specific example of Robert Griffin III's team status changing between the Wikipedia dump timestamp and the annotation process. The contrast drawn in the response\u2014between HyDE's acknowledgment of inherent factual ungroundedness in *generated* documents versus Lost in the Middle's identification of temporal inconsistencies in *real* retrieved corpus data\u2014is well-supported by the provided context."
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 5.0,
+        "feedback": "The generated answer fully captures all the key points from the reference answer: HyDE's documents are described as hypothetical, not real, and potentially containing factual errors/hallucinations that are filtered by the encoder; and the 'Lost in the Middle' paper identifies temporal mismatch in its real-world retrieval corpus with the same example (player's team status). The generated answer goes beyond the reference by providing specific section citations, additional phrasing from the papers (\"ungrounded factually,\" \"extra (hallucinated) details\"), and a clear concluding contrast between the two types of errors. It is accurate, well-structured, and directly addresses both parts of the user's question."
+      },
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "comparative_001",
+      "li_faithfulness": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO"
+      },
+      "li_relevancy": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO\n\nThe context does contain information about different approaches to evaluation metrics that could be compared. For example, the [rag_survey] section discusses traditional task-specific metrics (EM, F1, BLEU, ROUGE, Hit Rate, MRR, NDCG) and notes they are \"traditional measures and do not yet represent a mature or standardized approach,\" while the [ragas] section introduces a \"reference-free evaluation\" framework with metrics for faithfulness, answer relevance, and context relevance. The [graphrag] section also discusses claim-based metrics. These represent clearly different approaches to evaluation metrics that could be contrasted, making the response \"I cannot answer this from the provided documents\" inconsistent with the available context."
+      },
+      "li_correctness": {
+        "passing": false,
+        "score": 1.0,
+        "feedback": "The generated answer is a complete refusal to answer the question, providing no information about the differences between Passage A and Passage B's approaches to evaluation metrics. It does not address the user's query in any meaningful way, making it entirely unhelpful compared to the reference answer which clearly articulates the distinction between the two passages."
+      },
+      "ours_correctness": 0.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "comparative_002",
+      "li_faithfulness": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES\n\nThe response \"I cannot answer this from the provided documents\" is in line with the context information. The context only contains information about the ColBERTv2 paper's evaluation on the BEIR benchmark. There is no information whatsoever about the RAPTOR paper or its evaluation methodology on BEIR. Since the question asks for a comparison between RAPTOR and ColBERTv2, and the context lacks any RAPTOR information, the response correctly acknowledges that it cannot answer the question from the provided documents."
+      },
+      "li_correctness": {
+        "passing": false,
+        "score": 1.0,
+        "feedback": "The generated answer simply states it cannot answer the question from the provided documents, while the reference answer clearly demonstrates that the information was available and provides a detailed comparison of how ColBERTv2 reports quantitative nDCG@10 scores on BEIR datasets versus RAPTOR's qualitative analysis approach. The generated answer provides no useful information to the user and fails to address the query at all."
+      },
+      "ours_correctness": 0.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "comparative_003",
+      "li_faithfulness": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO"
+      },
+      "li_relevancy": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO\n\nThe response contains several specific claims about the RAG survey that are not supported by the provided context. Specifically:\n\n- The context does not mention \"fixed-token chunks (e.g., 100, 256, 512 tokens)\"\n- The context does not mention \"recursive splits, sliding windows, and 'Small2Big'\"\n- The context does not mention \"enriching chunks with metadata and constructing hierarchical structures\"\n- The section references (\u00a7B.1, \u00a7B.2, \u00a7B.3) do not appear in the provided context\n\nWhile the ColBERTv2 portion of the response is largely consistent with the provided abstract, the RAG survey portion fabricates specific details and section references that are absent from the given context. The context only mentions general chunking (\"text is segmented into smaller, digestible chunks\"), context curation (reranking, compression via LLMLingua/PRCA/RECOMP), and the \"Lost in the middle\" problem\u2014none of which match the specific methods and structures cited in the response."
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 4.5,
+        "feedback": "The generated answer is highly relevant and well-structured, capturing the core distinction between the two approaches: ColBERTv2's focus on token-level multi-vector representations and late interaction versus the RAG survey's focus on chunking strategies for LLM context. It covers all the key points from the reference answer (token-level representations, late interaction, fixed-token chunks, recursive splits, metadata) and adds useful additional detail (specific chunk sizes, sliding windows, Small2Big, hierarchical structures, compression ratios). The only minor omission is the reference to COIL for exact lexical matching mentioned in the reference answer, but this is a small detail that doesn't significantly detract from the overall accuracy and completeness of the response. The summary at the end effectively crystallizes the distinction."
+      },
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 0.9545454545454546
+    },
+    {
+      "id": "global_000",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_correctness": {
+        "passing": false,
+        "score": 2.5,
+        "feedback": "The generated answer is relevant to the question about improving the retrieval step, and it provides specific papers with descriptions. However, it diverges significantly from the reference answer. The reference focuses on papers that propose core retrieval architecture improvements (DPR with dense embeddings, ColBERTv2 with late interaction, RAPTOR with tree-organized retrieval, From Local to Global with graph-based retrieval), while the generated answer focuses more on query rewriting (RRR, BEQUE, Step-back Prompting) and adaptive/autonomous retrieval (Flare, Self-RAG, Graph-Toolformer, WebGPT). Only HyDE appears in both answers. The generated answer's interpretation of \"improving the retrieval step\" is broader and includes pre-retrieval query optimization and adaptive retrieval timing, which are arguably different from improving the retrieval mechanism itself. Several of the listed papers (WebGPT, Self-RAG) are more about the overall RAG pipeline and autonomous decision-making rather than specifically improving how retrieval works. The answer is relevant but takes a different interpretation than the reference and misses the core retrieval architecture papers."
+      },
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "global_001",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 4.0,
+        "feedback": "The generated answer correctly identifies Ragas as the primary paper focused on evaluating/benchmarking RAG systems and provides a detailed breakdown of its methodology (reference-free evaluation, suite of metrics assessing retrieval, generation, and faithfulness). It also adds a second paper (RAG Survey) with relevant details about benchmarks and evaluation tools, which, while not in the reference answer, could be a valid addition from the corpus. However, the answer is clearly cut off/incomplete at the end (\"employ LLM\"), which detracts from its quality. The name of Ragas is slightly different (\"Retrieval Augmented Generation Assessment\" vs. the reference's \"Automated Evaluation of Retrieval Augmented Generation\"), though the content description is accurate. Overall, the answer is relevant, largely correct, and more detailed than the reference, but the incompleteness prevents a higher score."
+      },
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "global_002",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO\n\nThe response includes several claims attributed to \"[graphrag \u00a7References]\" (MultiHop-RAG, HotpotQA, Interleaving retrieval with chain-of-thought reasoning, Knowledge graph prompting for multi-document question answering, and Caire-covid), but the provided context only contains information from [rag_survey] and [raptor]. Since the [graphrag] source is not part of the provided context, these claims cannot be verified against the given context information, making the response not fully in line with the context provided."
+      },
+      "li_correctness": {
+        "passing": false,
+        "score": 3.0,
+        "feedback": "The generated answer is relevant to the query and correctly identifies RAPTOR as a key paper addressing recursive retrieval and multi-document reasoning. However, it misses two of the three key papers identified in the reference answer: 'Lost in the Middle: How Language Models Use Long Contexts' (which specifically addresses long context challenges) and 'From Local to Global: A Graph RAG Approach to Query-Focused Summarization' (which addresses global summarization). The generated answer includes additional items like HotpotQA (a dataset) and MultiHop-RAG (a benchmark), which are less directly relevant as papers \"addressing challenges.\" The answer is also incomplete, cutting off mid-sentence. While the information provided is largely accurate, the omission of two major papers from the reference and the inclusion of less relevant items (datasets, benchmarks) reduce the overall quality."
+      },
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "global_004",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_correctness": {
+        "passing": false,
+        "score": 2.5,
+        "feedback": "The generated answer is relevant to the question and correctly identifies RAPTOR as a tree-based retrieval alternative, which matches the reference. However, it misses two of the three key papers from the reference answer: \"From Local to Global\" (2404.16130) and \"Self-RAG\" (2310.11511). Instead, it lists several other papers (KGP, G-Retriever, IRCoT, ToC, Selfmem) that are not mentioned in the reference, and it's unclear whether these are actually in the corpus being queried. Additionally, the answer is incomplete, cutting off mid-sentence at the Selfmem description. While the descriptions provided for the papers it does mention seem reasonable, the omission of two of the three reference papers and the inclusion of potentially irrelevant papers significantly reduces its accuracy."
+      },
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 0.9705882352941176
+    },
+    {
+      "id": "global_005",
+      "li_faithfulness": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES"
+      },
+      "li_correctness": {
+        "passing": false,
+        "score": 3.5,
+        "feedback": "The generated answer is relevant to the question and provides a coherent discussion of how papers differ in their external knowledge sources. It captures the main distinction between unstructured text and structured/graph-based representations (mentioned in both rag_survey and graphrag). However, it differs from the reference answer in several ways: (1) it discusses different specific papers (rag_survey, graphrag, crag vs. the arxiv IDs in the reference), (2) it introduces web search (crag) and LLM-generated content as additional dimensions not present in the reference, (3) it does not capture the reference's third category about quality/relevance of retrieved documents as a corrective mechanism for hallucinations. The answer is well-organized and provides specific details, but the categorization and paper selection diverge from the reference, making it partially aligned rather than fully matching."
+      },
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "unanswerable_000",
+      "li_faithfulness": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES\n\nThe response \"I cannot answer this from the provided documents\" is in line with the context information. The context provided discusses RAG, ColBERTv2, SPLADEv2, and various open-domain QA benchmarks (NQ, TQA, WQ, CT), but contains no mention of a 'Temporal-Contextual Retrieval' model, a 2027 Open-Domain QA benchmark, or a 2027 paper titled 'Advancing RAG with Temporal Awareness.' Therefore, the response correctly indicates that the information is not available in the provided documents."
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 4.0,
+        "feedback": "The generated answer correctly identifies that the question cannot be answered from the provided documents, which aligns with the reference answer's conclusion. However, it lacks the explanatory detail provided in the reference answer (e.g., the corpus only contains papers from 2020-2024, no such paper or model exists in the corpus). The answer is correct and relevant but less informative."
+      },
+      "ours_correctness": null,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "unanswerable_002",
+      "li_faithfulness": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES\n\nThe response \"I cannot answer this from the provided documents\" is in line with the context information. The provided context discusses CRAG (Corrective Retrieval Augmented Generation), various RAG approaches, structured data, and LLM-generated content, but contains no mention of a \"Retriever-Generator Alignment Network\" (RGAN) or any specific architectural modifications related to it. Therefore, the response correctly acknowledges that the information is not available in the provided documents."
+      },
+      "li_correctness": {
+        "passing": true,
+        "score": 4.0,
+        "feedback": "The generated answer correctly conveys that the information about RGAN is not available in the provided documents, which aligns with the reference answer's conclusion. However, it is less informative than the reference answer, which explicitly states that no papers mentioning the \"Retriever-Generator Alignment Network\" were found in the corpus. The generated answer is accurate and appropriate but lacks the specificity of the reference."
+      },
+      "ours_correctness": null,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "unanswerable_003",
+      "li_faithfulness": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES\n\nThe response \"I cannot answer this from the provided documents\" is in line with the context. The context contains information about retrieval accuracy metrics from papers (CRAG, DPR, RAG survey), but there is no mention whatsoever of a \"2026 Industry RAG Leaderboard\" or any top-performing systems on such a leaderboard. Since the context does not provide the necessary information to make the comparison requested in the query, the response correctly indicates that it cannot be answered from the provided documents."
+      },
+      "li_correctness": {
+        "passing": false,
+        "score": 3.5,
+        "feedback": "The generated answer correctly identifies that the question cannot be answered from the provided documents, which aligns with the reference answer's conclusion. However, it is extremely terse and lacks the explanatory context provided in the reference answer (e.g., that the papers are dated 2020-2024 and the \"2026 Industry RAG Leaderboard\" falls outside the temporal scope of the available documents). While the core answer is correct, the lack of reasoning makes it less helpful to the user."
+      },
+      "ours_correctness": null,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "unanswerable_004",
+      "li_faithfulness": {
+        "passing": false,
+        "score": 0.0,
+        "feedback": "NO"
+      },
+      "li_relevancy": {
+        "passing": true,
+        "score": 1.0,
+        "feedback": "YES\n\nThe response \"I cannot answer this from the provided documents\" is in line with the context. While the context does mention Perplexity.ai as a baseline in the CRAG paper's comparison table (showing scores on BioPub), it does not provide any details about Perplexity AI's specific proprietary algorithms, internal data pipelines, or how these differ from the open-source methods described in the papers. The context only references Perplexity.ai as a proprietary model in a results table, without explaining its internal workings. Therefore, the response correctly acknowledges that the requested information is not available in the provided documents."
+      },
+      "li_correctness": {
+        "passing": false,
+        "score": 3.0,
+        "feedback": "The generated answer is correct in stating that the question cannot be answered from the provided documents, which aligns with the reference answer. However, it is extremely brief and lacks the explanatory context provided in the reference answer. The reference answer explains *why* the question cannot be answered (the corpus consists of academic papers on open-source methodologies, none of which contain proprietary details of Perplexity AI), while the generated answer simply states it cannot be answered without any justification or context. It is relevant and not incorrect, but it misses the opportunity to be informative about what the documents actually contain and why they don't address the question."
+      },
+      "ours_correctness": null,
+      "ours_faithfulness": 1.0
+    }
+  ],
+  "agreement": {
+    "n": 27,
+    "agreement_li_faithfulness_vs_ours_faithfulness": 0.5925925925925926,
+    "agreement_li_correctness_vs_ours_correctness": 0.7391304347826086,
+    "agreement_li_relevancy_vs_ours_correctness": 0.6956521739130435
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "experiment": "07_decompose",
+  "chapter": "07",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.6086956521739131,
+  "recall@5": 0.4797101449275362,
+  "hit@10": 0.6086956521739131,
+  "recall@10": 0.4797101449275362,
+  "mrr": 0.43115942028985504,
+  "ndcg@10": 0.472842704210839,
+  "correctness": 0.5217391304347826,
+  "faithfulness": 0.9297861119756545,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 82.31490413121517,
+  "details": {
+    "cache_stats": {
+      "hits": 690,
+      "misses": 777,
+      "prompt_tokens": 1396945,
+      "completion_tokens": 118469,
+      "seconds": 19255.33
+    }
+  }
+}

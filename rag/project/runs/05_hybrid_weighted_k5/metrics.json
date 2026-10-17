@@ -1,0 +1,26 @@
+{
+  "experiment": "05_hybrid_weighted_k5",
+  "chapter": "05",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.6521739130434783,
+  "recall@5": 0.5014492753623189,
+  "hit@10": 0.6521739130434783,
+  "recall@10": 0.5014492753623189,
+  "mrr": 0.5036231884057971,
+  "ndcg@10": 0.5323674975338192,
+  "correctness": 0.6086956521739131,
+  "faithfulness": 0.9266708957530213,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 3.399315864110745,
+  "details": {
+    "cache_stats": {
+      "hits": 2196,
+      "misses": 235,
+      "prompt_tokens": 661803,
+      "completion_tokens": 61348,
+      "seconds": 3311.34
+    }
+  }
+}

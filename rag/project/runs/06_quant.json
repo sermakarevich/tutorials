@@ -1,0 +1,19 @@
+{
+  "float": {
+    "recall@5": 0.2826,
+    "ram_mb": 5.689,
+    "note": "analytic estimate (Qdrant 1.19 has no per-collection RAM API)"
+  },
+  "scalar_int8": {
+    "recall@5": 0.2826,
+    "ram_mb": 1.422
+  },
+  "product_x64": {
+    "recall@5": 0.2826,
+    "ram_mb": 0.024
+  },
+  "binary": {
+    "recall@5": 0.3261,
+    "ram_mb": 0.178
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "experiment": "09_li_mode_compact",
+  "chapter": "09",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.391304347826087,
+  "recall@5": 0.30434782608695654,
+  "hit@10": 0.391304347826087,
+  "recall@10": 0.30434782608695654,
+  "mrr": 0.30434782608695654,
+  "ndcg@10": 0.3288205281298582,
+  "correctness": 0.5,
+  "faithfulness": 0.9075323157712146,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 94.70381481481482,
+  "details": {
+    "cache_stats": {
+      "hits": 66,
+      "misses": 15,
+      "prompt_tokens": 14728,
+      "completion_tokens": 9942,
+      "seconds": 112.63
+    }
+  }
+}

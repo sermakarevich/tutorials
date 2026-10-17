@@ -1,0 +1,26 @@
+{
+  "experiment": "08_lg_crag",
+  "chapter": "08",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.43478260869565216,
+  "recall@5": 0.32608695652173914,
+  "hit@10": 0.43478260869565216,
+  "recall@10": 0.32608695652173914,
+  "mrr": 0.33695652173913043,
+  "ndcg@10": 0.3565513536576442,
+  "correctness": 0.43478260869565216,
+  "faithfulness": 0.8968127908880875,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 17.339692356427097,
+  "details": {
+    "cache_stats": {
+      "hits": 15,
+      "misses": 66,
+      "prompt_tokens": 87910,
+      "completion_tokens": 20718,
+      "seconds": 210.54
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "08_lc_ensemble_rerank",
+  "chapter": "08",
+  "split": "test",
+  "limit": null,
+  "chat_model": "qwen3.8:27b",
+  "embed_model": "nomic-embed-text"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "04_sentence_5",
+  "chapter": "04",
+  "split": "test",
+  "limit": null,
+  "chat_model": "qwen3.8:27b",
+  "embed_model": "nomic-embed-text"
+}

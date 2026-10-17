@@ -1,0 +1,27 @@
+{
+  "experiment": "07_hybrid_k20_ce_bge_k5",
+  "chapter": "07",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.7391304347826086,
+  "recall@5": 0.5583850931677019,
+  "hit@10": 0.7391304347826086,
+  "recall@10": 0.5583850931677019,
+  "mrr": 0.6666666666666667,
+  "ndcg@10": 0.6799597748904767,
+  "correctness": 0.6739130434782609,
+  "faithfulness": 0.9565513140781958,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 0.15457806336107077,
+  "details": {
+    "cache_stats": {
+      "hits": 125,
+      "misses": 5,
+      "prompt_tokens": 4154,
+      "completion_tokens": 736,
+      "seconds": 144.7
+    },
+    "reranker_n_calls": 0
+  }
+}

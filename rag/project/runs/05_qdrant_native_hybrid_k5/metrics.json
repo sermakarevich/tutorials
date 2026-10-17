@@ -1,0 +1,27 @@
+{
+  "experiment": "05_qdrant_native_hybrid_k5",
+  "chapter": "05",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.5652173913043478,
+  "recall@5": 0.4710144927536232,
+  "hit@10": 0.5652173913043478,
+  "recall@10": 0.4710144927536232,
+  "mrr": 0.5,
+  "ndcg@10": 0.5063074954170137,
+  "correctness": 0.6521739130434783,
+  "faithfulness": 0.9428522631421182,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 14.526836973735717,
+  "details": {
+    "cache_stats": {
+      "hits": 4982,
+      "misses": 497,
+      "prompt_tokens": 1557635,
+      "completion_tokens": 119683,
+      "seconds": 6965.3
+    },
+    "query_points_seconds": 0.013873166986741126
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "experiment": "09_li_auto_merging",
+  "chapter": "09",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.34782608695652173,
+  "recall@5": 0.2826086956521739,
+  "hit@10": 0.34782608695652173,
+  "recall@10": 0.2826086956521739,
+  "mrr": 0.22101449275362317,
+  "ndcg@10": 0.25509726643216485,
+  "correctness": 0.30434782608695654,
+  "faithfulness": 0.9533141876279131,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 2.120457574078399,
+  "details": {
+    "cache_stats": {
+      "hits": 287,
+      "misses": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "seconds": 0.0
+    }
+  }
+}

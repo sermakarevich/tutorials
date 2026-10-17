@@ -17,3 +17,17 @@ backups/
 # Jev tutorial: local API key and cached API answers
 justfile.env
 **/fleet_cache/
+
+# RAG tutorial: downloaded corpus, LLM/embedding cache, database and app volumes (regenerate with `just corpus` / `just up`)
+rag/project/data/corpus/pdf/
+rag/project/data/corpus/md/
+rag/project/data/cache/
+rag/project/data/openwebui/
+rag/project/data/pgvector/
+rag/project/data/qdrant/
+rag/project/data/stores/
+rag/project/data/kotaemon/
+rag/project/data/ragflow/
+rag/project/runs/**/*.log
+.mypy_cache/
+.ruff_cache/

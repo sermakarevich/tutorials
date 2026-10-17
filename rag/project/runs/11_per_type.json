@@ -1,0 +1,136 @@
+{
+  "per_type_correctness": {
+    "05_hybrid_rrf_k5": {
+      "single_hop": 0.75,
+      "multi_hop": 0.3571,
+      "comparative": 0.6667,
+      "global": 0.5,
+      "unanswerable": 1.0
+    },
+    "07_best_combo": {
+      "single_hop": 0.875,
+      "multi_hop": 0.5714,
+      "comparative": 0.1667,
+      "global": 0.4,
+      "unanswerable": 1.0
+    },
+    "08_lg_crag": {
+      "single_hop": 0.5625,
+      "multi_hop": 0.5,
+      "comparative": 0.1667,
+      "global": 0.3,
+      "unanswerable": 1.0
+    },
+    "09_li_router": {
+      "single_hop": 0.625,
+      "multi_hop": 0.4286,
+      "comparative": 0.5,
+      "global": 0.3,
+      "unanswerable": 1.0
+    },
+    "11_raptor_collapsed_k5": {
+      "single_hop": 0.625,
+      "multi_hop": 0.2143,
+      "comparative": 0.1667,
+      "global": 0.5,
+      "unanswerable": 1.0
+    },
+    "11_raptor_collapsed_k10": {
+      "single_hop": 0.6875,
+      "multi_hop": 0.4286,
+      "comparative": 0.3333,
+      "global": 0.5,
+      "unanswerable": 1.0
+    },
+    "11_lightrag_naive": {
+      "single_hop": 0.25,
+      "multi_hop": 0.0714,
+      "comparative": 0.0,
+      "global": 0.0,
+      "unanswerable": 1.0
+    },
+    "11_lightrag_local": {
+      "single_hop": 0.25,
+      "multi_hop": 0.0,
+      "comparative": 0.0,
+      "global": 0.1,
+      "unanswerable": 1.0
+    },
+    "11_lightrag_global": {
+      "single_hop": 0.25,
+      "multi_hop": 0.0714,
+      "comparative": 0.0,
+      "global": 0.1,
+      "unanswerable": 1.0
+    },
+    "11_lightrag_hybrid": {
+      "single_hop": 0.125,
+      "multi_hop": 0.0714,
+      "comparative": 0.0,
+      "global": 0.0,
+      "unanswerable": 1.0
+    },
+    "11_lightrag_mix": {
+      "single_hop": 0.125,
+      "multi_hop": 0.0714,
+      "comparative": 0.0,
+      "global": 0.0,
+      "unanswerable": 1.0
+    }
+  },
+  "skipped": [],
+  "indexing_cost": {
+    "baseline (03 naive, 512/128)": {
+      "llm_calls": 0,
+      "index_minutes": 0.83,
+      "n_chunks": 591,
+      "note": "embed-only; no LLM at index time"
+    },
+    "contextual retrieval (04)": {
+      "llm_calls": 670,
+      "index_minutes": 20.79,
+      "n_chunks": 670,
+      "note": "one LLM call per chunk (estimate)"
+    },
+    "RAPTOR (11)": {
+      "llm_calls": 215,
+      "index_minutes": 51.3,
+      "n_nodes": 2157,
+      "tree_shape": {
+        "levels": {
+          "0": 1942,
+          "1": 194,
+          "2": 19,
+          "3": 2
+        },
+        "total_nodes": 2157,
+        "n_summaries": 215,
+        "depth": 3
+      },
+      "index_bytes": 217621120
+    },
+    "LightRAG (11)": {
+      "llm_calls": 497,
+      "embed_texts": 6091,
+      "index_minutes": 121.97,
+      "graph": {
+        "files": {
+          "graph_chunk_entity_relation.graphml": 2803886,
+          "kv_store_doc_status.json": 25877,
+          "kv_store_entity_chunks.json": 795234,
+          "kv_store_full_docs.json": 890013,
+          "kv_store_full_entities.json": 105877,
+          "kv_store_full_relations.json": 168429,
+          "kv_store_llm_response_cache.json": 8765529,
+          "kv_store_relation_chunks.json": 613685,
+          "kv_store_text_chunks.json": 1064903,
+          "vdb_chunks.json": 2296946,
+          "vdb_entities.json": 20787756,
+          "vdb_relationships.json": 15090255
+        },
+        "entities": 3135,
+        "relations": 2303
+      }
+    }
+  }
+}

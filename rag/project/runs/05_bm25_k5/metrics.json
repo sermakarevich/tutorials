@@ -1,0 +1,26 @@
+{
+  "experiment": "05_bm25_k5",
+  "chapter": "05",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.6956521739130435,
+  "recall@5": 0.48592132505175983,
+  "hit@10": 0.6956521739130435,
+  "recall@10": 0.48592132505175983,
+  "mrr": 0.5210144927536231,
+  "ndcg@10": 0.560259237775373,
+  "correctness": 0.5869565217391305,
+  "faithfulness": 0.9076902113258322,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 30.189603415151833,
+  "details": {
+    "cache_stats": {
+      "hits": 2090,
+      "misses": 83,
+      "prompt_tokens": 229189,
+      "completion_tokens": 21231,
+      "seconds": 2622.19
+    }
+  }
+}

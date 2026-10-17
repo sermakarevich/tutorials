@@ -1,0 +1,26 @@
+{
+  "experiment": "07_step_back",
+  "chapter": "07",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.5652173913043478,
+  "recall@5": 0.42898550724637685,
+  "hit@10": 0.5652173913043478,
+  "recall@10": 0.42898550724637685,
+  "mrr": 0.41304347826086957,
+  "ndcg@10": 0.44812594137551426,
+  "correctness": 0.5434782608695652,
+  "faithfulness": 0.9355451035245942,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 59.055207083187135,
+  "details": {
+    "cache_stats": {
+      "hits": 635,
+      "misses": 624,
+      "prompt_tokens": 1178553,
+      "completion_tokens": 99387,
+      "seconds": 14980.02
+    }
+  }
+}

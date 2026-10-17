@@ -1,0 +1,26 @@
+{
+  "experiment": "07_litm_reorder",
+  "chapter": "07",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.6086956521739131,
+  "recall@5": 0.4144927536231884,
+  "hit@10": 0.8260869565217391,
+  "recall@10": 0.6598343685300206,
+  "mrr": 0.4807971014492754,
+  "ndcg@10": 0.5517911224485786,
+  "correctness": 0.717391304347826,
+  "faithfulness": 0.9171953411889,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 41.90655456952475,
+  "details": {
+    "cache_stats": {
+      "hits": 737,
+      "misses": 861,
+      "prompt_tokens": 1845085,
+      "completion_tokens": 140003,
+      "seconds": 22523.97
+    }
+  }
+}

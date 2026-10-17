@@ -1,0 +1,26 @@
+{
+  "experiment": "09_li_fusion",
+  "chapter": "09",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.6086956521739131,
+  "recall@5": 0.48447204968944096,
+  "hit@10": 0.6086956521739131,
+  "recall@10": 0.48447204968944096,
+  "mrr": 0.5036231884057971,
+  "ndcg@10": 0.526619863233239,
+  "correctness": 0.5434782608695652,
+  "faithfulness": 0.9637935729847494,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 3.0,
+  "seconds_per_q": 34.88392592592592,
+  "details": {
+    "cache_stats": {
+      "hits": 6,
+      "misses": 3,
+      "prompt_tokens": 4542,
+      "completion_tokens": 30,
+      "seconds": 26.52
+    }
+  }
+}

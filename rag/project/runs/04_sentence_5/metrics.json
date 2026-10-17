@@ -1,0 +1,26 @@
+{
+  "experiment": "04_sentence_5",
+  "chapter": "04",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.34782608695652173,
+  "recall@5": 0.30434782608695654,
+  "hit@10": 0.34782608695652173,
+  "recall@10": 0.30434782608695654,
+  "mrr": 0.26231884057971017,
+  "ndcg@10": 0.28338185046982606,
+  "correctness": 0.3695652173913043,
+  "faithfulness": 0.9161324786324786,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 1.9635713271520756,
+  "details": {
+    "cache_stats": {
+      "hits": 308,
+      "misses": 3875,
+      "prompt_tokens": 590527,
+      "completion_tokens": 62405,
+      "seconds": 3964.79
+    }
+  }
+}

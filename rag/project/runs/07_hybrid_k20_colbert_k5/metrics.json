@@ -1,0 +1,27 @@
+{
+  "experiment": "07_hybrid_k20_colbert_k5",
+  "chapter": "07",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.43478260869565216,
+  "recall@5": 0.3188405797101449,
+  "hit@10": 0.43478260869565216,
+  "recall@10": 0.3188405797101449,
+  "mrr": 0.2333333333333333,
+  "ndcg@10": 0.2790746474099947,
+  "correctness": 0.391304347826087,
+  "faithfulness": 0.9514961067738845,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 44.208947495445265,
+  "details": {
+    "cache_stats": {
+      "hits": 478,
+      "misses": 180,
+      "prompt_tokens": 513008,
+      "completion_tokens": 37696,
+      "seconds": 2368.21
+    },
+    "reranker_n_calls": 23
+  }
+}

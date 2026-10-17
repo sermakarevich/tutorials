@@ -1,0 +1,933 @@
+{
+  "rows": [
+    {
+      "id": "single_hop_000",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "Ragas allows users to avoid relying on ground truth human annotations when evaluating RAG architectures."
+          ],
+          "statement_scores": [
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "With Ragas, we put forward a suite of metrics which can be used to evaluate these different dimensions without having to rely on ground truth human annotations ."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "single_hop_001",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "ColBERTv2 uses KL-Divergence loss to distill the cross-encoder\u2019s scores into the ColBERT architecture."
+          ],
+          "statement_scores": [
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "KL-Divergence loss to distill the cross-encoder\u2019s scores into the ColBERT architecture."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "single_hop_002",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "If chunks are too small, certain questions cannot be answered.",
+            "If chunks are too long, the answers include generated noise."
+          ],
+          "statement_scores": [
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "If chunks are too small certain questions cannot be answered, if the chunks are too long then the answers include generated noise."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "single_hop_004",
+      "hs_faithfulness_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "\"title\": \"Verdant Oasis Plaza and Unity March\""
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "single_hop_005",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "The specific retrieval system used in the case study with Open-Domain QA was fine-tuned on MS-MARCO.",
+            "The specific retrieval system used in the case study with Open-Domain QA is Contriever."
+          ],
+          "statement_scores": [
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "We use language models in a standard retrieverreader setup. A retrieval system (Contriever, finetuned on MS-MARCO) takes an input query from NaturalQuestions-Open and returns the k documents from Wikipedia with the highest relevance score."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 0.75
+    },
+    {
+      "id": "single_hop_006",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "The top retrieved document is from a gold article in 71% of cases."
+          ],
+          "statement_scores": [
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "We find that the top retrieved document is from a gold article in 71% of cases, and a gold article is present in the top 10 retrieved articles in 90% of cases."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 0.5
+    },
+    {
+      "id": "single_hop_008",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "ITERRETGEN employs a synergistic approach.",
+            "ITERRETGEN leverages 'retrieval-enhanced generation'.",
+            "ITERRETGEN leverages 'generation-enhanced retrieval'.",
+            "ITERRETGEN uses the content required to address the input task as a contextual basis for retrieving pertinent knowledge.",
+            "Using the content required to address the input task as a contextual basis facilitates the generation of improved responses in subsequent iterations."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "ITERRETGEN [14] employs a synergistic approach that leverages \u201cretrieval-enhanced generation\u201d alongside \u201cgenerationenhanced retrieval\u201d for tasks that necessitate the reproduction of specific information.",
+            "The model harnesses the content required to address the input task as a contextual basis for retrieving pertinent knowledge, which in turn facilitates the generation of improved responses in subsequent iterations."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "single_hop_009",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "According to the Ragas paper, the specific limitation associated with using ChatGPT to evaluate a particular aspect of an answer by providing a score between 0 and 100 is that it is sensitive to the design of the prompt."
+          ],
+          "statement_scores": [
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "Another approach directly asks ChatGPT to evaluate a particular aspect of the given answer by providing a score between 0 and 100, or by providing a rating on a 5-star scale (Wang et al., 2023a).",
+            "Remarkably, strong results can be obtained in this way, although it comes with the limitation of being sensitive to the design of the prompt."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 0.75
+    },
+    {
+      "id": "multi_hop_000",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "Reverse HyDE uses an LLM to generate questions that can be answered by the document.",
+            "Reverse HyDE calculates similarity between the original question and the hypothetical question during retrieval.",
+            "CRAG integrates large-scale web searches as a strategic extension.",
+            "CRAG triggers web searches when the retrieval evaluator triggers 'Incorrect' or 'Ambiguous' actions.",
+            "The provided excerpts do not describe the specific method or type of text generated to form the web search queries in CRAG.",
+            "A direct comparison of the type of text generated for web search queries in CRAG versus Reverse HyDE cannot be made based solely on these texts."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "summaries of paragraph, as well as introducing hypothetical questions. This method is also known as Reverse HyDE. Specifically, using LLM to generate questions that can be answered by the document, then calculating the similarity between the original question and the hypothetical question during retrieval to reduce the semantic gap between the question and the answer.",
+            "Since retrieval from static and limited corpora can only return suboptimal documents, large-scale web searches are utilized as an extension for augmenting the retrieval results."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.0,
+      "ours_faithfulness": 0.9090909090909091
+    },
+    {
+      "id": "multi_hop_002",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "GraphRAG processes source documents by splitting them into text chunks.",
+            "In the evaluation corpus, GraphRAG uses 600-token chunks with 100-token overlaps.",
+            "GraphRAG uses an LLM to extract information from each chunk to derive an entity knowledge graph.",
+            "The DPR approach utilizes a bi-encoder architecture.",
+            "In the DPR approach, a BERTBASE document encoder produces a dense representation of a document.",
+            "In the DPR approach, a query encoder produces a query representation.",
+            "The DPR approach treats retrieval as a Maximum Inner Product Search (MIPS) problem.",
+            "The provided text for DPR does not explicitly describe DPR's initial chunking or extraction process."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "To start, the documents in the corpus are split into text chunks. The LLM extracts information from each chunk for downstream processing.",
+            "Selecting the size of the chunk is a fundamental design decision; longer text chunks require fewer LLM calls for such extraction (which reduces cost) but suffer from degraded recall of ",
+            "where d ( z ) is a dense representation of a document produced by a BERTBASE document encoder [8], and q ( x ) a query representation produced by a query encoder , also based on BERTBASE."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "multi_hop_003",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "Answer Relevance measures the degree to which a response directly addresses and is appropriate for a given question.",
+            "Answer Relevance penalizes the presence of redundant information or incomplete answers.",
+            "The provided excerpts do not provide a formal definition of 'Directness' as a quality score in the same manner as Answer Relevance.",
+            "Directness is described as a 'validity test' used to confirm that vector RAG produces the most direct responses across comparisons.",
+            "The Graph RAG study found that vector RAG produced the most direct responses across all comparisons when using directness as a validity test."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "Answer Relevancy measures the degree to which a response directly addresses and is appropriate for a given question. It penalizes the present of redundant information or incomplete answers given a question.",
+            "Our use of directness as a validity test confirmed that vector RAG produces the most direct responses across all comparisons."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "multi_hop_004",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "The RAG approach for FEVER does not use supervision on retrieved evidence.",
+            "The RAG approach argues that not using supervision on retrieved evidence makes the model applicable to a wider range of tasks where retrieval supervision signals are unavailable.",
+            "The Self-RAG approach focuses on dynamically deciding when to retrieve passages based on predicted probabilities or thresholds.",
+            "The Self-RAG approach aims to ensure the output aligns closely with available evidence for factual accuracy.",
+            "The RAG approach for FEVER involves re-generating the claim.",
+            "The RAG approach for FEVER classifies using the representation of the final hidden state.",
+            "The RAG approach for FEVER marginalizes across documents to obtain class probabilities.",
+            "The Self-RAG approach uses tree-decoding with critique tokens.",
+            "The Self-RAG approach retrieves K passages at specific segment steps when retrieval is required by hard or soft conditions.",
+            "The RAG approach treats FEVER as a classification task.",
+            "The RAG approach maps FEVER class labels to single output tokens.",
+            "The RAG approach explores handling classification without generation supervision.",
+            "The Self-RAG approach aims to enforce control during inference to meet distinct objectives.",
+            "The Self-RAG approach prioritizes factual accuracy by retrieving more frequently.",
+            "The Self-RAG approach prioritizes creativity by retrieving less."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "Crucially, unlike most other approaches to FEVER, we do not use supervision on retrieved evidence.",
+            "For FEVER classification, we follow the practice from [32], and first re-generate the claim, and then classify using the representation of the final hidden state, before finally marginalizing across documents to obtain the class probabilities."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 0.9090909090909091
+    },
+    {
+      "id": "multi_hop_006",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "The provided excerpts discuss the computational overhead of CRAG compared to RAG and Self-RAG.",
+            "The provided excerpts do not contain any information regarding RAPTOR or its retrieval strategies.",
+            "The excerpts mention a limitation regarding the external evaluator.",
+            "The excerpts state that fine-tuning an external retrieval evaluator is inevitable.",
+            "The excerpts state that future work aims to eliminate this external evaluator."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "The findings indicate that the self-correction mechanism incurs only modest computational overhead\n\nwhile significantly enhancing performance, thereby validating its lightweight nature.",
+            "fine-tuning an external retrieval evaluator is inevitable. How to eliminate this external evaluator and equip LLMs with better retrieval evaluation capabilities will be our future work.",
+            "Compared with the critic model of Self-RAG (Asai et al., 2024) that instructiontuned LLaMA-2 (7B), the evaluator designed in CRAG demonstrates the advantages of being quite lightweight (0.77B)."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "multi_hop_007",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "The HyDE paper describes the contrastive encoder as performing a 'document-document similarity task.'",
+            "In the second step of the process, the unsupervised contrastive encoder is used to encode the hypothetical document generated by the LLM into an embedding.",
+            "The specific 2020 paper by Gautier Izacard and Edouard Grave cited in the references is titled 'Leveraging passage retrieval with generative models for open domain question answering'.",
+            "The cited paper has the arXiv identifier arXiv:2007.01282."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "trained in HyDE: both the generative model and the contrastive encoder remain intact. Supervision signals were only involved in instruction learning of our backbone LLM.",
+            "we propose to pivot through Hypothetical Document Embeddings (HyDE), and decompose dense retrieval into two tasks, a generative task performed by an instruction-following language model and a document-document similarity task performed by a contrastive encoder (Figure 1).",
+            "In the second step, we use an unsupervised contrastive encoder to encode this document into an ",
+            "Gautier Izacard and Edouard Grave. 2020. Leveraging passage retrieval with generative models for open domain question answering. arXiv preprint\n\n\narXiv:2007.01282 (2020)."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 1.0,
+      "ours_faithfulness": 0.8571428571428571
+    },
+    {
+      "id": "multi_hop_008",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "The HyDE paper describes the documents generated by its generative model as hypothetical.",
+            "The HyDE paper describes the documents generated by its generative model as not real.",
+            "The HyDE paper describes the documents generated by its generative model as likely to be ungrounded factually.",
+            "The HyDE paper notes that these generated documents are used to capture 'relevance' patterns.",
+            "The HyDE paper notes that the contrastive encoder acts as a lossy compressor to filter out extra details.",
+            "The provided excerpts do not contain any information regarding the 'Lost in the Middle' paper.",
+            "The provided excerpts do not contain any information regarding a specific type of error described as 'temporal mismatch'."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "We expect the generative process to capture \"relevance\" by giving an example; the generated document is not real, can contain factual errors but is like a relevant document.",
+            "The generated document is not real, can and is likely to be ungrounded factually (Brown et al., 2020; Thoppilan et al., 2022). We only require it to capture relevance pattern."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "comparative_001",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "The provided excerpts do not contain distinct 'Passage A' and 'Passage B' labels.",
+            "The provided excerpts do not present two specific, contrasting approaches to evaluation metrics that can be directly compared as requested.",
+            "The excerpts mention various metrics (e.g., EM, F1, Accuracy, BLEU, ROUGE).",
+            "The excerpts mention frameworks (e.g., RAGAS, ARES, RGB).",
+            "The excerpts do not structure the information into two specific passages for a comparative analysis of differing approaches."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [],
+          "status": "evaluated",
+          "score": 0
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.0,
+      "ours_faithfulness": 0.7857142857142857
+    },
+    {
+      "id": "comparative_002",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "ColBERTv2 evaluates on 13 diverse retrieval and semantic-similarity tasks from BEIR.",
+            "ColBERTv2's evaluation of BEIR is part of its out-of-domain (zero-shot) evaluation.",
+            "BEIR datasets like TREC-COVID use pooling-based annotation of documents retrieved by systems submitted at the time of the competition.",
+            "The provided RAPTOR excerpts do not mention the BEIR benchmark.",
+            "The RAPTOR excerpts focus on evaluations using the NarrativeQA, QuALITY, and UnifiedQA datasets."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [],
+          "status": "evaluated",
+          "score": 0
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 0.8181818181818182
+    },
+    {
+      "id": "comparative_003",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "I cannot answer this from the provided documents."
+          ],
+          "statement_scores": [
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [],
+          "status": "evaluated",
+          "score": 0
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "global_000",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "rag_survey describes Iterative retrieval as alternating between retrieval and generation to allow for richer context.",
+            "rag_survey describes Recursive retrieval as refining the user query and breaking down problems into sub-problems for continuous retrieval.",
+            "rag_survey mentions ITERRETGEN, which employs a synergistic approach leveraging 'retrieval-enhanced generation' alongside 'generation-enhanced retrieval'.",
+            "crag studies scenarios where the retriever returns inaccurate results.",
+            "crag designs corrective strategies for RAG to improve robustness.",
+            "crag's corrective strategies specifically target the retrieval component's failure modes.",
+            "graphrag focuses primarily on evaluation methods.",
+            "ragas focuses primarily on evaluation methods.",
+            "crag section 3 Task Formulation focuses on general task formulation rather than proposing new retrieval mechanisms."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 0.8888888888888888
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "ITERRETGEN [14] employs a synergistic approach that leverages \u201cretrieval-enhanced generation\u201d alongside \u201cgenerationenhanced retrieval\u201d"
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "TypeError: 'Document' object is not iterable",
+      "hs_recall_error": "TypeError: 'Document' object is not iterable",
+      "ours_correctness": 0.0,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "global_001",
+      "hs_faithfulness_error": "JSONDecodeError: Expecting ',' delimiter: line 39 column 2 (char 1627)",
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "To address these issues, in this paper we present Ragas1 , a framework for the automated assessment of retrieval augmented generation systems.",
+            "We have summarized the current assessment methods of RAG, covering 26 tasks, nearly 50 datasets, outlining the evaluation objectives and metrics, as well as the current evaluation benchmarks and tools.",
+            "Prominent benchmarks such as RGB, RECALL and CRUD [167]\u2013[169] focus on appraising the essential abilities of RAG models. Concurrently, state-of-the-art automated tools like RAGAS [164], ARES [165], and TruLens8 employ LLMs to adjudicate the quality scores.",
+            "In this work, we propose an adaptive benchmarking approach to generating global sensemaking queries for the LLM.",
+            "Our adaptive benchmarking procedure uses persona generation to create queries that are representative of real-world RAG system usage.",
+            "Emerging work has looked at benchmarking RAG systems [3] but not at the failures occurring during implementation."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 0.9
+    },
+    {
+      "id": "global_002",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "RAPTOR addresses recursive retrieval structures and global summarization.",
+            "RAPTOR proposes 'retrieval with recursive summaries' to improve performance on tasks involving 'complex, multi-step reasoning' and 'multi-hop question answering'.",
+            "IRCoT [61] uses chain-of-thought to guide the retrieval process and refines the reasoning with retrieval results.",
+            "ToC [57] creates a 'clarification tree' to systematically optimize ambiguous parts of a query.",
+            "ToC [57] is useful for complex search scenarios and specialized information.",
+            "Flare [24] and Self-RAG [25] are cited as examples of adaptive retrieval methods where LLMs actively determine the optimal moments and content for retrieval.",
+            "Flare [24] and Self-RAG [25] enhance efficiency and relevance.",
+            "Graph-Toolformer [109] divides its retrieval process into distinct steps where LLMs proactively use retrievers and apply Self-Ask techniques to initiate search queries.",
+            "HotpotQA [118] is cited as a dataset for 'diverse, explainable multi-hop question answering'.",
+            "MuSiQue [120] is cited as a dataset for 'Multihop questions via single-hop question composition'.",
+            "Eli5 [121] is cited in the context of multi-hop or multi-document reasoning, long contexts, global summarization, or recursive retrieval structures."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "status": "evaluated",
+          "score": 0.9090909090909091
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "To address specific data scenarios, recursive retrieval and multi-hop retrieval techniques are utilized together.",
+            "Recursive retrieval involves a structured index to process and retrieve data in a hierarchical manner, which may include summarizing sections of a document or lengthy PDF before performing a retrieval based on this summary.",
+            "Subsequently, a secondary retrieval within the document refines the search, embodying the recursive nature of the process.",
+            "In contrast, multi-hop retrieval is designed to delve deeper into graph-structured data sources, extracting interconnected information [106].",
+            "Conversely, the expansion of context provides new opportunities for the development of RAG, enabling it to address more complex problems and integrative or summary questions that require reading a large amount of material to answer [49].",
+            "Developing new RAG methods in the context of super-long contexts is one of the future research trends.",
+            "retrieval with recursive summaries offers significant improvements over traditional retrieval-augmented LMs on several tasks.",
+            "On question-answering tasks that involve complex, multi-step reasoning, we show state-of-the-art results; for example, by coupling RAPTOR retrieval with the use of GPT-4, we can improve the best performance on the QuALITY benchmark by 20% in absolute accuracy."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 0.8636363636363636
+    },
+    {
+      "id": "global_004",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "RAPTOR [63] is listed in Table I with a 'Recursive' retrieval process.",
+            "ToC [57] is listed in Table I with a 'Recursive' retrieval process.",
+            "IRCoT [61] is listed in Table I with a 'Recursive' retrieval process.",
+            "KGP [91] proposed a method of building an index between multiple documents using a Knowledge Graph (KG).",
+            "KGP [91]'s method captures the logical relationship between document content and structure.",
+            "G-Retriever [84] integrates Graph Neural Networks (GNNs), LLMs, and RAG.",
+            "G-Retriever [84] employs the Prize-Collecting Steiner Tree (PCST) optimization problem for targeted graph retrieval.",
+            "KnowledGPT [15] generates KB search queries and stores knowledge in a personalized base.",
+            "KnowledGPT [15] utilizes Knowledge Graphs (KG) as the retrieval data type.",
+            "RoG [83] uses Knowledge Graphs (KG) with a 'Triplet' retrieval granularity.",
+            "RoG [83] has an 'Iterative' retrieval process.",
+            "KALMV [82] uses Knowledge Graphs (KG) with a 'Triplet' retrieval granularity.",
+            "KALMV [82] has an 'Iterative' retrieval process."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "Knowledge Graph index . Utilize KG in constructing the hierarchical structure of documents contributes to maintaining consistency.",
+            "To capture the logical relationship between document content and structure, KGP [91] proposed a method of building an index between multiple documents using KG.",
+            "Other techniques (Wang et al., 2023b) use the knowledge graph to enhance retrieval, where at query time an LLM-based agent dynamically traverses a graph with nodes representing document elements (e.g., passages, tables) and edges encoding lexical and semantical similarity or structural relationships.",
+            "KnowledGPT [15] generates KB search queries and stores knowledge in a personalized base, enhancing the RAG model\u2019s knowledge richness.",
+            "G-Retriever [84] integrates Graph Neural Networks (GNNs), LLMs and RAG, enhancing graph comprehension and question-answering capabilities through soft prompting of the LLM, and employs the Prize-Collecting Steiner Tree (PCST) optimization problem for targeted graph retrieval."
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "global_005",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "rag_survey describes a broad evolution of retrieval sources, starting with text as the mainstream source, expanding to semi-structured data (PDF) and structured data (Knowledge Graphs, KG), and noting a trend toward retrieving from original external sources.",
+            "graphrag focuses on retrieving from an entire text corpus to answer global questions, which it characterizes as a query-focused summarization task rather than explicit retrieval.",
+            "crag highlights the limitation of static and limited corpora and proposes turning to large-scale web search for complementary external knowledge when the existing corpus is insufficient."
+          ],
+          "statement_scores": [
+            1,
+            1,
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [
+            "RAG relies on external knowledge to enhance LLMs, while the type of retrieval source and the granularity of retrieval units both affect the final generation results.",
+            "1) Data Structure: Initially, text is s the mainstream source of retrieval. Subsequently, the retrieval source expanded to include semi-structured data (PDF) and structured data (Knowledge Graph, KG) for enhancement.",
+            "Since retrieval from static and limited corpora can only return sub-optimal documents in terms of scope and diversity, large-scale web "
+          ],
+          "status": "evaluated",
+          "score": 1
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": 0.5,
+      "ours_faithfulness": 0.8461538461538461
+    },
+    {
+      "id": "unanswerable_000",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "I cannot answer this from the provided documents."
+          ],
+          "statement_scores": [
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": null,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "unanswerable_002",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "I cannot answer this from the provided documents."
+          ],
+          "statement_scores": [
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [],
+          "status": "evaluated",
+          "score": 0
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": null,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "unanswerable_003",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "I cannot answer this from the provided documents."
+          ],
+          "statement_scores": [
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [],
+          "status": "evaluated",
+          "score": 0
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": null,
+      "ours_faithfulness": 1.0
+    },
+    {
+      "id": "unanswerable_004",
+      "hs_faithfulness": [
+        {
+          "statements": [
+            "I cannot answer this from the provided documents."
+          ],
+          "statement_scores": [
+            1
+          ],
+          "status": "evaluated",
+          "score": 1.0
+        }
+      ],
+      "hs_context_relevance": [
+        {
+          "relevant_statements": [],
+          "status": "evaluated",
+          "score": 0
+        }
+      ],
+      "hs_mrr_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "hs_recall_error": "ValueError: The length of ground_truth_documents and retrieved_documents must be the same.",
+      "ours_correctness": null,
+      "ours_faithfulness": 1.0
+    }
+  ],
+  "agreement": {
+    "n": 27,
+    "agreement_hs_faithfulness_vs_ours_faithfulness": 1.0,
+    "agreement_hs_context_relevance_vs_ours_correctness": 0.782608695652174,
+    "note": "DocumentMRREvaluator/DocumentRecallEvaluator compare exact document content; agreement is only computed for the LLM-based evaluators."
+  }
+}

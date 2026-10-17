@@ -1,0 +1,26 @@
+{
+  "experiment": "09_li_router",
+  "chapter": "09",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.391304347826087,
+  "recall@5": 0.30434782608695654,
+  "hit@10": 0.391304347826087,
+  "recall@10": 0.30434782608695654,
+  "mrr": 0.30434782608695654,
+  "ndcg@10": 0.3288205281298582,
+  "correctness": 0.4782608695652174,
+  "faithfulness": 0.8711827110653088,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.9259259259259258,
+  "seconds_per_q": 165.32611111111112,
+  "details": {
+    "cache_stats": {
+      "hits": 0,
+      "misses": 12,
+      "prompt_tokens": 10842,
+      "completion_tokens": 7098,
+      "seconds": 88.78
+    }
+  }
+}

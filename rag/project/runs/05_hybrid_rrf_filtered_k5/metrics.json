@@ -1,0 +1,28 @@
+{
+  "experiment": "05_hybrid_rrf_filtered_k5",
+  "chapter": "05",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.6086956521739131,
+  "recall@5": 0.4144927536231884,
+  "hit@10": 0.6086956521739131,
+  "recall@10": 0.4144927536231884,
+  "mrr": 0.45652173913043476,
+  "ndcg@10": 0.4888319202717012,
+  "correctness": 0.5652173913043478,
+  "faithfulness": 0.935566708596803,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 18.50746571758538,
+  "details": {
+    "cache_stats": {
+      "hits": 2973,
+      "misses": 436,
+      "prompt_tokens": 1375235,
+      "completion_tokens": 103400,
+      "seconds": 5922.28
+    },
+    "router_calls": 27,
+    "router_fired": 9
+  }
+}

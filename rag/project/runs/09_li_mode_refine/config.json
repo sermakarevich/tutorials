@@ -1,0 +1,8 @@
+{
+  "name": "09_li_mode_refine",
+  "chapter": "09",
+  "split": "test",
+  "limit": null,
+  "chat_model": "qwen3.8:27b",
+  "embed_model": "nomic-embed-text"
+}

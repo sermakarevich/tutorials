@@ -1,0 +1,26 @@
+{
+  "experiment": "08_lc_naive",
+  "chapter": "08",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.43478260869565216,
+  "recall@5": 0.34782608695652173,
+  "hit@10": 0.43478260869565216,
+  "recall@10": 0.34782608695652173,
+  "mrr": 0.33840579710144925,
+  "ndcg@10": 0.356293246984608,
+  "correctness": 0.5,
+  "faithfulness": 0.87082601992913,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 8.257226899792268,
+  "details": {
+    "cache_stats": {
+      "hits": 0,
+      "misses": 81,
+      "prompt_tokens": 101912,
+      "completion_tokens": 25032,
+      "seconds": 252.26
+    }
+  }
+}

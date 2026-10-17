@@ -1,0 +1,23 @@
+{
+  "name": "12_openwebui_default",
+  "chapter": "12",
+  "split": "test",
+  "limit": null,
+  "chat_model": "qwen3.8:27b",
+  "embed_model": "nomic-embed-text",
+  "app": "openwebui",
+  "config_name": "default",
+  "retrieval_settings": {
+    "RAG_EMBEDDING_ENGINE": "ollama",
+    "RAG_EMBEDDING_MODEL": "nomic-embed-text",
+    "CHUNK_SIZE": 1000,
+    "CHUNK_OVERLAP": 100,
+    "TOP_K": 5,
+    "ENABLE_RAG_HYBRID_SEARCH": false,
+    "RAG_RERANKING_MODEL": ""
+  },
+  "collection_id": "b926d4c7-ee86-4b15-ae3e-910ca499deb8",
+  "model": "qwen3.8:27b",
+  "base_url": "http://localhost:3010",
+  "eval_seconds": 963.9
+}

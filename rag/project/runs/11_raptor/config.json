@@ -1,0 +1,7 @@
+{
+  "leaves": "ch05 parent_child children (160/32)",
+  "clustering": "agglomerative cosine, target_size=10",
+  "top_level_max_nodes": 5,
+  "chat_model": "qwen3.8:27b",
+  "embed_model": "nomic-embed-text"
+}

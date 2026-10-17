@@ -1,0 +1,126 @@
+components:
+  answer_builder:
+    init_parameters:
+      expand_reference_ranges: false
+      last_message_only: false
+      pattern: null
+      reference_pattern: null
+      return_only_referenced_documents: true
+    type: haystack.components.builders.answer_builder.AnswerBuilder
+  bm25_retriever:
+    init_parameters:
+      document_store:
+        init_parameters:
+          bm25_algorithm: BM25L
+          bm25_parameters: &id001 {}
+          bm25_tokenization_regex: (?u)\b\w+\b
+          embedding_similarity_function: dot_product
+          index: 7435e324-5314-4f33-a415-9459df5302c4
+          return_embedding: true
+          shared: true
+          strict_datetime_comparison: false
+        type: haystack.document_stores.in_memory.document_store.InMemoryDocumentStore
+      filter_policy: replace
+      filters: null
+      scale_score: false
+      top_k: 20
+    type: haystack.components.retrievers.in_memory.bm25_retriever.InMemoryBM25Retriever
+  embedding_retriever:
+    init_parameters:
+      document_store:
+        init_parameters:
+          bm25_algorithm: BM25L
+          bm25_parameters: *id001
+          bm25_tokenization_regex: (?u)\b\w+\b
+          embedding_similarity_function: dot_product
+          index: 7435e324-5314-4f33-a415-9459df5302c4
+          return_embedding: true
+          shared: true
+          strict_datetime_comparison: false
+        type: haystack.document_stores.in_memory.document_store.InMemoryDocumentStore
+      filter_policy: replace
+      filters: null
+      return_embedding: false
+      scale_score: false
+      top_k: 20
+    type: haystack.components.retrievers.in_memory.embedding_retriever.InMemoryEmbeddingRetriever
+  joiner:
+    init_parameters:
+      join_mode: reciprocal_rank_fusion
+      sort_by_score: true
+      top_k: 20
+      weights: null
+    type: haystack.components.joiners.document_joiner.DocumentJoiner
+  llm:
+    init_parameters:
+      generation_kwargs:
+        num_predict: 384
+        seed: 42
+        temperature: 0.0
+      keep_alive: null
+      max_retries: 0
+      model: qwen3.8:27b
+      response_format: null
+      streaming_callback: null
+      think: false
+      timeout: 120
+      tools: null
+      url: http://127.0.0.1:11435
+    type: haystack_integrations.components.generators.ollama.chat.chat_generator.OllamaChatGenerator
+  prompt_builder:
+    init_parameters:
+      required_variables: '*'
+      template:
+      - content:
+        - text: "Answer only from the provided excerpts. Cite as [paper_short_name\
+            \ \xA7section]. If the excerpts do not contain the answer, say: I cannot\
+            \ answer this from the provided documents."
+        meta: {}
+        name: null
+        role: system
+      - content:
+        - text: 'Excerpts:
+
+            {% for doc in documents %}[{{ doc.meta.short_name }}] {{ doc.content }}
+
+
+            {% endfor %}Question: {{question}}'
+        meta: {}
+        name: null
+        role: user
+      variables: null
+    type: haystack.components.builders.chat_prompt_builder.ChatPromptBuilder
+  ranker:
+    init_parameters:
+      model: BAAI/bge-reranker-v2-m3
+      top_k: 5
+    type: __main__.CrossEncoderRankerComponent
+  text_embedder:
+    init_parameters:
+      dimensions: null
+      generation_kwargs: {}
+      keep_alive: null
+      model: nomic-embed-text
+      timeout: 120
+      url: http://127.0.0.1:11435
+    type: haystack_integrations.components.embedders.ollama.text_embedder.OllamaTextEmbedder
+connection_type_validation: true
+connections:
+- receiver: embedding_retriever.query_embedding
+  sender: text_embedder.embedding
+- receiver: joiner.documents
+  sender: bm25_retriever.documents
+- receiver: joiner.documents
+  sender: embedding_retriever.documents
+- receiver: ranker.documents
+  sender: joiner.documents
+- receiver: prompt_builder.documents
+  sender: ranker.documents
+- receiver: answer_builder.documents
+  sender: ranker.documents
+- receiver: llm.messages
+  sender: prompt_builder.prompt
+- receiver: answer_builder.replies
+  sender: llm.replies
+max_runs_per_component: 100
+metadata: {}

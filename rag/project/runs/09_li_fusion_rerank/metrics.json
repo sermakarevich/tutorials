@@ -1,0 +1,26 @@
+{
+  "experiment": "09_li_fusion_rerank",
+  "chapter": "09",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.7391304347826086,
+  "recall@5": 0.6076604554865425,
+  "hit@10": 0.7391304347826086,
+  "recall@10": 0.6076604554865425,
+  "mrr": 0.5884057971014492,
+  "ndcg@10": 0.6193790054684795,
+  "correctness": 0.6521739130434783,
+  "faithfulness": 0.9507839050322711,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 3.0,
+  "seconds_per_q": 56.961851851851854,
+  "details": {
+    "cache_stats": {
+      "hits": 20,
+      "misses": 81,
+      "prompt_tokens": 98066,
+      "completion_tokens": 17835,
+      "seconds": 421.09
+    }
+  }
+}

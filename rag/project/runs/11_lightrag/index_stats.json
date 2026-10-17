@@ -1,0 +1,25 @@
+{
+  "n_docs": 12,
+  "doc_chars": 872030,
+  "wall_minutes": 121.97,
+  "llm_calls": 497,
+  "embed_texts": 6091,
+  "graph": {
+    "files": {
+      "graph_chunk_entity_relation.graphml": 2803886,
+      "kv_store_doc_status.json": 25877,
+      "kv_store_entity_chunks.json": 795234,
+      "kv_store_full_docs.json": 890013,
+      "kv_store_full_entities.json": 105877,
+      "kv_store_full_relations.json": 168429,
+      "kv_store_llm_response_cache.json": 8765529,
+      "kv_store_relation_chunks.json": 613685,
+      "kv_store_text_chunks.json": 1064903,
+      "vdb_chunks.json": 2296946,
+      "vdb_entities.json": 20787756,
+      "vdb_relationships.json": 15090255
+    },
+    "entities": 3135,
+    "relations": 2303
+  }
+}

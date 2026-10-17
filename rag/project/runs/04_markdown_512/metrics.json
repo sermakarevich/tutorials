@@ -1,0 +1,26 @@
+{
+  "experiment": "04_markdown_512",
+  "chapter": "04",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.5217391304347826,
+  "recall@5": 0.45652173913043476,
+  "hit@10": 0.5217391304347826,
+  "recall@10": 0.45652173913043476,
+  "mrr": 0.3782608695652174,
+  "ndcg@10": 0.413411143455826,
+  "correctness": 0.4782608695652174,
+  "faithfulness": 0.9803961470628137,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 2.590786205223089,
+  "details": {
+    "cache_stats": {
+      "hits": 360,
+      "misses": 4618,
+      "prompt_tokens": 705848,
+      "completion_tokens": 78046,
+      "seconds": 4217.23
+    }
+  }
+}

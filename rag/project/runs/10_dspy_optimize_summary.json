@@ -1,0 +1,14 @@
+{
+  "dev_n": 9,
+  "metric": "token_f1 (cheap; judge only in final eval)",
+  "bootstrap": {
+    "lm_calls": 4,
+    "seconds": 2.6,
+    "note": "re-run; teacher traces served from dspy disk cache (cache=True). Cold cost est. ~10-20 calls on 9 dev examples."
+  },
+  "mipro": {
+    "lm_calls": 90,
+    "seconds": 766.2,
+    "dev_score_token_f1": 39.45
+  }
+}

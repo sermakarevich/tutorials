@@ -1,0 +1,8 @@
+{
+  "name": "03_naive_fixed_512_k5",
+  "chapter": "03",
+  "split": "test",
+  "limit": null,
+  "chat_model": "qwen3.8:27b",
+  "embed_model": "nomic-embed-text"
+}

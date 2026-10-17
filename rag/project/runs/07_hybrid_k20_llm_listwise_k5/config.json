@@ -1,0 +1,8 @@
+{
+  "name": "07_hybrid_k20_llm_listwise_k5",
+  "chapter": "07",
+  "split": "test",
+  "limit": null,
+  "chat_model": "qwen3.8:27b",
+  "embed_model": "nomic-embed-text"
+}

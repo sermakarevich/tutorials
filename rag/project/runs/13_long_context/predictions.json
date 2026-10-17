@@ -1,0 +1,38 @@
+[
+  {
+    "id": "single_hop_004",
+    "paper": "2404.16130",
+    "question": "In the provided example output, what is the specific title of the generated summary?",
+    "answer": "\"Verdant Oasis Plaza and Unity March\" [E.2]",
+    "truncated": false,
+    "correctness": 1.0,
+    "seconds": 18.0
+  },
+  {
+    "id": "single_hop_000",
+    "paper": "2309.15217",
+    "question": "According to the paper, what specific type of human input does Ragas allow users to avoid when evaluating RAG architectures?",
+    "answer": "Ragas allows users to avoid relying on \"ground truth human annotations\" [Ragas: Automated Evaluation of Retrieval Augmented Generation].",
+    "truncated": false,
+    "correctness": 1.0,
+    "seconds": 10.3
+  },
+  {
+    "id": "single_hop_008",
+    "paper": "2312.10997",
+    "question": "According to the survey, what specific mechanism does the ITERRETGEN model use to leverage content required to address an input task as a contextual basis for retrieving pertinent knowledge?",
+    "answer": "The paper states that ITER-RETGEN employs a synergistic approach that leverages “retrieval-enhanced generation” alongside “generation-enhanced retrieval.” It uses the content required to address the input task as a contextual basis for retrieving pertinent knowledge, which facilitates improved responses in subsequent iterations [14].",
+    "truncated": true,
+    "correctness": 1.0,
+    "seconds": 16.6
+  },
+  {
+    "id": "single_hop_009",
+    "paper": "2309.15217",
+    "question": "According to the Ragas paper, what specific limitation is associated with using ChatGPT to evaluate a particular aspect of an answer by providing a score between 0 and 100?",
+    "answer": "The limitation is that it is \"sensitive to the design of the prompt\" [Ragas: Automated Evaluation of Retrieval Augmented Generation].",
+    "truncated": false,
+    "correctness": 1.0,
+    "seconds": 10.1
+  }
+]

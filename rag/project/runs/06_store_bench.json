@@ -1,0 +1,47 @@
+{
+  "k": 5,
+  "n_chunks": 1942,
+  "n_queries": 23,
+  "stores": {
+    "chroma": {
+      "build_seconds": 0.737,
+      "p50_ms": 0.83,
+      "p95_ms": 0.95,
+      "qps": 1225.5,
+      "recall@5": 0.2826,
+      "on_disk_bytes": 34567824
+    },
+    "faiss": {
+      "build_seconds": 0.045,
+      "p50_ms": 0.12,
+      "p95_ms": 0.13,
+      "qps": 8152.1,
+      "recall@5": 0.2826,
+      "on_disk_bytes": 7596465
+    },
+    "lancedb": {
+      "build_seconds": 0.102,
+      "p50_ms": 2.27,
+      "p95_ms": 2.81,
+      "qps": 437.0,
+      "recall@5": 0.2826,
+      "on_disk_bytes": 6824744
+    },
+    "pgvector": {
+      "build_seconds": 3.063,
+      "p50_ms": 1.12,
+      "p95_ms": 2.3,
+      "qps": 751.7,
+      "recall@5": 0.2826,
+      "on_disk_bytes": 25780224
+    },
+    "qdrant": {
+      "build_seconds": 0.853,
+      "p50_ms": 1.99,
+      "p95_ms": 3.26,
+      "qps": 446.3,
+      "recall@5": 0.2826,
+      "on_disk_bytes": null
+    }
+  }
+}

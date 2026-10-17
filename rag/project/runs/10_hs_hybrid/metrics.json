@@ -1,0 +1,26 @@
+{
+  "experiment": "10_hs_hybrid",
+  "chapter": "10",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.6086956521739131,
+  "recall@5": 0.4710144927536232,
+  "hit@10": 0.6086956521739131,
+  "recall@10": 0.4710144927536232,
+  "mrr": 0.3731884057971015,
+  "ndcg@10": 0.4310117171394921,
+  "correctness": 0.6956521739130435,
+  "faithfulness": 0.7020220716057564,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 11.477894816357919,
+  "details": {
+    "cache_stats": {
+      "hits": 14,
+      "misses": 61,
+      "prompt_tokens": 46671,
+      "completion_tokens": 17560,
+      "seconds": 297.29
+    }
+  }
+}

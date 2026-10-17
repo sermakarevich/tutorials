@@ -1,0 +1,26 @@
+{
+  "experiment": "09_li_naive",
+  "chapter": "09",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.391304347826087,
+  "recall@5": 0.30434782608695654,
+  "hit@10": 0.391304347826087,
+  "recall@10": 0.30434782608695654,
+  "mrr": 0.30434782608695654,
+  "ndcg@10": 0.3288205281298582,
+  "correctness": 0.391304347826087,
+  "faithfulness": 0.9647356937212009,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 0.27695335502115387,
+  "details": {
+    "cache_stats": {
+      "hits": 95,
+      "misses": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "seconds": 0.0
+    }
+  }
+}

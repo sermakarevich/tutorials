@@ -1,0 +1,26 @@
+{
+  "experiment": "04_recursive_512",
+  "chapter": "04",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.43478260869565216,
+  "recall@5": 0.2971014492753623,
+  "hit@10": 0.43478260869565216,
+  "recall@10": 0.2971014492753623,
+  "mrr": 0.43478260869565216,
+  "ndcg@10": 0.4229374009075132,
+  "correctness": 0.32608695652173914,
+  "faithfulness": 0.9088187771335169,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 2.3084790077409707,
+  "details": {
+    "cache_stats": {
+      "hits": 255,
+      "misses": 1696,
+      "prompt_tokens": 527389,
+      "completion_tokens": 49490,
+      "seconds": 3704.29
+    }
+  }
+}

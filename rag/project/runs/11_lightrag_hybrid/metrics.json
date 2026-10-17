@@ -1,0 +1,26 @@
+{
+  "experiment": "11_lightrag_hybrid",
+  "chapter": "11",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.08695652173913043,
+  "recall@5": 0.06521739130434782,
+  "hit@10": 0.08695652173913043,
+  "recall@10": 0.06521739130434782,
+  "mrr": 0.08695652173913043,
+  "ndcg@10": 0.08695652173913043,
+  "correctness": 0.06521739130434782,
+  "faithfulness": 0.9788065843621399,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 0.6306591697330414,
+  "details": {
+    "cache_stats": {
+      "hits": 466,
+      "misses": 100,
+      "prompt_tokens": 90918,
+      "completion_tokens": 13313,
+      "seconds": 190.13
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "experiment": "12_openwebui_default",
+  "chapter": "12",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.21739130434782608,
+  "recall@5": 0.17391304347826086,
+  "hit@10": 0.21739130434782608,
+  "recall@10": 0.17391304347826086,
+  "mrr": 0.09710144927536232,
+  "ndcg@10": 0.12628849426263222,
+  "correctness": 0.5,
+  "faithfulness": 0.8251052247868403,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 19.08743771894283,
+  "details": {
+    "cache_stats": {
+      "hits": 0,
+      "misses": 81,
+      "prompt_tokens": 59614,
+      "completion_tokens": 32593,
+      "seconds": 448.42
+    }
+  }
+}

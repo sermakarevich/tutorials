@@ -1,0 +1,26 @@
+{
+  "experiment": "04_semantic",
+  "chapter": "04",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.4782608695652174,
+  "recall@5": 0.34782608695652173,
+  "hit@10": 0.4782608695652174,
+  "recall@10": 0.34782608695652173,
+  "mrr": 0.25507246376811593,
+  "ndcg@10": 0.3066885538989682,
+  "correctness": 0.34782608695652173,
+  "faithfulness": 0.9557047890381223,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 3.278080543253088,
+  "details": {
+    "cache_stats": {
+      "hits": 2019,
+      "misses": 13201,
+      "prompt_tokens": 901138,
+      "completion_tokens": 93643,
+      "seconds": 4643.82
+    }
+  }
+}

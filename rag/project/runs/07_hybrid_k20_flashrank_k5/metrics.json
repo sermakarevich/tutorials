@@ -1,0 +1,27 @@
+{
+  "experiment": "07_hybrid_k20_flashrank_k5",
+  "chapter": "07",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.6956521739130435,
+  "recall@5": 0.47867494824016565,
+  "hit@10": 0.6956521739130435,
+  "recall@10": 0.47867494824016565,
+  "mrr": 0.5,
+  "ndcg@10": 0.5532072406127468,
+  "correctness": 0.5217391304347826,
+  "faithfulness": 0.9337810337810338,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 0.00399193059032162,
+  "details": {
+    "cache_stats": {
+      "hits": 366,
+      "misses": 16,
+      "prompt_tokens": 28829,
+      "completion_tokens": 4644,
+      "seconds": 207.95
+    },
+    "reranker_n_calls": 0
+  }
+}

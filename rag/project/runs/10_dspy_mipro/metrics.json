@@ -1,0 +1,26 @@
+{
+  "experiment": "10_dspy_mipro",
+  "chapter": "10",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.7391304347826086,
+  "recall@5": 0.5583850931677019,
+  "hit@10": 0.7391304347826086,
+  "recall@10": 0.5583850931677019,
+  "mrr": 0.6666666666666667,
+  "ndcg@10": 0.6799597748904767,
+  "correctness": 0.6956521739130435,
+  "faithfulness": 0.9445815548685682,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 11.828134523135507,
+  "details": {
+    "cache_stats": {
+      "hits": 122,
+      "misses": 146,
+      "prompt_tokens": 237299,
+      "completion_tokens": 34058,
+      "seconds": 413.81
+    }
+  }
+}

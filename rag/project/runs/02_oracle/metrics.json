@@ -1,0 +1,26 @@
+{
+  "experiment": "02_oracle",
+  "chapter": "02",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 1.0,
+  "recall@5": 0.9875776397515529,
+  "hit@10": 1.0,
+  "recall@10": 1.0,
+  "mrr": 1.0,
+  "ndcg@10": 1.0,
+  "correctness": 0.5434782608695652,
+  "faithfulness": 0.8649364010475122,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 0.00034800471729357486,
+  "details": {
+    "cache_stats": {
+      "hits": 54,
+      "misses": 46,
+      "prompt_tokens": 12229,
+      "completion_tokens": 12570,
+      "seconds": 109.58
+    }
+  }
+}

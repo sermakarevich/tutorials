@@ -1,0 +1,26 @@
+{
+  "experiment": "02_no_retrieval",
+  "chapter": "02",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.0,
+  "recall@5": 0.0,
+  "hit@10": 0.0,
+  "recall@10": 0.0,
+  "mrr": 0.0,
+  "ndcg@10": 0.0,
+  "correctness": 0.17391304347826086,
+  "faithfulness": 1.0,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 3.3854892805080725e-05,
+  "details": {
+    "cache_stats": {
+      "hits": 54,
+      "misses": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "seconds": 0.0
+    }
+  }
+}

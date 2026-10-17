@@ -1,0 +1,26 @@
+{
+  "experiment": "07_hyde",
+  "chapter": "07",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.6521739130434783,
+  "recall@5": 0.5014492753623189,
+  "hit@10": 0.6521739130434783,
+  "recall@10": 0.5014492753623189,
+  "mrr": 0.43985507246376815,
+  "ndcg@10": 0.4923796371360719,
+  "correctness": 0.5652173913043478,
+  "faithfulness": 0.9270485885495632,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 122.14604857103485,
+  "details": {
+    "cache_stats": {
+      "hits": 582,
+      "misses": 495,
+      "prompt_tokens": 955168,
+      "completion_tokens": 79618,
+      "seconds": 11581.84
+    }
+  }
+}

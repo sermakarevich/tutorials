@@ -1,0 +1,26 @@
+{
+  "experiment": "08_lc_multiquery",
+  "chapter": "08",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.43478260869565216,
+  "recall@5": 0.34782608695652173,
+  "hit@10": 0.43478260869565216,
+  "recall@10": 0.34782608695652173,
+  "mrr": 0.3492753623188406,
+  "ndcg@10": 0.3668479717371385,
+  "correctness": 0.43478260869565216,
+  "faithfulness": 0.9024693881984576,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 13.17927887018218,
+  "details": {
+    "cache_stats": {
+      "hits": 19,
+      "misses": 62,
+      "prompt_tokens": 95599,
+      "completion_tokens": 29546,
+      "seconds": 268.55
+    }
+  }
+}

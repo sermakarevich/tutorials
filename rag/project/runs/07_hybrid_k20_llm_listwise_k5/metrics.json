@@ -1,0 +1,27 @@
+{
+  "experiment": "07_hybrid_k20_llm_listwise_k5",
+  "chapter": "07",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.782608695652174,
+  "recall@5": 0.6376811594202898,
+  "hit@10": 0.782608695652174,
+  "recall@10": 0.6376811594202898,
+  "mrr": 0.7101449275362318,
+  "ndcg@10": 0.7213766779801216,
+  "correctness": 0.6086956521739131,
+  "faithfulness": 0.9454007409415378,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 18.36253964496104,
+  "details": {
+    "cache_stats": {
+      "hits": 428,
+      "misses": 104,
+      "prompt_tokens": 318687,
+      "completion_tokens": 22035,
+      "seconds": 936.74
+    },
+    "reranker_n_calls": 22
+  }
+}

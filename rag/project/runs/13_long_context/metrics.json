@@ -1,0 +1,37 @@
+{
+  "rag_run": "07_best_combo",
+  "n": 4,
+  "longctx_mean_correctness": 1.0,
+  "rag_mean_correctness": 0.75,
+  "longctx_mean_seconds": 13.8,
+  "rows": [
+    {
+      "id": "single_hop_004",
+      "longctx_correctness": 1.0,
+      "rag_correctness": 0.0,
+      "longctx_seconds": 18.0,
+      "rag_seconds": 2.887
+    },
+    {
+      "id": "single_hop_000",
+      "longctx_correctness": 1.0,
+      "rag_correctness": 1.0,
+      "longctx_seconds": 10.3,
+      "rag_seconds": 28.238
+    },
+    {
+      "id": "single_hop_008",
+      "longctx_correctness": 1.0,
+      "rag_correctness": 1.0,
+      "longctx_seconds": 16.6,
+      "rag_seconds": 3.415
+    },
+    {
+      "id": "single_hop_009",
+      "longctx_correctness": 1.0,
+      "rag_correctness": 1.0,
+      "longctx_seconds": 10.1,
+      "rag_seconds": 2.985
+    }
+  ]
+}

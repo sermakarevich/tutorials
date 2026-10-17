@@ -1,0 +1,26 @@
+{
+  "experiment": "07_multi_query",
+  "chapter": "07",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.6521739130434783,
+  "recall@5": 0.4772256728778468,
+  "hit@10": 0.6521739130434783,
+  "recall@10": 0.4772256728778468,
+  "mrr": 0.4036231884057971,
+  "ndcg@10": 0.45600402747369023,
+  "correctness": 0.5869565217391305,
+  "faithfulness": 0.9365758843817253,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 72.87253401551344,
+  "details": {
+    "cache_stats": {
+      "hits": 523,
+      "misses": 373,
+      "prompt_tokens": 747519,
+      "completion_tokens": 60270,
+      "seconds": 6173.62
+    }
+  }
+}

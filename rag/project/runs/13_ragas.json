@@ -1,0 +1,539 @@
+{
+  "runs": {
+    "03_naive_fixed_512_k5": {
+      "n_items": 8,
+      "n_unresolved_contexts": 0,
+      "failure_rate": 0.32499999999999996,
+      "items": [
+        {
+          "id": "global_000",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.7946289638147389,
+          "ContextPrecisionWithReference": 0.0,
+          "ContextRecall": 0.0,
+          "FactualCorrectness": null,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 0.9583333333333334
+        },
+        {
+          "id": "multi_hop_006",
+          "n_unresolved": 0,
+          "Faithfulness": 0.75,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": null,
+          "ContextRecall": 0.6666666666666666,
+          "FactualCorrectness": 0.29,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "single_hop_001",
+          "n_unresolved": 0,
+          "Faithfulness": 1.0,
+          "AnswerRelevancy": 0.9921453790777832,
+          "ContextPrecisionWithReference": 0.9999999999,
+          "ContextRecall": 1.0,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 1.0,
+          "ours_faithfulness": 0.6666666666666666
+        },
+        {
+          "id": "unanswerable_003",
+          "n_unresolved": 0,
+          "Faithfulness": 0.0,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": null,
+          "ContextRecall": null,
+          "FactualCorrectness": 0.67,
+          "ours_correctness": null,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "multi_hop_003",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.8989900100709293,
+          "ContextPrecisionWithReference": 0.9999999999,
+          "ContextRecall": null,
+          "FactualCorrectness": null,
+          "ours_correctness": 0.5,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "comparative_003",
+          "n_unresolved": 0,
+          "Faithfulness": 1.0,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": 0.0,
+          "ContextRecall": null,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "multi_hop_008",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.9965072827448683,
+          "ContextPrecisionWithReference": 0.99999999995,
+          "ContextRecall": 0.5,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.5,
+          "ours_faithfulness": 0.9333333333333333
+        },
+        {
+          "id": "comparative_001",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.6599162884008907,
+          "ContextPrecisionWithReference": 0.3333333333,
+          "ContextRecall": null,
+          "FactualCorrectness": null,
+          "ours_correctness": 0.5,
+          "ours_faithfulness": 0.9696969696969697
+        }
+      ]
+    },
+    "07_best_combo": {
+      "n_items": 8,
+      "n_unresolved_contexts": 0,
+      "failure_rate": 0.25,
+      "items": [
+        {
+          "id": "global_000",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.8143873519531425,
+          "ContextPrecisionWithReference": 0.0,
+          "ContextRecall": 0.0,
+          "FactualCorrectness": null,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 0.92
+        },
+        {
+          "id": "multi_hop_006",
+          "n_unresolved": 0,
+          "Faithfulness": 0.8,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": 0.9999999999,
+          "ContextRecall": 0.6666666666666666,
+          "FactualCorrectness": null,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "single_hop_001",
+          "n_unresolved": 0,
+          "Faithfulness": 1.0,
+          "AnswerRelevancy": 0.9921453790777832,
+          "ContextPrecisionWithReference": 0.9999999999,
+          "ContextRecall": 1.0,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 1.0,
+          "ours_faithfulness": 0.6666666666666666
+        },
+        {
+          "id": "unanswerable_003",
+          "n_unresolved": 0,
+          "Faithfulness": 0.0,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": 0.9166666666361111,
+          "ContextRecall": null,
+          "FactualCorrectness": 0.67,
+          "ours_correctness": null,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "multi_hop_003",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.894807648965838,
+          "ContextPrecisionWithReference": 0.49999999995,
+          "ContextRecall": 1.0,
+          "FactualCorrectness": null,
+          "ours_correctness": 1.0,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "comparative_003",
+          "n_unresolved": 0,
+          "Faithfulness": 1.0,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": 0.0,
+          "ContextRecall": null,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "multi_hop_008",
+          "n_unresolved": 0,
+          "Faithfulness": 0.8,
+          "AnswerRelevancy": 0.8312185258999182,
+          "ContextPrecisionWithReference": null,
+          "ContextRecall": 0.5,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.5,
+          "ours_faithfulness": 0.875
+        },
+        {
+          "id": "comparative_001",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.6820294617023007,
+          "ContextPrecisionWithReference": 0.0,
+          "ContextRecall": null,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 0.9666666666666667
+        }
+      ]
+    },
+    "08_lg_crag": {
+      "n_items": 8,
+      "n_unresolved_contexts": 0,
+      "failure_rate": 0.35,
+      "items": [
+        {
+          "id": "global_000",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.7747249345162793,
+          "ContextPrecisionWithReference": 0.0,
+          "ContextRecall": 0.0,
+          "FactualCorrectness": null,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "multi_hop_006",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.7965637682061066,
+          "ContextPrecisionWithReference": null,
+          "ContextRecall": 0.6666666666666666,
+          "FactualCorrectness": 0.25,
+          "ours_correctness": 0.5,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "single_hop_001",
+          "n_unresolved": 0,
+          "Faithfulness": 1.0,
+          "AnswerRelevancy": 0.980175289614623,
+          "ContextPrecisionWithReference": 0.9999999999,
+          "ContextRecall": 1.0,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 1.0,
+          "ours_faithfulness": 0.8571428571428571
+        },
+        {
+          "id": "unanswerable_003",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": null,
+          "ContextRecall": null,
+          "FactualCorrectness": null,
+          "ours_correctness": null,
+          "ours_faithfulness": 0.7894736842105263
+        },
+        {
+          "id": "multi_hop_003",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.8989900100709293,
+          "ContextPrecisionWithReference": 0.9999999999,
+          "ContextRecall": 0.6666666666666666,
+          "FactualCorrectness": null,
+          "ours_correctness": 1.0,
+          "ours_faithfulness": 0.8
+        },
+        {
+          "id": "comparative_003",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": 0.0,
+          "ContextRecall": null,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 0.6153846153846154
+        },
+        {
+          "id": "multi_hop_008",
+          "n_unresolved": 0,
+          "Faithfulness": null,
+          "AnswerRelevancy": 0.8304181866413737,
+          "ContextPrecisionWithReference": 0.8666666666377778,
+          "ContextRecall": 0.5,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.5,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "comparative_001",
+          "n_unresolved": 0,
+          "Faithfulness": 0.2,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": 0.0,
+          "ContextRecall": null,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 0.6363636363636364
+        }
+      ]
+    },
+    "09_li_fusion_rerank": {
+      "n_items": 8,
+      "n_unresolved_contexts": 40,
+      "failure_rate": 0.125,
+      "items": [
+        {
+          "id": "global_000",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.7975619509652008,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": null,
+          "ours_correctness": 0.5,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "multi_hop_006",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.8256225232847809,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.33,
+          "ours_correctness": 0.5,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "single_hop_001",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.9921453790777832,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 1.0,
+          "ours_faithfulness": 0.6666666666666666
+        },
+        {
+          "id": "unanswerable_003",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.67,
+          "ours_correctness": null,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "multi_hop_003",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.9201410122016802,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 1.0,
+          "ours_faithfulness": 0.8571428571428571
+        },
+        {
+          "id": "comparative_003",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.8051037886428873,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.5,
+          "ours_faithfulness": 0.9545454545454546
+        },
+        {
+          "id": "multi_hop_008",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.7818039774414994,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": null,
+          "ours_correctness": 1.0,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "comparative_001",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 1.0
+        }
+      ]
+    },
+    "11_lightrag_hybrid": {
+      "n_items": 8,
+      "n_unresolved_contexts": 40,
+      "failure_rate": 0.0,
+      "items": [
+        {
+          "id": "global_000",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.7860132833540717,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "multi_hop_006",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "single_hop_001",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "unanswerable_003",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.67,
+          "ours_correctness": null,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "multi_hop_003",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "comparative_003",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 1.0
+        },
+        {
+          "id": "multi_hop_008",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.29,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 0.8
+        },
+        {
+          "id": "comparative_001",
+          "n_unresolved": 5,
+          "Faithfulness": null,
+          "Faithfulness_skipped": true,
+          "AnswerRelevancy": 0.0,
+          "ContextPrecisionWithReference": null,
+          "ContextPrecisionWithReference_skipped": true,
+          "ContextRecall": null,
+          "ContextRecall_skipped": true,
+          "FactualCorrectness": 0.0,
+          "ours_correctness": 0.0,
+          "ours_faithfulness": 1.0
+        }
+      ]
+    }
+  },
+  "judge": {
+    "timeout": 300,
+    "max_retries": 3,
+    "max_workers": 2
+  },
+  "metric_names": [
+    "Faithfulness",
+    "AnswerRelevancy",
+    "ContextPrecisionWithReference",
+    "ContextRecall",
+    "FactualCorrectness"
+  ]
+}

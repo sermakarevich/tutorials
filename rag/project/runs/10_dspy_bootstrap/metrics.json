@@ -1,0 +1,26 @@
+{
+  "experiment": "10_dspy_bootstrap",
+  "chapter": "10",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.7391304347826086,
+  "recall@5": 0.5583850931677019,
+  "hit@10": 0.7391304347826086,
+  "recall@10": 0.5583850931677019,
+  "mrr": 0.6666666666666667,
+  "ndcg@10": 0.6799597748904767,
+  "correctness": 0.717391304347826,
+  "faithfulness": 0.8960982276803533,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 13.273845074120564,
+  "details": {
+    "cache_stats": {
+      "hits": 62,
+      "misses": 71,
+      "prompt_tokens": 115458,
+      "completion_tokens": 18546,
+      "seconds": 214.76
+    }
+  }
+}

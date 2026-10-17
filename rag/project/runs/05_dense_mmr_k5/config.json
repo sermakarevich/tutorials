@@ -1,0 +1,8 @@
+{
+  "name": "05_dense_mmr_k5",
+  "chapter": "05",
+  "split": "test",
+  "limit": null,
+  "chat_model": "qwen3.8:27b",
+  "embed_model": "nomic-embed-text"
+}

@@ -1,0 +1,26 @@
+{
+  "experiment": "04_fixed_512_ov128",
+  "chapter": "04",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.34782608695652173,
+  "recall@5": 0.2608695652173913,
+  "hit@10": 0.34782608695652173,
+  "recall@10": 0.2608695652173913,
+  "mrr": 0.1920289855072464,
+  "ndcg@10": 0.23145503559946806,
+  "correctness": 0.41304347826086957,
+  "faithfulness": 0.9272340363950197,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 10.364890618885747,
+  "details": {
+    "cache_stats": {
+      "hits": 194,
+      "misses": 893,
+      "prompt_tokens": 413114,
+      "completion_tokens": 37762,
+      "seconds": 3479.53
+    }
+  }
+}

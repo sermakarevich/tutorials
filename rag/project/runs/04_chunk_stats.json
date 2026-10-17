@@ -1,0 +1,72 @@
+[
+  {
+    "experiment": "04_fixed_256",
+    "n_chunks": 1182,
+    "mean_tokens": 254.9,
+    "median_tokens": 256.0,
+    "index_seconds": 62.6
+  },
+  {
+    "experiment": "04_fixed_1024",
+    "n_chunks": 242,
+    "mean_tokens": 996.6,
+    "median_tokens": 1024.0,
+    "index_seconds": 40.2
+  },
+  {
+    "experiment": "04_fixed_512_ov128",
+    "n_chunks": 591,
+    "mean_tokens": 508.6,
+    "median_tokens": 512,
+    "index_seconds": 50.0
+  },
+  {
+    "experiment": "04_recursive_512",
+    "n_chunks": 741,
+    "mean_tokens": 436.4,
+    "median_tokens": 467,
+    "index_seconds": 66.9
+  },
+  {
+    "experiment": "04_sentence_5",
+    "n_chunks": 2107,
+    "mean_tokens": 133.6,
+    "median_tokens": 105,
+    "index_seconds": 107.3
+  },
+  {
+    "experiment": "04_markdown_512",
+    "n_chunks": 670,
+    "mean_tokens": 404.9,
+    "median_tokens": 525.0,
+    "index_seconds": 54.7
+  },
+  {
+    "experiment": "04_semantic",
+    "n_chunks": 1693,
+    "mean_tokens": 133.3,
+    "median_tokens": 36,
+    "index_seconds": 198.9
+  },
+  {
+    "experiment": "04_parent_child",
+    "n_chunks": 1942,
+    "mean_tokens": 159.5,
+    "median_tokens": 160.0,
+    "index_seconds": 97.1
+  },
+  {
+    "experiment": "04_sentence_window",
+    "n_chunks": 8424,
+    "mean_tokens": 26.7,
+    "median_tokens": 18.0,
+    "index_seconds": 3.0
+  },
+  {
+    "experiment": "04_contextual_512",
+    "n_chunks": 670,
+    "mean_tokens": 469.5,
+    "median_tokens": 588.0,
+    "index_seconds": 1247.5
+  }
+]

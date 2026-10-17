@@ -1,0 +1,26 @@
+{
+  "experiment": "09_li_subquestion",
+  "chapter": "09",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.30434782608695654,
+  "recall@5": 0.2391304347826087,
+  "hit@10": 0.30434782608695654,
+  "recall@10": 0.2391304347826087,
+  "mrr": 0.09710144927536232,
+  "ndcg@10": 0.1476920972938602,
+  "correctness": 0.7391304347826086,
+  "faithfulness": 0.9193786214471855,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 5.185185185185185,
+  "seconds_per_q": 450.07414814814814,
+  "details": {
+    "cache_stats": {
+      "hits": 3,
+      "misses": 60,
+      "prompt_tokens": 77203,
+      "completion_tokens": 44149,
+      "seconds": 510.85
+    }
+  }
+}

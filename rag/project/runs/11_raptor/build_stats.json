@@ -1,0 +1,19 @@
+{
+  "n_leaves": 1942,
+  "summary_calls": 215,
+  "tree_shape": {
+    "levels": {
+      "0": 1942,
+      "1": 194,
+      "2": 19,
+      "3": 2
+    },
+    "total_nodes": 2157,
+    "n_summaries": 215,
+    "depth": 3
+  },
+  "collection": "raptor_11_all",
+  "stored_nodes": 2157,
+  "wall_minutes": 51.3,
+  "index_bytes": 217621120
+}

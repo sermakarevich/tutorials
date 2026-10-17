@@ -1,0 +1,31 @@
+{
+  "experiment": "10_dspy_zero_shot",
+  "chapter": "10",
+  "split": "test",
+  "n_questions": 27,
+  "hit@5": 0.7391304347826086,
+  "recall@5": 0.5583850931677019,
+  "hit@10": 0.7391304347826086,
+  "recall@10": 0.5583850931677019,
+  "mrr": 0.6666666666666667,
+  "ndcg@10": 0.6799597748904767,
+  "correctness": 0.7391304347826086,
+  "faithfulness": 0.8646685497992687,
+  "unanswerable_abstain": 1.0,
+  "llm_calls_per_q": 1.0,
+  "seconds_per_q": 10.459126617207572,
+  "details": {
+    "cache_stats": {
+      "hits": 95,
+      "misses": 39,
+      "prompt_tokens": 68648,
+      "completion_tokens": 14325,
+      "seconds": 333.33
+    },
+    "dspy": {
+      "optimizer": "none",
+      "lm_calls": 27,
+      "seconds": 615.8
+    }
+  }
+}
